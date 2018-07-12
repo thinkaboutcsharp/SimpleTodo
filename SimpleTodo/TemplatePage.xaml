@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplatePage">
+    <StackLayout>
+        <ListView x:Name="lvw_TodoList" Margin="0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
+                            <BoxView BackgroundColor="Silver" HorizontalOptions="Start" WidthRequest="20">
+                                <BoxView.Triggers>
+                                    <DataTrigger TargetType="BoxView" Binding="{Binding Done}" Value="true">
+                                        <Setter Property="BackgroundColor" Value="Blue" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="BoxView" Binding="{Binding Done}" Value="false">
+                                        <Setter Property="BackgroundColor" Value="Silver" />
+                                    </DataTrigger>
+                                </BoxView.Triggers>
+                            </BoxView>
+                            <Label Text="{Binding Text}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" />
+                        </StackLayout>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="削除" Clicked="OnDelete" CommandParameter="{Binding .}" IsDestructive="true" />
+                        </ViewCell.ContextActions>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
