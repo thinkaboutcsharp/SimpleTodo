@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TabMaintenancePage"
+             xmlns:mr="clr-namespace:MR.Gestures;assembly=MR.Gestures"
+             Title="タブ一覧">
+    <ContentPage.Padding>
+        <Thickness Top="40" />
+    </ContentPage.Padding>
+    <StackLayout>
+        <ListView x:Name="lvw_TabMaintenance" Margin="0" SeparatorVisibility="None" ItemTapped="OnTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <mr:ViewCell SwipedCommand="{Binding SwipedCommand}">
+                        <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
+                            <Label Text="{Binding Text}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="見る↔隠す" Clicked="OnVisibleChanged" CommandParameter="{Binding .}" IsDestructive="true" />
+                            <MenuItem Text="削除" Clicked="OnDelete" CommandParameter="{Binding .}" IsDestructive="true" />
+                        </ViewCell.ContextActions>
+                    </mr:ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

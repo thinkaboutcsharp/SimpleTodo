@@ -11,5 +11,10 @@ namespace SimpleTodo
         {
             InitializeComponent();
         }
+
+        void OnTabChanged(object sender, EventArgs args)
+        {
+            Title = CurrentPage.Title;
+        }
     }
 }
