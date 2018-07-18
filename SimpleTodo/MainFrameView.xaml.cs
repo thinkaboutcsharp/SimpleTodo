@@ -1,10 +1,13 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using System.Collections.Generic;
+
+using Xamarin.Forms;
 
 namespace SimpleTodo
 {
-    public partial class MainFramePage : MasterDetailPage
+    public partial class MainFrameView : MasterDetailPage
     {
-        public MainFramePage()
+        public MainFrameView()
         {
             InitializeComponent();
 

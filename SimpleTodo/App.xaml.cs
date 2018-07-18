@@ -11,7 +11,7 @@ namespace SimpleTodo
         {
             InitializeComponent();
 
-            MainPage = new MainFramePage();
+            MainPage = new MainFrameView();
         }
 
         protected override void OnStart()

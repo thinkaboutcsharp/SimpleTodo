@@ -12,5 +12,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FramePage.xaml.cs" />
+    <Compile Remove="MainPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainFramePage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MainFrameView.xaml.cs">
+      <DependentUpon>MainFrameView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
