@@ -45,7 +45,7 @@ namespace RxRouting
 
         class Repeater
         {
-            public IDisposable Subscribe(object observer) => CallSubscribe?.Invoke(observer);
+            public IDisposable Subscribe(object observer) => CallSubscribe?.DynamicInvoke(observer) as IDisposable;
 
             public object InnerSubject => subscribeInstance;
 
@@ -54,39 +54,34 @@ namespace RxRouting
             private object subjectInstance;
             private object subscribeInstance;
 
-            private delegate IDisposable SubscribeDelegate(object observer);
-            private SubscribeDelegate CallSubscribe;
+            private delegate IDisposable SubscribeDelegate<TRx>(IObserver<TRx> observer);
+            private Delegate CallSubscribe;
 
             public Repeater(Type subjectType)
             {
                 var subjectInfo = CreateSubjectInstance(subjectType);
-                MakeSubjectDelegate(subjectInfo);
+                MakeSubjectDelegate((subjectInfo.typeInfo, subjectInfo.instance, subjectType));
 
                 this.genericType = subjectType;
                 this.subjectTypeInfo = subjectInfo.typeInfo;
                 this.subjectInstance = subjectInfo.instance;
-                this.subscribeInstance = CastToObserver();
+                this.subscribeInstance = this.subjectInstance; //IObservableにキャストしたい
             }
 
             private (Type typeInfo, object instance) CreateSubjectInstance(Type subjectType)
             {
-                var subjectTypeInfo = typeof(Subject<>).MakeGenericType(subjectType);
-                var subjectInstance = Activator.CreateInstance(subjectTypeInfo);
-                return (subjectTypeInfo, subjectInstance);
+                var genericSubjectType = typeof(Subject<>).MakeGenericType(subjectType);
+                var subject = Activator.CreateInstance(genericSubjectType);
+                return (genericSubjectType, subject);
             }
 
-            private void MakeSubjectDelegate((Type typeInfo, object instance) subjectInfo)
+            private void MakeSubjectDelegate((Type typeInfo, object instance, Type subjectType) subjectInfo)
             {
                 var subscribeMethod = subjectInfo.typeInfo.GetMethod("Subscribe");
 
-                CallSubscribe = Delegate.CreateDelegate(typeof(IDisposable), subscribeMethod) as SubscribeDelegate;
-            }
+                var genericDelegateType = typeof(SubscribeDelegate<>).MakeGenericType(subjectInfo.subjectType);
 
-            private object CastToObserver()
-            {
-                var interfaceType = typeof(IObserver<>).MakeGenericType(this.genericType);
-                var observer = Convert.ChangeType(this.subjectInstance, interfaceType);
-                return observer;
+                CallSubscribe = Delegate.CreateDelegate(genericDelegateType, subjectInfo.instance, subscribeMethod);
             }
         }
     }

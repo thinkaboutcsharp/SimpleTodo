@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplatePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplatePage" xmlns:local="clr-namespace:SimpleTodo">
     <StackLayout>
+        <local:MenuBarView/>
         <ListView x:Name="lvw_TodoList" Margin="0">
             <ListView.ItemTemplate>
                 <DataTemplate>

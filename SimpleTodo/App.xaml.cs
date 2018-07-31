@@ -2,6 +2,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using RxRouting;
+
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SimpleTodo
 {
@@ -10,6 +12,9 @@ namespace SimpleTodo
         public App()
         {
             InitializeComponent();
+
+            var router = new ReactionRouter();
+            Application.Current.Properties.Add(nameof(ReactionRouter), router);
 
             MainPage = new MainFrameViewPage();
         }

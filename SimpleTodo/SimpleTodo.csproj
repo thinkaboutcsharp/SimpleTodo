@@ -14,6 +14,7 @@
     <PackageReference Include="PCLStorage" Version="1.0.2" />
     <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
+    <PackageReference Include="System.Reactive" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FramePage.xaml.cs" />
@@ -29,5 +30,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReactionRouter\ReactionRouter.csproj" />
   </ItemGroup>
 </Project>
