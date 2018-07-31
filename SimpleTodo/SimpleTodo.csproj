@@ -4,11 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
     <PackageReference Include="PCLStorage" Version="1.0.2" />
     <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
-    <PackageReference Include="MR.Gestures" Version="1.5.4" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FramePage.xaml.cs" />
@@ -19,7 +24,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Update="MainFrameView.xaml.cs">
-      <DependentUpon>MainFrameView.xaml</DependentUpon>
+      <DependentUpon>MainFrameViewPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
 </Project>

@@ -25,10 +25,12 @@ namespace SimpleTodo
         void OnMenuTapped(object sender, TappedEventArgs args)
         {
             var item = (SlideItem)lvw_BaseSlideMenu.SelectedItem;
+            var parent = (MasterDetailPage)this.Parent;
 
             switch (item.Id)
             {
                 case Menu.TabMaintenance:
+                    parent.Detail.Navigation.PushAsync(new TabMaintenancePage());
                     break;
                 case Menu.TabSettings:
                     break;
@@ -42,7 +44,6 @@ namespace SimpleTodo
 
             lvw_BaseSlideMenu.SelectedItem = null;
 
-            var parent = (MasterDetailPage)this.Parent;
             parent.IsPresented = false;
         }
     }

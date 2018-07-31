@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
-using MR.Gestures;
 
 namespace SimpleTodo
 {
@@ -11,16 +10,19 @@ namespace SimpleTodo
         public TabMaintenancePage()
         {
             InitializeComponent();
+
+            var tabList = new List<TabItem>
+            {
+                new TabItem { Text = "ようこそ"},
+                new TabItem {Text = "こんにちは"}
+            };
+
+            lvw_TabMaintenance.ItemsSource = tabList;
         }
 
         void OnTapped(object sender, TappedEventArgs args)
         {
-            
-        }
-
-        void OnSwiped(object sender, SwipeEventArgs args)
-        {
-            
+            DisplayAlert("tapped", args.ToString(), "OK");            
         }
 
         void OnVisibleChanged(object sender, EventArgs args)
@@ -32,5 +34,10 @@ namespace SimpleTodo
         {
 
         }
+    }
+
+    class TabItem
+    {
+        public string Text { get; set; }
     }
 }

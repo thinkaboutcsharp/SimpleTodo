@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.MenuBarView">
+    <StackLayout Orientation="Horizontal">
+        <Button Text="タブ一覧" HorizontalOptions="Start"/>
+        <Button Text="設定" HorizontalOptions="End"/>
+    </StackLayout>
+</ContentView>

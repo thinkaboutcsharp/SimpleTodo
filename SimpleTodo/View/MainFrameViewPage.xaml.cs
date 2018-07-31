@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace SimpleTodo
 {
-    public partial class CenterPage : NavigationPage
+    public partial class MainFrameViewPage : MasterDetailPage
     {
-        public CenterPage()
+        public MainFrameViewPage()
         {
             InitializeComponent();
         }
