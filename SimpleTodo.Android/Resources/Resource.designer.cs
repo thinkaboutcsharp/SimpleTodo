@@ -28,6 +28,8 @@ namespace SimpleTodo.Droid
 		{
 			global::PCLStorage.Resource.String.ApplicationName = global::SimpleTodo.Droid.Resource.String.ApplicationName;
 			global::PCLStorage.Resource.String.Hello = global::SimpleTodo.Droid.Resource.String.Hello;
+			global::Reactive.Bindings.Resource.String.ApplicationName = global::SimpleTodo.Droid.Resource.String.ApplicationName;
+			global::Reactive.Bindings.Resource.String.Hello = global::SimpleTodo.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SimpleTodo.Droid.Resource.Attribute.actionBarSize;
 		}
 		

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplatePage" xmlns:local="clr-namespace:SimpleTodo">
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplateView" xmlns:local="clr-namespace:SimpleTodo">
     <StackLayout>
         <local:MenuBarView/>
         <ListView x:Name="lvw_TodoList" Margin="0">
@@ -9,15 +9,15 @@
                         <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
                             <BoxView BackgroundColor="Silver" HorizontalOptions="Start" WidthRequest="20">
                                 <BoxView.Triggers>
-                                    <DataTrigger TargetType="BoxView" Binding="{Binding Done}" Value="true">
+                                    <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="true">
                                         <Setter Property="BackgroundColor" Value="Blue" />
                                     </DataTrigger>
-                                    <DataTrigger TargetType="BoxView" Binding="{Binding Done}" Value="false">
+                                    <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="false">
                                         <Setter Property="BackgroundColor" Value="Silver" />
                                     </DataTrigger>
                                 </BoxView.Triggers>
                             </BoxView>
-                            <Label Text="{Binding Text}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" />
+                            <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" />
                         </StackLayout>
                         <ViewCell.ContextActions>
                             <MenuItem Text="削除" Clicked="OnDelete" CommandParameter="{Binding .}" IsDestructive="true" />
@@ -27,4 +27,4 @@
             </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
-</ContentPage>
+</ContentView>

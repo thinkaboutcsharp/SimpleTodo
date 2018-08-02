@@ -9,18 +9,14 @@ namespace SimpleTodo
 {
     public partial class OriginTabPage : ContentPage
     {
-        TodoTabNewObservable source;
+        TodoTabNewObservable source = new TodoTabNewObservable();
 
         public OriginTabPage()
         {
             InitializeComponent();
 
-            this.source = new TodoTabNewObservable();
-            var observableDelegate = (Func<IObserver<TemplatePage>, IDisposable>)(source.Subscribe);
-            var observable = Observable.Create<TemplatePage>(observableDelegate);
-
             var router = (ReactionRouter)Application.Current.Properties[nameof(ReactionRouter)];
-            router.AddReactiveSource((int)RxSourceEnum.TodoTabNew, observable);
+            router.AddReactiveSource((int)RxSourceEnum.TodoTabNew, source);
 
             txt_TabName.Focus();
         }
@@ -34,12 +30,11 @@ namespace SimpleTodo
                 return;
             }
 
-            var newTab = new TemplatePage(txt_TabName.Text);
-            this.source.Send(newTab);
+            this.source.Send(txt_TabName.Text);
             txt_TabName.Text = string.Empty;
         }
 
-        class TodoTabNewObservable : ObservableBase<TemplatePage>
+        class TodoTabNewObservable : ObservableBase<string>
         {
         }
     }

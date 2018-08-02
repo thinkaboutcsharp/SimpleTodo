@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
 namespace RxRouting
@@ -10,6 +11,9 @@ namespace RxRouting
 
         public void AddReactiveSource<TRx>(int sourceId, IObservable<TRx> source)
         {
+            var observableDelegate = (Func<IObserver<TRx>, IDisposable>)(source.Subscribe);
+            var observable = Observable.Create(observableDelegate);
+
             Repeater repeater = GetParticularRepeater<TRx>(sourceId);
             source.Subscribe((IObserver<TRx>)repeater.InnerSubject);
         }
