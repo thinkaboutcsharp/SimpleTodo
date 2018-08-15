@@ -5,5 +5,12 @@ namespace SimpleTodo
     {
         TodoTabNew,
         TodoTabVisibleChange,
+
+        PageRotation,
+
+        TabListTransit,
+        TabListClose,
+
+        MenuBarIconSizeChange,
     }
 }
