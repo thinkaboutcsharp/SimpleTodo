@@ -1,16 +1,23 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SimpleTodo
 {
     public class TabViewPageModel
     {
-        private Dictionary<int, Tab> tabs = new Dictionary<int, Tab>();
+        private Dictionary<int, TodoItem> tabs = new Dictionary<int, TodoItem>();
+
+        public IEnumerable<TodoItem> Tabs { get; private set; }
+        public int SpecialTabIndex { get; private set; }
+        public int LastTabIndex { get; set; }
 
         public TabViewPageModel()
         {
-            //既存のタブリストを取得する
+            //既存のタブリストをDBから取得する
+            //表示順序に注意
+
         }
 
         public int GetNewId()
@@ -18,7 +25,7 @@ namespace SimpleTodo
             return tabs.Count; //ちゃんとDBで管理する
         }
 
-        public Tab GetTabSetting(int todoId)
+        public TodoItem GetTabSetting(int todoId)
         {
             if (tabs.ContainsKey(todoId))
             {
@@ -26,30 +33,12 @@ namespace SimpleTodo
             }
             else
             {
-                var newTab = new Tab
+                var newTab = new TodoItem
                 {
-                    TodoId = todoId,
-                    Name = string.Empty,
-                    ColorPattern = new ColorSetting //DBから取る
-                    {
-                        PageBackground = Color.Blue
-                    }
                 };
                 tabs.Add(todoId, newTab);
                 return newTab;
             }
         }
-    }
-
-    public class Tab
-    {
-        public int TodoId { get; set; }
-        public string Name { get; set; }
-        public ColorSetting ColorPattern { get; set; }
-    }
-
-    public class ColorSetting
-    {
-        public Color PageBackground { get; set; }
     }
 }

@@ -11,9 +11,9 @@ namespace SimpleTodo
             return System.Reactive.Disposables.Disposable.Empty;
         }
 
-        public virtual void Send(TRx newTab)
+        public virtual void Send(TRx parameter)
         {
-            observer.OnNext(newTab);
+            observer.OnNext(parameter);
         }
     }
 }

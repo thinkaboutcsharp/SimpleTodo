@@ -1,20 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.BaseSlideMenuPage"
-             Title="MENU">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.BaseSlideMenuPage" xmlns:local="clr-namespace:SimpleTodo" Title="MENU">
     <ContentPage.Padding>
         <Thickness Top="80" />
     </ContentPage.Padding>
-    <StackLayout>
-        <ListView x:Name="lvw_BaseSlideMenu" Margin="0" SeparatorVisibility="None" ItemTapped="OnMenuTapped">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Margin="20, 5, 0, 5" Orientation="Horizontal">
-                            <Label Text="{Binding Text}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ContentView>
+                <TableView Intent="Menu" HasUnevenRows="true" BackgroundColor="Gray">
+                    <TableRoot>
+                        <TableSection Title="タブ">
+                            <TextCell Text="このタブを設定" Detail="表示しているタブだけの設定" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding CurrentTabParameter}" TextColor="Green"/>
+                            <TextCell Text="タブ全部を設定" Detail="タブ全体の設定（新しいタブもこの設定を使う）" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding AllTabParameter}" />
+                        </TableSection>
+                        <TableSection Title="アプリ">
+                            <SwitchCell Text="タブ一覧からスタート" On="{Binding StartAtTabList.Value}" />
+                            <SwitchCell Text="大きなメニューボタン" On="{Binding UseBigIcon.Value}" />
+                            <SwitchCell Text="横ならメニューバーを右" On="{Binding RightMenuBarInLandscape.Value}" />
+                        </TableSection>
+                        <TableSection Title="その他">
+                            <TextCell Text="PDF" Detail="印刷の代わりにPDFファイルを作る" />
+                            <TextCell Text="アプリについて" />
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+                <ContentView.Triggers>
+                    <DataTrigger TargetType="ContentView" Binding="{Binding MenuMode.Value}" Value="{x:Static local:SlideMenuMode.Main}">
+                        <Setter Property="IsVisible" Value="true" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="ContentView" Binding="{Binding MenuMode.Value}" Value="{x:Static local:SlideMenuMode.TabSetting}">
+                        <Setter Property="IsVisible" Value="false" />
+                    </DataTrigger>
+                </ContentView.Triggers>
+            </ContentView>
+            <ContentView>
+                <TableView Intent="Settings" HasUnevenRows="true" BackgroundColor="Gray">
+                    <TableRoot>
+                        <TableSection Title="{Binding TabSettingTitle.Value}">
+                            <SwitchCell Text="取消しを使う" On="{Binding UseTristate.Value}" />
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="14, 10, 11, 10">
+                                    <Label Text="並び順" VerticalOptions="CenterAndExpand" />
+                                    <Picker HorizontalOptions="FillAndExpand" ItemsSource="{Binding OrderPattern.Value}" BackgroundColor="Purple" TextColor="White" />
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" Padding="14, 10, 11, 10">
+                                    <Label Text="カラーパターン" HorizontalOptions="StartAndExpand" />
+                                    <Frame Padding="5" BorderColor="Silver" HasShadow="false" CornerRadius="4.5">
+                                        <ScrollView Orientation="Horizontal">
+                                            <StackLayout x:Name="lay_ColorPattern" Orientation="Horizontal">
+                                                <!-- ここに候補を列挙する -->
+                                            </StackLayout>
+                                        </ScrollView>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" Padding="14, 10, 11, 10">
+                                    <Label Text="アイコン" HorizontalOptions="StartAndExpand" />
+                                    <Frame Padding="5" BorderColor="Silver" HasShadow="false" CornerRadius="4.5">
+                                        <ScrollView Orientation="Horizontal">
+                                            <StackLayout x:Name="lay_IconPattern" Orientation="Horizontal">
+                                                <!-- ここに候補を列挙する -->
+                                            </StackLayout>
+                                        </ScrollView>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="20, 5, 18, 5">
+                                    <Label Text="全部合わせる" HorizontalOptions="Start" VerticalOptions="Center" />
+                                    <Switch IsToggled="{Binding SuitAll.Value}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
+                                    <StackLayout.Triggers>
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:TabSetting.Current}">
+                                            <Setter Property="IsEnabled" Value="false" />
+                                            <Setter Property="Opacity" Value="0.2" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:TabSetting.All}">
+                                            <Setter Property="IsEnabled" Value="true" />
+                                            <Setter Property="Opacity" Value="1.0" />
+                                        </DataTrigger>
+                                    </StackLayout.Triggers>
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <Button Text="戻る" Command="{Binding TabSettingReturnCommand}" />
+                            </ViewCell>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+                <ContentView.Triggers>
+                    <DataTrigger TargetType="ContentView" Binding="{Binding MenuMode.Value}" Value="{x:Static local:SlideMenuMode.Main}">
+                        <Setter Property="IsVisible" Value="false" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="ContentView" Binding="{Binding MenuMode.Value}" Value="{x:Static local:SlideMenuMode.TabSetting}">
+                        <Setter Property="IsVisible" Value="true" />
+                    </DataTrigger>
+                </ContentView.Triggers>
+            </ContentView>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

@@ -1,10 +1,13 @@
 ﻿using System;
 namespace SimpleTodo
 {
-    public class ModelBase
+    public abstract class ModelBase
     {
-        public ModelBase()
+		protected RealmAccess realm;
+
+        public ModelBase(RealmAccess realm)
         {
+			this.realm = realm;
         }
     }
 }

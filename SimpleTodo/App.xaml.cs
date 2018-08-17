@@ -13,25 +13,33 @@ namespace SimpleTodo
         {
             InitializeComponent();
 
-            var router = new ReactionRouter();
-            Application.Current.Properties.Add(nameof(ReactionRouter), router);
-
             MainPage = new MainFrameViewPage();
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            var router = new ReactionRouter();
+            Application.Current.Properties.Add(nameof(ReactionRouter), router);
+
+            var menuBar = new MenuBarView();
+            Application.Current.Properties.Add(nameof(MenuBarView), menuBar);
+
+            var commonSettings = new CommonSettings();
+            Application.Current.Properties.Add(nameof(CommonSettings), commonSettings);
+
+            RealmAccess.PrepareMapping();
+            var realmAccess = new RealmAccess();
+            Application.Current.Properties.Add(nameof(RealmAccess), realmAccess);
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            Application.Current.RealmAccess().CloseConnection();
         }
 
-        protected override void OnResume()
+        protected override async void OnResume()
         {
-            // Handle when your app resumes
+            await Application.Current.RealmAccess().OpenConnectionAsync();
         }
     }
 }

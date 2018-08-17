@@ -3,6 +3,6 @@ namespace SimpleTodo
 {
     public interface ITabPage
     {
-        Tab Tab { get; set; }
+        TodoItem Setting { get; set; }
     }
 }

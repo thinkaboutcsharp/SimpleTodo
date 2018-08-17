@@ -1,65 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Windows.Input;
+using Reactive.Bindings;
 using Xamarin.Forms;
 
 namespace SimpleTodo
 {
-    public partial class BaseSlideMenuPage : global::Xamarin.Forms.ContentPage
+    public partial class BaseSlideMenuPage : ContentPage
     {
+        private BaseSlideMenuPageModel model = new BaseSlideMenuPageModel(Application.Current.RealmAccess());
+
+        private DirectTabSettingObserver directTabSettingTarget;
+        private SlideMenuInitializeObserver slideMenuInitializeTarget;
+
         public BaseSlideMenuPage()
         {
             InitializeComponent();
 
-            var items = new List<SlideItem>()
+            BindingContext = model;
+
+            model.ColorPattern.Subscribe(cp =>
             {
-                new SlideItem { Id = Menu.TabMaintenance, Text = "タブ一覧" },
-                new SlideItem { Id = Menu.TabSettings, Text = "タブ設定" },
-                new SlideItem { Id = Menu.CommonSettings, Text = "共通設定" },
-                new SlideItem { Id = Menu.PrintPdf, Text = "PDF" },
-                new SlideItem { Id = Menu.AboutApp, Text = "このアプリについて" },
-            };
-            lvw_BaseSlideMenu.ItemsSource = items;
-        }
-
-        void OnMenuTapped(object sender, TappedEventArgs args)
-        {
-            var item = (SlideItem)lvw_BaseSlideMenu.SelectedItem;
-            var parent = (MasterDetailPage)this.Parent;
-
-            switch (item.Id)
+                lay_ColorPattern.Children.Clear();
+                foreach (var pattern in cp)
+                {
+                    lay_ColorPattern.Children.Add(new Label { Text = pattern.Text });
+                }
+            });
+            model.IconPattern.Subscribe(ip =>
             {
-                case Menu.TabMaintenance:
-                    parent.Detail.Navigation.PushAsync(new TabMaintenancePage());
-                    break;
-                case Menu.TabSettings:
-                    break;
-                case Menu.CommonSettings:
-                    break;
-                case Menu.PrintPdf:
-                    break;
-                case Menu.AboutApp:
-                    break;
-            }
+                lay_IconPattern.Children.Clear();
+                foreach (var pattern in ip)
+                {
+                    lay_IconPattern.Children.Add(new Label { Text = pattern.Text });
+                }
+            });
 
-            lvw_BaseSlideMenu.SelectedItem = null;
+            directTabSettingTarget = new DirectTabSettingObserver(_ =>
+            {
+                model.TabSettingTransitCommand.Execute(TabSetting.Current);
+            });
+            slideMenuInitializeTarget = new SlideMenuInitializeObserver(_ =>
+            {
+                model.TabSettingReturnCommand.Execute();
+            });
 
-            parent.IsPresented = false;
+            var router = Application.Current.ReactionRouter();
+            router.AddReactiveTarget((int)RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
+            router.AddReactiveTarget((int)RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
         }
-    }
-
-    enum Menu
-    {
-        TabMaintenance,
-        TabSettings,
-        CommonSettings,
-        PrintPdf,
-        AboutApp
-    }
-
-    class SlideItem
-    {
-        public Menu Id { get; set; }
-        public string Text { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>0.1.0</ReleaseVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -12,13 +13,18 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="PCLStorage" Version="1.0.2" />
-    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
-    <PackageReference Include="ReactiveProperty" Version="5.1.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="ReactiveProperty" Version="5.2.0" />
+    <PackageReference Include="MR.Gestures" Version="2.0.0" />
+    <PackageReference Include="Behaviors.Forms" Version="1.4.0" />
+    <PackageReference Include="Ansuria.XFGloss" Version="1.1.3" />
+    <PackageReference Include="Realm" Version="3.1.0" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FramePage.xaml.cs" />
     <Compile Remove="MainPage.xaml.cs" />
+    <Compile Remove="View\ToggleViewCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MainFramePage.xaml" />
@@ -31,8 +37,43 @@
   <ItemGroup>
     <Folder Include="View\" />
     <Folder Include="Model\" />
+    <Folder Include="Image\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReactionRouter\ReactionRouter.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="icon_111520_256.jpg" />
+    <None Remove="Image\icon_111520_256.jpg" />
+    <None Remove="Image\icon_111600_256.jpg" />
+    <None Remove="Image\icon_112310_256.jpg" />
+    <None Remove="Image\icon_113540_256.jpg" />
+    <None Remove="Image\icon_113470_256.jpg" />
+    <None Remove="Image\icon_110890_256.jpg" />
+    <None Remove="Image\icon_110770_256.jpg" />
+    <None Remove="Image\icon_110750_256.jpg" />
+    <None Remove="Image\icon_110670_256.jpg" />
+    <None Remove="icon_110670_256.jpg" />
+    <None Remove="Image\icon_113430_256.png" />
+    <None Remove="icon_113430_256.png" />
+    <None Remove="FodyWeaver.xml" />
+    <None Remove="Data\master.realm" />
+    <None Remove="Data\master.realm.lock" />
+    <None Remove="Data\master.realm.management\access_control.control.mx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\icon_111520_256.jpg" />
+    <EmbeddedResource Include="Image\icon_111600_256.jpg" />
+    <EmbeddedResource Include="Image\icon_112310_256.jpg" />
+    <EmbeddedResource Include="Image\icon_113540_256.jpg" />
+    <EmbeddedResource Include="Image\icon_113470_256.jpg" />
+    <EmbeddedResource Include="Image\icon_110890_256.jpg" />
+    <EmbeddedResource Include="Image\icon_110770_256.jpg" />
+    <EmbeddedResource Include="Image\icon_110750_256.jpg" />
+    <EmbeddedResource Include="Image\icon_110670_256.jpg" />
+    <EmbeddedResource Include="Image\icon_113430_256.png" />
+    <EmbeddedResource Include="FodyWeavers.xml" />
+    <EmbeddedResource Include="Data\master.realm" />
   </ItemGroup>
 </Project>

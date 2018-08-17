@@ -9,6 +9,6 @@
                 <TapGestureRecognizer Tapped="OnOriginPageTapped" />
             </Label.GestureRecognizers>
         </Label>
-        <Entry Placeholder="新しい名前" x:Name="txt_TabName" Margin="50, 0, 50, 0" HorizontalOptions="CenterAndExpand" />
+        <Entry Placeholder="新しい名前" x:Name="txt_TabName" Margin="50, 0, 50, 0" HorizontalOptions="FillAndExpand" />
     </StackLayout>
 </ContentPage>

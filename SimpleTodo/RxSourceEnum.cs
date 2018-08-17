@@ -10,7 +10,21 @@ namespace SimpleTodo
 
         TabListTransit,
         TabListClose,
+        TabJumping,
+        TabUpDown,
+
+        DirectTabSettingMenu,
+        SlideMenuInitialize,
 
         MenuBarIconSizeChange,
+
+        ClearListViewSelection,
+        VisibleSwitchOnOff,
+    }
+
+    public enum TabUpDown
+    {
+        Up,
+        Down
     }
 }

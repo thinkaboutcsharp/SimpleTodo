@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Linq;
 
 using Xamarin.Forms;
 using RxRouting;
@@ -9,6 +11,7 @@ namespace SimpleTodo
     public partial class TabViewPage : TabbedPage
     {
         private TodoTabNewObserver tabNewTarget;
+        private TabJumpingObserver tabJumpingTarget;
 
         private TemplateView templateView = new TemplateView();
 
@@ -16,19 +19,51 @@ namespace SimpleTodo
 
         public TabViewPage()
         {
+            #region InitTabView
+            void InitTabView()
+            {
+                var tabs = model.Tabs;
+                foreach (var t in tabs)
+                {
+                    var newTab = new EmptyPage { Setting = t };
+                    newTab.Content = this.templateView;
+                    Children.Add(newTab);
+                }
+
+                //追加ページの位置移動
+                if (model.SpecialTabIndex != 0)
+                {
+                    var specialPage = Children[0];
+                    Children.RemoveAt(0);
+                    Children.Insert(model.SpecialTabIndex, specialPage);
+                }
+
+                //タブバー設定
+                BarBackgroundColor = Color.Aquamarine;
+                BarTextColor = Color.WhiteSmoke;
+
+                //初期表示タブ
+                CurrentPage = Children[model.LastTabIndex];
+            }
+            #endregion
+
             InitializeComponent();
 
-            tabNewTarget = new TodoTabNewObserver(p => OnTabNew(p));
+            InitTabView();
 
-            var router = (ReactionRouter)Application.Current.Properties[nameof(ReactionRouter)];
-            router.AddReactiveTarget<string>((int)RxSourceEnum.TodoTabNew, tabNewTarget);
+            tabNewTarget = new TodoTabNewObserver(p => OnTabNew(p));
+            tabJumpingTarget = new TabJumpingObserver(t => OnTabJump(t));
+
+            var router = Application.Current.ReactionRouter();
+            router.AddReactiveTarget((int)RxSourceEnum.TodoTabNew, tabNewTarget);
+            router.AddReactiveTarget((int)RxSourceEnum.TabJumping, tabJumpingTarget);
         }
 
         void OnTabChanged(object sender, EventArgs args)
         {
             if (CurrentPage is EmptyPage page)
             {
-                this.templateView.SetCurrentTodo(page.Tab);
+                this.templateView.SetCurrentTodo(page.Setting);
             }
 
             Title = CurrentPage.Title;
@@ -41,10 +76,10 @@ namespace SimpleTodo
 
             //タブの規定値を取得
             var setting = model.GetTabSetting(todoId);
-            setting.Name = newName;
+            setting.Name.Value = newName;
 
             //場所を作る
-            var newTab = new EmptyPage { Tab = setting };
+            var newTab = new EmptyPage { Setting = setting };
             Children.Insert(0, newTab);
 
             //表示内容設定
@@ -53,9 +88,10 @@ namespace SimpleTodo
             CurrentPage = Children[0];
         }
 
-        class TodoTabNewObserver : ObserverBase<string>
+        private void OnTabJump(int todoId)
         {
-            public TodoTabNewObserver(Action<string> action) : base(action) { }
+            var tab = Children.OfType<EmptyPage>().Where(p => p.Setting.TodoId.Value == todoId).Select(p => p).FirstOrDefault();
+            CurrentPage = tab;
         }
     }
 }

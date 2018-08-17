@@ -3,8 +3,8 @@ namespace SimpleTodo
 {
     public class CommonSettings
     {
-        public CommonSettings()
-        {
-        }
+        public MenuBarPosition HorizontalMenuBarPosition { get; set; } = MenuBarPosition.Left;
+        public TabPosition NewTabPosition { get; set; } = TabPosition.Top;
+        public bool BeginFromTabList { get; set; } = false;
     }
 }

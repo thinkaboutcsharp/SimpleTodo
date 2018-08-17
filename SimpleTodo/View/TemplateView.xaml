@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplateView" xmlns:local="clr-namespace:SimpleTodo">
-    <StackLayout>
-        <local:MenuBarView/>
-        <ListView x:Name="lvw_TodoList" Margin="0">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
-                            <BoxView BackgroundColor="Silver" HorizontalOptions="Start" WidthRequest="20">
-                                <BoxView.Triggers>
-                                    <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="true">
-                                        <Setter Property="BackgroundColor" Value="Blue" />
-                                    </DataTrigger>
-                                    <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="false">
-                                        <Setter Property="BackgroundColor" Value="Silver" />
-                                    </DataTrigger>
-                                </BoxView.Triggers>
-                            </BoxView>
-                            <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" />
-                        </StackLayout>
-                        <ViewCell.ContextActions>
-                            <MenuItem Text="削除" Clicked="OnDelete" CommandParameter="{Binding .}" IsDestructive="true" />
-                        </ViewCell.ContextActions>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+<ContentView x:Name="cvw_Template" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplateView" xmlns:local="clr-namespace:SimpleTodo" BackgroundColor="Fuchsia">
+    <AbsoluteLayout>
+        <Grid x:Name="lay_Main" AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0"/>
+            </Grid.ColumnDefinitions>
+            <!-- MenuBarViewを0,0に設定 -->
+            <ListView x:Name="lvw_TodoList" Grid.Row="0" Grid.Column="1" BackgroundColor="Olive" HorizontalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <local:TodoListViewCell LongPressing="OnLongTapping" Tapped="OnTapped" Down="OnDown" ItemId="{Binding TaskId.Value}">
+                            <StackLayout Margin="5, 1, 5, 1" Orientation="Horizontal" BackgroundColor="Maroon">
+                                <BoxView BackgroundColor="Silver" HorizontalOptions="Start" WidthRequest="30">
+                                    <BoxView.Triggers>
+                                        <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="true">
+                                            <Setter Property="BackgroundColor" Value="Blue" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="false">
+                                            <Setter Property="BackgroundColor" Value="Silver" />
+                                        </DataTrigger>
+                                    </BoxView.Triggers>
+                                </BoxView>
+                                <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
+                            </StackLayout>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="変更" Clicked="OnEditName" CommandParameter="{Binding .}" IsDestructive="false" />
+                                <MenuItem Text="削除" Clicked="OnDelete" CommandParameter="{Binding .}" IsDestructive="true" />
+                            </ViewCell.ContextActions>
+                        </local:TodoListViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <StackLayout x:Name="lay_Edit" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.4, AutoSize, AutoSize" IsVisible="false">
+            <local:DirectEditView x:Name="dev_TaskNameEditor" Fixed="OnFixed" />
+        </StackLayout>
+    </AbsoluteLayout>
 </ContentView>

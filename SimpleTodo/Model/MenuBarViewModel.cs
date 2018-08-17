@@ -1,10 +1,15 @@
 ﻿using System;
+using RxRouting;
+
 namespace SimpleTodo
 {
-    public class MenuBarViewModel
+	public class MenuBarViewModel : ModelBase
     {
-        public MenuBarViewModel()
+        public bool NeedBigIcon { get; set; }
+
+		public MenuBarViewModel(RealmAccess realm) : base(realm)
         {
+            NeedBigIcon = false;
         }
     }
 }
