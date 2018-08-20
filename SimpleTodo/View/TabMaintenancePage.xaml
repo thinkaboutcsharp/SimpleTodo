@@ -9,7 +9,7 @@
                         <local:TodoListViewCell x:Name="lvc_TodoList" ItemId="{Binding TodoId.Value}" LongPressing="OnLongTapped" Tapped="OnTapped" Down="OnDown" DoubleTapped="OnDoubleTapped" xfg:CellGloss.BackgroundColor="{Binding ColorSetting.TabListViewCellColor}">
                             <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
                                 <Label Text="{Binding Todo.Value}" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center" TextColor="{Binding ColorSetting.TabListViewTextColor}"/>
-                                <Switch HorizontalOptions="End" IsVisible="false" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsActive.Value}" OnColor="{Binding ColorSetting.SwitchOnColor}" xfg:CellGloss.TintColor="{Binding ColorSetting.SwitchTintColor}" xfg:CellGloss.ThumbOnTintColor="{Binding ColorSetting.SwitchThumbColor}" xfg:CellGloss.ThumbTintColor="{Binding ColorSetting.SwitchThumbColor}">
+                                <Switch HorizontalOptions="End" IsVisible="false" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsActive.Value}" OnColor="{Binding ColorSetting.SwitchOnColor}" xfg:SwitchGloss.TintColor="{Binding ColorSetting.SwitchTintColor}" xfg:SwitchGloss.ThumbOnTintColor="{Binding ColorSetting.SwitchThumbColor}" xfg:SwitchGloss.ThumbTintColor="{Binding ColorSetting.SwitchThumbColor}">
                                     <Switch.Triggers>
                                         <DataTrigger TargetType="Switch" Binding="{Binding Source={x:Reference lvc_TodoList}, Path=IsSelected.Value}" Value="true">
                                             <Setter Property="IsVisible" Value="true"/>

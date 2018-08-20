@@ -1,7 +1,7 @@
 ﻿using System;
 using Reactive.Bindings;
 
-namespace SimpleTodo.Model
+namespace SimpleTodo
 {
 	public class CenterPageModel : ModelBase
     {

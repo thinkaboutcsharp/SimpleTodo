@@ -9,9 +9,9 @@
             <Style TargetType="SwitchCell">
                 <Setter Property="xfg:CellGloss.BackgroundColor" Value="{Binding ColorSetting.SlideMenuCellBackgroundColor}"/>
                 <Setter Property="xfg:CellGloss.TintColor" Value="{Binding ColorSetting.SwitchTintColor}"/>
-                <Setter Property="xfg:CellGloss.ThumbOnTintColor" Value="{Binding ColorSetting.SwitchThumbColor}"/>
-                <Setter Property="xfg:CellGloss.ThumbTintColor" Value="{Binding ColorSetting.SwitchThumbColor}"/>
-                <Setter Property="OnColor" Value="{Binding ColorSetting.SwitchOnColor}"/>
+                <Setter Property="xfg:SwitchCellGloss.ThumbOnTintColor" Value="{Binding ColorSetting.SwitchThumbColor}"/>
+                <Setter Property="xfg:SwitchCellGloss.ThumbTintColor" Value="{Binding ColorSetting.SwitchThumbColor}"/>
+                <Setter Property="xfg:SwitchCellGloss.OnTintColor" Value="{Binding ColorSetting.SwitchOnColor}"/>
                 <!-- TextColorの設定方法がない -->
             </Style>
         </ResourceDictionary>

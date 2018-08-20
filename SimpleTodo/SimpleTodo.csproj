@@ -41,7 +41,7 @@
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReactionRouter\ReactionRouter.csproj" />
+    <ProjectReference Include="..\RxRouting\RxRouting.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="icon_111520_256.jpg" />
