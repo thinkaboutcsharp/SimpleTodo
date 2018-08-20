@@ -48,12 +48,9 @@
     <None Remove="Image\icon_111520_256.jpg" />
     <None Remove="Image\icon_111600_256.jpg" />
     <None Remove="Image\icon_112310_256.jpg" />
-    <None Remove="Image\icon_113540_256.jpg" />
-    <None Remove="Image\icon_113470_256.jpg" />
     <None Remove="Image\icon_110890_256.jpg" />
     <None Remove="Image\icon_110770_256.jpg" />
     <None Remove="Image\icon_110750_256.jpg" />
-    <None Remove="Image\icon_110670_256.jpg" />
     <None Remove="icon_110670_256.jpg" />
     <None Remove="Image\icon_113430_256.png" />
     <None Remove="icon_113430_256.png" />
@@ -61,19 +58,25 @@
     <None Remove="Data\master.realm" />
     <None Remove="Data\master.realm.lock" />
     <None Remove="Data\master.realm.management\access_control.control.mx" />
+    <None Remove="Image\cancel.png" />
+    <None Remove="Image\check.png" />
+    <None Remove="Image\down.png" />
+    <None Remove="Image\newtab.png" />
+    <None Remove="Image\newtask.png" />
+    <None Remove="Image\setting.png" />
+    <None Remove="Image\tablist.png" />
+    <None Remove="Image\up.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Image\icon_111520_256.jpg" />
-    <EmbeddedResource Include="Image\icon_111600_256.jpg" />
-    <EmbeddedResource Include="Image\icon_112310_256.jpg" />
-    <EmbeddedResource Include="Image\icon_113540_256.jpg" />
-    <EmbeddedResource Include="Image\icon_113470_256.jpg" />
-    <EmbeddedResource Include="Image\icon_110890_256.jpg" />
-    <EmbeddedResource Include="Image\icon_110770_256.jpg" />
-    <EmbeddedResource Include="Image\icon_110750_256.jpg" />
-    <EmbeddedResource Include="Image\icon_110670_256.jpg" />
-    <EmbeddedResource Include="Image\icon_113430_256.png" />
     <EmbeddedResource Include="FodyWeavers.xml" />
     <EmbeddedResource Include="Data\master.realm" />
+    <EmbeddedResource Include="Image\cancel.png" />
+    <EmbeddedResource Include="Image\check.png" />
+    <EmbeddedResource Include="Image\down.png" />
+    <EmbeddedResource Include="Image\newtab.png" />
+    <EmbeddedResource Include="Image\newtask.png" />
+    <EmbeddedResource Include="Image\setting.png" />
+    <EmbeddedResource Include="Image\tablist.png" />
+    <EmbeddedResource Include="Image\up.png" />
   </ItemGroup>
 </Project>
