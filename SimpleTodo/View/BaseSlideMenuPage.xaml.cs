@@ -24,7 +24,7 @@ namespace SimpleTodo
                 lay_ColorPattern.Children.Clear();
                 foreach (var pattern in cp)
                 {
-                    lay_ColorPattern.Children.Add(new Label { Text = pattern.Text });
+                    lay_ColorPattern.Children.Add(new Label { Text = pattern.PageBasicBackgroundColor.Name });
                 }
             });
             model.IconPattern.Subscribe(ip =>
@@ -32,7 +32,7 @@ namespace SimpleTodo
                 lay_IconPattern.Children.Clear();
                 foreach (var pattern in ip)
                 {
-                    lay_IconPattern.Children.Add(new Label { Text = pattern.Text });
+                    lay_IconPattern.Children.Add(new Label { Text = pattern.CheckedIcon });
                 }
             });
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentView x:Name="cvw_Template" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplateView" xmlns:local="clr-namespace:SimpleTodo" BackgroundColor="Fuchsia">
+<ContentView x:Name="cvw_Template" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TemplateView" xmlns:local="clr-namespace:SimpleTodo" xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss" BackgroundColor="{Binding ColorSetting.PageBasicBackgroundColor}">
     <AbsoluteLayout>
         <Grid x:Name="lay_Main" AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0">
             <Grid.RowDefinitions>
@@ -11,12 +11,12 @@
                 <ColumnDefinition Width="0"/>
             </Grid.ColumnDefinitions>
             <!-- MenuBarViewを0,0に設定 -->
-            <ListView x:Name="lvw_TodoList" Grid.Row="0" Grid.Column="1" BackgroundColor="Olive" HorizontalOptions="FillAndExpand">
+            <ListView x:Name="lvw_TodoList" Grid.Row="0" Grid.Column="1" BackgroundColor="{Binding ColorSetting.TodoViewBackgroundColor}" SeparatorColor="{Binding ColorSetting.TodoViewSeparatorColor}" HorizontalOptions="FillAndExpand">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <local:TodoListViewCell LongPressing="OnLongTapping" Tapped="OnTapped" Down="OnDown" ItemId="{Binding TaskId.Value}">
+                        <local:TodoListViewCell LongPressing="OnLongTapping" Tapped="OnTapped" Down="OnDown" ItemId="{Binding TaskId.Value}" xfg:CellGloss.BackgroundColor="{Binding ColorSetting.TodoViewCellColor}">
                             <StackLayout Margin="5, 1, 5, 1" Orientation="Horizontal" BackgroundColor="Maroon">
-                                <BoxView BackgroundColor="Silver" HorizontalOptions="Start" WidthRequest="30">
+                                <BoxView BackgroundColor="{Binding ColorSetting.TodoViewCheckAreaBackgroundColor}" HorizontalOptions="Start" WidthRequest="30">
                                     <BoxView.Triggers>
                                         <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="true">
                                             <Setter Property="BackgroundColor" Value="Blue" />
@@ -26,7 +26,7 @@
                                         </DataTrigger>
                                     </BoxView.Triggers>
                                 </BoxView>
-                                <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
+                                <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" TextColor="{Binding ColorSetting.TodoViewTextColor}"/>
                             </StackLayout>
                             <ViewCell.ContextActions>
                                 <MenuItem Text="変更" Clicked="OnEditName" CommandParameter="{Binding .}" IsDestructive="false" />

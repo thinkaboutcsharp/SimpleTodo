@@ -88,7 +88,7 @@ namespace SimpleTodo
         public bool GetDefaultUseTristate() => systemSettings.DefaultUseTristate;
         public async stt.Task SetDefaultUseTristateAsync(bool value) => await realm.WriteAsync((realmAsync) => systemSettings.DefaultUseTristate = value);
 
-        public TaskOrderPattern GetDefaultTaskOrder() => systemSettings.DefaultTaskOrderEnum;
+        public TaskOrderPattern GetDefaultTaskOrder() => EnumValue<TaskOrderPattern>(systemSettings.DefaultTaskOrder);
         public async stt.Task SetDefaultTaskOrderAsync(TaskOrderPattern order) => await realm.WriteAsync((realmAsync) => systemSettings.DefaultTaskOrder = EnumName(order));
 
         public bool IsBigIcon() => systemSettings.UseBigIcon;
@@ -97,20 +97,23 @@ namespace SimpleTodo
         public bool IsBeginFromTabList() => systemSettings.BeginFromTabList;
         public async stt.Task BeginFromTabListAsync(bool begin) => await realm.WriteAsync((realmAsync) => systemSettings.BeginFromTabList = begin);
 
-        public MenuBarPosition GetMenuBarPosition() => systemSettings.HorizontalMenuBarPositionEnum;
-        public async stt.Task SetMenuBarPositionAsync(MenuBarPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.HorizontalMenuBarPositionEnum = position);
+        public MenuBarPosition GetMenuBarPosition() => EnumValue<MenuBarPosition>(systemSettings.HorizontalMenuBarPosition);
+        public async stt.Task SetMenuBarPositionAsync(MenuBarPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.HorizontalMenuBarPosition = EnumName(position));
 
-        public TabPosition GetNewTabPosition() => systemSettings.NewTabPositionEnum;
-        public async stt.Task SetNewTabPositionAsync(TabPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.NewTabPositionEnum = position);
+        public TabPosition GetNewTabPosition() => EnumValue<TabPosition>(systemSettings.NewTabPosition);
+        public async stt.Task SetNewTabPositionAsync(TabPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.NewTabPosition = EnumName(position));
 
-        public ViewingPage GetLastPage() => lastPage.LastViewingEnum;
-        public async stt.Task SetLastPageAsync(ViewingPage viewing) => await realm.WriteAsync((realmAsync) => lastPage.LastViewingEnum = viewing);
+        public ViewingPage GetLastPage() => EnumValue<ViewingPage>(lastPage.LastViewing);
+        public async stt.Task SetLastPageAsync(ViewingPage viewing) => await realm.WriteAsync((realmAsync) => lastPage.LastViewing = EnumName(viewing));
 
         public int GetLastTabIndex() => lastPage.LastFocus;
         public async stt.Task SetLastTabIndexAsync(int focus) => await realm.WriteAsync((realmAsync) => lastPage.LastFocus = focus);
 
         public int GetOriginTabIndex() => lastPage.Origin;
         public async stt.Task SetOriginTabIndexAsync(int origin) => await realm.WriteAsync((realmAsync) => lastPage.Origin = origin);
+
+        public IReadOnlyList<TaskOrderList> GetTaskOrderList()
+            => realm.All<TaskOrderDisplayName>().OrderBy(o => (int)EnumValue<TaskOrderPattern>(o.TaskOrder)).Select(o => Mapper.Map<TaskOrderList>(o)).ToList();
 
         public int GetNewTodoId()
         {
@@ -145,11 +148,11 @@ namespace SimpleTodo
                 if (next != null)
                 {
                     newId = next.NextTaskId;
-                    next.NextTaskId = newId++;
+                    next.NextTaskId = newId + 1;
                 }
                 else
                 {
-                    realm.Add(new TaskIdMaster { TodoId = todoId, NextTaskId = newId++ });
+                    realm.Add(new TaskIdMaster { TodoId = todoId, NextTaskId = newId + 1 });
                 }
                 transaction.Commit();
             }
@@ -158,15 +161,19 @@ namespace SimpleTodo
         #endregion
 
         #region DML
+
+        #region Transaction
         public void BeginTransaction() => transaction = realm.BeginWrite();
         public void Rollback() { transaction?.Rollback(); transaction = null; }
         public void Commit() { transaction?.Commit(); transaction = null; }
         public void Write(Action action) { transaction?.Rollback(); transaction = null; realm.Write(action); }
         public async stt.Task WriteAsync(Action<Realm> action) { transaction?.Rollback(); transaction = null; await realm.WriteAsync(action); }
+        #endregion
 
+        #region Todo Task
         public stt.Task<TodoItem> AddTodoAsync(TodoItem todoItem)
         {
-            return stt.Task<TodoItem>.Run(async () =>
+            return stt.Task.Run(async () =>
             {
                 var todo = Mapper.Map<Todo>(todoItem);
                 await realm.WriteAsync((realmAsync) => realmAsync.Add(todo));
@@ -176,12 +183,21 @@ namespace SimpleTodo
 
         public stt.Task<TodoTask> AddTaskAsync(int todoId, TodoTask todoTask)
         {
-            return stt.Task<TodoTask>.Run(async () =>
+            return stt.Task.Run(async () =>
             {
                 var task = Mapper.Map<Task>(todoTask);
                 task.TodoId = todoId;
                 await realm.WriteAsync((realmAsync) => realmAsync.Add(task));
                 return todoTask;
+            });
+        }
+
+        public stt.Task ChangeVisibilityAsync(int todoId, bool visibile)
+        {
+            return stt.Task.Run(async () =>
+            {
+                var todo = realm.All<Todo>().Where(t => t.TodoId == todoId).First();
+                await realm.WriteAsync((realmAsync) => todo.IsActive = visibile);
             });
         }
 
@@ -200,6 +216,51 @@ namespace SimpleTodo
             {
                 var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
                 await realm.WriteAsync((realmAsync) => task.Name = newName);
+            });
+        }
+
+        public stt.Task ReorderTodoAsync(IEnumerable<TodoItem> todoItems)
+        {
+            return stt.Task.Run(async () =>
+            {
+                var allTodo = realm.All<Todo>();
+                int index = 0;
+                await realm.WriteAsync((realmAsync) =>
+                {
+                    foreach (var todoItem in todoItems)
+                    {
+                        var todo = allTodo.Where(t => t.TodoId == todoItem.TodoId.Value).First();
+                        todo.DisplayOrder = index;
+                        index++;
+                    }
+                });
+            });
+        }
+
+        public stt.Task ReorderTaskAsync(int todoId, IEnumerable<TodoTask> todoTasks)
+        {
+            return stt.Task.Run(async () =>
+            {
+                var allTask = realm.All<Task>().Where(t => t.TodoId == todoId);
+                int index = 0;
+                await realm.WriteAsync((realmAsync) =>
+                {
+                    foreach (var todoTask in todoTasks)
+                    {
+                        var task = allTask.Where(t => t.TaskId == todoTask.TaskId.Value).First();
+                        task.DisplayOrder = index;
+                        index++;
+                    }
+                });
+            });
+        }
+
+        public stt.Task ToggleTaskStatusAsync(int todoId, int taskId, TaskStatus status)
+        {
+            return stt.Task.Run(async () =>
+            {
+                var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
+                await realm.WriteAsync((realmAsync) => task.Status = Enum.GetName(typeof(TaskStatus), status));
             });
         }
 
@@ -238,6 +299,7 @@ namespace SimpleTodo
                 await realm.WriteAsync((realmAsync) => realmAsync.Remove(task));
             });
         }
+        #endregion
 
         #region Generic Interface
         public T Insert<T>(T record) where T : RealmObject => realm.Add<T>(record);
@@ -257,7 +319,7 @@ namespace SimpleTodo
         }
         public stt.Task<T> InsertAutoAsync<T>(T record) where T : RealmObject
         {
-            return stt.Task<T>.Run(async () =>
+            return stt.Task.Run(async () =>
             {
                 await realm.WriteAsync((realmAsync) => realmAsync.Add<T>(record));
                 return record;
@@ -277,7 +339,7 @@ namespace SimpleTodo
         }
         public stt.Task<IList<T>> InsertAutoAsync<T>(IEnumerable<T> records) where T : RealmObject
         {
-            return stt.Task<IList<T>>.Run(async () =>
+            return stt.Task.Run(async () =>
             {
                 List<T> result = new List<T>();
                 await realm.WriteAsync((realmAsync) =>
@@ -318,7 +380,7 @@ namespace SimpleTodo
         }
         public stt.Task<T> UpdateAutoAsync<T>(T record, Action<T> mapper) where T : RealmObject
         {
-            return stt.Task<T>.Run(async () =>
+            return stt.Task.Run(async () =>
             {
                 await realm.WriteAsync((realmAcync) =>
                 {
@@ -381,7 +443,7 @@ namespace SimpleTodo
         #region Query
         public stt.Task<IReadOnlyList<IconSetting>> GetIconPatternAllAsync()
         {
-            return stt.Task<IReadOnlyList<IconSetting>>.Run(() =>
+            return stt.Task.Run(() =>
             {
                 return Mapper.Map<IRealmCollection<IconPatternMaster>, IReadOnlyList<IconSetting>>(iconPatternMaster);
             });
@@ -389,7 +451,7 @@ namespace SimpleTodo
 
         public stt.Task<IReadOnlyList<ColorSetting>> GetColorPatternAllAsync()
         {
-            return stt.Task<IReadOnlyList<ColorSetting>>.Run(() =>
+            return stt.Task.Run(() =>
             {
                 return Mapper.Map<IRealmCollection<ColorPatternMaster>, IReadOnlyList<ColorSetting>>(colorPatternMaster);
             });
@@ -420,12 +482,12 @@ namespace SimpleTodo
 
         public stt.Task<TodoItem> GetDefaultTabSettingAsync(int newTodoId, string newName)
         {
-            return stt.Task<TodoItem>.Run(() =>
+            return stt.Task.Run(() =>
             {
                 var defaultTodo = new TodoItem(newTodoId, newName);
                 defaultTodo.IsActive.Value = true;
                 defaultTodo.UseTristate.Value = systemSettings.DefaultUseTristate;
-                defaultTodo.TaskOrder.Value = systemSettings.DefaultTaskOrderEnum;
+                defaultTodo.TaskOrder.Value = EnumValue<TaskOrderPattern>(systemSettings.DefaultTaskOrder);
                 defaultTodo.IconPattern = GetDefaultIconPatternAsync().Result;
                 defaultTodo.ColorPattern = GetDefaultColorPatternAsync().Result;
 
@@ -491,6 +553,7 @@ namespace SimpleTodo
             var config = new RealmConfiguration(dbFile)
             {
                 SchemaVersion = schemaVersion,
+                ShouldCompactOnLaunch = (totalSize, dataSize) => ((double)(totalSize - dataSize) / dataSize > 1.2),
                 MigrationCallback = (migration, oldSchemaVersion) =>
                 {
                     //master.realmを展開
@@ -521,24 +584,26 @@ namespace SimpleTodo
         }
 
         private string EnumName<TEnum>(TEnum value) => Enum.GetName(typeof(TEnum), value);
+        private TEnum EnumValue<TEnum>(string name) => (TEnum)Enum.Parse(typeof(TEnum), name);
         #endregion
 
         #region Mapping
         public static void PrepareMapping()
         {
-            AutoMapper.Mapper.Initialize(cfg =>
+            Mapper.Initialize(cfg =>
             {
                 cfg.RecognizePrefixes("inner_");
                 cfg.RecognizeDestinationPrefixes("inner_");
                 cfg.CreateMap<string, TaskOrderPattern>().ConvertUsing(s => (TaskOrderPattern)Enum.Parse(typeof(TaskOrderPattern), s));
                 cfg.CreateMap<string, TaskStatus>().ConvertUsing(s => (TaskStatus)Enum.Parse(typeof(TaskStatus), s));
-                cfg.CreateMap<string, Color>().ConvertUsing(s => Color.FromName(s));
+                cfg.CreateMap<int, Color>().ConvertUsing(c => Color.FromArgb(c));
                 cfg.CreateMap<TaskOrderPattern, string>().ConvertUsing(p => Enum.GetName(typeof(TaskOrderPattern), p));
                 cfg.CreateMap<TaskStatus, string>().ConvertUsing(s => Enum.GetName(typeof(TaskStatus), s));
                 cfg.CreateMap<Todo, TodoItem>();
                 cfg.CreateMap<Task, TodoTask>();
                 cfg.CreateMap<TodoItem, Todo>();
                 cfg.CreateMap<TodoTask, Task>();
+                cfg.CreateMap<TaskOrderDisplayName, TaskOrderList>();
                 cfg.CreateMap<IconPatternMaster, IconSetting>();
                 cfg.CreateMap<ColorPatternMaster, ColorSetting>();
             });
@@ -554,17 +619,9 @@ namespace SimpleTodo
 
     public class LastPage : RealmObject
     {
-        public string LastViewing
-        {
-            get => Enum.GetName(typeof(ViewingPage), LastViewingEnum);
-            set => LastViewingEnum = (ViewingPage)Enum.Parse(typeof(ViewingPage), value);
-        }
+        public string LastViewing { get; set; }
         public int LastFocus { get; set; }
         public int Origin { get; set; }
-
-        [Ignored]
-        [IgnoreMap]
-        public ViewingPage LastViewingEnum { get; set; }
     }
 
     public class TodoIdMaster : RealmObject
@@ -583,44 +640,22 @@ namespace SimpleTodo
     {
         public bool UseBigIcon { get; set; }
         public bool BeginFromTabList { get; set; }
-        public string HorizontalMenuBarPosition
-        {
-            get => Enum.GetName(typeof(MenuBarPosition), HorizontalMenuBarPositionEnum);
-            set => HorizontalMenuBarPositionEnum = (MenuBarPosition)Enum.Parse(typeof(MenuBarPosition), value);
-        }
-        public string NewTabPosition
-        {
-            get => Enum.GetName(typeof(TabPosition), NewTabPositionEnum);
-            set => NewTabPositionEnum = (TabPosition)Enum.Parse(typeof(TabPosition), value);
-        }
+        public string HorizontalMenuBarPosition { get; set; }
+        public string NewTabPosition { get; set; }
         public bool DefaultUseTristate { get; set; }
-        public string DefaultTaskOrder
-        {
-            get => Enum.GetName(typeof(TaskOrderPattern), DefaultTaskOrderEnum);
-            set => DefaultTaskOrderEnum = (TaskOrderPattern)Enum.Parse(typeof(TaskOrderPattern), value);
-        }
+        public string DefaultTaskOrder { get; set; }
         public int DefaultIconPattern { get; set; } //IconPatternMaster
         public int DefaultColorPattern { get; set; } //ColorPatternMaster
-
-        [Ignored]
-        [IgnoreMap]
-        public MenuBarPosition HorizontalMenuBarPositionEnum { get; set; }
-        [Ignored]
-        [IgnoreMap]
-        public TabPosition NewTabPositionEnum { get; set; }
-        [Ignored]
-        [IgnoreMap]
-        public TaskOrderPattern DefaultTaskOrderEnum { get; set; }
     }
 
     public class MenuIconMaster : RealmObject
     {
         public string TabListIcon { get; set; }
+        public string NewTabIcon { get; set; }
         public string NewTaskIcon { get; set; }
         public string Up { get; set; }
         public string Down { get; set; }
         public string TabSetting { get; set; }
-        public string NewTabIcon { get; set; }
     }
 
     public class IconPatternMaster : RealmObject
@@ -637,46 +672,41 @@ namespace SimpleTodo
 
         [PrimaryKey]
         public int ColorId { get; set; }
-        public string PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
-        public string ViewBasicTextColor { get; set; }         //Label,Button,Entry,etc...
-        public string NavigationBarBackgroundColor { get; set; }
-        public string NavigationBarTextColor { get; set; }
-        public string MenuBarBackgroundColor { get; set; }
-        public string TabListViewBackgroundColor { get; set; }
-        public string TabListViewSeparatorColor { get; set; }
-        public string TabListViewCellColor { get; set; }
-        public string TabListViewTextColor { get; set; }
-        public string TabListViewCellSelectedColor { get; set; }
-        public string TabListViewTextSelectedColor { get; set; }
-        public string TabBarBackgroundColor { get; set; }
-        public string TabBarTextColor { get; set; }
-        public string TodoViewBackgroundColor { get; set; }
-        public string TodoViewSeparatorColor { get; set; }
-        public string TodoViewCellColor { get; set; }
-        public string TodoViewTextColor { get; set; }
-        public string TodoViewCheckAreaBackgroundColor { get; set; }
-        public string TodoViewCellSelectedColor { get; set; }
-        public string TodoViewTextSelectedColor { get; set; }
-        public string SlideMenuBackgroundColor { get; set; }
-        public string SlideMenuCellBackgroundColor { get; set; }
-        public string SlideMenuCellTextColor { get; set; }
-        public string SlideMenuPickerBackgroundColor { get; set; }
-        public string SlideMenuPickerTextColor { get; set; }
-        public string SwitchOnColor { get; set; }             //Switch,SwitchCell
+        public int ColorSelectorDrawing { get; set; } //将来的機能拡張用
+        public int PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
+        public int ViewBasicTextColor { get; set; }         //Label,Button,Entry,etc...
+        public int NavigationBarBackgroundColor { get; set; }
+        public int NavigationBarTextColor { get; set; }
+        public int MenuBarBackgroundColor { get; set; }
+        public int TabListViewBackgroundColor { get; set; }
+        public int TabListViewSeparatorColor { get; set; }
+        public int TabListViewCellColor { get; set; }
+        public int TabListViewTextColor { get; set; }
+        public int TabListViewCellSelectedColor { get; set; }
+        public int TabListViewTextSelectedColor { get; set; }
+        public int TabBarBackgroundColor { get; set; }
+        public int TabBarTextColor { get; set; }
+        public int TodoViewBackgroundColor { get; set; }
+        public int TodoViewSeparatorColor { get; set; }
+        public int TodoViewCellColor { get; set; }
+        public int TodoViewTextColor { get; set; }
+        public int TodoViewCheckAreaBackgroundColor { get; set; }
+        public int TodoViewCellSelectedColor { get; set; }
+        public int TodoViewTextSelectedColor { get; set; }
+        public int SlideMenuBackgroundColor { get; set; }
+        public int SlideMenuCellBackgroundColor { get; set; }
+        public int SlideMenuCellTextColor { get; set; }
+        public int SlideMenuPickerBackgroundColor { get; set; }
+        public int SlideMenuPickerTextColor { get; set; }
+        public int SwitchOnColor { get; set; }             //Switch,SwitchCell
+		public int SwitchTintColor { get; set; }
+		public int SwitchThumbColor { get; set; }
     }
 
     public class TaskOrderDisplayName : RealmObject
     {
-        public string TaskOrder
-        {
-            get => Enum.GetName(typeof(TaskOrderPattern), TaskOrderEnum);
-            set => TaskOrderEnum = (TaskOrderPattern)Enum.Parse(typeof(TaskOrderPattern), value);
-        }
+        public string TaskOrder { get; set; }
         public string DisplayName { get; set; }
-
-        [Ignored]
-        [IgnoreMap]
-        public TaskOrderPattern TaskOrderEnum { get; set; }
     }
 
     public class Todo : RealmObject
@@ -687,21 +717,15 @@ namespace SimpleTodo
         public int DisplayOrder { get; set; }
         public bool IsActive { get; set; }
         public bool UseTristate { get; set; }
-        public string TaskOrder
-        {
-            get => Enum.GetName(typeof(TaskOrderPattern), TaskOrderEnum);
-            set => TaskOrderEnum = (TaskOrderPattern)Enum.Parse(typeof(TaskOrderPattern), value);
-        }
+        public string TaskOrder { get; set; }
         public int IconPatternId { get; set; } //key IconPatternMaster
         public int ColorPatternId { get; set; } //key ColorPatternMaster
+        public bool IndependentSetting { get; set; }
 
         [Ignored]
         internal IconSetting IconPattern { get; set; }
         [Ignored]
         internal ColorSetting ColorPattern { get; set; }
-        [Ignored]
-        [IgnoreMap]
-        public TaskOrderPattern TaskOrderEnum { get; set; }
     }
 
     public class Task : RealmObject
@@ -710,16 +734,8 @@ namespace SimpleTodo
         public int TodoId { get; set; }
         public int TaskId { get; set; }
         public string Name { get; set; }
-        public string Status
-        {
-            get => Enum.GetName(typeof(TaskStatus), StatusEnum);
-            set => StatusEnum = (TaskStatus)Enum.Parse(typeof(TaskStatus), value);
-        }
+        public string Status { get; set; }
         public int DisplayOrder { get; set; }
-
-        [Ignored]
-        [IgnoreMap]
-        public TaskStatus StatusEnum { get; set; }
     }
 
     #region enum
@@ -817,6 +833,7 @@ namespace SimpleTodo
         public int ColorPatternId { get; set; } //key ColorPatternMaster
         public IconSetting IconPattern { get; set; }
         public ColorSetting ColorPattern { get; set; }
+        public bool IndependentSetting { get; set; }
 
         internal int inner_TodoId { get => TodoId.Value; set => TodoId.Value = value; }
         internal string inner_Name { get => Name.Value; set => Name.Value = value; }
@@ -845,17 +862,20 @@ namespace SimpleTodo
             IsActive = new ReactiveProperty<bool>(active);
             UseTristate = new ReactiveProperty<bool>(false);
             TaskOrder = new ReactiveProperty<TaskOrderPattern>(TaskOrderPattern.Registered);
+            IndependentSetting = false;
         }
     }
 
     public class IconSetting
     {
+        public int IconId { get; set; }
         public string CheckedIcon { get; set; }
         public string CanceledIcon { get; set; }
     }
 
     public class ColorSetting
     {
+        public int ColorId { get; set; }
         public Color PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
         public Color ViewBasicTextColor { get; set; }         //Label,Button,Entry,etc...
         public Color NavigationBarBackgroundColor { get; set; }
@@ -882,6 +902,14 @@ namespace SimpleTodo
         public Color SlideMenuPickerBackgroundColor { get; set; }
         public Color SlideMenuPickerTextColor { get; set; }
         public Color SwitchOnColor { get; set; }             //Switch,SwitchCell
+		public Color SwitchTintColor { get; set; }
+        public Color SwitchThumbColor { get; set; }
+    }
+
+    public class TaskOrderList
+    {
+        public TaskOrderPattern TaskOrder { get; set; }
+        public string DisplayName { get; set; }
     }
     #endregion
 

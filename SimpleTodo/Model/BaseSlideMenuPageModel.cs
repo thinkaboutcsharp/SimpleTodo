@@ -23,9 +23,9 @@ namespace SimpleTodo
 
         public ReactiveProperty<bool> UseTristate { get; } = new ReactiveProperty<bool>();
         public ReactiveProperty<bool> SuitAll { get; } = new ReactiveProperty<bool>();
-        public ReactiveProperty<IReadOnlyList<OrderItem>> OrderPattern { get; } = new ReactiveProperty<IReadOnlyList<OrderItem>>();
-        public ReactiveProperty<IReadOnlyList<ListItem>> ColorPattern { get; } = new ReactiveProperty<IReadOnlyList<ListItem>>();
-        public ReactiveProperty<IReadOnlyList<ListItem>> IconPattern { get; } = new ReactiveProperty<IReadOnlyList<ListItem>>();
+        public ReactiveProperty<IReadOnlyList<TaskOrderList>> OrderPattern { get; } = new ReactiveProperty<IReadOnlyList<TaskOrderList>>();
+        public ReactiveProperty<IReadOnlyList<ColorSetting>> ColorPattern { get; } = new ReactiveProperty<IReadOnlyList<ColorSetting>>();
+        public ReactiveProperty<IReadOnlyList<IconSetting>> IconPattern { get; } = new ReactiveProperty<IReadOnlyList<IconSetting>>();
         public ReactiveProperty<TabSetting> CurrentTabSetting { get; } = new ReactiveProperty<TabSetting>(TabSetting.Current);
         #endregion
 
@@ -35,29 +35,16 @@ namespace SimpleTodo
             TabSettingReturnCommand.Subscribe(() => OnTabSettingReturn());
 
             //DBから
-            StartAtTabList.Value = false;
-            UseBigIcon.Value = false;
-            RightMenuBarInLandscape.Value = true;
+            StartAtTabList.Value = realm.IsBeginFromTabList();
+            UseBigIcon.Value = realm.IsBigIcon();
+            RightMenuBarInLandscape.Value = realm.GetMenuBarPosition() == MenuBarPosition.Right ? true : false;
 
-            UseTristate.Value = true;
+            UseTristate.Value = realm.GetDefaultUseTristate();
             SuitAll.Value = false;
 
-            OrderPattern.Value = new List<OrderItem>
-            {
-                new OrderItem { Text = "登録順" },
-                new OrderItem { Text = "名前順"}
-            };
-            ColorPattern.Value = new List<ListItem>
-            {
-                new ListItem { Text = "赤" },
-                new ListItem { Text = "青" },
-                new ListItem { Text = "黄" }
-            };
-            IconPattern.Value = new List<ListItem>
-            {
-                new ListItem { Text = "✓" },
-                new ListItem { Text = "猫" }
-            };
+            OrderPattern.Value = realm.GetTaskOrderList();
+            ColorPattern.Value = realm.GetColorPatternAllAsync().Result;
+            IconPattern.Value = realm.GetIconPatternAllAsync().Result;
         }
 
         private void OnTabSettingTransit(TabSetting setting)
@@ -78,21 +65,6 @@ namespace SimpleTodo
         private void OnTabSettingReturn()
         {
             MenuMode.Value = SlideMenuMode.Main;
-        }
-
-        public class ListItem
-        {
-            public string Text { get; set; }
-        }
-
-        public class OrderItem
-        {
-            public string Text { get; set; }
-
-            public override string ToString()
-            {
-                return Text;
-            }
         }
     }
 

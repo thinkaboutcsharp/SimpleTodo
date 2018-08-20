@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage x:Name="pag_TabEdit" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TabMaintenancePage" xmlns:local="clr-namespace:SimpleTodo" xmlns:behavior="clr-namespace:Behaviors;assembly=Behaviors" Title="タブ一覧">
+<ContentPage x:Name="pag_TabEdit" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.TabMaintenancePage" xmlns:local="clr-namespace:SimpleTodo" xmlns:behavior="clr-namespace:Behaviors;assembly=Behaviors" xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss" BackgroundColor="{Binding ColorSetting.PageBasicBackgroundColor}" Title="タブ一覧">
     <AbsoluteLayout VerticalOptions="Fill" HorizontalOptions="Fill">
         <StackLayout x:Name="lay_Main" AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0">
             <!-- MenuBarViewを挿入する -->
-            <ListView x:Name="lvw_TabMaintenance" Margin="0">
+            <ListView x:Name="lvw_TabMaintenance" Margin="0" BackgroundColor="{Binding ColorSetting.TabListViewBackgroundColor}" SeparatorColor="{Binding ColorSetting.TabListViewSeparatorColor}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <local:TodoListViewCell x:Name="lvc_TodoList" ItemId="{Binding TodoId.Value}" LongPressing="OnLongTapped" Tapped="OnTapped" Down="OnDown" DoubleTapped="OnDoubleTapped">
+                        <local:TodoListViewCell x:Name="lvc_TodoList" ItemId="{Binding TodoId.Value}" LongPressing="OnLongTapped" Tapped="OnTapped" Down="OnDown" DoubleTapped="OnDoubleTapped" xfg:CellGloss.BackgroundColor="{Binding ColorSetting.TabListViewCellColor}">
                             <StackLayout Margin="20, 0, 0, 0" Orientation="Horizontal">
-                                <Label Text="{Binding Todo.Value}" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center" />
-                                <Switch HorizontalOptions="End" IsVisible="false" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsActive.Value}" OnColor="Maroon">
+                                <Label Text="{Binding Todo.Value}" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center" TextColor="{Binding ColorSetting.TabListViewTextColor}"/>
+                                <Switch HorizontalOptions="End" IsVisible="false" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsActive.Value}" OnColor="{Binding ColorSetting.SwitchOnColor}" xfg:CellGloss.TintColor="{Binding ColorSetting.SwitchTintColor}" xfg:CellGloss.ThumbOnTintColor="{Binding ColorSetting.SwitchThumbColor}" xfg:CellGloss.ThumbTintColor="{Binding ColorSetting.SwitchThumbColor}">
                                     <Switch.Triggers>
                                         <DataTrigger TargetType="Switch" Binding="{Binding Source={x:Reference lvc_TodoList}, Path=IsSelected.Value}" Value="true">
                                             <Setter Property="IsVisible" Value="true"/>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Input;
 using Reactive.Bindings;
 using mr = MR.Gestures;
+using stt = System.Threading.Tasks;
 
 using Xamarin.Forms;
 using RxRouting;
@@ -13,7 +14,7 @@ namespace SimpleTodo
     {
         public TodoItem Setting { get; set; }
 
-        private TemplateViewModel model = new TemplateViewModel();
+        private TemplateViewModel model = new TemplateViewModel(Application.Current.RealmAccess());
 
         private PageRotationOvserver pageRotationTarget;
         private TabListTransitObservable tabListTransitSource;
@@ -36,10 +37,10 @@ namespace SimpleTodo
 
         private PageDirectionEnum currentPageDirection = PageDirectionEnum.Vertical;
 
-        public void SetCurrentTodo(TodoItem setting)
+        public async stt.Task SetCurrentTodo(TodoItem setting)
         {
             model.Setting = Setting = setting;
-            model.LoadTodo(setting.TodoId.Value);
+            await model.LoadTodo(setting.TodoId.Value);
             lvw_TodoList.ItemsSource = model.Todo;
         }
 
@@ -159,24 +160,24 @@ namespace SimpleTodo
             lay_Main.Opacity = DirectEditView.BackgroundOpacity;
         }
 
-        private void OnFixed(object sender, FixedEventArgs args)
+        private async void OnFixed(object sender, FixedEventArgs args)
         {
             if (dev_TaskNameEditor.HasName)
             {
+                lay_Edit.IsVisible = false;
+                lay_Main.IsEnabled = true;
+                lay_Main.Opacity = 1.0;
+
                 switch (args.EditMode)
                 {
                     case DirectEditMode.New:
-                        model.AddTask(dev_TaskNameEditor.Name.Value);
+                        await model.AddTask(dev_TaskNameEditor.Name.Value);
                         break;
                     case DirectEditMode.Update:
-                        model.EditTask(editingTask.TaskId.Value, dev_TaskNameEditor.Name.Value);
+                        await model.EditTask(editingTask.TaskId.Value, dev_TaskNameEditor.Name.Value);
                         break;
                 }
             }
-
-            lay_Edit.IsVisible = false;
-            lay_Main.IsEnabled = true;
-            lay_Main.Opacity = 1.0;
 
             editingTask = null;
         }
@@ -191,12 +192,12 @@ namespace SimpleTodo
             model.SelectOperationTask(currentCell.ItemId);
         }
 
-        private void OnTapped(object sender, TappedEventArgs args)
+        private async void OnTapped(object sender, TappedEventArgs args)
         {
             if (!model.SelectOperationTask(TemplateViewModel.UndefinedTaskId))
             {
                 var currentCell = (TodoListViewCell)sender;
-                model.ToggleTaskStatus(currentCell.ItemId);
+                await model.ToggleTaskStatus(currentCell.ItemId);
             }
         }
 

@@ -8,12 +8,16 @@ namespace SimpleTodo
 {
     public partial class CenterPage : NavigationPage
     {
+		private CenterPageModel model = new CenterPageModel(Application.Current.RealmAccess());
+
         private TabListTransitObserver tabListTransitTarget;
         private TabJumpingOvserver tabJumpingTarget;
 
         public CenterPage(Page childPage) : base(childPage)
         {
             InitializeComponent();
+
+			BindingContext = model;
 
             tabListTransitTarget = new TabListTransitObserver(async _ => await PushAsync(new TabMaintenancePage()));
             tabJumpingTarget = new TabJumpingOvserver(async _ => await PopAsync());

@@ -15,7 +15,7 @@ namespace SimpleTodo
 
         private TemplateView templateView = new TemplateView();
 
-        private TabViewPageModel model = new TabViewPageModel();
+        private TabViewPageModel model = new TabViewPageModel(Application.Current.RealmAccess());
 
         public TabViewPage()
         {
@@ -59,23 +59,23 @@ namespace SimpleTodo
             router.AddReactiveTarget((int)RxSourceEnum.TabJumping, tabJumpingTarget);
         }
 
-        void OnTabChanged(object sender, EventArgs args)
+        private async void OnTabChanged(object sender, EventArgs args)
         {
             if (CurrentPage is EmptyPage page)
             {
-                this.templateView.SetCurrentTodo(page.Setting);
+                await this.templateView.SetCurrentTodo(page.Setting);
             }
 
             Title = CurrentPage.Title;
         }
 
-        void OnTabNew(string newName)
+        private async void OnTabNew(string newName)
         {
             //タブIDを発行する
             var todoId = model.GetNewId();
 
             //タブの規定値を取得
-            var setting = model.GetTabSetting(todoId);
+            var setting = await model.GetTabSetting(todoId);
             setting.Name.Value = newName;
 
             //場所を作る
@@ -83,7 +83,7 @@ namespace SimpleTodo
             Children.Insert(0, newTab);
 
             //表示内容設定
-            this.templateView.SetCurrentTodo(setting);
+            await this.templateView.SetCurrentTodo(setting);
             newTab.Content = this.templateView;
             CurrentPage = Children[0];
         }

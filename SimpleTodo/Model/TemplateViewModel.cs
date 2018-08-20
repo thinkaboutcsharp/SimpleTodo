@@ -5,10 +5,11 @@ using System.Reactive.Linq;
 using Reactive.Bindings;
 using System.Collections.ObjectModel;
 using System.Drawing;
+using stt = System.Threading.Tasks;
 
 namespace SimpleTodo
 {
-    public class TemplateViewModel
+    public class TemplateViewModel : ModelBase
     {
         public const int UndefinedTaskId = -1;
 
@@ -22,44 +23,47 @@ namespace SimpleTodo
         public event EventHandler NoTaskSelected;
         public TodoItem Setting { get; set; }
 
-        private Dictionary<int, List<TodoTask>> tabs = new Dictionary<int, List<TodoTask>>();
+        private Dictionary<int, ObservableCollection<TodoTask>> tabs = new Dictionary<int, ObservableCollection<TodoTask>>();
 
-        private List<TodoTask> viewingTodo;
         private int selectionTaskId;
 
         private ClearSelectionObservable clearSelectionSource = new ClearSelectionObservable();
 
-        public void LoadTodo(int todoId)
+        public TemplateViewModel(RealmAccess realm) : base(realm) { }
+
+        public async stt.Task LoadTodo(int todoId)
         {
             selectionTaskId = UndefinedTaskId;
 
             if (tabs.ContainsKey(todoId))
             {
-                viewingTodo = tabs[todoId];
-                Todo = new ObservableCollection<TodoTask>(viewingTodo);
+                Todo = tabs[todoId];
                 return;
             }
 
-            var todo = new List<TodoTask>();
-            SelectTodo(todo, todoId);
-            tabs.Add(todoId, todo);
-            viewingTodo = todo;
-            Todo = new ObservableCollection<TodoTask>(viewingTodo);
+            var newTodo = new ObservableCollection<TodoTask>(await realm.SelectTaskAllAsync(todoId));
+            tabs.Add(todoId, newTodo);
+            Todo = newTodo;
         }
 
-        public void ToggleTaskStatus(int taskId)
+        public async stt.Task ToggleTaskStatus(int taskId)
         {
-            var task = viewingTodo.Select(taskId);
-            //暫定
+            var task = Todo.Select(taskId);
+
             switch (task.Status.Value)
             {
                 case TaskStatus.Unchecked:
                     task.Status.Value = TaskStatus.Checked;
                     break;
                 case TaskStatus.Checked:
+                    task.Status.Value = Setting.UseTristate.Value ? TaskStatus.Checked : TaskStatus.Unchecked;
+                    break;
+                case TaskStatus.Canceled:
                     task.Status.Value = TaskStatus.Unchecked;
                     break;
             }
+
+            await realm.ToggleTaskStatusAsync(Setting.TodoId.Value, taskId, task.Status.Value);
         }
 
         public bool SelectOperationTask(int taskId)
@@ -74,19 +78,22 @@ namespace SimpleTodo
             clearSelectionSource.Send(Setting.ColorPattern.PageBasicBackgroundColor);
         }
 
-        public void AddTask(string taskName)
+        public async stt.Task AddTask(string taskName)
         {
-            viewingTodo.Insert(0, new TodoTask(GetNewId(), taskName, TaskStatus.Unchecked, 0));
-            Todo.Insert(0, viewingTodo[0]);
+            var newTask = new TodoTask(realm.GetNewTaskId(Setting.TodoId.Value), taskName, TaskStatus.Unchecked, 0);
+            Todo.Insert(0, newTask);
+            await realm.AddTaskAsync(Setting.TodoId.Value, newTask);
+            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
-        public void EditTask(int taskId, string taskName)
+        public async stt.Task EditTask(int taskId, string taskName)
         {
-            var task = viewingTodo.Select(taskId);
+            var task = Todo.Select(taskId);
             task.Name.Value = taskName;
+            await realm.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
         }
 
-        public void OnTaskUp()
+        public async void OnTaskUp()
         {
             if (selectionTaskId == UndefinedTaskId)
             {
@@ -94,15 +101,17 @@ namespace SimpleTodo
                 return;
             }
 
-            var task = viewingTodo.Select(selectionTaskId);
+            var task = Todo.Select(selectionTaskId);
             var index = Todo.IndexOf(task);
             if (index > 0)
             {
                 Todo.Move(index, index - 1);
             }
+
+            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
-        public void OnTaskDown()
+        public async void OnTaskDown()
         {
             if (selectionTaskId == UndefinedTaskId)
             {
@@ -110,29 +119,22 @@ namespace SimpleTodo
                 return;
             }
 
-            var task = viewingTodo.Select(selectionTaskId);
+            var task = Todo.Select(selectionTaskId);
             var index = Todo.IndexOf(task);
-            if (index < viewingTodo.Count - 1)
+            if (index < Todo.Count - 1)
             {
                 Todo.Move(index, index + 1);
             }
-        }
 
-        private void SelectTodo(List<TodoTask> result, int todoId)
-        {
-        }
-
-        private int GetNewId()
-        {
-            return viewingTodo.Count;
+            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
     }
 
     static class TaskExtension
     {
-        public static TodoTask Select(this List<TodoTask> tasks, int id)
+        public static TodoTask Select(this ObservableCollection<TodoTask> tasks, int id)
         {
-            return tasks.Where(t => t.TaskId.Value == id).Select(t => t).FirstOrDefault();
+            return tasks.Where(t => t.TaskId.Value == id).FirstOrDefault();
         }
     }
 }

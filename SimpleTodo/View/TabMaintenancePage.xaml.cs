@@ -11,7 +11,7 @@ namespace SimpleTodo
 {
     public partial class TabMaintenancePage : global::Xamarin.Forms.ContentPage
     {
-        private TabMaintenancePageModel model = new TabMaintenancePageModel();
+        private TabMaintenancePageModel model = new TabMaintenancePageModel(Application.Current.RealmAccess());
 
         private ICommand MenuNewTabCommand;
         private ICommand MenuTabUpCommand;
@@ -51,7 +51,7 @@ namespace SimpleTodo
 
             SetMenuBar();
 
-            VisibleChangedCommand = new Command<int>(Id => model.ChangeVisibility(Id));
+            VisibleChangedCommand = new Command<int>(async Id => await model.ChangeVisibilityAsync(Id));
 
             this.Appearing += (_s, _e) => SetMenuBar();
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
@@ -141,17 +141,17 @@ namespace SimpleTodo
             lay_Main.Opacity = DirectEditView.BackgroundOpacity;
         }
 
-        private void OnFixed(object sender, FixedEventArgs args)
+        private async void OnFixed(object sender, FixedEventArgs args)
         {
             if (dev_NameEditor.HasName)
             {
                 switch (args.EditMode)
                 {
                     case DirectEditMode.New:
-                        model.AddTodoTab(dev_NameEditor.Name.Value);
+                        await model.AddTodoTab(dev_NameEditor.Name.Value);
                         break;
                     case DirectEditMode.Update:
-                        model.EditTodo(editingItem.TodoId.Value, dev_NameEditor.Name.Value);
+                        await model.EditTodo(editingItem.TodoId.Value, dev_NameEditor.Name.Value);
                         break;
                 }
             }

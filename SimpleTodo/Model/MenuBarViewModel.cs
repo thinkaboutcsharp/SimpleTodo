@@ -9,7 +9,7 @@ namespace SimpleTodo
 
 		public MenuBarViewModel(RealmAccess realm) : base(realm)
         {
-            NeedBigIcon = false;
+            NeedBigIcon = realm.IsBigIcon();
         }
     }
 }
