@@ -67,6 +67,7 @@ namespace SimpleTodo
             }
 
             Title = CurrentPage.Title;
+            ChangeTab(CurrentPage);
         }
 
         private async void OnTabNew(string newName)
@@ -85,13 +86,22 @@ namespace SimpleTodo
             //表示内容設定
             await this.templateView.SetCurrentTodo(setting);
             newTab.Content = this.templateView;
-            CurrentPage = Children[0];
+            ChangeTab(Children[0]);
         }
 
         private void OnTabJump(int todoId)
         {
             var tab = Children.OfType<EmptyPage>().Where(p => p.Setting.TodoId.Value == todoId).Select(p => p).FirstOrDefault();
-            CurrentPage = tab;
+            ChangeTab(tab);
+        }
+
+        private void ChangeTab(Page viewTab)
+        {
+            if (viewTab is EmptyPage emptyPage)
+            {
+            }
+
+            CurrentPage = viewTab;
         }
     }
 }

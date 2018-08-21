@@ -9,26 +9,12 @@ using System.CodeDom.Compiler;
 
 namespace ColorSelector
 {
-	[Register ("ViewController")]
-	partial class ViewController
+	[Register ("WindowController")]
+	partial class WindowController
 	{
-		[Outlet]
-		AppKit.NSScrollView scr_Table { get; set; }
-
-		[Outlet]
-		AppKit.NSTableView tbl_Main { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (scr_Table != null) {
-				scr_Table.Dispose ();
-				scr_Table = null;
-			}
-
-			if (tbl_Main != null) {
-				tbl_Main.Dispose ();
-				tbl_Main = null;
-			}
 		}
 	}
 }

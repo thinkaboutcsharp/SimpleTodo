@@ -34,7 +34,6 @@ namespace SimpleTodo
             TabSettingTransitCommand.Subscribe(s => OnTabSettingTransit(s));
             TabSettingReturnCommand.Subscribe(() => OnTabSettingReturn());
 
-            //DBから
             StartAtTabList.Value = realm.IsBeginFromTabList();
             UseBigIcon.Value = realm.IsBigIcon();
             RightMenuBarInLandscape.Value = realm.GetMenuBarPosition() == MenuBarPosition.Right ? true : false;
@@ -65,6 +64,11 @@ namespace SimpleTodo
         private void OnTabSettingReturn()
         {
             MenuMode.Value = SlideMenuMode.Main;
+        }
+
+        public void OnCenterViewChanged(ColorSetting colorSetting)
+        {
+            this.ColorSetting.Value = colorSetting;
         }
     }
 

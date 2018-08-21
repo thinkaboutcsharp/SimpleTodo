@@ -3,12 +3,15 @@ using Reactive.Bindings;
 
 namespace SimpleTodo
 {
-	public class CenterPageModel : ModelBase
+    public class CenterPageModel : ModelBase
     {
-		public ReactiveProperty<ColorSetting> ColorPattern = new ReactiveProperty<ColorSetting>();
-
-		public CenterPageModel(RealmAccess realm) : base(realm)
+        public CenterPageModel(RealmAccess realm) : base(realm)
         {
+        }
+
+        public void OnCentralViewChanged(ColorSetting colorSetting)
+        {
+            this.ColorSetting.Value = colorSetting;
         }
     }
 }

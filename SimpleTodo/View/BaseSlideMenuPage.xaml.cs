@@ -13,6 +13,8 @@ namespace SimpleTodo
         private DirectTabSettingObserver directTabSettingTarget;
         private SlideMenuInitializeObserver slideMenuInitializeTarget;
 
+        private CentralViewChangeObserver centralViewChangeTarget;
+
         public BaseSlideMenuPage()
         {
             InitializeComponent();
@@ -44,10 +46,12 @@ namespace SimpleTodo
             {
                 model.TabSettingReturnCommand.Execute();
             });
+            centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCenterViewChanged(c));
 
             var router = Application.Current.ReactionRouter();
             router.AddReactiveTarget((int)RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
             router.AddReactiveTarget((int)RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
+            router.AddReactiveTarget((int)RxSourceEnum.CentralViewChange, centralViewChangeTarget);
         }
     }
 }

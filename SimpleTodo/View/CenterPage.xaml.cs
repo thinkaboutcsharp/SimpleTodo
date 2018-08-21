@@ -8,33 +8,26 @@ namespace SimpleTodo
 {
     public partial class CenterPage : NavigationPage
     {
-		private CenterPageModel model = new CenterPageModel(Application.Current.RealmAccess());
+        private CenterPageModel model = new CenterPageModel(Application.Current.RealmAccess());
 
         private TabListTransitObserver tabListTransitTarget;
-        private TabJumpingOvserver tabJumpingTarget;
+        private TabJumpingObserver tabJumpingTarget;
+        private CentralViewChangeObserver centralViewChangeTarget;
 
         public CenterPage(Page childPage) : base(childPage)
         {
             InitializeComponent();
 
-			BindingContext = model;
+            BindingContext = model;
 
             tabListTransitTarget = new TabListTransitObserver(async _ => await PushAsync(new TabMaintenancePage()));
-            tabJumpingTarget = new TabJumpingOvserver(async _ => await PopAsync());
+            tabJumpingTarget = new TabJumpingObserver(async _ => await PopAsync());
+            centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCentralViewChanged(c));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget<object>((int)RxSourceEnum.TabListTransit, tabListTransitTarget);
+            router.AddReactiveTarget((int)RxSourceEnum.TabListTransit, tabListTransitTarget);
             router.AddReactiveTarget((int)RxSourceEnum.TabJumping, tabJumpingTarget);
-        }
-
-        class TabListTransitObserver : ObserverBase<object>
-        {
-            public TabListTransitObserver(Action<object> action) : base(action) { }
-        }
-
-        class TabJumpingOvserver : ObserverBase<int>
-        {
-            public TabJumpingOvserver(Action<int> action) : base(action) { }
+            router.AddReactiveTarget((int)RxSourceEnum.CentralViewChange, centralViewChangeTarget);
         }
     }
 }

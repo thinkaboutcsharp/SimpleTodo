@@ -33,9 +33,5 @@ namespace SimpleTodo
             this.source.Send(txt_TabName.Text);
             txt_TabName.Text = string.Empty;
         }
-
-        class TodoTabNewObservable : ObservableBase<string>
-        {
-        }
     }
 }

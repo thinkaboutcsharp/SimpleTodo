@@ -35,9 +35,5 @@ namespace SimpleTodo
         }
 
         private bool IsAlmostEquals(double a, double b) => Math.Abs(a - b) < 10e-3 ? true : false;
-
-        class PageRotetionObservable : ObservableBase<PageDirectionEnum>
-        {
-        }
     }
 }

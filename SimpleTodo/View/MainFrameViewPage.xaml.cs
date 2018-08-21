@@ -23,14 +23,5 @@ namespace SimpleTodo
             router.AddReactiveTarget((int)RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
             router.AddReactiveSource((int)RxSourceEnum.SlideMenuInitialize, slideMenuInitializeSource);
         }
-
-        class DirectTabSettingObserver : ObserverBase<object>
-        {
-            public DirectTabSettingObserver(Action<object> action) : base(action) { }
-        }
-
-        class SlideMenuInitializeObservable : ObservableBase<object>
-        {
-        }
     }
 }

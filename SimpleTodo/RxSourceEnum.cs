@@ -13,6 +13,8 @@ namespace SimpleTodo
         TabJumping,
         TabUpDown,
 
+        CentralViewChange,
+
         DirectTabSettingMenu,
         SlideMenuInitialize,
 
