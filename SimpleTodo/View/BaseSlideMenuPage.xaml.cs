@@ -38,9 +38,9 @@ namespace SimpleTodo
                 }
             });
 
-            directTabSettingTarget = new DirectTabSettingObserver(_ =>
+            directTabSettingTarget = new DirectTabSettingObserver(target =>
             {
-                model.TabSettingTransitCommand.Execute(TabSetting.Current);
+                model.TabSettingTransitCommand.Execute(target);
             });
             slideMenuInitializeTarget = new SlideMenuInitializeObserver(_ =>
             {
@@ -49,9 +49,9 @@ namespace SimpleTodo
             centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCenterViewChanged(c));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget((int)RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
-            router.AddReactiveTarget((int)RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
-            router.AddReactiveTarget((int)RxSourceEnum.CentralViewChange, centralViewChangeTarget);
+            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu.Value(), directTabSettingTarget);
+            router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize.Value(), slideMenuInitializeTarget);
+            router.AddReactiveTarget(RxSourceEnum.CentralViewChange.Value(), centralViewChangeTarget);
         }
     }
 }

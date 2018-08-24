@@ -11,9 +11,9 @@ namespace SimpleTodo
         public ReactiveProperty<SlideMenuMode> MenuMode { get; } = new ReactiveProperty<SlideMenuMode>(SlideMenuMode.Main);
         public ReactiveProperty<string> TabSettingTitle { get; } = new ReactiveProperty<string>(string.Empty);
 
-        public ReactiveCommand<TabSetting> TabSettingTransitCommand { get; } = new ReactiveCommand<TabSetting>();
-        public TabSetting CurrentTabParameter { get; } = TabSetting.Current;
-        public TabSetting AllTabParameter { get; } = TabSetting.All;
+        public ReactiveCommand<DirectTabSettingTarget> TabSettingTransitCommand { get; } = new ReactiveCommand<DirectTabSettingTarget>();
+        public DirectTabSettingTarget CurrentTabParameter { get; } = DirectTabSettingTarget.Current;
+        public DirectTabSettingTarget AllTabParameter { get; } = DirectTabSettingTarget.All;
 
         public ReactiveCommand TabSettingReturnCommand { get; } = new ReactiveCommand();
 
@@ -26,7 +26,7 @@ namespace SimpleTodo
         public ReactiveProperty<IReadOnlyList<TaskOrderList>> OrderPattern { get; } = new ReactiveProperty<IReadOnlyList<TaskOrderList>>();
         public ReactiveProperty<IReadOnlyList<ColorSetting>> ColorPattern { get; } = new ReactiveProperty<IReadOnlyList<ColorSetting>>();
         public ReactiveProperty<IReadOnlyList<IconSetting>> IconPattern { get; } = new ReactiveProperty<IReadOnlyList<IconSetting>>();
-        public ReactiveProperty<TabSetting> CurrentTabSetting { get; } = new ReactiveProperty<TabSetting>(TabSetting.Current);
+        public ReactiveProperty<DirectTabSettingTarget> CurrentTabSetting { get; } = new ReactiveProperty<DirectTabSettingTarget>(DirectTabSettingTarget.Current);
         #endregion
 
         public BaseSlideMenuPageModel(RealmAccess realm) : base(realm)
@@ -46,14 +46,14 @@ namespace SimpleTodo
             IconPattern.Value = realm.GetIconPatternAllAsync().Result;
         }
 
-        private void OnTabSettingTransit(TabSetting setting)
+        private void OnTabSettingTransit(DirectTabSettingTarget setting)
         {
             switch (setting)
             {
-                case TabSetting.Current:
+                case DirectTabSettingTarget.Current:
                     TabSettingTitle.Value = "このタブ";
                     break;
-                case TabSetting.All:
+                case DirectTabSettingTarget.All:
                     TabSettingTitle.Value = "全部のタブ";
                     break;
             }
@@ -70,12 +70,6 @@ namespace SimpleTodo
         {
             this.ColorSetting.Value = colorSetting;
         }
-    }
-
-    public enum TabSetting
-    {
-        All,
-        Current
     }
 
     public enum SlideMenuMode

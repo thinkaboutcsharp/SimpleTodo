@@ -72,7 +72,7 @@ namespace SimpleTodo
         private PageRotationOvserver pageRotationTarget;
         private MenuBarIconSizeChangedOvserver iconSizeChangedOvserver;
 
-		private MenuBarViewModel model = new MenuBarViewModel(Application.Current.RealmAccess());
+        private MenuBarViewModel model = new MenuBarViewModel(Application.Current.RealmAccess());
 
         public MenuBarView()
         {
@@ -93,8 +93,8 @@ namespace SimpleTodo
             pageRotationTarget = new PageRotationOvserver(d => OnRotation(d));
             iconSizeChangedOvserver = new MenuBarIconSizeChangedOvserver(b => OnMenuBarIconSizeChanged(b));
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget<PageDirectionEnum>((int)RxSourceEnum.PageRotation, pageRotationTarget);
-            router.AddReactiveTarget<bool>((int)RxSourceEnum.MenuBarIconSizeChange, iconSizeChangedOvserver);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation.Value(), pageRotationTarget);
+            router.AddReactiveTarget(RxSourceEnum.MenuBarIconSizeChange.Value(), iconSizeChangedOvserver);
         }
 
         private static void OnMenuBarItemChanged(BindableObject bindable, object oldValue, object newValue, MenuBarItems property)

@@ -20,7 +20,7 @@ namespace SimpleTodo
 
         public IObservable<Color> ClearSelectionSource { get => clearSelectionSource; }
         public IObservable<(int, bool)> ChangeVisibilitySource { get => changeVisibilitySource; }
-        public IObservable<(TabUpDown, int)> TabUpDownSource { get => tabUpDownSource; }
+        public IObservable<(UpDown, int)> TabUpDownSource { get => tabUpDownSource; }
 
         public ObservableCollection<TodoItem> TodoList { get; private set; }
 
@@ -98,7 +98,7 @@ namespace SimpleTodo
             if (index > 0)
             {
                 TodoList.Move(index, index - 1);
-                tabUpDownSource.Send((TabUpDown.Up, todo.TodoId.Value));
+                tabUpDownSource.Send((UpDown.Up, todo.TodoId.Value));
 
                 await realm.ReorderTodoAsync(TodoList);
             }
@@ -117,7 +117,7 @@ namespace SimpleTodo
             if (index < TodoList.Count - 1)
             {
                 TodoList.Move(index, index + 1);
-                tabUpDownSource.Send((TabUpDown.Down, todo.TodoId.Value));
+                tabUpDownSource.Send((UpDown.Down, todo.TodoId.Value));
 
                 await realm.ReorderTodoAsync(TodoList);
             }

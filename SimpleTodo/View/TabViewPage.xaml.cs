@@ -55,8 +55,8 @@ namespace SimpleTodo
             tabJumpingTarget = new TabJumpingObserver(t => OnTabJump(t));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget((int)RxSourceEnum.TodoTabNew, tabNewTarget);
-            router.AddReactiveTarget((int)RxSourceEnum.TabJumping, tabJumpingTarget);
+            router.AddReactiveTarget(RxSourceEnum.TodoTabNew.Value(), tabNewTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabJumping.Value(), tabJumpingTarget);
         }
 
         private async void OnTabChanged(object sender, EventArgs args)

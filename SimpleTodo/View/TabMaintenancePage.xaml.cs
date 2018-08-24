@@ -57,12 +57,12 @@ namespace SimpleTodo
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource((int)RxSourceEnum.ClearListViewSelection, model.ClearSelectionSource);
-            router.AddReactiveSource((int)RxSourceEnum.TabListClose, tabMaintenanceDisappearingSource);
-            router.AddReactiveSource((int)RxSourceEnum.TabJumping, tabJumpingSource);
-            router.AddReactiveSource((int)RxSourceEnum.TodoTabVisibleChange, model.ChangeVisibilitySource);
-            router.AddReactiveSource((int)RxSourceEnum.VisibleSwitchOnOff, visibleSwitchOnOffSource);
-            router.AddReactiveSource((int)RxSourceEnum.TabUpDown, model.TabUpDownSource);
+            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection.Value(), model.ClearSelectionSource);
+            router.AddReactiveSource(RxSourceEnum.TabListClose.Value(), tabMaintenanceDisappearingSource);
+            router.AddReactiveSource(RxSourceEnum.TabJumping.Value(), tabJumpingSource);
+            router.AddReactiveSource(RxSourceEnum.TodoTabVisibleChange.Value(), model.ChangeVisibilitySource);
+            router.AddReactiveSource(RxSourceEnum.VisibleSwitchOnOff.Value(), visibleSwitchOnOffSource);
+            router.AddReactiveSource(RxSourceEnum.TabUpDown.Value(), model.TabUpDownSource);
 
             BindingContext = this;
             lvw_TabMaintenance.ItemsSource = model.TodoList;

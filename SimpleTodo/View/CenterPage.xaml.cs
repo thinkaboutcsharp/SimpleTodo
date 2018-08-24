@@ -25,9 +25,9 @@ namespace SimpleTodo
             centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCentralViewChanged(c));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget((int)RxSourceEnum.TabListTransit, tabListTransitTarget);
-            router.AddReactiveTarget((int)RxSourceEnum.TabJumping, tabJumpingTarget);
-            router.AddReactiveTarget((int)RxSourceEnum.CentralViewChange, centralViewChangeTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabListTransit.Value(), tabListTransitTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabJumping.Value(), tabJumpingTarget);
+            router.AddReactiveTarget(RxSourceEnum.CentralViewChange.Value(), centralViewChangeTarget);
         }
     }
 }

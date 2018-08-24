@@ -75,11 +75,11 @@ namespace SimpleTodo
             directTabSettingSource = new DirectTabSettingObservable();
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget((int)RxSourceEnum.PageRotation, pageRotationTarget);
-            router.AddReactiveSource((int)RxSourceEnum.TabListTransit, tabListTransitSource);
-            router.AddReactiveTarget((int)RxSourceEnum.TabListClose, tabViewAppearingTarget);
-            router.AddReactiveSource((int)RxSourceEnum.ClearListViewSelection, model.ClearSelectionObservable);
-            router.AddReactiveSource((int)RxSourceEnum.DirectTabSettingMenu, directTabSettingSource);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation.Value(), pageRotationTarget);
+            router.AddReactiveSource(RxSourceEnum.TabListTransit.Value(), tabListTransitSource);
+            router.AddReactiveTarget(RxSourceEnum.TabListClose.Value(), tabViewAppearingTarget);
+            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection.Value(), model.ClearSelectionObservable);
+            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu.Value(), directTabSettingSource);
 
             //上からリクエストがあればリストを取得するため、最初は何もしない
         }
@@ -265,7 +265,7 @@ namespace SimpleTodo
         {
             Console.WriteLine("TabSetting Tapped");
 
-            directTabSettingSource.Send(null);
+            directTabSettingSource.Send(DirectTabSettingTarget.Current);
         }
     }
 }

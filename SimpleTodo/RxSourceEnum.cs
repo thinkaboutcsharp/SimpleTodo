@@ -5,13 +5,19 @@ namespace SimpleTodo
     {
         TodoTabNew,
         TodoTabVisibleChange,
+        TodoTabNewOnList,
 
         PageRotation,
+
+        TodoTaskNew,
+        TodoTaskUpDown,
 
         TabListTransit,
         TabListClose,
         TabJumping,
         TabUpDown,
+        TabRemove,
+        TabTitleChange,
 
         CentralViewChange,
 
@@ -19,14 +25,27 @@ namespace SimpleTodo
         SlideMenuInitialize,
 
         MenuBarIconSizeChange,
+        TabSettingChange,
+        MenuBarPositionChange,
 
         ClearListViewSelection,
         VisibleSwitchOnOff,
     }
 
-    public enum TabUpDown
+    public enum UpDown
     {
         Up,
         Down
+    }
+
+    public enum DirectTabSettingTarget
+    {
+        All,
+        Current,
+    }
+
+    public static class RxSourceEx
+    {
+        public static int Value(this RxSourceEnum field) => (int)field;
     }
 }

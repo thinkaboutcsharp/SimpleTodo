@@ -1,2 +1,0 @@
-# SimpleTodo
-シンプルを極めたTodoアプリ

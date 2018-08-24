@@ -26,13 +26,13 @@ namespace SimpleTodo
     #endregion
 
     #region DirectTabSetting
-    class DirectTabSettingObservable : ObservableBase<object>
+    class DirectTabSettingObservable : ObservableBase<DirectTabSettingTarget>
     {
     }
 
-    class DirectTabSettingObserver : ObserverBase<object>
+    class DirectTabSettingObserver : ObserverBase<DirectTabSettingTarget>
     {
-        public DirectTabSettingObserver(Action<object> action) : base(action) { }
+        public DirectTabSettingObserver(Action<DirectTabSettingTarget> action) : base(action) { }
     }
     #endregion
 
@@ -109,7 +109,7 @@ namespace SimpleTodo
     #endregion
 
     #region TabUpDown
-    class TabUpDownObservable : ObservableBase<(TabUpDown, int)>
+    class TabUpDownObservable : ObservableBase<(UpDown, int)>
     {
     }
     #endregion

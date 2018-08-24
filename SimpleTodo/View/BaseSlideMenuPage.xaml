@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.BaseSlideMenuPage" xmlns:local="clr-namespace:SimpleTodo" xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"  Title="MENU">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.BaseSlideMenuPage" xmlns:local="clr-namespace:SimpleTodo" xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss" xmlns:sv="clr-namespace:AiForms.Renderers;assembly=SettingsView" Title="MENU">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="TextCell">
@@ -27,14 +27,15 @@
                         <TableSection Title="タブ">
                             <TextCell Text="このタブを設定" Detail="表示しているタブだけの設定" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding CurrentTabParameter}"/>
                             <TextCell Text="タブ全部を設定" Detail="タブ全体の設定（新しいタブもこの設定を使う）" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding AllTabParameter}" />
+                            <sv:PickerCell Title="タブを追加する場所" SelectedCommand="{Binding TabInsertPositionChangeCommand}"/>
                         </TableSection>
                         <TableSection Title="アプリ">
-                            <SwitchCell Text="タブ一覧からスタート" On="{Binding StartAtTabList.Value}"/>
+                            <!-- 将来機能 <SwitchCell Text="タブ一覧からスタート" On="{Binding StartAtTabList.Value}"/>-->
                             <SwitchCell Text="大きなメニューボタン" On="{Binding UseBigIcon.Value}" />
                             <SwitchCell Text="横ならメニューバーを右" On="{Binding RightMenuBarInLandscape.Value}" />
                         </TableSection>
                         <TableSection Title="その他">
-                            <TextCell Text="PDF" Detail="印刷の代わりにPDFファイルを作る" />
+                            <!-- 将来機能 <TextCell Text="PDF" Detail="印刷の代わりにPDFファイルを作る" />-->
                             <TextCell Text="アプリについて" />
                         </TableSection>
                     </TableRoot>
@@ -52,6 +53,7 @@
                 <TableView Intent="Settings" HasUnevenRows="true" BackgroundColor="Gray">
                     <TableRoot>
                         <TableSection Title="{Binding TabSettingTitle.Value}">
+                            <TextCell x:Name="txc_PresentSameAsCurrent" Text="このタブに合わせる" Detail="表示中のタブの設定を他のタブでも使う"/>
                             <SwitchCell Text="取消しを使う" On="{Binding UseTristate.Value}" />
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="14, 10, 11, 10">
@@ -88,11 +90,11 @@
                                     <Label Text="全部合わせる" HorizontalOptions="Start" VerticalOptions="Center" />
                                     <Switch IsToggled="{Binding SuitAll.Value}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
                                     <StackLayout.Triggers>
-                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:TabSetting.Current}">
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:DirectTabSettingTarget.Current}">
                                             <Setter Property="IsEnabled" Value="false" />
                                             <Setter Property="Opacity" Value="0.2" />
                                         </DataTrigger>
-                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:TabSetting.All}">
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:DirectTabSettingTarget.All}">
                                             <Setter Property="IsEnabled" Value="true" />
                                             <Setter Property="Opacity" Value="1.0" />
                                         </DataTrigger>
