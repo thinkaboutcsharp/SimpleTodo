@@ -20,6 +20,7 @@ namespace SimpleTodo
         private TabListTransitObservable tabListTransitSource;
         private TabViewAppearingObserver tabViewAppearingTarget;
         private DirectTabSettingObservable directTabSettingSource;
+        private TabRemoveObserver tabRemoveTarget;
 
         private ICommand MenuTabListCommand;
         private ICommand MenuNewTaskCommand;
@@ -44,6 +45,14 @@ namespace SimpleTodo
             lvw_TodoList.ItemsSource = model.Todo;
         }
 
+        public stt.Task RemoveTodo(int todoId)
+        {
+            return stt.Task.Run(() =>
+            {
+                model.RemoveTodo(todoId);
+            });
+        }
+
         public TemplateView()
         {
             InitializeComponent();
@@ -57,8 +66,8 @@ namespace SimpleTodo
 
             MenuTabListCommand = new Command(() => OnMenuTabListTapped());
             MenuNewTaskCommand = new Command(() => OnMenuNewTaskTapped());
-            MenuTaskUpCommand = new Command(() => model.OnTaskUp());
-            MenuTaskDownCommand = new Command(() => model.OnTaskDown());
+            MenuTaskUpCommand = new Command(async () => await model.OnTaskUp());
+            MenuTaskDownCommand = new Command(async () => await model.OnTaskDown());
             MenuTabSettingCommand = new Command(() => OnMenuTabSettingTapped());
 
             menuTabList = new MenuBarItem { ImagePath = "icon_113430_256.png", TappedCommand = MenuTabListCommand };
@@ -73,13 +82,14 @@ namespace SimpleTodo
             tabListTransitSource = new TabListTransitObservable();
             tabViewAppearingTarget = new TabViewAppearingObserver(_ => SetMenuBar());
             directTabSettingSource = new DirectTabSettingObservable();
+            tabRemoveTarget = new TabRemoveObserver(async t => await RemoveTodo(t));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.PageRotation.Value(), pageRotationTarget);
-            router.AddReactiveSource(RxSourceEnum.TabListTransit.Value(), tabListTransitSource);
-            router.AddReactiveTarget(RxSourceEnum.TabListClose.Value(), tabViewAppearingTarget);
-            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection.Value(), model.ClearSelectionObservable);
-            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu.Value(), directTabSettingSource);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation, pageRotationTarget);
+            router.AddReactiveSource(RxSourceEnum.TabListTransit, tabListTransitSource);
+            router.AddReactiveTarget(RxSourceEnum.TabListClose, tabViewAppearingTarget);
+            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection, model.ClearSelectionObservable);
+            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu, directTabSettingSource);
 
             //上からリクエストがあればリストを取得するため、最初は何もしない
         }
@@ -194,7 +204,7 @@ namespace SimpleTodo
 
         private async void OnTapped(object sender, TappedEventArgs args)
         {
-            if (!model.SelectOperationTask(TemplateViewModel.UndefinedTaskId))
+            if (!model.SelectOperationTask(CommonSettings.UndefinedId))
             {
                 var currentCell = (TodoListViewCell)sender;
                 await model.ToggleTaskStatus(currentCell.ItemId);
@@ -263,9 +273,7 @@ namespace SimpleTodo
 
         private void OnMenuTabSettingTapped()
         {
-            Console.WriteLine("TabSetting Tapped");
-
-            directTabSettingSource.Send(DirectTabSettingTarget.Current);
+            directTabSettingSource.Send(Setting.TodoId.Value);
         }
     }
 }

@@ -11,8 +11,6 @@ namespace SimpleTodo
 {
     public class TemplateViewModel : ModelBase
     {
-        public const int UndefinedTaskId = -1;
-
         public ObservableCollection<TodoTask> Todo { get; private set; }
 
         public Color NormalBackgroundColor { get => Setting.ColorPattern.TodoViewCellColor; }
@@ -33,7 +31,7 @@ namespace SimpleTodo
 
         public async stt.Task LoadTodo(int todoId)
         {
-            selectionTaskId = UndefinedTaskId;
+            selectionTaskId = CommonSettings.UndefinedId;
 
             if (tabs.ContainsKey(todoId))
             {
@@ -44,6 +42,11 @@ namespace SimpleTodo
             var newTodo = new ObservableCollection<TodoTask>(await realm.SelectTaskAllAsync(todoId));
             tabs.Add(todoId, newTodo);
             Todo = newTodo;
+        }
+
+        public void RemoveTodo(int todoId)
+        {
+            tabs.Remove(todoId);
         }
 
         public async stt.Task ToggleTaskStatus(int taskId)
@@ -68,7 +71,7 @@ namespace SimpleTodo
 
         public bool SelectOperationTask(int taskId)
         {
-            var hadId = selectionTaskId == UndefinedTaskId ? false : true;
+            var hadId = selectionTaskId == CommonSettings.UndefinedId ? false : true;
             selectionTaskId = taskId;
             return hadId;
         }
@@ -93,9 +96,9 @@ namespace SimpleTodo
             await realm.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
         }
 
-        public async void OnTaskUp()
+        public async stt.Task OnTaskUp()
         {
-            if (selectionTaskId == UndefinedTaskId)
+            if (selectionTaskId == CommonSettings.UndefinedId)
             {
                 NoTaskSelected?.Invoke(this, new EventArgs());
                 return;
@@ -111,9 +114,9 @@ namespace SimpleTodo
             await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
-        public async void OnTaskDown()
+        public async stt.Task OnTaskDown()
         {
-            if (selectionTaskId == UndefinedTaskId)
+            if (selectionTaskId == CommonSettings.UndefinedId)
             {
                 NoTaskSelected?.Invoke(this, new EventArgs());
                 return;

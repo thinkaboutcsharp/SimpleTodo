@@ -16,7 +16,7 @@ namespace SimpleTodo
             InitializeComponent();
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.TodoTabNew.Value(), source);
+            router.AddReactiveSource(RxSourceEnum.TodoTabNew, source);
 
             txt_TabName.Focus();
         }

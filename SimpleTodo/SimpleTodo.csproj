@@ -19,6 +19,7 @@
     <PackageReference Include="Ansuria.XFGloss" Version="1.1.3" />
     <PackageReference Include="PCLStorage" Version="1.0.2" />
     <PackageReference Include="AiForms.SettingsView" Version="0.2.6" />
+    <PackageReference Include="Xam.Plugins.Forms.RoundedBoxView" Version="1.0.0.7" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RxRouting\RxRouting.csproj" />
@@ -32,6 +33,7 @@
     <None Remove="Image\newtab.png" />
     <None Remove="Image\check.png" />
     <None Remove="Image\up.png" />
+    <None Remove="Data\master.realm" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Image\cancel.png" />
@@ -42,5 +44,6 @@
     <EmbeddedResource Include="Image\newtab.png" />
     <EmbeddedResource Include="Image\check.png" />
     <EmbeddedResource Include="Image\up.png" />
+    <EmbeddedResource Include="Data\master.realm" />
   </ItemGroup>
 </Project>

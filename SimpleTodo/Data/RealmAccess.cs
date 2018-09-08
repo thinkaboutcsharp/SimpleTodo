@@ -34,9 +34,7 @@ namespace SimpleTodo
         #region Connect
         public RealmAccess()
         {
-            var folder = FileSystem.Current.LocalStorage;
-            dbFile = Path.Combine(folder.Path, "item.realm");
-            OpenConnectionAsync().Wait();
+            InitializeRealm();
         }
 
         public void CloseConnection()
@@ -45,15 +43,26 @@ namespace SimpleTodo
             realm = null;
         }
 
+        private void InitializeRealm()
+        {
+            var folder = FileSystem.Current.LocalStorage;
+            dbFile = Path.Combine(folder.Path, "item.realm");
+            OpenConnectionAsync().Wait();
+        }
+
         public async stt.Task OpenConnectionAsync()
         {
             const int CurrentSchemaVertion = 0; //これを間違うと死ぬ！
 
             if (!File.Exists(dbFile))
             {
-                await CopyEmbeddedDb(dbFile);
+                CopyEmbeddedDb(dbFile);
             }
-            realm = await Realm.GetInstanceAsync(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
+
+            //var realmTask = Realm.GetInstanceAsync(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
+            //realm = realmTask.Result;
+            realm = Realm.GetInstance(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
+
             await SelectCommonMaster();
         }
         #endregion
@@ -656,6 +665,7 @@ namespace SimpleTodo
         public string Up { get; set; }
         public string Down { get; set; }
         public string TabSetting { get; set; }
+        public string SwitchOnOff { get; set; }
     }
 
     public class IconPatternMaster : RealmObject
@@ -699,8 +709,8 @@ namespace SimpleTodo
         public int SlideMenuPickerBackgroundColor { get; set; }
         public int SlideMenuPickerTextColor { get; set; }
         public int SwitchOnColor { get; set; }             //Switch,SwitchCell
-		public int SwitchTintColor { get; set; }
-		public int SwitchThumbColor { get; set; }
+        public int SwitchTintColor { get; set; }
+        public int SwitchThumbColor { get; set; }
     }
 
     public class TaskOrderDisplayName : RealmObject
@@ -780,6 +790,7 @@ namespace SimpleTodo
         Down,
         TabSetting,
         NewTab,
+        SwitchOnOff,
     }
     #endregion
 
@@ -902,7 +913,7 @@ namespace SimpleTodo
         public Color SlideMenuPickerBackgroundColor { get; set; }
         public Color SlideMenuPickerTextColor { get; set; }
         public Color SwitchOnColor { get; set; }             //Switch,SwitchCell
-		public Color SwitchTintColor { get; set; }
+        public Color SwitchTintColor { get; set; }
         public Color SwitchThumbColor { get; set; }
     }
 

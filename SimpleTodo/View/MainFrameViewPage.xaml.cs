@@ -20,8 +20,8 @@ namespace SimpleTodo
             slideMenuInitializeSource = new SlideMenuInitializeObservable();
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu.Value(), directTabSettingTarget);
-            router.AddReactiveSource(RxSourceEnum.SlideMenuInitialize.Value(), slideMenuInitializeSource);
+            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
+            router.AddReactiveSource(RxSourceEnum.SlideMenuInitialize, slideMenuInitializeSource);
         }
     }
 }

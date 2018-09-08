@@ -22,12 +22,12 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <ContentView>
-                <TableView Intent="Menu" HasUnevenRows="true" BackgroundColor="{Binding ColorSetting.SlideMenuBackgroundColor}">
-                    <TableRoot>
+                <sv:SettingsView HasUnevenRows="true" BackgroundColor="{Binding ColorSetting.SlideMenuBackgroundColor}">
+                    <sv:SettingsView.Root>
                         <TableSection Title="タブ">
                             <TextCell Text="このタブを設定" Detail="表示しているタブだけの設定" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding CurrentTabParameter}"/>
                             <TextCell Text="タブ全部を設定" Detail="タブ全体の設定（新しいタブもこの設定を使う）" Command="{Binding TabSettingTransitCommand}" CommandParameter="{Binding AllTabParameter}" />
-                            <sv:PickerCell Title="タブを追加する場所" SelectedCommand="{Binding TabInsertPositionChangeCommand}"/>
+                            <sv:TextPickerCell Title="タブを追加する場所" PickerTitle="タブを追加する場所" SelectedCommand="{Binding TabInsertPositionChangeCommand}"/>
                         </TableSection>
                         <TableSection Title="アプリ">
                             <!-- 将来機能 <SwitchCell Text="タブ一覧からスタート" On="{Binding StartAtTabList.Value}"/>-->
@@ -38,8 +38,8 @@
                             <!-- 将来機能 <TextCell Text="PDF" Detail="印刷の代わりにPDFファイルを作る" />-->
                             <TextCell Text="アプリについて" />
                         </TableSection>
-                    </TableRoot>
-                </TableView>
+                    </sv:SettingsView.Root>
+                </sv:SettingsView>
                 <ContentView.Triggers>
                     <DataTrigger TargetType="ContentView" Binding="{Binding MenuMode.Value}" Value="{x:Static local:SlideMenuMode.Main}">
                         <Setter Property="IsVisible" Value="true" />
@@ -58,7 +58,7 @@
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Padding="14, 10, 11, 10">
                                     <Label Text="並び順" VerticalOptions="CenterAndExpand" />
-                                    <Picker HorizontalOptions="FillAndExpand" ItemsSource="{Binding OrderPattern.Value}" BackgroundColor="Purple" TextColor="White" />
+                                    <Picker HorizontalOptions="FillAndExpand" ItemsSource="{Binding OrderPatternCandidates.Value}" BackgroundColor="Purple" TextColor="White" />
                                 </StackLayout>
                             </ViewCell>
                             <ViewCell>
@@ -90,11 +90,11 @@
                                     <Label Text="全部合わせる" HorizontalOptions="Start" VerticalOptions="Center" />
                                     <Switch IsToggled="{Binding SuitAll.Value}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
                                     <StackLayout.Triggers>
-                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:DirectTabSettingTarget.Current}">
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:SettingTab.Current}">
                                             <Setter Property="IsEnabled" Value="false" />
                                             <Setter Property="Opacity" Value="0.2" />
                                         </DataTrigger>
-                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:DirectTabSettingTarget.All}">
+                                        <DataTrigger TargetType="StackLayout" Binding="{Binding CurrentTabSetting.Value}" Value="{x:Static local:SettingTab.All}">
                                             <Setter Property="IsEnabled" Value="true" />
                                             <Setter Property="Opacity" Value="1.0" />
                                         </DataTrigger>

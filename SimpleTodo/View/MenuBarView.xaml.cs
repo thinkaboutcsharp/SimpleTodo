@@ -93,8 +93,8 @@ namespace SimpleTodo
             pageRotationTarget = new PageRotationOvserver(d => OnRotation(d));
             iconSizeChangedOvserver = new MenuBarIconSizeChangedOvserver(b => OnMenuBarIconSizeChanged(b));
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.PageRotation.Value(), pageRotationTarget);
-            router.AddReactiveTarget(RxSourceEnum.MenuBarIconSizeChange.Value(), iconSizeChangedOvserver);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation, pageRotationTarget);
+            router.AddReactiveTarget(RxSourceEnum.MenuBarIconSizeChange, iconSizeChangedOvserver);
         }
 
         private static void OnMenuBarItemChanged(BindableObject bindable, object oldValue, object newValue, MenuBarItems property)

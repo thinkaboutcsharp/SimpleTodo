@@ -11,8 +11,6 @@ namespace SimpleTodo
 {
     public class TabMaintenancePageModel : ModelBase
     {
-        public const int UndefinedTodoId = -1;
-
         public event EventHandler NoTaskSelected;
 
         public ReactiveProperty<Color> NormalBackgroundColor { get; }
@@ -32,7 +30,7 @@ namespace SimpleTodo
 
         public TabMaintenancePageModel(RealmAccess realm) : base(realm)
         {
-            selectingTodoId = UndefinedTodoId;
+            selectingTodoId = CommonSettings.UndefinedId;
 
             var colorPattern = realm.GetDefaultColorPatternAsync().Result;
             NormalBackgroundColor.Value = colorPattern.TabListViewCellColor;
@@ -41,12 +39,19 @@ namespace SimpleTodo
             TodoList = new ObservableCollection<TodoItem>(realm.SelectTodoAllAsync().Result);
         }
 
+        public string GetMenuBarIcon(MenuBarIcon barIcon)
+        {
+            return realm.GetMenuBarIconFile(barIcon);
+        }
+
         public bool SelectOperationTodo(int todoId)
         {
-            var hadId = selectingTodoId == UndefinedTodoId ? false : true;
+            var hadId = selectingTodoId == CommonSettings.UndefinedId ? false : true;
             selectingTodoId = todoId;
             return hadId;
         }
+
+        public int GetSelectingId() => selectingTodoId;
 
         public async stt.Task AddTodoTab(string name)
         {
@@ -73,6 +78,7 @@ namespace SimpleTodo
 
         public void ClearSelection()
         {
+            selectingTodoId = CommonSettings.UndefinedId;
             clearSelectionSource.Send(NormalBackgroundColor.Value);
         }
 
@@ -85,9 +91,9 @@ namespace SimpleTodo
             await realm.ChangeVisibilityAsync(todoId, todo.IsActive.Value);
         }
 
-        public async void OnTodoUp()
+        public async stt.Task OnTodoUp()
         {
-            if (selectingTodoId == UndefinedTodoId)
+            if (selectingTodoId == CommonSettings.UndefinedId)
             {
                 NoTaskSelected?.Invoke(this, new EventArgs());
                 return;
@@ -104,9 +110,9 @@ namespace SimpleTodo
             }
         }
 
-        public async void OnTodoDown()
+        public async stt.Task OnTodoDown()
         {
-            if (selectingTodoId == UndefinedTodoId)
+            if (selectingTodoId == CommonSettings.UndefinedId)
             {
                 NoTaskSelected?.Invoke(this, new EventArgs());
                 return;

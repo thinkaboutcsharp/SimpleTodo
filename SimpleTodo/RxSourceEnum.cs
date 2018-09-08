@@ -38,14 +38,9 @@ namespace SimpleTodo
         Down
     }
 
-    public enum DirectTabSettingTarget
+    public enum SettingTab
     {
         All,
         Current,
-    }
-
-    public static class RxSourceEx
-    {
-        public static int Value(this RxSourceEnum field) => (int)field;
     }
 }

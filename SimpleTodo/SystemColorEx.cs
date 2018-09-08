@@ -1,10 +1,9 @@
-﻿using System;
+﻿using sys = System.Drawing;
+using xam = Xamarin.Forms;
 namespace SimpleTodo
 {
-    public class SystemColorEx
+    public static class SystemColorEx
     {
-        public SystemColorEx()
-        {
-        }
+        public static xam.Color ToXamarinColor(ref sys.Color color) => color;
     }
 }

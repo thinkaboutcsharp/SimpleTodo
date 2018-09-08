@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using stt = System.Threading.Tasks;
 
 using RxRouting;
 using Xamarin.Forms;
@@ -12,7 +13,6 @@ namespace SimpleTodo
 
         private TabListTransitObserver tabListTransitTarget;
         private TabJumpingObserver tabJumpingTarget;
-        private CentralViewChangeObserver centralViewChangeTarget;
 
         public CenterPage(Page childPage) : base(childPage)
         {
@@ -22,12 +22,10 @@ namespace SimpleTodo
 
             tabListTransitTarget = new TabListTransitObserver(async _ => await PushAsync(new TabMaintenancePage()));
             tabJumpingTarget = new TabJumpingObserver(async _ => await PopAsync());
-            centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCentralViewChanged(c));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.TabListTransit.Value(), tabListTransitTarget);
-            router.AddReactiveTarget(RxSourceEnum.TabJumping.Value(), tabJumpingTarget);
-            router.AddReactiveTarget(RxSourceEnum.CentralViewChange.Value(), centralViewChangeTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabListTransit, tabListTransitTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabJumping, tabJumpingTarget);
         }
     }
 }

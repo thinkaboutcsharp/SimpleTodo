@@ -26,13 +26,13 @@ namespace SimpleTodo
     #endregion
 
     #region DirectTabSetting
-    class DirectTabSettingObservable : ObservableBase<DirectTabSettingTarget>
+    class DirectTabSettingObservable : ObservableBase<int>
     {
     }
 
-    class DirectTabSettingObserver : ObserverBase<DirectTabSettingTarget>
+    class DirectTabSettingObserver : ObserverBase<int>
     {
-        public DirectTabSettingObserver(Action<DirectTabSettingTarget> action) : base(action) { }
+        public DirectTabSettingObserver(Action<int> action) : base(action) { }
     }
     #endregion
 
@@ -106,15 +106,26 @@ namespace SimpleTodo
     class ChangeVisibilityObservable : ObservableBase<(int, bool)>
     {
     }
+
+    class ChangeVisibilityObserver : ObserverBase<(int, bool)>
+    {
+        public ChangeVisibilityObserver(Action<(int, bool)> action) : base(action) { }
+    }
     #endregion
 
     #region TabUpDown
     class TabUpDownObservable : ObservableBase<(UpDown, int)>
     {
     }
-    #endregion
+    class TabUpDownObserver : ObserverBase<(UpDown, int)>
+    {
+        public TabUpDownObserver(Action<(UpDown, int)> action) : base(action) { }
+    }    #endregion
 
     #region MenuBarIconSizeChange
+    class MenuBarIconSizeChangedObservable : ObservableBase<bool>
+    {
+    }
     class MenuBarIconSizeChangedOvserver : ObserverBase<bool>
     {
         public MenuBarIconSizeChangedOvserver(Action<bool> action) : base(action) { }
@@ -122,10 +133,42 @@ namespace SimpleTodo
     #endregion
 
     #region CentralViewChange
-    class CentralViewChangeObserver : ObserverBase<ColorSetting>
+    class CentralViewChangeObservable : ObservableBase<TodoItem>
     {
-        public CentralViewChangeObserver(Action<ColorSetting> action) : base(action) { }
+    }
+    class CentralViewChangeObserver : ObserverBase<TodoItem>
+    {
+        public CentralViewChangeObserver(Action<TodoItem> action) : base(action) { }
     }
     #endregion
 
+    #region TabNewOnList
+    class TabNewOnListObservable : ObservableBase<string>
+    {
+    }
+    class TabNewOnListObserver : ObserverBase<string>
+    {
+        public TabNewOnListObserver(Action<string> action) : base(action) { }
+    }
+    #endregion
+
+    #region TabTitleChange
+    class TabTitleChangeObservable : ObservableBase<(int, string)>
+    {
+    }
+    class TabTitleChangeObserver : ObserverBase<(int, string)>
+    {
+        public TabTitleChangeObserver(Action<(int, string)> action) : base(action) { }
+    }
+    #endregion
+
+    #region TabRemove
+    class TabRemoveObservable : ObservableBase<int>
+    {
+    }
+    class TabRemoveObserver : ObserverBase<int>
+    {
+        public TabRemoveObserver(Action<int> action) : base(action) { }
+    }
+    #endregion
 }

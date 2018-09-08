@@ -8,10 +8,5 @@ namespace SimpleTodo
         public CenterPageModel(RealmAccess realm) : base(realm)
         {
         }
-
-        public void OnCentralViewChanged(ColorSetting colorSetting)
-        {
-            this.ColorSetting.Value = colorSetting;
-        }
     }
 }

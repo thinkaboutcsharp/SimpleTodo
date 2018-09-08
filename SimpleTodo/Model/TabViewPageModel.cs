@@ -27,6 +27,11 @@ namespace SimpleTodo
             return realm.GetNewTodoId();
         }
 
+        public TabPosition GetNewTabPosition()
+        {
+            return realm.GetNewTabPosition();
+        }
+
         public async stt.Task<TodoItem> GetTabSetting(int todoId)
         {
             if (tabs.ContainsKey(todoId))
@@ -39,6 +44,48 @@ namespace SimpleTodo
                 tabs.Add(todoId, defaultTab);
                 return defaultTab;
             }
+        }
+
+        public TodoItem GetDefaultTabSetting()
+        {
+            return realm.GetDefaultTabSettingAsync(CommonSettings.UndefinedId, string.Empty).Result;
+        }
+
+        public void MoveTab(UpDown direction, int todoId)
+        {
+            var tab = Tabs.Where(t => t.TodoId.Value == todoId).First();
+            var index = Tabs.IndexOf(tab);
+            switch (direction)
+            {
+                case UpDown.Up:
+                    Tabs.Move(index, index - 1);
+                    break;
+                case UpDown.Down:
+                    Tabs.Move(index, index + 1);
+                    break;
+            }
+        }
+
+        public void RenameTab(int todoId, string newName)
+        {
+            var tab = Tabs.Where(t => t.TodoId.Value == todoId).First();
+            tab.Name.Value = newName;
+        }
+
+        public int RemoveTab(int todoId)
+        {
+            var tab = Tabs.Where(t => t.TodoId.Value == todoId).First();
+            var index = Tabs.IndexOf(tab);
+            Tabs.Remove(tab);
+            return index;
+        }
+
+        public int ChangeTabVisibility(int todoId, bool visibility)
+        {
+            var tab = Tabs.Where(t => t.TodoId.Value == todoId).First();
+            var index = Tabs.IndexOf(tab);
+            tab.IsActive.Value = visibility;
+            return index;
         }
     }
 }

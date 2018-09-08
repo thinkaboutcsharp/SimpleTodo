@@ -29,8 +29,8 @@ namespace SimpleTodo
             });
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection.Value(), clearSelectionTarget);
-            router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff.Value(), visibleSwitchOnOffTarget);
+            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection, clearSelectionTarget);
+            router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff, visibleSwitchOnOffTarget);
         }
     }
 }

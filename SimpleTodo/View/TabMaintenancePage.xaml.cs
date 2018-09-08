@@ -17,17 +17,23 @@ namespace SimpleTodo
         private ICommand MenuTabUpCommand;
         private ICommand MenuTabDownCommand;
         private ICommand MenuVisibleSwitchOnOffCommand;
+        private ICommand MenuTabSettingCommand;
 
         private MenuBarItem menuNewTab;
         private MenuBarItem menuTabUp;
         private MenuBarItem menuTabDown;
         private MenuBarItem menuSwitchOnOff;
+        private MenuBarItem menuTabSetting;
 
         public ICommand VisibleChangedCommand { get; set; }
 
         private TabMaintenanceDisppearingObservable tabMaintenanceDisappearingSource = new TabMaintenanceDisppearingObservable();
         private TabJumpingObservable tabJumpingSource = new TabJumpingObservable();
         private VisibleSwitchOnOffObservable visibleSwitchOnOffSource = new VisibleSwitchOnOffObservable();
+        private TabNewOnListObservable tabNewOnListSource = new TabNewOnListObservable();
+        private TabTitleChangeObservable titleChangeSource = new TabTitleChangeObservable();
+        private TabRemoveObservable tabRemoveSource = new TabRemoveObservable();
+        private DirectTabSettingObservable directTabSettingSource = new DirectTabSettingObservable();
 
         private TodoItem editingItem; //編集対象のアイテムを記憶する（セルが拾えないから）
 
@@ -40,14 +46,16 @@ namespace SimpleTodo
             ShownSwitchCount = 0;
 
             MenuNewTabCommand = new Command(() => OnMenuNewTabTapped());
-            MenuTabUpCommand = new Command(() => model.OnTodoUp());
-            MenuTabDownCommand = new Command(() => model.OnTodoDown());
+            MenuTabUpCommand = new Command(async () => await model.OnTodoUp());
+            MenuTabDownCommand = new Command(async () => await model.OnTodoDown());
             MenuVisibleSwitchOnOffCommand = new Command(() => OnMenuVisibleSwitchOnOff());
+            MenuTabSettingCommand = new Command(() => OnMenuTabSetting());
 
-            menuNewTab = new MenuBarItem { ImagePath = "icon_110750_256.jpg", TappedCommand = MenuNewTabCommand };
-            menuTabUp = new MenuBarItem { ImagePath = "icon_110770_256.jpg", TappedCommand = MenuTabUpCommand };
-            menuTabDown = new MenuBarItem { ImagePath = "icon_110890_256.jpg", TappedCommand = MenuTabDownCommand };
-            menuSwitchOnOff = new MenuBarItem { ImagePath = "icon_110670_256.jpg", TappedCommand = MenuVisibleSwitchOnOffCommand };
+            menuNewTab = new MenuBarItem { ImagePath = model.GetMenuBarIcon(MenuBarIcon.NewTab), TappedCommand = MenuNewTabCommand };
+            menuTabUp = new MenuBarItem { ImagePath = model.GetMenuBarIcon(MenuBarIcon.Up), TappedCommand = MenuTabUpCommand };
+            menuTabDown = new MenuBarItem { ImagePath = model.GetMenuBarIcon(MenuBarIcon.Down), TappedCommand = MenuTabDownCommand };
+            menuSwitchOnOff = new MenuBarItem { ImagePath = model.GetMenuBarIcon(MenuBarIcon.SwitchOnOff), TappedCommand = MenuVisibleSwitchOnOffCommand };
+            menuTabSetting = new MenuBarItem { ImagePath = model.GetMenuBarIcon(MenuBarIcon.TabSetting), TappedCommand = MenuTabSettingCommand };
 
             SetMenuBar();
 
@@ -57,12 +65,16 @@ namespace SimpleTodo
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection.Value(), model.ClearSelectionSource);
-            router.AddReactiveSource(RxSourceEnum.TabListClose.Value(), tabMaintenanceDisappearingSource);
-            router.AddReactiveSource(RxSourceEnum.TabJumping.Value(), tabJumpingSource);
-            router.AddReactiveSource(RxSourceEnum.TodoTabVisibleChange.Value(), model.ChangeVisibilitySource);
-            router.AddReactiveSource(RxSourceEnum.VisibleSwitchOnOff.Value(), visibleSwitchOnOffSource);
-            router.AddReactiveSource(RxSourceEnum.TabUpDown.Value(), model.TabUpDownSource);
+            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection, model.ClearSelectionSource);
+            router.AddReactiveSource(RxSourceEnum.TabListClose, tabMaintenanceDisappearingSource);
+            router.AddReactiveSource(RxSourceEnum.TabJumping, tabJumpingSource);
+            router.AddReactiveSource(RxSourceEnum.TodoTabVisibleChange, model.ChangeVisibilitySource);
+            router.AddReactiveSource(RxSourceEnum.VisibleSwitchOnOff, visibleSwitchOnOffSource);
+            router.AddReactiveSource(RxSourceEnum.TabUpDown, model.TabUpDownSource);
+            router.AddReactiveSource(RxSourceEnum.TodoTabNewOnList, tabNewOnListSource);
+            router.AddReactiveSource(RxSourceEnum.TabTitleChange, titleChangeSource);
+            router.AddReactiveSource(RxSourceEnum.TabRemove, tabRemoveSource);
+            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu, directTabSettingSource);
 
             BindingContext = this;
             lvw_TabMaintenance.ItemsSource = model.TodoList;
@@ -77,7 +89,7 @@ namespace SimpleTodo
 
         void OnTapped(object sender, TappedEventArgs args)
         {
-            if (!model.SelectOperationTodo(TabMaintenancePageModel.UndefinedTodoId))
+            if (!model.SelectOperationTodo(CommonSettings.UndefinedId))
             {
                 //Switchを表示
                 var viewCell = (TodoListViewCell)sender;
@@ -101,7 +113,9 @@ namespace SimpleTodo
         void OnDelete(object sender, EventArgs args)
         {
             var item = (TodoItem)((MenuItem)sender).CommandParameter;
+            //TODO:DBから削除
 
+            tabRemoveSource.Send(item.TodoId.Value);
         }
 
         private void OnMenuNewTabTapped()
@@ -132,6 +146,11 @@ namespace SimpleTodo
             }
         }
 
+        private void OnMenuTabSetting()
+        {
+            directTabSettingSource.Send(model.GetSelectingId());
+        }
+
         private void ShowEditView(Action SetMode)
         {
             lay_Edit.IsVisible = true;
@@ -145,13 +164,20 @@ namespace SimpleTodo
         {
             if (dev_NameEditor.HasName)
             {
+                int todoId;
+                string name;
                 switch (args.EditMode)
                 {
                     case DirectEditMode.New:
-                        await model.AddTodoTab(dev_NameEditor.Name.Value);
+                        name = dev_NameEditor.Name.Value;
+                        await model.AddTodoTab(name);
+                        tabNewOnListSource.Send(name);
                         break;
                     case DirectEditMode.Update:
-                        await model.EditTodo(editingItem.TodoId.Value, dev_NameEditor.Name.Value);
+                        todoId = editingItem.TodoId.Value;
+                        name = dev_NameEditor.Name.Value;
+                        await model.EditTodo(todoId, name);
+                        titleChangeSource.Send((todoId, name));
                         break;
                 }
             }
@@ -172,8 +198,8 @@ namespace SimpleTodo
             menuBar.MenuBarItem2 = menuNewTab;
             menuBar.MenuBarItem3 = menuTabUp;
             menuBar.MenuBarItem4 = menuTabDown;
-            menuBar.MenuBarItem5 = null;
-            menuBar.MenuBarItemEnd = menuSwitchOnOff;
+            menuBar.MenuBarItem5 = menuSwitchOnOff;
+            menuBar.MenuBarItemEnd = menuTabSetting;
         }
     }
 

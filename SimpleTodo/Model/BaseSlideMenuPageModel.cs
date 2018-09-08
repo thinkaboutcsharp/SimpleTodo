@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Input;
 using Reactive.Bindings;
+using stt = System.Threading.Tasks;
 
 namespace SimpleTodo
 {
@@ -11,23 +13,33 @@ namespace SimpleTodo
         public ReactiveProperty<SlideMenuMode> MenuMode { get; } = new ReactiveProperty<SlideMenuMode>(SlideMenuMode.Main);
         public ReactiveProperty<string> TabSettingTitle { get; } = new ReactiveProperty<string>(string.Empty);
 
-        public ReactiveCommand<DirectTabSettingTarget> TabSettingTransitCommand { get; } = new ReactiveCommand<DirectTabSettingTarget>();
-        public DirectTabSettingTarget CurrentTabParameter { get; } = DirectTabSettingTarget.Current;
-        public DirectTabSettingTarget AllTabParameter { get; } = DirectTabSettingTarget.All;
+        public ReactiveCommand<SettingTab> TabSettingTransitCommand { get; } = new ReactiveCommand<SettingTab>();
+        public SettingTab CurrentTabParameter { get; } = SettingTab.Current;
+        public SettingTab AllTabParameter { get; } = SettingTab.All;
 
         public ReactiveCommand TabSettingReturnCommand { get; } = new ReactiveCommand();
+
+        public ReactiveCommand TabInsertPositionChangeCommand { get; } = new ReactiveCommand();
 
         public ReactiveProperty<bool> StartAtTabList { get; } = new ReactiveProperty<bool>();
         public ReactiveProperty<bool> UseBigIcon { get; } = new ReactiveProperty<bool>();
         public ReactiveProperty<bool> RightMenuBarInLandscape { get; } = new ReactiveProperty<bool>();
 
-        public ReactiveProperty<bool> UseTristate { get; } = new ReactiveProperty<bool>();
+        public ReactiveProperty<bool> UseTristate { get; }
+        public ReactiveProperty<TaskOrderList> OrderPattrn { get; }
+        public ReactiveProperty<IconSetting> IconPattern { get; }
+        public ReactiveProperty<ColorSetting> ColorPattern { get; }
         public ReactiveProperty<bool> SuitAll { get; } = new ReactiveProperty<bool>();
-        public ReactiveProperty<IReadOnlyList<TaskOrderList>> OrderPattern { get; } = new ReactiveProperty<IReadOnlyList<TaskOrderList>>();
-        public ReactiveProperty<IReadOnlyList<ColorSetting>> ColorPattern { get; } = new ReactiveProperty<IReadOnlyList<ColorSetting>>();
-        public ReactiveProperty<IReadOnlyList<IconSetting>> IconPattern { get; } = new ReactiveProperty<IReadOnlyList<IconSetting>>();
-        public ReactiveProperty<DirectTabSettingTarget> CurrentTabSetting { get; } = new ReactiveProperty<DirectTabSettingTarget>(DirectTabSettingTarget.Current);
+
+        public ReactiveProperty<IReadOnlyList<TaskOrderList>> OrderPatternCandidates { get; } = new ReactiveProperty<IReadOnlyList<TaskOrderList>>();
+        public ReactiveProperty<IReadOnlyList<IconSetting>> IconPatternCandidates { get; } = new ReactiveProperty<IReadOnlyList<IconSetting>>();
+        public ReactiveProperty<IReadOnlyList<ColorSetting>> ColorPatternCandidates { get; } = new ReactiveProperty<IReadOnlyList<ColorSetting>>();
+
+        public ReactiveProperty<SettingTab> CurrentTabSetting { get; } = new ReactiveProperty<SettingTab>(SettingTab.Current);
         #endregion
+
+        private MenuBarIconSizeChangedObservable menuBarIconSizeChangedSource = new MenuBarIconSizeChangedObservable();
+        public IObservable<bool> MenuBarIconSizeChangedSource { get => menuBarIconSizeChangedSource; }
 
         public BaseSlideMenuPageModel(RealmAccess realm) : base(realm)
         {
@@ -38,22 +50,30 @@ namespace SimpleTodo
             UseBigIcon.Value = realm.IsBigIcon();
             RightMenuBarInLandscape.Value = realm.GetMenuBarPosition() == MenuBarPosition.Right ? true : false;
 
-            UseTristate.Value = realm.GetDefaultUseTristate();
+            OrderPatternCandidates.Value = realm.GetTaskOrderList();
+
+            var defaultOrder = OrderPatternCandidates.Value.Where(p => p.TaskOrder == realm.GetDefaultTaskOrder()).Select(p => p).FirstOrDefault();
+            UseTristate = new ReactiveProperty<bool>(realm.GetDefaultUseTristate());
+            OrderPattrn = new ReactiveProperty<TaskOrderList>(defaultOrder);
+            ColorPattern = new ReactiveProperty<ColorSetting>(realm.GetDefaultColorPatternAsync().Result);
+            IconPattern = new ReactiveProperty<IconSetting>(realm.GetDefaultIconPatternAsync().Result);
+
             SuitAll.Value = false;
 
-            OrderPattern.Value = realm.GetTaskOrderList();
-            ColorPattern.Value = realm.GetColorPatternAllAsync().Result;
-            IconPattern.Value = realm.GetIconPatternAllAsync().Result;
+            IconPatternCandidates.Value = realm.GetIconPatternAllAsync().Result;
+            ColorPatternCandidates.Value = realm.GetColorPatternAllAsync().Result;
+
+            UseBigIcon.Subscribe(async s => await ToggleUseBigIcon(s));
         }
 
-        private void OnTabSettingTransit(DirectTabSettingTarget setting)
+        private void OnTabSettingTransit(SettingTab setting)
         {
             switch (setting)
             {
-                case DirectTabSettingTarget.Current:
+                case SettingTab.Current:
                     TabSettingTitle.Value = "このタブ";
                     break;
-                case DirectTabSettingTarget.All:
+                case SettingTab.All:
                     TabSettingTitle.Value = "全部のタブ";
                     break;
             }
@@ -61,14 +81,35 @@ namespace SimpleTodo
             MenuMode.Value = SlideMenuMode.TabSetting;
         }
 
+        public async stt.Task ToggleUseBigIcon(bool useBigSize)
+        {
+            menuBarIconSizeChangedSource.Send(useBigSize);
+            await realm.UseBigIconAsync(useBigSize);
+        }
+
+        public void TransitCurrentTabSetting(int todoId)
+        {
+            //タブ一覧から直で開いて表示→終わったら裏の現在のタブに戻す
+        }
+
+        public void TransitAllTabSetting()
+        {
+
+        }
+
         private void OnTabSettingReturn()
         {
             MenuMode.Value = SlideMenuMode.Main;
+            SuitAll.Value = false;
         }
 
-        public void OnCenterViewChanged(ColorSetting colorSetting)
+        public stt.Task OnCentralViewChange(TodoItem currentTodo)
         {
-            this.ColorSetting.Value = colorSetting;
+            //タブを切り替えた時に裏で走る
+            return stt.Task.Run(() =>
+            {
+
+            });
         }
     }
 

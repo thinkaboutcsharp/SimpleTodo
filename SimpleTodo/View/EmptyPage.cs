@@ -18,7 +18,7 @@ namespace SimpleTodo
         public EmptyPage()
         {
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.PageRotation.Value(), source);
+            router.AddReactiveSource(RxSourceEnum.PageRotation, source);
         }
 
         protected override void OnSizeAllocated(double width, double height)

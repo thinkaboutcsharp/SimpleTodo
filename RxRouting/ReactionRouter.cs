@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
@@ -9,6 +10,13 @@ namespace RxRouting
     {
         private Dictionary<int, Repeater> repeaters = new Dictionary<int, Repeater>();
 
+        public void AddReactiveSource<TRx>(Enum sourceId, IObservable<TRx> source)
+        {
+            string name = Enum.GetName(sourceId.GetType(), sourceId);
+            int value = (int)Enum.Parse(sourceId.GetType(), name);
+            AddReactiveSource(value, source);
+        }
+
         public void AddReactiveSource<TRx>(int sourceId, IObservable<TRx> source)
         {
             var observableDelegate = (Func<IObserver<TRx>, IDisposable>)(source.Subscribe);
@@ -16,6 +24,13 @@ namespace RxRouting
 
             Repeater repeater = GetParticularRepeater<TRx>(sourceId);
             source.Subscribe((IObserver<TRx>)repeater.InnerSubject);
+        }
+
+        public IDisposable AddReactiveTarget<TRx>(Enum sourceId, IObserver<TRx> target)
+        {
+            string name = Enum.GetName(sourceId.GetType(), sourceId);
+            int value = (int)Enum.Parse(sourceId.GetType(), name);
+            return AddReactiveTarget(value, target);
         }
 
         public IDisposable AddReactiveTarget<TRx>(int sourceId, IObserver<TRx> target)

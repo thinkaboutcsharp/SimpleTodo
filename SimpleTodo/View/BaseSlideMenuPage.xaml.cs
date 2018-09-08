@@ -12,7 +12,6 @@ namespace SimpleTodo
 
         private DirectTabSettingObserver directTabSettingTarget;
         private SlideMenuInitializeObserver slideMenuInitializeTarget;
-
         private CentralViewChangeObserver centralViewChangeTarget;
 
         public BaseSlideMenuPage()
@@ -21,7 +20,7 @@ namespace SimpleTodo
 
             BindingContext = model;
 
-            model.ColorPattern.Subscribe(cp =>
+            model.ColorPatternCandidates.Subscribe(cp =>
             {
                 lay_ColorPattern.Children.Clear();
                 foreach (var pattern in cp)
@@ -29,7 +28,7 @@ namespace SimpleTodo
                     lay_ColorPattern.Children.Add(new Label { Text = pattern.PageBasicBackgroundColor.Name });
                 }
             });
-            model.IconPattern.Subscribe(ip =>
+            model.IconPatternCandidates.Subscribe(ip =>
             {
                 lay_IconPattern.Children.Clear();
                 foreach (var pattern in ip)
@@ -40,18 +39,20 @@ namespace SimpleTodo
 
             directTabSettingTarget = new DirectTabSettingObserver(target =>
             {
-                model.TabSettingTransitCommand.Execute(target);
+                if (target == CommonSettings.UndefinedId) model.TransitAllTabSetting();
+                else model.TransitCurrentTabSetting(target);
             });
             slideMenuInitializeTarget = new SlideMenuInitializeObserver(_ =>
             {
                 model.TabSettingReturnCommand.Execute();
             });
-            centralViewChangeTarget = new CentralViewChangeObserver(c => model.OnCenterViewChanged(c));
+            centralViewChangeTarget = new CentralViewChangeObserver(async todo => await model.OnCentralViewChange(todo));
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu.Value(), directTabSettingTarget);
-            router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize.Value(), slideMenuInitializeTarget);
-            router.AddReactiveTarget(RxSourceEnum.CentralViewChange.Value(), centralViewChangeTarget);
+            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
+            router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
+            router.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
+            router.AddReactiveSource(RxSourceEnum.MenuBarIconSizeChange, model.MenuBarIconSizeChangedSource);
         }
     }
 }

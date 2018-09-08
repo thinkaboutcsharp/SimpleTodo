@@ -26,6 +26,8 @@ namespace SimpleTodo.iOS
             LoadApplication(new App());
 
             AiForms.Renderers.iOS.SettingsViewInit.Init();
+            KeyboardOverlap.Forms.Plugin.iOSUnified.KeyboardOverlapRenderer.Init();
+            RoundedBoxView.Forms.Plugin.iOSUnified.RoundedBoxViewRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }
