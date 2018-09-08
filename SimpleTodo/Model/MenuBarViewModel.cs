@@ -1,5 +1,5 @@
 ﻿using System;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {

@@ -545,15 +545,15 @@ namespace SimpleTodo
         #endregion
 
         #region Private
-        private async stt.Task CopyEmbeddedDb(string copyPath)
+        private void CopyEmbeddedDb(string copyPath)
         {
             var assembly = this.GetType().Assembly;
 
             using (var db = File.Create(dbFile))
             using (var master = assembly.GetManifestResourceStream("SimpleTodo.Data.master.realm"))
             {
-                await master.CopyToAsync(db);
-                await db.FlushAsync();
+                master.CopyToAsync(db).Wait();
+                db.FlushAsync().Wait();
             }
         }
 

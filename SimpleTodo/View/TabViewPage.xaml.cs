@@ -4,7 +4,7 @@ using stt = System.Threading.Tasks;
 using System.Linq;
 
 using Xamarin.Forms;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {
@@ -72,6 +72,9 @@ namespace SimpleTodo
             router.AddReactiveTarget(RxSourceEnum.TodoTabVisibleChange, changeVisibilityTarget);
             router.AddReactiveTarget(RxSourceEnum.TabTitleChange, tabTitleChangeTarget);
             router.AddReactiveTarget(RxSourceEnum.TabRemove, tabRemoveTarget);
+
+            var request = Application.Current.RequestRouter();
+            request.AddRequestable(RqSourceEnum.TabSetting, new TabSettingRequestable(this));
         }
 
         private async void OnTabChanged(object sender, EventArgs args)
@@ -187,6 +190,23 @@ namespace SimpleTodo
             }
 
             CurrentPage = viewTab;
+        }
+
+        class TabSettingRequestable : IRequestable<TodoItem>
+        {
+            private TabViewPage parent;
+
+            internal TabSettingRequestable(TabViewPage parent)
+            {
+                this.parent = parent;
+            }
+
+            public TodoItem Request(object param)
+            {
+                var todoId = (int)param;
+                var setting = parent.model.GetTabSetting(todoId).Result;
+                return setting;
+            }
         }
     }
 }

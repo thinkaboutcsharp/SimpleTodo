@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
-namespace RxRouting
+namespace EventRouting
 {
     public class ReactionRouter
     {
@@ -19,9 +19,6 @@ namespace RxRouting
 
         public void AddReactiveSource<TRx>(int sourceId, IObservable<TRx> source)
         {
-            var observableDelegate = (Func<IObserver<TRx>, IDisposable>)(source.Subscribe);
-            var observable = Observable.Create(observableDelegate);
-
             Repeater repeater = GetParticularRepeater<TRx>(sourceId);
             source.Subscribe((IObserver<TRx>)repeater.InnerSubject);
         }
@@ -49,14 +46,14 @@ namespace RxRouting
         {
             Repeater repeater;
 
-            if (!repeaters.ContainsKey(sourceId))
+            if (repeaters.ContainsKey(sourceId))
             {
-                repeater = new Repeater(typeof(TRx));
-                repeaters.Add(sourceId, repeater);
+                repeater = repeaters[sourceId];
             }
             else
             {
-                repeater = repeaters[sourceId];
+                repeater = new Repeater(typeof(TRx));
+                repeaters.Add(sourceId, repeater);
             }
 
             return repeater;
@@ -64,19 +61,18 @@ namespace RxRouting
 
         class Repeater
         {
-            public IDisposable Subscribe(object observer) => CallSubscribe?.DynamicInvoke(observer) as IDisposable;
+            internal IDisposable Subscribe(object observer) => CallSubscribe?.DynamicInvoke(observer) as IDisposable;
 
-            public object InnerSubject => subscribeInstance;
+            internal object InnerSubject { get; }
 
             private Type genericType;
             private Type subjectTypeInfo;
             private object subjectInstance;
-            private object subscribeInstance;
 
             private delegate IDisposable SubscribeDelegate<TRx>(IObserver<TRx> observer);
             private Delegate CallSubscribe;
 
-            public Repeater(Type subjectType)
+            internal Repeater(Type subjectType)
             {
                 var subjectInfo = CreateSubjectInstance(subjectType);
                 MakeSubjectDelegate((subjectInfo.typeInfo, subjectInfo.instance, subjectType));
@@ -84,7 +80,7 @@ namespace RxRouting
                 this.genericType = subjectType;
                 this.subjectTypeInfo = subjectInfo.typeInfo;
                 this.subjectInstance = subjectInfo.instance;
-                this.subscribeInstance = this.subjectInstance; //IObservableにキャストしたい
+                this.InnerSubject = this.subjectInstance; //IObservableにキャストしたい
             }
 
             private (Type typeInfo, object instance) CreateSubjectInstance(Type subjectType)

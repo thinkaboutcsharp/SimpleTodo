@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using stt = System.Threading.Tasks;
 
-using RxRouting;
+using EventRouting;
 using Xamarin.Forms;
 
 namespace SimpleTodo

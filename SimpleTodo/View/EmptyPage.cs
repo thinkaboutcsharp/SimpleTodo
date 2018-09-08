@@ -1,7 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {

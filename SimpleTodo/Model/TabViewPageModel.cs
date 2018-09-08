@@ -38,6 +38,11 @@ namespace SimpleTodo
             {
                 return tabs[todoId];
             }
+            else if (todoId == CommonSettings.UndefinedId)
+            {
+                var defaultTab = realm.GetDefaultTabSettingAsync(todoId, string.Empty).Result;
+                return defaultTab;
+            }
             else
             {
                 var defaultTab = await realm.GetDefaultTabSettingAsync(todoId, string.Empty);

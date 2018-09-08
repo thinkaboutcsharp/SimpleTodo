@@ -6,7 +6,7 @@ using mr = MR.Gestures;
 using stt = System.Threading.Tasks;
 
 using Xamarin.Forms;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {

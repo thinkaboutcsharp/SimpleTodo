@@ -6,7 +6,7 @@ using stt = System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using RxRouting;
+using EventRouting;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SimpleTodo
@@ -19,8 +19,11 @@ namespace SimpleTodo
         {
             Resources = new ResourceDictionary();
 
-            var router = new ReactionRouter();
-            Application.Current.Properties.Add(nameof(ReactionRouter), router);
+            var reaction = new ReactionRouter();
+            Application.Current.Properties.Add(nameof(ReactionRouter), reaction);
+
+            var request = new RequestRouter();
+            Application.Current.Properties.Add(nameof(RequestRouter), request);
 
             var commonSettings = new CommonSettings();
             Application.Current.Properties.Add(nameof(CommonSettings), commonSettings);
@@ -33,7 +36,7 @@ namespace SimpleTodo
             InitColorResource(initialColor).Wait();
 
             centralViewChangeTarget = new CentralViewChangeObserver(async (todo) => await SetColorResourceAsync(todo.ColorPattern));
-            router.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
+            reaction.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
 
             InitializeComponent();
 

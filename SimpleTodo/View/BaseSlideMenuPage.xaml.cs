@@ -4,6 +4,8 @@ using System.Windows.Input;
 using Reactive.Bindings;
 using Xamarin.Forms;
 
+using EventRouting;
+
 namespace SimpleTodo
 {
     public partial class BaseSlideMenuPage : ContentPage
@@ -13,6 +15,8 @@ namespace SimpleTodo
         private DirectTabSettingObserver directTabSettingTarget;
         private SlideMenuInitializeObserver slideMenuInitializeTarget;
         private CentralViewChangeObserver centralViewChangeTarget;
+
+        private IRequester<TodoItem> requester;
 
         public BaseSlideMenuPage()
         {
@@ -39,8 +43,16 @@ namespace SimpleTodo
 
             directTabSettingTarget = new DirectTabSettingObserver(target =>
             {
-                if (target == CommonSettings.UndefinedId) model.TransitAllTabSetting();
-                else model.TransitCurrentTabSetting(target);
+                if (target == CommonSettings.UndefinedId)
+                {
+                    var setting = requester.RequestSingle(CommonSettings.UndefinedId);
+                    model.TransitAllTabSetting(setting);
+                }
+                else
+                {
+                    var setting = requester.RequestSingle(target);
+                    model.TransitCurrentTabSetting(setting);
+                }
             });
             slideMenuInitializeTarget = new SlideMenuInitializeObserver(_ =>
             {
@@ -53,6 +65,9 @@ namespace SimpleTodo
             router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
             router.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
             router.AddReactiveSource(RxSourceEnum.MenuBarIconSizeChange, model.MenuBarIconSizeChangedSource);
+
+            var request = Application.Current.RequestRouter();
+            requester = request.GetRequester<TodoItem>(RqSourceEnum.TabSetting);
         }
     }
 }

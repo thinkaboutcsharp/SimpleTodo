@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reactive.Linq;
 
 using Xamarin.Forms;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {

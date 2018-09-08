@@ -1,6 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
-using RxRouting;
+using EventRouting;
 
 namespace SimpleTodo
 {
@@ -8,6 +8,9 @@ namespace SimpleTodo
     {
         public static ReactionRouter ReactionRouter(this Application application)
             => (ReactionRouter)application.Properties[nameof(ReactionRouter)];
+
+        public static RequestRouter RequestRouter(this Application application)
+            => (RequestRouter)application.Properties[nameof(RequestRouter)];
 
         public static MenuBarView MenuBarView(this Application application)
             => (MenuBarView)application.Properties[nameof(MenuBarView)];

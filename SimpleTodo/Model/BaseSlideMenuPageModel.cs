@@ -41,6 +41,9 @@ namespace SimpleTodo
         private MenuBarIconSizeChangedObservable menuBarIconSizeChangedSource = new MenuBarIconSizeChangedObservable();
         public IObservable<bool> MenuBarIconSizeChangedSource { get => menuBarIconSizeChangedSource; }
 
+        private TodoItem CurrentTodo { get; set; }
+        private TodoItem SavedTodo { get; set; }
+
         public BaseSlideMenuPageModel(RealmAccess realm) : base(realm)
         {
             TabSettingTransitCommand.Subscribe(s => OnTabSettingTransit(s));
@@ -87,12 +90,12 @@ namespace SimpleTodo
             await realm.UseBigIconAsync(useBigSize);
         }
 
-        public void TransitCurrentTabSetting(int todoId)
+        public void TransitCurrentTabSetting(TodoItem setting)
         {
             //タブ一覧から直で開いて表示→終わったら裏の現在のタブに戻す
         }
 
-        public void TransitAllTabSetting()
+        public void TransitAllTabSetting(TodoItem defaultSetting)
         {
 
         }
@@ -101,6 +104,8 @@ namespace SimpleTodo
         {
             MenuMode.Value = SlideMenuMode.Main;
             SuitAll.Value = false;
+            CurrentTodo = SavedTodo;
+            SetSettings(CurrentTodo);
         }
 
         public stt.Task OnCentralViewChange(TodoItem currentTodo)
@@ -108,8 +113,16 @@ namespace SimpleTodo
             //タブを切り替えた時に裏で走る
             return stt.Task.Run(() =>
             {
-
+                CurrentTodo = SavedTodo = currentTodo;
+                SetSettings(currentTodo);
             });
+        }
+
+        private void SetSettings(TodoItem settings)
+        {
+            UseTristate.Value = settings.UseTristate.Value;
+            IconPattern.Value = settings.IconPattern;
+            ColorPattern.Value = settings.ColorPattern;
         }
     }
 
