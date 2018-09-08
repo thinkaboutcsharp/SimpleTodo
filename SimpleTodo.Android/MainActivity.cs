@@ -19,10 +19,10 @@ namespace SimpleTodo.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
 
-            //AiForms
-            //RoundedBoxView
+            Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
+
+            LoadApplication(new App());
         }
     }
 }

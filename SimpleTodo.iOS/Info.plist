@@ -25,7 +25,7 @@
     <key>CFBundleDisplayName</key>
     <string>SimpleTodo</string>
     <key>CFBundleIdentifier</key>
-    <string>jp.app.tac.SimpleTodo</string>
+    <string>tac.todo.SimpleTodo</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>UILaunchStoryboardName</key>
