@@ -10,7 +10,7 @@ namespace SimpleTodo
 {
     public partial class BaseSlideMenuPage : ContentPage
     {
-        private BaseSlideMenuPageModel model = new BaseSlideMenuPageModel(Application.Current.RealmAccess());
+        private BaseSlideMenuPageModel model = new BaseSlideMenuPageModel(Application.Current.DataAccess());
 
         private DirectTabSettingObserver directTabSettingTarget;
         private SlideMenuInitializeObserver slideMenuInitializeTarget;

@@ -7,7 +7,7 @@ namespace SimpleTodo
     {
         public bool NeedBigIcon { get; set; }
 
-		public MenuBarViewModel(RealmAccess realm) : base(realm)
+		public MenuBarViewModel(IDataAccess realm) : base(realm)
         {
             NeedBigIcon = realm.IsBigIcon();
         }

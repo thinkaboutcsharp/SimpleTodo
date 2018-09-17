@@ -72,7 +72,7 @@ namespace SimpleTodo
         private PageRotationOvserver pageRotationTarget;
         private MenuBarIconSizeChangedOvserver iconSizeChangedOvserver;
 
-        private MenuBarViewModel model = new MenuBarViewModel(Application.Current.RealmAccess());
+        private MenuBarViewModel model = new MenuBarViewModel(Application.Current.DataAccess());
 
         public MenuBarView()
         {

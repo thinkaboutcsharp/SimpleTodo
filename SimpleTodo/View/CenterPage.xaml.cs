@@ -9,7 +9,7 @@ namespace SimpleTodo
 {
     public partial class CenterPage : NavigationPage
     {
-        private CenterPageModel model = new CenterPageModel(Application.Current.RealmAccess());
+        private CenterPageModel model = new CenterPageModel(Application.Current.DataAccess());
 
         private TabListTransitObserver tabListTransitTarget;
         private TabJumpingObserver tabJumpingTarget;

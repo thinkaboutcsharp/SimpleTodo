@@ -20,7 +20,7 @@ namespace SimpleTodo
 
         private TemplateView templateView = new TemplateView();
 
-        private TabViewPageModel model = new TabViewPageModel(Application.Current.RealmAccess());
+        private TabViewPageModel model = new TabViewPageModel(Application.Current.DataAccess());
 
         public TabViewPage()
         {

@@ -5,7 +5,7 @@ namespace SimpleTodo
 {
     public class CenterPageModel : ModelBase
     {
-        public CenterPageModel(RealmAccess realm) : base(realm)
+        public CenterPageModel(IDataAccess realm) : base(realm)
         {
         }
     }

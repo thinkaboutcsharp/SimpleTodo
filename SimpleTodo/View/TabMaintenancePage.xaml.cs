@@ -11,7 +11,7 @@ namespace SimpleTodo
 {
     public partial class TabMaintenancePage : global::Xamarin.Forms.ContentPage
     {
-        private TabMaintenancePageModel model = new TabMaintenancePageModel(Application.Current.RealmAccess());
+        private TabMaintenancePageModel model = new TabMaintenancePageModel(Application.Current.DataAccess());
 
         private ICommand MenuNewTabCommand;
         private ICommand MenuTabUpCommand;

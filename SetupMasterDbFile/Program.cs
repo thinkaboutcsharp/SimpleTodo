@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using SimpleTodo;
+using SimpleTodo.Realm;
 using Realms;
 
 namespace SetupMasterDbFile

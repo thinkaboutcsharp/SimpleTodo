@@ -28,11 +28,15 @@ namespace SimpleTodo
             var commonSettings = new CommonSettings();
             Application.Current.Properties.Add(nameof(CommonSettings), commonSettings);
 
-            RealmAccess.PrepareMapping();
-            var realmAccess = new RealmAccess();
-            Application.Current.Properties.Add(nameof(RealmAccess), realmAccess);
+            //SimpleTodo.SQLite.SQLiteAccess.PrepareMapping();
+            //var dataAccess = new SimpleTodo.SQLite.SQLiteAccess();
+            //Application.Current.Properties.Add(AppExtention.DatabaseOptionKey, AppExtention.DatabaseOption.SQLite);
+            SimpleTodo.Realm.RealmAccess.PrepareMapping();
+            var dataAccess = new SimpleTodo.Realm.RealmAccess();
+            Application.Current.Properties.Add(AppExtention.DatabaseOptionKey, AppExtention.DatabaseOption.Realm);
+            Application.Current.Properties.Add(nameof(IDataAccess), dataAccess);
 
-            var initialColor = realmAccess.GetDefaultColorPatternAsync().Result;
+            var initialColor = dataAccess.GetDefaultColorPatternAsync().Result;
             InitColorResource(initialColor).Wait();
 
             centralViewChangeTarget = new CentralViewChangeObserver(async (todo) => await SetColorResourceAsync(todo.ColorPattern));
@@ -76,12 +80,12 @@ namespace SimpleTodo
 
         protected override void OnSleep()
         {
-            Application.Current.RealmAccess().CloseConnection();
+            Application.Current.DataAccess().CloseConnection();
         }
 
         protected override async void OnResume()
         {
-            await Application.Current.RealmAccess().OpenConnectionAsync();
+            await Application.Current.DataAccess().OpenConnectionAsync();
         }
     }
 }

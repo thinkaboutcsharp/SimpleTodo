@@ -27,7 +27,7 @@ namespace SimpleTodo
 
         private ClearSelectionObservable clearSelectionSource = new ClearSelectionObservable();
 
-        public TemplateViewModel(RealmAccess realm) : base(realm) { }
+        public TemplateViewModel(IDataAccess realm) : base(realm) { }
 
         public async stt.Task LoadTodo(int todoId)
         {

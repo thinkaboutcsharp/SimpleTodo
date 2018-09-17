@@ -44,7 +44,7 @@ namespace SimpleTodo
         private TodoItem CurrentTodo { get; set; }
         private TodoItem SavedTodo { get; set; }
 
-        public BaseSlideMenuPageModel(RealmAccess realm) : base(realm)
+        public BaseSlideMenuPageModel(IDataAccess realm) : base(realm)
         {
             TabSettingTransitCommand.Subscribe(s => OnTabSettingTransit(s));
             TabSettingReturnCommand.Subscribe(() => OnTabSettingReturn());

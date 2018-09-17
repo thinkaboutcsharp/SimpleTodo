@@ -14,7 +14,7 @@ namespace SimpleTodo
     {
         public TodoItem Setting { get; set; }
 
-        private TemplateViewModel model = new TemplateViewModel(Application.Current.RealmAccess());
+        private TemplateViewModel model = new TemplateViewModel(Application.Current.DataAccess());
 
         private PageRotationOvserver pageRotationTarget;
         private TabListTransitObservable tabListTransitSource;

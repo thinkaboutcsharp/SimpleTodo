@@ -19,11 +19,20 @@ namespace EventRouting
     {
         private Dictionary<int, Repeater> repeaters = new Dictionary<int, Repeater>();
 
+        public void AddRequestable<TRq>(Enum sourceId, Func<object, TRq> requestableFunc)
+        {
+            AddRequestable(sourceId.ParseInt(), requestableFunc);
+        }
+
+        public void AddRequestable<TRq>(int sourceId, Func<object, TRq> requestableFunc)
+        {
+            var requestable = new RequestableImpl<TRq>(requestableFunc);
+            AddRequestable(sourceId, requestable);
+        }
+
         public void AddRequestable<TRq>(Enum sourceId, IRequestable<TRq> requestable)
         {
-            string name = Enum.GetName(sourceId.GetType(), sourceId);
-            int value = (int)Enum.Parse(sourceId.GetType(), name);
-            AddRequestable(value, requestable);
+            AddRequestable(sourceId.ParseInt(), requestable);
         }
 
         public void AddRequestable<TRq>(int sourceId, IRequestable<TRq> requestable)
@@ -34,15 +43,41 @@ namespace EventRouting
 
         public IRequester<TRq> GetRequester<TRq>(Enum sourceId)
         {
-            string name = Enum.GetName(sourceId.GetType(), sourceId);
-            int value = (int)Enum.Parse(sourceId.GetType(), name);
-            return GetRequester<TRq>(value);
+            return GetRequester<TRq>(sourceId.ParseInt());
         }
 
         public IRequester<TRq> GetRequester<TRq>(int sourceId)
         {
             var requester = new RequesterImpl<TRq>(GetParticularRepeater<TRq>(sourceId));
             return requester;
+        }
+
+        public Action GetAssignAction<TRq>(int sourceId, Action<TRq> assignAction)
+        {
+            return GetAssignAction(sourceId, (object)null, assignAction);
+        }
+
+        public Action GetAssignAction<TRq>(int sourceId, Func<IEnumerable<TRq>, TRq> aggregateFunc, Action<TRq> assignAction)
+        {
+            return GetAssignAction(sourceId, null, aggregateFunc, assignAction);
+        }
+
+        public Action GetAssignAction<TRq>(int sourceId, object param, Action<TRq> assignAction)
+        {
+            return GetAssignAction(sourceId, param, (IEnumerable<TRq> results) => results.FirstOrDefault(), assignAction);
+        }
+
+        public Action GetAssignAction<TRq>(int sourceId, object param, Func<IEnumerable<TRq>, TRq> aggregateFunc, Action<TRq> assignAction)
+        {
+            return () =>
+            {
+                if (repeaters.ContainsKey(sourceId))
+                {
+                    var repeater = repeaters[sourceId];
+                    var value = aggregateFunc(repeater.Request<TRq>(param));
+                    assignAction(value);
+                }
+            };
         }
 
         private Repeater GetParticularRepeater<TRq>(int sourceId)
@@ -61,27 +96,27 @@ namespace EventRouting
             return repeater;
         }
 
-        class RequesterImpl<TRq> : IRequester<TRq>
+        private class RequestableImpl<TRq> : IRequestable<TRq>
+        {
+            private Func<object, TRq> func;
+
+            internal RequestableImpl(Func<object, TRq> func) => this.func = func;
+
+            public TRq Request(object param = null) => func(param);
+        }
+
+        private class RequesterImpl<TRq> : IRequester<TRq>
         {
             private Repeater repeater;
 
-            internal RequesterImpl(Repeater repeater)
-            {
-                this.repeater = repeater;
-            }
+            internal RequesterImpl(Repeater repeater) => this.repeater = repeater;
 
-            public IEnumerable<TRq> Request(object param = null)
-            {
-                return repeater.Request<TRq>(param);
-            }
+            public IEnumerable<TRq> Request(object param = null) => repeater.Request<TRq>(param);
 
-            public TRq RequestSingle(object param = null)
-            {
-                return repeater.RequestSingle<TRq>(param);
-            }
+            public TRq RequestSingle(object param = null) => repeater.RequestSingle<TRq>(param);
         }
 
-        class Repeater
+        private class Repeater
         {
             private Type requestType;
             private object requestables;

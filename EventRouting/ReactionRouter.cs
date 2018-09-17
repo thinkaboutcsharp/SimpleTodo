@@ -10,11 +10,21 @@ namespace EventRouting
     {
         private Dictionary<int, Repeater> repeaters = new Dictionary<int, Repeater>();
 
+        public IReactiveSource<TRx> AddReactiveSource<TRx>(Enum sourceId)
+        {
+            return AddReactiveSource<TRx>(sourceId.ParseInt());
+        }
+
+        public IReactiveSource<TRx> AddReactiveSource<TRx>(int sourceId)
+        {
+            var source = ObservableBase<TRx>.CreateObservable();
+            AddReactiveSource(sourceId, source);
+            return source;
+        }
+
         public void AddReactiveSource<TRx>(Enum sourceId, IObservable<TRx> source)
         {
-            string name = Enum.GetName(sourceId.GetType(), sourceId);
-            int value = (int)Enum.Parse(sourceId.GetType(), name);
-            AddReactiveSource(value, source);
+            AddReactiveSource(sourceId.ParseInt(), source);
         }
 
         public void AddReactiveSource<TRx>(int sourceId, IObservable<TRx> source)
@@ -23,11 +33,20 @@ namespace EventRouting
             source.Subscribe((IObserver<TRx>)repeater.InnerSubject);
         }
 
+        public IDisposable AddReactiveTarget<TRx>(Enum sourceId, Action<TRx> targetAction)
+        {
+            return AddReactiveTarget(sourceId.ParseInt(), targetAction);
+        }
+
+        public IDisposable AddReactiveTarget<TRx>(int sourceId, Action<TRx> targetAction)
+        {
+            var target = ObserverBase<TRx>.CreateObserver(targetAction);
+            return AddReactiveTarget(sourceId, target);
+        }
+
         public IDisposable AddReactiveTarget<TRx>(Enum sourceId, IObserver<TRx> target)
         {
-            string name = Enum.GetName(sourceId.GetType(), sourceId);
-            int value = (int)Enum.Parse(sourceId.GetType(), name);
-            return AddReactiveTarget(value, target);
+            return AddReactiveTarget(sourceId.ParseInt(), target);
         }
 
         public IDisposable AddReactiveTarget<TRx>(int sourceId, IObserver<TRx> target)
@@ -59,7 +78,7 @@ namespace EventRouting
             return repeater;
         }
 
-        class Repeater
+        private class Repeater
         {
             internal IDisposable Subscribe(object observer) => CallSubscribe?.DynamicInvoke(observer) as IDisposable;
 

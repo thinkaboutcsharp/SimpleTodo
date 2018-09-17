@@ -5,11 +5,11 @@ namespace SimpleTodo
 {
     public abstract class ModelBase
     {
-        protected RealmAccess realm;
+        protected IDataAccess realm;
 
         public ReactiveProperty<ColorSetting> ColorSetting = new ReactiveProperty<ColorSetting>();
 
-        public ModelBase(RealmAccess realm)
+        public ModelBase(IDataAccess realm)
         {
             this.realm = realm;
         }

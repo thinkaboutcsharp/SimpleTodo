@@ -6,6 +6,13 @@ namespace SimpleTodo
 {
     public static class AppExtention
     {
+        internal const string DatabaseOptionKey = "DatabaseOption";
+        internal enum DatabaseOption
+        {
+            Realm,
+            SQLite,
+        }
+
         public static ReactionRouter ReactionRouter(this Application application)
             => (ReactionRouter)application.Properties[nameof(ReactionRouter)];
 
@@ -18,7 +25,7 @@ namespace SimpleTodo
         public static CommonSettings CommonSettings(this Application application)
             => (CommonSettings)application.Properties[nameof(CommonSettings)];
 
-        public static RealmAccess RealmAccess(this Application application)
-            => (RealmAccess)application.Properties[nameof(RealmAccess)];
+        public static IDataAccess DataAccess(this Application application)
+            => (IDataAccess)application.Properties[nameof(IDataAccess)];
     }
 }

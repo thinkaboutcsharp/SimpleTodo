@@ -28,7 +28,7 @@ namespace SimpleTodo
         private ChangeVisibilityObservable changeVisibilitySource = new ChangeVisibilityObservable();
         private TabUpDownObservable tabUpDownSource = new TabUpDownObservable();
 
-        public TabMaintenancePageModel(RealmAccess realm) : base(realm)
+        public TabMaintenancePageModel(IDataAccess realm) : base(realm)
         {
             selectingTodoId = CommonSettings.UndefinedId;
 

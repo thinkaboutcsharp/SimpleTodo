@@ -15,7 +15,7 @@ namespace SimpleTodo
         public int SpecialTabIndex { get; private set; }
         public int LastTabIndex { get; set; }
 
-        public TabViewPageModel(RealmAccess realm) : base(realm)
+        public TabViewPageModel(IDataAccess realm) : base(realm)
         {
             //既存のタブリストをDBから取得する
             //表示順序に注意
