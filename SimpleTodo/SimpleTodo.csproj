@@ -30,10 +30,16 @@
     <Compile Remove="Data\SQLiteAccess.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Data\master.realm" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Data\SQLiteAccess.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventRouting\EventRouting.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\master.realm" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

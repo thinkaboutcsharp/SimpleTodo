@@ -83,9 +83,9 @@ namespace SimpleTodo
             Application.Current.DataAccess().CloseConnection();
         }
 
-        protected override async void OnResume()
+        protected override void OnResume()
         {
-            await Application.Current.DataAccess().OpenConnectionAsync();
+            Application.Current.DataAccess().OpenConnection();
         }
     }
 }

@@ -158,7 +158,7 @@ namespace SimpleTodo.SQLite
             throw new NotImplementedException();
         }
 
-        public stt.Task OpenConnectionAsync()
+        public void OpenConnection()
         {
             throw new NotImplementedException();
         }

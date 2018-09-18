@@ -10,7 +10,7 @@ namespace SimpleTodo
 {
     public interface IDataAccess
     {
-        stt.Task OpenConnectionAsync();
+        void OpenConnection();
         void CloseConnection();
 
         string GetSystemVersion();

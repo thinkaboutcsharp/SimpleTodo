@@ -46,10 +46,10 @@ namespace SimpleTodo.Realm
         {
             var folder = FileSystem.Current.LocalStorage;
             dbFile = Path.Combine(folder.Path, "item.realm");
-            OpenConnectionAsync().Wait();
+            OpenConnection();
         }
 
-        public async stt.Task OpenConnectionAsync()
+        public void OpenConnection()
         {
             const int CurrentSchemaVertion = 0; //これを間違うと死ぬ！
 
@@ -62,7 +62,7 @@ namespace SimpleTodo.Realm
             //realm = realmTask.Result;
             realm = Realms.Realm.GetInstance(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
 
-            await SelectCommonMaster();
+            SelectCommonMaster();
         }
         #endregion
 
@@ -436,17 +436,14 @@ namespace SimpleTodo.Realm
             return config;
         }
 
-        private stt.Task SelectCommonMaster()
+        private void SelectCommonMaster()
         {
-            return stt.Task.Run(() =>
-            {
-                systemSettings = realm.All<SystemSettings>().First();
-                lastPage = realm.All<LastPage>().First();
-                menuIconMaster = realm.All<MenuIconMaster>().First();
-                iconPatternMaster = realm.All<IconPatternMaster>().AsRealmCollection();
-                colorPatternMaster = realm.All<ColorPatternMaster>().AsRealmCollection();
-                taskOrderDisplayNames = realm.All<TaskOrderDisplayName>().AsRealmCollection();
-            });
+            systemSettings = realm.All<SystemSettings>().First();
+            lastPage = realm.All<LastPage>().First();
+            menuIconMaster = realm.All<MenuIconMaster>().First();
+            iconPatternMaster = realm.All<IconPatternMaster>().AsRealmCollection();
+            colorPatternMaster = realm.All<ColorPatternMaster>().AsRealmCollection();
+            taskOrderDisplayNames = realm.All<TaskOrderDisplayName>().AsRealmCollection();
         }
         #endregion
 
