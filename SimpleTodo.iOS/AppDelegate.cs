@@ -25,8 +25,8 @@ namespace SimpleTodo.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-            AiForms.Renderers.iOS.SettingsViewInit.Init();
-            KeyboardOverlap.Forms.Plugin.iOSUnified.KeyboardOverlapRenderer.Init();
+            //AiForms.Renderers.iOS.SettingsViewInit.Init();
+            //KeyboardOverlap.Forms.Plugin.iOSUnified.KeyboardOverlapRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }

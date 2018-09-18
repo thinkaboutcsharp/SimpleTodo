@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D0EDE90B-A58D-43D8-81E6-B93F3F7CC07A}</ProjectGuid>
+    <ProjectGuid>{7B5530EA-A1E1-4624-999F-2F592F5EA81E}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -15,7 +15,6 @@
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ReleaseVersion>1.0.0.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -149,10 +148,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
-    <PackageReference Include="Xam.Plugins.Forms.KeyboardOverlap">
-      <Version>1.0.0.4</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.2.0.839982" />
     <PackageReference Include="Realm">
       <Version>3.2.0</Version>
     </PackageReference>
@@ -160,7 +156,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\SimpleTodo\SimpleTodo.csproj">
-      <Project>{807F5769-4104-4BB2-8B5F-F4733D4DC73E}</Project>
+      <Project>{87A8530B-5756-4E15-9048-1421E5B085DC}</Project>
       <Name>SimpleTodo</Name>
     </ProjectReference>
   </ItemGroup>

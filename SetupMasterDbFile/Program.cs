@@ -9,7 +9,7 @@ namespace SetupMasterDbFile
 {
     class Program
     {
-        const string DatabasePath = "../SimpleTodo/Data/master.realm";
+        const string DatabasePath = "../MasterDb/master.realm";
 
         static void Main(string[] args)
         {

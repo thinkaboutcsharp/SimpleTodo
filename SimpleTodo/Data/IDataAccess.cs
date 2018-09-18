@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
-using System.Linq;
-using System.IO;
 using stt = System.Threading.Tasks;
 
-using PCLStorage;
-using Realms;
 using Reactive.Bindings;
 using AutoMapper;
 

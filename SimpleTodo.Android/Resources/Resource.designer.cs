@@ -28,4212 +28,8 @@ namespace SimpleTodo.Droid
 		{
 			global::PCLStorage.Resource.String.ApplicationName = global::SimpleTodo.Droid.Resource.String.ApplicationName;
 			global::PCLStorage.Resource.String.Hello = global::SimpleTodo.Droid.Resource.String.Hello;
-			global::Plugin.InputKit.Resource.Animation.abc_fade_in = global::SimpleTodo.Droid.Resource.Animation.abc_fade_in;
-			global::Plugin.InputKit.Resource.Animation.abc_fade_out = global::SimpleTodo.Droid.Resource.Animation.abc_fade_out;
-			global::Plugin.InputKit.Resource.Animation.abc_grow_fade_in_from_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Plugin.InputKit.Resource.Animation.abc_popup_enter = global::SimpleTodo.Droid.Resource.Animation.abc_popup_enter;
-			global::Plugin.InputKit.Resource.Animation.abc_popup_exit = global::SimpleTodo.Droid.Resource.Animation.abc_popup_exit;
-			global::Plugin.InputKit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Plugin.InputKit.Resource.Animation.abc_slide_in_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Plugin.InputKit.Resource.Animation.abc_slide_in_top = global::SimpleTodo.Droid.Resource.Animation.abc_slide_in_top;
-			global::Plugin.InputKit.Resource.Animation.abc_slide_out_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Plugin.InputKit.Resource.Animation.abc_slide_out_top = global::SimpleTodo.Droid.Resource.Animation.abc_slide_out_top;
-			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_in = global::SimpleTodo.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_out = global::SimpleTodo.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Plugin.InputKit.Resource.Animation.design_snackbar_in = global::SimpleTodo.Droid.Resource.Animation.design_snackbar_in;
-			global::Plugin.InputKit.Resource.Animation.design_snackbar_out = global::SimpleTodo.Droid.Resource.Animation.design_snackbar_out;
-			global::Plugin.InputKit.Resource.Animator.design_appbar_state_list_animator = global::SimpleTodo.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Plugin.InputKit.Resource.Attribute.actionBarDivider = global::SimpleTodo.Droid.Resource.Attribute.actionBarDivider;
-			global::Plugin.InputKit.Resource.Attribute.actionBarItemBackground = global::SimpleTodo.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Plugin.InputKit.Resource.Attribute.actionBarPopupTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Plugin.InputKit.Resource.Attribute.actionBarSize = global::SimpleTodo.Droid.Resource.Attribute.actionBarSize;
-			global::Plugin.InputKit.Resource.Attribute.actionBarSplitStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionBarStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionBarTabBarStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionBarTabStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionBarTabTextStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionBarTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarTheme;
-			global::Plugin.InputKit.Resource.Attribute.actionBarWidgetTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Plugin.InputKit.Resource.Attribute.actionButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionDropDownStyle = global::SimpleTodo.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionLayout = global::SimpleTodo.Droid.Resource.Attribute.actionLayout;
-			global::Plugin.InputKit.Resource.Attribute.actionMenuTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.actionMenuTextColor = global::SimpleTodo.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Plugin.InputKit.Resource.Attribute.actionModeBackground = global::SimpleTodo.Droid.Resource.Attribute.actionModeBackground;
-			global::Plugin.InputKit.Resource.Attribute.actionModeCloseButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionModeCloseDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModeCopyDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModeCutDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModeFindDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModePasteDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModePopupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionModeSelectAllDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModeShareDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionModeSplitBackground = global::SimpleTodo.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Plugin.InputKit.Resource.Attribute.actionModeStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModeStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionModeWebSearchDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Plugin.InputKit.Resource.Attribute.actionOverflowButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionOverflowMenuStyle = global::SimpleTodo.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Plugin.InputKit.Resource.Attribute.actionProviderClass = global::SimpleTodo.Droid.Resource.Attribute.actionProviderClass;
-			global::Plugin.InputKit.Resource.Attribute.actionViewClass = global::SimpleTodo.Droid.Resource.Attribute.actionViewClass;
-			global::Plugin.InputKit.Resource.Attribute.activityChooserViewStyle = global::SimpleTodo.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.alertDialogButtonGroupStyle = global::SimpleTodo.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Plugin.InputKit.Resource.Attribute.alertDialogCenterButtons = global::SimpleTodo.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Plugin.InputKit.Resource.Attribute.alertDialogStyle = global::SimpleTodo.Droid.Resource.Attribute.alertDialogStyle;
-			global::Plugin.InputKit.Resource.Attribute.alertDialogTheme = global::SimpleTodo.Droid.Resource.Attribute.alertDialogTheme;
-			global::Plugin.InputKit.Resource.Attribute.allowStacking = global::SimpleTodo.Droid.Resource.Attribute.allowStacking;
-			global::Plugin.InputKit.Resource.Attribute.alpha = global::SimpleTodo.Droid.Resource.Attribute.alpha;
-			global::Plugin.InputKit.Resource.Attribute.arrowHeadLength = global::SimpleTodo.Droid.Resource.Attribute.arrowHeadLength;
-			global::Plugin.InputKit.Resource.Attribute.arrowShaftLength = global::SimpleTodo.Droid.Resource.Attribute.arrowShaftLength;
-			global::Plugin.InputKit.Resource.Attribute.autoCompleteTextViewStyle = global::SimpleTodo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.background = global::SimpleTodo.Droid.Resource.Attribute.background;
-			global::Plugin.InputKit.Resource.Attribute.backgroundSplit = global::SimpleTodo.Droid.Resource.Attribute.backgroundSplit;
-			global::Plugin.InputKit.Resource.Attribute.backgroundStacked = global::SimpleTodo.Droid.Resource.Attribute.backgroundStacked;
-			global::Plugin.InputKit.Resource.Attribute.backgroundTint = global::SimpleTodo.Droid.Resource.Attribute.backgroundTint;
-			global::Plugin.InputKit.Resource.Attribute.backgroundTintMode = global::SimpleTodo.Droid.Resource.Attribute.backgroundTintMode;
-			global::Plugin.InputKit.Resource.Attribute.barLength = global::SimpleTodo.Droid.Resource.Attribute.barLength;
-			global::Plugin.InputKit.Resource.Attribute.behavior_autoHide = global::SimpleTodo.Droid.Resource.Attribute.behavior_autoHide;
-			global::Plugin.InputKit.Resource.Attribute.behavior_hideable = global::SimpleTodo.Droid.Resource.Attribute.behavior_hideable;
-			global::Plugin.InputKit.Resource.Attribute.behavior_overlapTop = global::SimpleTodo.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Plugin.InputKit.Resource.Attribute.behavior_peekHeight = global::SimpleTodo.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Plugin.InputKit.Resource.Attribute.behavior_skipCollapsed = global::SimpleTodo.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Plugin.InputKit.Resource.Attribute.borderWidth = global::SimpleTodo.Droid.Resource.Attribute.borderWidth;
-			global::Plugin.InputKit.Resource.Attribute.borderlessButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.bottomSheetDialogTheme = global::SimpleTodo.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Plugin.InputKit.Resource.Attribute.bottomSheetStyle = global::SimpleTodo.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonBarButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonBarNegativeButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonBarNeutralButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonBarPositiveButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonBarStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonGravity = global::SimpleTodo.Droid.Resource.Attribute.buttonGravity;
-			global::Plugin.InputKit.Resource.Attribute.buttonPanelSideLayout = global::SimpleTodo.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Plugin.InputKit.Resource.Attribute.buttonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonStyle;
-			global::Plugin.InputKit.Resource.Attribute.buttonStyleSmall = global::SimpleTodo.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Plugin.InputKit.Resource.Attribute.buttonTint = global::SimpleTodo.Droid.Resource.Attribute.buttonTint;
-			global::Plugin.InputKit.Resource.Attribute.buttonTintMode = global::SimpleTodo.Droid.Resource.Attribute.buttonTintMode;
-			global::Plugin.InputKit.Resource.Attribute.cardBackgroundColor = global::SimpleTodo.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Plugin.InputKit.Resource.Attribute.cardCornerRadius = global::SimpleTodo.Droid.Resource.Attribute.cardCornerRadius;
-			global::Plugin.InputKit.Resource.Attribute.cardElevation = global::SimpleTodo.Droid.Resource.Attribute.cardElevation;
-			global::Plugin.InputKit.Resource.Attribute.cardMaxElevation = global::SimpleTodo.Droid.Resource.Attribute.cardMaxElevation;
-			global::Plugin.InputKit.Resource.Attribute.cardPreventCornerOverlap = global::SimpleTodo.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Plugin.InputKit.Resource.Attribute.cardUseCompatPadding = global::SimpleTodo.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Plugin.InputKit.Resource.Attribute.checkboxStyle = global::SimpleTodo.Droid.Resource.Attribute.checkboxStyle;
-			global::Plugin.InputKit.Resource.Attribute.checkedTextViewStyle = global::SimpleTodo.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.closeIcon = global::SimpleTodo.Droid.Resource.Attribute.closeIcon;
-			global::Plugin.InputKit.Resource.Attribute.closeItemLayout = global::SimpleTodo.Droid.Resource.Attribute.closeItemLayout;
-			global::Plugin.InputKit.Resource.Attribute.collapseContentDescription = global::SimpleTodo.Droid.Resource.Attribute.collapseContentDescription;
-			global::Plugin.InputKit.Resource.Attribute.collapseIcon = global::SimpleTodo.Droid.Resource.Attribute.collapseIcon;
-			global::Plugin.InputKit.Resource.Attribute.collapsedTitleGravity = global::SimpleTodo.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Plugin.InputKit.Resource.Attribute.collapsedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.color = global::SimpleTodo.Droid.Resource.Attribute.color;
-			global::Plugin.InputKit.Resource.Attribute.colorAccent = global::SimpleTodo.Droid.Resource.Attribute.colorAccent;
-			global::Plugin.InputKit.Resource.Attribute.colorBackgroundFloating = global::SimpleTodo.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Plugin.InputKit.Resource.Attribute.colorButtonNormal = global::SimpleTodo.Droid.Resource.Attribute.colorButtonNormal;
-			global::Plugin.InputKit.Resource.Attribute.colorControlActivated = global::SimpleTodo.Droid.Resource.Attribute.colorControlActivated;
-			global::Plugin.InputKit.Resource.Attribute.colorControlHighlight = global::SimpleTodo.Droid.Resource.Attribute.colorControlHighlight;
-			global::Plugin.InputKit.Resource.Attribute.colorControlNormal = global::SimpleTodo.Droid.Resource.Attribute.colorControlNormal;
-			global::Plugin.InputKit.Resource.Attribute.colorPrimary = global::SimpleTodo.Droid.Resource.Attribute.colorPrimary;
-			global::Plugin.InputKit.Resource.Attribute.colorPrimaryDark = global::SimpleTodo.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Plugin.InputKit.Resource.Attribute.colorSwitchThumbNormal = global::SimpleTodo.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Plugin.InputKit.Resource.Attribute.commitIcon = global::SimpleTodo.Droid.Resource.Attribute.commitIcon;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetEnd = global::SimpleTodo.Droid.Resource.Attribute.contentInsetEnd;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetLeft = global::SimpleTodo.Droid.Resource.Attribute.contentInsetLeft;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetRight = global::SimpleTodo.Droid.Resource.Attribute.contentInsetRight;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetStart = global::SimpleTodo.Droid.Resource.Attribute.contentInsetStart;
-			global::Plugin.InputKit.Resource.Attribute.contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Plugin.InputKit.Resource.Attribute.contentPadding = global::SimpleTodo.Droid.Resource.Attribute.contentPadding;
-			global::Plugin.InputKit.Resource.Attribute.contentPaddingBottom = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Plugin.InputKit.Resource.Attribute.contentPaddingLeft = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Plugin.InputKit.Resource.Attribute.contentPaddingRight = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingRight;
-			global::Plugin.InputKit.Resource.Attribute.contentPaddingTop = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingTop;
-			global::Plugin.InputKit.Resource.Attribute.contentScrim = global::SimpleTodo.Droid.Resource.Attribute.contentScrim;
-			global::Plugin.InputKit.Resource.Attribute.controlBackground = global::SimpleTodo.Droid.Resource.Attribute.controlBackground;
-			global::Plugin.InputKit.Resource.Attribute.counterEnabled = global::SimpleTodo.Droid.Resource.Attribute.counterEnabled;
-			global::Plugin.InputKit.Resource.Attribute.counterMaxLength = global::SimpleTodo.Droid.Resource.Attribute.counterMaxLength;
-			global::Plugin.InputKit.Resource.Attribute.counterOverflowTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.counterTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.counterTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.customNavigationLayout = global::SimpleTodo.Droid.Resource.Attribute.customNavigationLayout;
-			global::Plugin.InputKit.Resource.Attribute.defaultQueryHint = global::SimpleTodo.Droid.Resource.Attribute.defaultQueryHint;
-			global::Plugin.InputKit.Resource.Attribute.dialogPreferredPadding = global::SimpleTodo.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Plugin.InputKit.Resource.Attribute.dialogTheme = global::SimpleTodo.Droid.Resource.Attribute.dialogTheme;
-			global::Plugin.InputKit.Resource.Attribute.displayOptions = global::SimpleTodo.Droid.Resource.Attribute.displayOptions;
-			global::Plugin.InputKit.Resource.Attribute.divider = global::SimpleTodo.Droid.Resource.Attribute.divider;
-			global::Plugin.InputKit.Resource.Attribute.dividerHorizontal = global::SimpleTodo.Droid.Resource.Attribute.dividerHorizontal;
-			global::Plugin.InputKit.Resource.Attribute.dividerPadding = global::SimpleTodo.Droid.Resource.Attribute.dividerPadding;
-			global::Plugin.InputKit.Resource.Attribute.dividerVertical = global::SimpleTodo.Droid.Resource.Attribute.dividerVertical;
-			global::Plugin.InputKit.Resource.Attribute.drawableSize = global::SimpleTodo.Droid.Resource.Attribute.drawableSize;
-			global::Plugin.InputKit.Resource.Attribute.drawerArrowStyle = global::SimpleTodo.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Plugin.InputKit.Resource.Attribute.dropDownListViewStyle = global::SimpleTodo.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.dropdownListPreferredItemHeight = global::SimpleTodo.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Plugin.InputKit.Resource.Attribute.editTextBackground = global::SimpleTodo.Droid.Resource.Attribute.editTextBackground;
-			global::Plugin.InputKit.Resource.Attribute.editTextColor = global::SimpleTodo.Droid.Resource.Attribute.editTextColor;
-			global::Plugin.InputKit.Resource.Attribute.editTextStyle = global::SimpleTodo.Droid.Resource.Attribute.editTextStyle;
-			global::Plugin.InputKit.Resource.Attribute.elevation = global::SimpleTodo.Droid.Resource.Attribute.elevation;
-			global::Plugin.InputKit.Resource.Attribute.errorEnabled = global::SimpleTodo.Droid.Resource.Attribute.errorEnabled;
-			global::Plugin.InputKit.Resource.Attribute.errorTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.errorTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SimpleTodo.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Plugin.InputKit.Resource.Attribute.expanded = global::SimpleTodo.Droid.Resource.Attribute.expanded;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleGravity = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleMargin = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginBottom = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginEnd = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginStart = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginTop = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Plugin.InputKit.Resource.Attribute.expandedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.externalRouteEnabledDrawable = global::SimpleTodo.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Plugin.InputKit.Resource.Attribute.fabSize = global::SimpleTodo.Droid.Resource.Attribute.fabSize;
-			global::Plugin.InputKit.Resource.Attribute.foregroundInsidePadding = global::SimpleTodo.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Plugin.InputKit.Resource.Attribute.gapBetweenBars = global::SimpleTodo.Droid.Resource.Attribute.gapBetweenBars;
-			global::Plugin.InputKit.Resource.Attribute.goIcon = global::SimpleTodo.Droid.Resource.Attribute.goIcon;
-			global::Plugin.InputKit.Resource.Attribute.headerLayout = global::SimpleTodo.Droid.Resource.Attribute.headerLayout;
-			global::Plugin.InputKit.Resource.Attribute.height = global::SimpleTodo.Droid.Resource.Attribute.height;
-			global::Plugin.InputKit.Resource.Attribute.hideOnContentScroll = global::SimpleTodo.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Plugin.InputKit.Resource.Attribute.hintAnimationEnabled = global::SimpleTodo.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Plugin.InputKit.Resource.Attribute.hintEnabled = global::SimpleTodo.Droid.Resource.Attribute.hintEnabled;
-			global::Plugin.InputKit.Resource.Attribute.hintTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.hintTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Plugin.InputKit.Resource.Attribute.homeLayout = global::SimpleTodo.Droid.Resource.Attribute.homeLayout;
-			global::Plugin.InputKit.Resource.Attribute.icon = global::SimpleTodo.Droid.Resource.Attribute.icon;
-			global::Plugin.InputKit.Resource.Attribute.iconifiedByDefault = global::SimpleTodo.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Plugin.InputKit.Resource.Attribute.imageButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.imageButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.indeterminateProgressStyle = global::SimpleTodo.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Plugin.InputKit.Resource.Attribute.initialActivityCount = global::SimpleTodo.Droid.Resource.Attribute.initialActivityCount;
-			global::Plugin.InputKit.Resource.Attribute.insetForeground = global::SimpleTodo.Droid.Resource.Attribute.insetForeground;
-			global::Plugin.InputKit.Resource.Attribute.isLightTheme = global::SimpleTodo.Droid.Resource.Attribute.isLightTheme;
-			global::Plugin.InputKit.Resource.Attribute.itemBackground = global::SimpleTodo.Droid.Resource.Attribute.itemBackground;
-			global::Plugin.InputKit.Resource.Attribute.itemIconTint = global::SimpleTodo.Droid.Resource.Attribute.itemIconTint;
-			global::Plugin.InputKit.Resource.Attribute.itemPadding = global::SimpleTodo.Droid.Resource.Attribute.itemPadding;
-			global::Plugin.InputKit.Resource.Attribute.itemTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.itemTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.itemTextColor = global::SimpleTodo.Droid.Resource.Attribute.itemTextColor;
-			global::Plugin.InputKit.Resource.Attribute.keylines = global::SimpleTodo.Droid.Resource.Attribute.keylines;
-			global::Plugin.InputKit.Resource.Attribute.layout = global::SimpleTodo.Droid.Resource.Attribute.layout;
-			global::Plugin.InputKit.Resource.Attribute.layoutManager = global::SimpleTodo.Droid.Resource.Attribute.layoutManager;
-			global::Plugin.InputKit.Resource.Attribute.layout_anchor = global::SimpleTodo.Droid.Resource.Attribute.layout_anchor;
-			global::Plugin.InputKit.Resource.Attribute.layout_anchorGravity = global::SimpleTodo.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Plugin.InputKit.Resource.Attribute.layout_behavior = global::SimpleTodo.Droid.Resource.Attribute.layout_behavior;
-			global::Plugin.InputKit.Resource.Attribute.layout_collapseMode = global::SimpleTodo.Droid.Resource.Attribute.layout_collapseMode;
-			global::Plugin.InputKit.Resource.Attribute.layout_collapseParallaxMultiplier = global::SimpleTodo.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Plugin.InputKit.Resource.Attribute.layout_dodgeInsetEdges = global::SimpleTodo.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Plugin.InputKit.Resource.Attribute.layout_insetEdge = global::SimpleTodo.Droid.Resource.Attribute.layout_insetEdge;
-			global::Plugin.InputKit.Resource.Attribute.layout_keyline = global::SimpleTodo.Droid.Resource.Attribute.layout_keyline;
-			global::Plugin.InputKit.Resource.Attribute.layout_scrollFlags = global::SimpleTodo.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Plugin.InputKit.Resource.Attribute.layout_scrollInterpolator = global::SimpleTodo.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Plugin.InputKit.Resource.Attribute.listChoiceBackgroundIndicator = global::SimpleTodo.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Plugin.InputKit.Resource.Attribute.listDividerAlertDialog = global::SimpleTodo.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Plugin.InputKit.Resource.Attribute.listItemLayout = global::SimpleTodo.Droid.Resource.Attribute.listItemLayout;
-			global::Plugin.InputKit.Resource.Attribute.listLayout = global::SimpleTodo.Droid.Resource.Attribute.listLayout;
-			global::Plugin.InputKit.Resource.Attribute.listMenuViewStyle = global::SimpleTodo.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.listPopupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeight = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightLarge = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightSmall = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingLeft = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingRight = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Plugin.InputKit.Resource.Attribute.logo = global::SimpleTodo.Droid.Resource.Attribute.logo;
-			global::Plugin.InputKit.Resource.Attribute.logoDescription = global::SimpleTodo.Droid.Resource.Attribute.logoDescription;
-			global::Plugin.InputKit.Resource.Attribute.maxActionInlineWidth = global::SimpleTodo.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Plugin.InputKit.Resource.Attribute.maxButtonHeight = global::SimpleTodo.Droid.Resource.Attribute.maxButtonHeight;
-			global::Plugin.InputKit.Resource.Attribute.measureWithLargestChild = global::SimpleTodo.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteAudioTrackDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteCloseDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteDefaultIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRoutePauseDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRoutePlayDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteStopDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteTheme = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Plugin.InputKit.Resource.Attribute.mediaRouteTvIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Plugin.InputKit.Resource.Attribute.menu = global::SimpleTodo.Droid.Resource.Attribute.menu;
-			global::Plugin.InputKit.Resource.Attribute.multiChoiceItemLayout = global::SimpleTodo.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Plugin.InputKit.Resource.Attribute.navigationContentDescription = global::SimpleTodo.Droid.Resource.Attribute.navigationContentDescription;
-			global::Plugin.InputKit.Resource.Attribute.navigationIcon = global::SimpleTodo.Droid.Resource.Attribute.navigationIcon;
-			global::Plugin.InputKit.Resource.Attribute.navigationMode = global::SimpleTodo.Droid.Resource.Attribute.navigationMode;
-			global::Plugin.InputKit.Resource.Attribute.overlapAnchor = global::SimpleTodo.Droid.Resource.Attribute.overlapAnchor;
-			global::Plugin.InputKit.Resource.Attribute.paddingBottomNoButtons = global::SimpleTodo.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Plugin.InputKit.Resource.Attribute.paddingEnd = global::SimpleTodo.Droid.Resource.Attribute.paddingEnd;
-			global::Plugin.InputKit.Resource.Attribute.paddingStart = global::SimpleTodo.Droid.Resource.Attribute.paddingStart;
-			global::Plugin.InputKit.Resource.Attribute.paddingTopNoTitle = global::SimpleTodo.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Plugin.InputKit.Resource.Attribute.panelBackground = global::SimpleTodo.Droid.Resource.Attribute.panelBackground;
-			global::Plugin.InputKit.Resource.Attribute.panelMenuListTheme = global::SimpleTodo.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Plugin.InputKit.Resource.Attribute.panelMenuListWidth = global::SimpleTodo.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Plugin.InputKit.Resource.Attribute.passwordToggleContentDescription = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Plugin.InputKit.Resource.Attribute.passwordToggleDrawable = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Plugin.InputKit.Resource.Attribute.passwordToggleEnabled = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Plugin.InputKit.Resource.Attribute.passwordToggleTint = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleTint;
-			global::Plugin.InputKit.Resource.Attribute.passwordToggleTintMode = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Plugin.InputKit.Resource.Attribute.popupMenuStyle = global::SimpleTodo.Droid.Resource.Attribute.popupMenuStyle;
-			global::Plugin.InputKit.Resource.Attribute.popupTheme = global::SimpleTodo.Droid.Resource.Attribute.popupTheme;
-			global::Plugin.InputKit.Resource.Attribute.popupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.popupWindowStyle;
-			global::Plugin.InputKit.Resource.Attribute.preserveIconSpacing = global::SimpleTodo.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Plugin.InputKit.Resource.Attribute.pressedTranslationZ = global::SimpleTodo.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Plugin.InputKit.Resource.Attribute.progressBarPadding = global::SimpleTodo.Droid.Resource.Attribute.progressBarPadding;
-			global::Plugin.InputKit.Resource.Attribute.progressBarStyle = global::SimpleTodo.Droid.Resource.Attribute.progressBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.queryBackground = global::SimpleTodo.Droid.Resource.Attribute.queryBackground;
-			global::Plugin.InputKit.Resource.Attribute.queryHint = global::SimpleTodo.Droid.Resource.Attribute.queryHint;
-			global::Plugin.InputKit.Resource.Attribute.radioButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.radioButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.ratingBarStyle = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleIndicator = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleSmall = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Plugin.InputKit.Resource.Attribute.reverseLayout = global::SimpleTodo.Droid.Resource.Attribute.reverseLayout;
-			global::Plugin.InputKit.Resource.Attribute.rippleColor = global::SimpleTodo.Droid.Resource.Attribute.rippleColor;
-			global::Plugin.InputKit.Resource.Attribute.scrimAnimationDuration = global::SimpleTodo.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Plugin.InputKit.Resource.Attribute.scrimVisibleHeightTrigger = global::SimpleTodo.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Plugin.InputKit.Resource.Attribute.searchHintIcon = global::SimpleTodo.Droid.Resource.Attribute.searchHintIcon;
-			global::Plugin.InputKit.Resource.Attribute.searchIcon = global::SimpleTodo.Droid.Resource.Attribute.searchIcon;
-			global::Plugin.InputKit.Resource.Attribute.searchViewStyle = global::SimpleTodo.Droid.Resource.Attribute.searchViewStyle;
-			global::Plugin.InputKit.Resource.Attribute.seekBarStyle = global::SimpleTodo.Droid.Resource.Attribute.seekBarStyle;
-			global::Plugin.InputKit.Resource.Attribute.selectableItemBackground = global::SimpleTodo.Droid.Resource.Attribute.selectableItemBackground;
-			global::Plugin.InputKit.Resource.Attribute.selectableItemBackgroundBorderless = global::SimpleTodo.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Plugin.InputKit.Resource.Attribute.showAsAction = global::SimpleTodo.Droid.Resource.Attribute.showAsAction;
-			global::Plugin.InputKit.Resource.Attribute.showDividers = global::SimpleTodo.Droid.Resource.Attribute.showDividers;
-			global::Plugin.InputKit.Resource.Attribute.showText = global::SimpleTodo.Droid.Resource.Attribute.showText;
-			global::Plugin.InputKit.Resource.Attribute.showTitle = global::SimpleTodo.Droid.Resource.Attribute.showTitle;
-			global::Plugin.InputKit.Resource.Attribute.singleChoiceItemLayout = global::SimpleTodo.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Plugin.InputKit.Resource.Attribute.spanCount = global::SimpleTodo.Droid.Resource.Attribute.spanCount;
-			global::Plugin.InputKit.Resource.Attribute.spinBars = global::SimpleTodo.Droid.Resource.Attribute.spinBars;
-			global::Plugin.InputKit.Resource.Attribute.spinnerDropDownItemStyle = global::SimpleTodo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Plugin.InputKit.Resource.Attribute.spinnerStyle = global::SimpleTodo.Droid.Resource.Attribute.spinnerStyle;
-			global::Plugin.InputKit.Resource.Attribute.splitTrack = global::SimpleTodo.Droid.Resource.Attribute.splitTrack;
-			global::Plugin.InputKit.Resource.Attribute.srcCompat = global::SimpleTodo.Droid.Resource.Attribute.srcCompat;
-			global::Plugin.InputKit.Resource.Attribute.stackFromEnd = global::SimpleTodo.Droid.Resource.Attribute.stackFromEnd;
-			global::Plugin.InputKit.Resource.Attribute.state_above_anchor = global::SimpleTodo.Droid.Resource.Attribute.state_above_anchor;
-			global::Plugin.InputKit.Resource.Attribute.state_collapsed = global::SimpleTodo.Droid.Resource.Attribute.state_collapsed;
-			global::Plugin.InputKit.Resource.Attribute.state_collapsible = global::SimpleTodo.Droid.Resource.Attribute.state_collapsible;
-			global::Plugin.InputKit.Resource.Attribute.statusBarBackground = global::SimpleTodo.Droid.Resource.Attribute.statusBarBackground;
-			global::Plugin.InputKit.Resource.Attribute.statusBarScrim = global::SimpleTodo.Droid.Resource.Attribute.statusBarScrim;
-			global::Plugin.InputKit.Resource.Attribute.subMenuArrow = global::SimpleTodo.Droid.Resource.Attribute.subMenuArrow;
-			global::Plugin.InputKit.Resource.Attribute.submitBackground = global::SimpleTodo.Droid.Resource.Attribute.submitBackground;
-			global::Plugin.InputKit.Resource.Attribute.subtitle = global::SimpleTodo.Droid.Resource.Attribute.subtitle;
-			global::Plugin.InputKit.Resource.Attribute.subtitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.subtitleTextColor = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextColor;
-			global::Plugin.InputKit.Resource.Attribute.subtitleTextStyle = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Plugin.InputKit.Resource.Attribute.suggestionRowLayout = global::SimpleTodo.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Plugin.InputKit.Resource.Attribute.switchMinWidth = global::SimpleTodo.Droid.Resource.Attribute.switchMinWidth;
-			global::Plugin.InputKit.Resource.Attribute.switchPadding = global::SimpleTodo.Droid.Resource.Attribute.switchPadding;
-			global::Plugin.InputKit.Resource.Attribute.switchStyle = global::SimpleTodo.Droid.Resource.Attribute.switchStyle;
-			global::Plugin.InputKit.Resource.Attribute.switchTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.switchTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.tabBackground = global::SimpleTodo.Droid.Resource.Attribute.tabBackground;
-			global::Plugin.InputKit.Resource.Attribute.tabContentStart = global::SimpleTodo.Droid.Resource.Attribute.tabContentStart;
-			global::Plugin.InputKit.Resource.Attribute.tabGravity = global::SimpleTodo.Droid.Resource.Attribute.tabGravity;
-			global::Plugin.InputKit.Resource.Attribute.tabIndicatorColor = global::SimpleTodo.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Plugin.InputKit.Resource.Attribute.tabIndicatorHeight = global::SimpleTodo.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Plugin.InputKit.Resource.Attribute.tabMaxWidth = global::SimpleTodo.Droid.Resource.Attribute.tabMaxWidth;
-			global::Plugin.InputKit.Resource.Attribute.tabMinWidth = global::SimpleTodo.Droid.Resource.Attribute.tabMinWidth;
-			global::Plugin.InputKit.Resource.Attribute.tabMode = global::SimpleTodo.Droid.Resource.Attribute.tabMode;
-			global::Plugin.InputKit.Resource.Attribute.tabPadding = global::SimpleTodo.Droid.Resource.Attribute.tabPadding;
-			global::Plugin.InputKit.Resource.Attribute.tabPaddingBottom = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Plugin.InputKit.Resource.Attribute.tabPaddingEnd = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Plugin.InputKit.Resource.Attribute.tabPaddingStart = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingStart;
-			global::Plugin.InputKit.Resource.Attribute.tabPaddingTop = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingTop;
-			global::Plugin.InputKit.Resource.Attribute.tabSelectedTextColor = global::SimpleTodo.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Plugin.InputKit.Resource.Attribute.tabTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.tabTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.tabTextColor = global::SimpleTodo.Droid.Resource.Attribute.tabTextColor;
-			global::Plugin.InputKit.Resource.Attribute.textAllCaps = global::SimpleTodo.Droid.Resource.Attribute.textAllCaps;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceLargePopupMenu = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItem = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSecondary = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSmall = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Plugin.InputKit.Resource.Attribute.textAppearancePopupMenuHeader = global::SimpleTodo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultTitle = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Plugin.InputKit.Resource.Attribute.textAppearanceSmallPopupMenu = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Plugin.InputKit.Resource.Attribute.textColorAlertDialogListItem = global::SimpleTodo.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Plugin.InputKit.Resource.Attribute.textColorError = global::SimpleTodo.Droid.Resource.Attribute.textColorError;
-			global::Plugin.InputKit.Resource.Attribute.textColorSearchUrl = global::SimpleTodo.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Plugin.InputKit.Resource.Attribute.theme = global::SimpleTodo.Droid.Resource.Attribute.theme;
-			global::Plugin.InputKit.Resource.Attribute.thickness = global::SimpleTodo.Droid.Resource.Attribute.thickness;
-			global::Plugin.InputKit.Resource.Attribute.thumbTextPadding = global::SimpleTodo.Droid.Resource.Attribute.thumbTextPadding;
-			global::Plugin.InputKit.Resource.Attribute.thumbTint = global::SimpleTodo.Droid.Resource.Attribute.thumbTint;
-			global::Plugin.InputKit.Resource.Attribute.thumbTintMode = global::SimpleTodo.Droid.Resource.Attribute.thumbTintMode;
-			global::Plugin.InputKit.Resource.Attribute.tickMark = global::SimpleTodo.Droid.Resource.Attribute.tickMark;
-			global::Plugin.InputKit.Resource.Attribute.tickMarkTint = global::SimpleTodo.Droid.Resource.Attribute.tickMarkTint;
-			global::Plugin.InputKit.Resource.Attribute.tickMarkTintMode = global::SimpleTodo.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Plugin.InputKit.Resource.Attribute.tint = global::SimpleTodo.Droid.Resource.Attribute.tint;
-			global::Plugin.InputKit.Resource.Attribute.tintMode = global::SimpleTodo.Droid.Resource.Attribute.tintMode;
-			global::Plugin.InputKit.Resource.Attribute.title = global::SimpleTodo.Droid.Resource.Attribute.title;
-			global::Plugin.InputKit.Resource.Attribute.titleEnabled = global::SimpleTodo.Droid.Resource.Attribute.titleEnabled;
-			global::Plugin.InputKit.Resource.Attribute.titleMargin = global::SimpleTodo.Droid.Resource.Attribute.titleMargin;
-			global::Plugin.InputKit.Resource.Attribute.titleMarginBottom = global::SimpleTodo.Droid.Resource.Attribute.titleMarginBottom;
-			global::Plugin.InputKit.Resource.Attribute.titleMarginEnd = global::SimpleTodo.Droid.Resource.Attribute.titleMarginEnd;
-			global::Plugin.InputKit.Resource.Attribute.titleMarginStart = global::SimpleTodo.Droid.Resource.Attribute.titleMarginStart;
-			global::Plugin.InputKit.Resource.Attribute.titleMarginTop = global::SimpleTodo.Droid.Resource.Attribute.titleMarginTop;
-			global::Plugin.InputKit.Resource.Attribute.titleMargins = global::SimpleTodo.Droid.Resource.Attribute.titleMargins;
-			global::Plugin.InputKit.Resource.Attribute.titleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.titleTextAppearance;
-			global::Plugin.InputKit.Resource.Attribute.titleTextColor = global::SimpleTodo.Droid.Resource.Attribute.titleTextColor;
-			global::Plugin.InputKit.Resource.Attribute.titleTextStyle = global::SimpleTodo.Droid.Resource.Attribute.titleTextStyle;
-			global::Plugin.InputKit.Resource.Attribute.toolbarId = global::SimpleTodo.Droid.Resource.Attribute.toolbarId;
-			global::Plugin.InputKit.Resource.Attribute.toolbarNavigationButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Plugin.InputKit.Resource.Attribute.toolbarStyle = global::SimpleTodo.Droid.Resource.Attribute.toolbarStyle;
-			global::Plugin.InputKit.Resource.Attribute.track = global::SimpleTodo.Droid.Resource.Attribute.track;
-			global::Plugin.InputKit.Resource.Attribute.trackTint = global::SimpleTodo.Droid.Resource.Attribute.trackTint;
-			global::Plugin.InputKit.Resource.Attribute.trackTintMode = global::SimpleTodo.Droid.Resource.Attribute.trackTintMode;
-			global::Plugin.InputKit.Resource.Attribute.useCompatPadding = global::SimpleTodo.Droid.Resource.Attribute.useCompatPadding;
-			global::Plugin.InputKit.Resource.Attribute.voiceIcon = global::SimpleTodo.Droid.Resource.Attribute.voiceIcon;
-			global::Plugin.InputKit.Resource.Attribute.windowActionBar = global::SimpleTodo.Droid.Resource.Attribute.windowActionBar;
-			global::Plugin.InputKit.Resource.Attribute.windowActionBarOverlay = global::SimpleTodo.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Plugin.InputKit.Resource.Attribute.windowActionModeOverlay = global::SimpleTodo.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMajor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMinor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMajor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMinor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMajor = global::SimpleTodo.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMinor = global::SimpleTodo.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Plugin.InputKit.Resource.Attribute.windowNoTitle = global::SimpleTodo.Droid.Resource.Attribute.windowNoTitle;
-			global::Plugin.InputKit.Resource.Boolean.abc_action_bar_embed_tabs = global::SimpleTodo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Plugin.InputKit.Resource.Boolean.abc_allow_stacked_button_bar = global::SimpleTodo.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Plugin.InputKit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SimpleTodo.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Plugin.InputKit.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::SimpleTodo.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Plugin.InputKit.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::SimpleTodo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_light = global::SimpleTodo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Plugin.InputKit.Resource.Color.abc_btn_colored_borderless_text_material = global::SimpleTodo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Plugin.InputKit.Resource.Color.abc_btn_colored_text_material = global::SimpleTodo.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Plugin.InputKit.Resource.Color.abc_color_highlight_material = global::SimpleTodo.Droid.Resource.Color.abc_color_highlight_material;
-			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Plugin.InputKit.Resource.Color.abc_input_method_navigation_guard = global::SimpleTodo.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_light = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_light = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Plugin.InputKit.Resource.Color.abc_search_url_text = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text;
-			global::Plugin.InputKit.Resource.Color.abc_search_url_text_normal = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Plugin.InputKit.Resource.Color.abc_search_url_text_pressed = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Plugin.InputKit.Resource.Color.abc_search_url_text_selected = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_light = global::SimpleTodo.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Plugin.InputKit.Resource.Color.abc_tint_btn_checkable = global::SimpleTodo.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Plugin.InputKit.Resource.Color.abc_tint_default = global::SimpleTodo.Droid.Resource.Color.abc_tint_default;
-			global::Plugin.InputKit.Resource.Color.abc_tint_edittext = global::SimpleTodo.Droid.Resource.Color.abc_tint_edittext;
-			global::Plugin.InputKit.Resource.Color.abc_tint_seek_thumb = global::SimpleTodo.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Plugin.InputKit.Resource.Color.abc_tint_spinner = global::SimpleTodo.Droid.Resource.Color.abc_tint_spinner;
-			global::Plugin.InputKit.Resource.Color.abc_tint_switch_track = global::SimpleTodo.Droid.Resource.Color.abc_tint_switch_track;
-			global::Plugin.InputKit.Resource.Color.accent_material_dark = global::SimpleTodo.Droid.Resource.Color.accent_material_dark;
-			global::Plugin.InputKit.Resource.Color.accent_material_light = global::SimpleTodo.Droid.Resource.Color.accent_material_light;
-			global::Plugin.InputKit.Resource.Color.background_floating_material_dark = global::SimpleTodo.Droid.Resource.Color.background_floating_material_dark;
-			global::Plugin.InputKit.Resource.Color.background_floating_material_light = global::SimpleTodo.Droid.Resource.Color.background_floating_material_light;
-			global::Plugin.InputKit.Resource.Color.background_material_dark = global::SimpleTodo.Droid.Resource.Color.background_material_dark;
-			global::Plugin.InputKit.Resource.Color.background_material_light = global::SimpleTodo.Droid.Resource.Color.background_material_light;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Plugin.InputKit.Resource.Color.bright_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_material_light;
-			global::Plugin.InputKit.Resource.Color.button_material_dark = global::SimpleTodo.Droid.Resource.Color.button_material_dark;
-			global::Plugin.InputKit.Resource.Color.button_material_light = global::SimpleTodo.Droid.Resource.Color.button_material_light;
-			global::Plugin.InputKit.Resource.Color.cardview_dark_background = global::SimpleTodo.Droid.Resource.Color.cardview_dark_background;
-			global::Plugin.InputKit.Resource.Color.cardview_light_background = global::SimpleTodo.Droid.Resource.Color.cardview_light_background;
-			global::Plugin.InputKit.Resource.Color.cardview_shadow_end_color = global::SimpleTodo.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Plugin.InputKit.Resource.Color.cardview_shadow_start_color = global::SimpleTodo.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Plugin.InputKit.Resource.Color.design_bottom_navigation_shadow_color = global::SimpleTodo.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Plugin.InputKit.Resource.Color.design_error = global::SimpleTodo.Droid.Resource.Color.design_error;
-			global::Plugin.InputKit.Resource.Color.design_fab_shadow_end_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_shadow_mid_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_shadow_start_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_inner_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_outer_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_inner_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_outer_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Plugin.InputKit.Resource.Color.design_snackbar_background_color = global::SimpleTodo.Droid.Resource.Color.design_snackbar_background_color;
-			global::Plugin.InputKit.Resource.Color.design_tint_password_toggle = global::SimpleTodo.Droid.Resource.Color.design_tint_password_toggle;
-			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Plugin.InputKit.Resource.Color.dim_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Plugin.InputKit.Resource.Color.dim_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.dim_foreground_material_light;
-			global::Plugin.InputKit.Resource.Color.foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.foreground_material_dark;
-			global::Plugin.InputKit.Resource.Color.foreground_material_light = global::SimpleTodo.Droid.Resource.Color.foreground_material_light;
-			global::Plugin.InputKit.Resource.Color.highlighted_text_material_dark = global::SimpleTodo.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Plugin.InputKit.Resource.Color.highlighted_text_material_light = global::SimpleTodo.Droid.Resource.Color.highlighted_text_material_light;
-			global::Plugin.InputKit.Resource.Color.material_blue_grey_800 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_800;
-			global::Plugin.InputKit.Resource.Color.material_blue_grey_900 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_900;
-			global::Plugin.InputKit.Resource.Color.material_blue_grey_950 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_950;
-			global::Plugin.InputKit.Resource.Color.material_deep_teal_200 = global::SimpleTodo.Droid.Resource.Color.material_deep_teal_200;
-			global::Plugin.InputKit.Resource.Color.material_deep_teal_500 = global::SimpleTodo.Droid.Resource.Color.material_deep_teal_500;
-			global::Plugin.InputKit.Resource.Color.material_grey_100 = global::SimpleTodo.Droid.Resource.Color.material_grey_100;
-			global::Plugin.InputKit.Resource.Color.material_grey_300 = global::SimpleTodo.Droid.Resource.Color.material_grey_300;
-			global::Plugin.InputKit.Resource.Color.material_grey_50 = global::SimpleTodo.Droid.Resource.Color.material_grey_50;
-			global::Plugin.InputKit.Resource.Color.material_grey_600 = global::SimpleTodo.Droid.Resource.Color.material_grey_600;
-			global::Plugin.InputKit.Resource.Color.material_grey_800 = global::SimpleTodo.Droid.Resource.Color.material_grey_800;
-			global::Plugin.InputKit.Resource.Color.material_grey_850 = global::SimpleTodo.Droid.Resource.Color.material_grey_850;
-			global::Plugin.InputKit.Resource.Color.material_grey_900 = global::SimpleTodo.Droid.Resource.Color.material_grey_900;
-			global::Plugin.InputKit.Resource.Color.notification_action_color_filter = global::SimpleTodo.Droid.Resource.Color.notification_action_color_filter;
-			global::Plugin.InputKit.Resource.Color.notification_icon_bg_color = global::SimpleTodo.Droid.Resource.Color.notification_icon_bg_color;
-			global::Plugin.InputKit.Resource.Color.notification_material_background_media_default_color = global::SimpleTodo.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Plugin.InputKit.Resource.Color.primary_dark_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_dark_material_dark;
-			global::Plugin.InputKit.Resource.Color.primary_dark_material_light = global::SimpleTodo.Droid.Resource.Color.primary_dark_material_light;
-			global::Plugin.InputKit.Resource.Color.primary_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_material_dark;
-			global::Plugin.InputKit.Resource.Color.primary_material_light = global::SimpleTodo.Droid.Resource.Color.primary_material_light;
-			global::Plugin.InputKit.Resource.Color.primary_text_default_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Plugin.InputKit.Resource.Color.primary_text_default_material_light = global::SimpleTodo.Droid.Resource.Color.primary_text_default_material_light;
-			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Plugin.InputKit.Resource.Color.ripple_material_dark = global::SimpleTodo.Droid.Resource.Color.ripple_material_dark;
-			global::Plugin.InputKit.Resource.Color.ripple_material_light = global::SimpleTodo.Droid.Resource.Color.ripple_material_light;
-			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_dark = global::SimpleTodo.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_light = global::SimpleTodo.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_material_light;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_elevation_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_progress_bar_size = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_max_height = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SimpleTodo.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_vertical_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_vertical_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SimpleTodo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Plugin.InputKit.Resource.Dimension.abc_config_prefDialogWidth = global::SimpleTodo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Plugin.InputKit.Resource.Dimension.abc_control_corner_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_control_inset_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_control_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_top_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_dialog_title_divider_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_icon_width = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_top_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_floating_window_z = global::SimpleTodo.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Plugin.InputKit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_panel_menu_list_width = global::SimpleTodo.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Plugin.InputKit.Resource.Dimension.abc_progress_bar_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_height = global::SimpleTodo.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_width = global::SimpleTodo.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_background_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_select_dialog_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_switch_padding = global::SimpleTodo.Droid.Resource.Dimension.abc_switch_padding;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_1_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_2_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_button_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_caption_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_1_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_2_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_3_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_4_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_headline_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_large_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_medium_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_header_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_small_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subhead_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material_toolbar = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Plugin.InputKit.Resource.Dimension.cardview_compat_inset_shadow = global::SimpleTodo.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Plugin.InputKit.Resource.Dimension.cardview_default_elevation = global::SimpleTodo.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Plugin.InputKit.Resource.Dimension.cardview_default_radius = global::SimpleTodo.Droid.Resource.Dimension.cardview_default_radius;
-			global::Plugin.InputKit.Resource.Dimension.design_appbar_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_height = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_margin = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_shadow_height = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_border_width = global::SimpleTodo.Droid.Resource.Dimension.design_fab_border_width;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_fab_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_image_size = global::SimpleTodo.Droid.Resource.Dimension.design_fab_image_size;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_size_mini = global::SimpleTodo.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_size_normal = global::SimpleTodo.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_pressed = global::SimpleTodo.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_padding = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_size = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_padding_bottom = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Plugin.InputKit.Resource.Dimension.design_navigation_separator_vertical_padding = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_action_inline_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_background_corner_radius = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_horizontal = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Plugin.InputKit.Resource.Dimension.design_snackbar_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Plugin.InputKit.Resource.Dimension.design_tab_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_tab_max_width;
-			global::Plugin.InputKit.Resource.Dimension.design_tab_scrollable_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_tab_text_size;
-			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size_2line = global::SimpleTodo.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_colored = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_item_height = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_max_height = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Plugin.InputKit.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Plugin.InputKit.Resource.Dimension.mr_dialog_fixed_width_major = global::SimpleTodo.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Plugin.InputKit.Resource.Dimension.mr_dialog_fixed_width_minor = global::SimpleTodo.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Plugin.InputKit.Resource.Dimension.notification_action_icon_size = global::SimpleTodo.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Plugin.InputKit.Resource.Dimension.notification_action_text_size = global::SimpleTodo.Droid.Resource.Dimension.notification_action_text_size;
-			global::Plugin.InputKit.Resource.Dimension.notification_big_circle_margin = global::SimpleTodo.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Plugin.InputKit.Resource.Dimension.notification_content_margin_start = global::SimpleTodo.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_height = global::SimpleTodo.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_width = global::SimpleTodo.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Plugin.InputKit.Resource.Dimension.notification_main_column_padding_top = global::SimpleTodo.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Plugin.InputKit.Resource.Dimension.notification_media_narrow_margin = global::SimpleTodo.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Plugin.InputKit.Resource.Dimension.notification_right_icon_size = global::SimpleTodo.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Plugin.InputKit.Resource.Dimension.notification_right_side_padding_top = global::SimpleTodo.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_background_padding = global::SimpleTodo.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_size_as_large = global::SimpleTodo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Plugin.InputKit.Resource.Dimension.notification_subtext_size = global::SimpleTodo.Droid.Resource.Dimension.notification_subtext_size;
-			global::Plugin.InputKit.Resource.Dimension.notification_top_pad = global::SimpleTodo.Droid.Resource.Dimension.notification_top_pad;
-			global::Plugin.InputKit.Resource.Dimension.notification_top_pad_large_text = global::SimpleTodo.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Plugin.InputKit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_action_bar_item_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_borderless_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_colored_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_default_mtrl_shape = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_internal_bg = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_material = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_control_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_control_background_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_dialog_material_background = global::SimpleTodo.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Plugin.InputKit.Resource.Drawable.abc_edit_text_material = global::SimpleTodo.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_ab_back_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_clear_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_go_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_overflow_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_16dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_36dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_48dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_16dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_36dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_48dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Plugin.InputKit.Resource.Drawable.abc_ic_voice_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_focused_holo = global::SimpleTodo.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_longpressed_holo = global::SimpleTodo.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SimpleTodo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Plugin.InputKit.Resource.Drawable.abc_popup_background_mtrl_mult = global::SimpleTodo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_indicator_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_small_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_thumb_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_tick_mark_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_track_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_spinner_textfield_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_switch_thumb_material = global::SimpleTodo.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_material = global::SimpleTodo.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_cursor_material = global::SimpleTodo.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Plugin.InputKit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_material = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Plugin.InputKit.Resource.Drawable.abc_vector_test = global::SimpleTodo.Droid.Resource.Drawable.abc_vector_test;
-			global::Plugin.InputKit.Resource.Drawable.arrow_down = global::SimpleTodo.Droid.Resource.Drawable.arrow_down;
-			global::Plugin.InputKit.Resource.Drawable.avd_hide_password = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password;
-			global::Plugin.InputKit.Resource.Drawable.avd_hide_password_1 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_1;
-			global::Plugin.InputKit.Resource.Drawable.avd_hide_password_2 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_2;
-			global::Plugin.InputKit.Resource.Drawable.avd_hide_password_3 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_3;
-			global::Plugin.InputKit.Resource.Drawable.avd_show_password = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password;
-			global::Plugin.InputKit.Resource.Drawable.avd_show_password_1 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_1;
-			global::Plugin.InputKit.Resource.Drawable.avd_show_password_2 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_2;
-			global::Plugin.InputKit.Resource.Drawable.avd_show_password_3 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_3;
-			global::Plugin.InputKit.Resource.Drawable.design_bottom_navigation_item_background = global::SimpleTodo.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Plugin.InputKit.Resource.Drawable.design_fab_background = global::SimpleTodo.Droid.Resource.Drawable.design_fab_background;
-			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility = global::SimpleTodo.Droid.Resource.Drawable.design_ic_visibility;
-			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility_off = global::SimpleTodo.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Plugin.InputKit.Resource.Drawable.design_password_eye = global::SimpleTodo.Droid.Resource.Drawable.design_password_eye;
-			global::Plugin.InputKit.Resource.Drawable.design_snackbar_background = global::SimpleTodo.Droid.Resource.Drawable.design_snackbar_background;
-			global::Plugin.InputKit.Resource.Drawable.ic_audiotrack_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_audiotrack_light = global::SimpleTodo.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_dialog_close_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_dialog_close_light = global::SimpleTodo.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_00 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_01 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_02 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_03 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_04 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_05 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_06 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_07 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_08 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_09 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_10 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_11 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_12 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_13 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_14 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_collapse_15 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_00 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_01 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_02 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_03 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_04 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_05 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_06 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_07 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_08 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_09 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_10 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_11 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_12 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_13 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_14 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Plugin.InputKit.Resource.Drawable.ic_group_expand_15 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_pause_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_pause_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_play_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_play_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_play_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_stop_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_media_stop_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_00_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_00_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_01_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_01_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_02_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_02_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_03_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_03_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_04_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_04_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_05_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_05_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_06_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_06_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_07_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_07_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_08_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_08_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_09_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_09_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_10_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_10_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_11_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_11_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_12_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_12_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_13_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_13_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_14_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_14_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_15_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_15_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_16_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_16_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_17_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_17_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_18_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_18_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_19_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_19_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_20_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_20_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_21_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_21_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_22_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connected_22_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_00_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_00_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_01_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_01_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_02_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_02_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_03_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_03_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_04_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_04_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_05_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_05_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_06_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_06_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_07_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_07_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_08_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_08_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_09_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_09_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_10_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_10_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_11_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_11_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_12_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_12_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_13_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_13_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_14_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_14_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_15_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_15_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_16_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_16_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_17_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_17_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_18_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_18_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_19_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_19_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_20_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_20_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_21_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_21_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_22_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_connecting_22_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disabled_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disabled_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disconnected_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_disconnected_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_mr_button_grey = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_group_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_group_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_speaker_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_tv_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Plugin.InputKit.Resource.Drawable.ic_vol_type_tv_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_connected_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_connected_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_connecting_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_connecting_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_button_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_dialog_close_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_dialog_close_light = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_dialog_material_background_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_dialog_material_background_light = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_group_collapse = global::SimpleTodo.Droid.Resource.Drawable.mr_group_collapse;
-			global::Plugin.InputKit.Resource.Drawable.mr_group_expand = global::SimpleTodo.Droid.Resource.Drawable.mr_group_expand;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_pause_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_pause_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_play_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_play_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_play_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_stop_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_media_stop_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Plugin.InputKit.Resource.Drawable.mr_vol_type_audiotrack_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Plugin.InputKit.Resource.Drawable.mr_vol_type_audiotrack_light = global::SimpleTodo.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Plugin.InputKit.Resource.Drawable.navigation_empty_icon = global::SimpleTodo.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Plugin.InputKit.Resource.Drawable.notification_action_background = global::SimpleTodo.Droid.Resource.Drawable.notification_action_background;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_bg;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg_low = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_normal = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_pressed = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_normal;
-			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal_pressed = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Plugin.InputKit.Resource.Drawable.notification_icon_background = global::SimpleTodo.Droid.Resource.Drawable.notification_icon_background;
-			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_low_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Plugin.InputKit.Resource.Drawable.notification_tile_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_tile_bg;
-			global::Plugin.InputKit.Resource.Drawable.notify_panel_notification_icon_bg = global::SimpleTodo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.InputKit.Resource.Id.action0 = global::SimpleTodo.Droid.Resource.Id.action0;
-			global::Plugin.InputKit.Resource.Id.action_bar = global::SimpleTodo.Droid.Resource.Id.action_bar;
-			global::Plugin.InputKit.Resource.Id.action_bar_activity_content = global::SimpleTodo.Droid.Resource.Id.action_bar_activity_content;
-			global::Plugin.InputKit.Resource.Id.action_bar_container = global::SimpleTodo.Droid.Resource.Id.action_bar_container;
-			global::Plugin.InputKit.Resource.Id.action_bar_root = global::SimpleTodo.Droid.Resource.Id.action_bar_root;
-			global::Plugin.InputKit.Resource.Id.action_bar_spinner = global::SimpleTodo.Droid.Resource.Id.action_bar_spinner;
-			global::Plugin.InputKit.Resource.Id.action_bar_subtitle = global::SimpleTodo.Droid.Resource.Id.action_bar_subtitle;
-			global::Plugin.InputKit.Resource.Id.action_bar_title = global::SimpleTodo.Droid.Resource.Id.action_bar_title;
-			global::Plugin.InputKit.Resource.Id.action_container = global::SimpleTodo.Droid.Resource.Id.action_container;
-			global::Plugin.InputKit.Resource.Id.action_context_bar = global::SimpleTodo.Droid.Resource.Id.action_context_bar;
-			global::Plugin.InputKit.Resource.Id.action_divider = global::SimpleTodo.Droid.Resource.Id.action_divider;
-			global::Plugin.InputKit.Resource.Id.action_image = global::SimpleTodo.Droid.Resource.Id.action_image;
-			global::Plugin.InputKit.Resource.Id.action_menu_divider = global::SimpleTodo.Droid.Resource.Id.action_menu_divider;
-			global::Plugin.InputKit.Resource.Id.action_menu_presenter = global::SimpleTodo.Droid.Resource.Id.action_menu_presenter;
-			global::Plugin.InputKit.Resource.Id.action_mode_bar = global::SimpleTodo.Droid.Resource.Id.action_mode_bar;
-			global::Plugin.InputKit.Resource.Id.action_mode_bar_stub = global::SimpleTodo.Droid.Resource.Id.action_mode_bar_stub;
-			global::Plugin.InputKit.Resource.Id.action_mode_close_button = global::SimpleTodo.Droid.Resource.Id.action_mode_close_button;
-			global::Plugin.InputKit.Resource.Id.action_text = global::SimpleTodo.Droid.Resource.Id.action_text;
-			global::Plugin.InputKit.Resource.Id.actions = global::SimpleTodo.Droid.Resource.Id.actions;
-			global::Plugin.InputKit.Resource.Id.activity_chooser_view_content = global::SimpleTodo.Droid.Resource.Id.activity_chooser_view_content;
-			global::Plugin.InputKit.Resource.Id.add = global::SimpleTodo.Droid.Resource.Id.add;
-			global::Plugin.InputKit.Resource.Id.alertTitle = global::SimpleTodo.Droid.Resource.Id.alertTitle;
-			global::Plugin.InputKit.Resource.Id.all = global::SimpleTodo.Droid.Resource.Id.all;
-			global::Plugin.InputKit.Resource.Id.always = global::SimpleTodo.Droid.Resource.Id.always;
-			global::Plugin.InputKit.Resource.Id.auto = global::SimpleTodo.Droid.Resource.Id.auto;
-			global::Plugin.InputKit.Resource.Id.beginning = global::SimpleTodo.Droid.Resource.Id.beginning;
-			global::Plugin.InputKit.Resource.Id.bottom = global::SimpleTodo.Droid.Resource.Id.bottom;
-			global::Plugin.InputKit.Resource.Id.buttonPanel = global::SimpleTodo.Droid.Resource.Id.buttonPanel;
-			global::Plugin.InputKit.Resource.Id.cancel_action = global::SimpleTodo.Droid.Resource.Id.cancel_action;
-			global::Plugin.InputKit.Resource.Id.center = global::SimpleTodo.Droid.Resource.Id.center;
-			global::Plugin.InputKit.Resource.Id.center_horizontal = global::SimpleTodo.Droid.Resource.Id.center_horizontal;
-			global::Plugin.InputKit.Resource.Id.center_vertical = global::SimpleTodo.Droid.Resource.Id.center_vertical;
-			global::Plugin.InputKit.Resource.Id.checkbox = global::SimpleTodo.Droid.Resource.Id.checkbox;
-			global::Plugin.InputKit.Resource.Id.chronometer = global::SimpleTodo.Droid.Resource.Id.chronometer;
-			global::Plugin.InputKit.Resource.Id.clip_horizontal = global::SimpleTodo.Droid.Resource.Id.clip_horizontal;
-			global::Plugin.InputKit.Resource.Id.clip_vertical = global::SimpleTodo.Droid.Resource.Id.clip_vertical;
-			global::Plugin.InputKit.Resource.Id.collapseActionView = global::SimpleTodo.Droid.Resource.Id.collapseActionView;
-			global::Plugin.InputKit.Resource.Id.container = global::SimpleTodo.Droid.Resource.Id.container;
-			global::Plugin.InputKit.Resource.Id.contentPanel = global::SimpleTodo.Droid.Resource.Id.contentPanel;
-			global::Plugin.InputKit.Resource.Id.coordinator = global::SimpleTodo.Droid.Resource.Id.coordinator;
-			global::Plugin.InputKit.Resource.Id.custom = global::SimpleTodo.Droid.Resource.Id.custom;
-			global::Plugin.InputKit.Resource.Id.customPanel = global::SimpleTodo.Droid.Resource.Id.customPanel;
-			global::Plugin.InputKit.Resource.Id.decor_content_parent = global::SimpleTodo.Droid.Resource.Id.decor_content_parent;
-			global::Plugin.InputKit.Resource.Id.default_activity_button = global::SimpleTodo.Droid.Resource.Id.default_activity_button;
-			global::Plugin.InputKit.Resource.Id.design_bottom_sheet = global::SimpleTodo.Droid.Resource.Id.design_bottom_sheet;
-			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area = global::SimpleTodo.Droid.Resource.Id.design_menu_item_action_area;
-			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area_stub = global::SimpleTodo.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Plugin.InputKit.Resource.Id.design_menu_item_text = global::SimpleTodo.Droid.Resource.Id.design_menu_item_text;
-			global::Plugin.InputKit.Resource.Id.design_navigation_view = global::SimpleTodo.Droid.Resource.Id.design_navigation_view;
-			global::Plugin.InputKit.Resource.Id.disableHome = global::SimpleTodo.Droid.Resource.Id.disableHome;
-			global::Plugin.InputKit.Resource.Id.edit_query = global::SimpleTodo.Droid.Resource.Id.edit_query;
-			global::Plugin.InputKit.Resource.Id.end = global::SimpleTodo.Droid.Resource.Id.end;
-			global::Plugin.InputKit.Resource.Id.end_padder = global::SimpleTodo.Droid.Resource.Id.end_padder;
-			global::Plugin.InputKit.Resource.Id.enterAlways = global::SimpleTodo.Droid.Resource.Id.enterAlways;
-			global::Plugin.InputKit.Resource.Id.enterAlwaysCollapsed = global::SimpleTodo.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Plugin.InputKit.Resource.Id.exitUntilCollapsed = global::SimpleTodo.Droid.Resource.Id.exitUntilCollapsed;
-			global::Plugin.InputKit.Resource.Id.expand_activities_button = global::SimpleTodo.Droid.Resource.Id.expand_activities_button;
-			global::Plugin.InputKit.Resource.Id.expanded_menu = global::SimpleTodo.Droid.Resource.Id.expanded_menu;
-			global::Plugin.InputKit.Resource.Id.fill = global::SimpleTodo.Droid.Resource.Id.fill;
-			global::Plugin.InputKit.Resource.Id.fill_horizontal = global::SimpleTodo.Droid.Resource.Id.fill_horizontal;
-			global::Plugin.InputKit.Resource.Id.fill_vertical = global::SimpleTodo.Droid.Resource.Id.fill_vertical;
-			global::Plugin.InputKit.Resource.Id.@fixed = global::SimpleTodo.Droid.Resource.Id.@fixed;
-			global::Plugin.InputKit.Resource.Id.home = global::SimpleTodo.Droid.Resource.Id.home;
-			global::Plugin.InputKit.Resource.Id.homeAsUp = global::SimpleTodo.Droid.Resource.Id.homeAsUp;
-			global::Plugin.InputKit.Resource.Id.icon = global::SimpleTodo.Droid.Resource.Id.icon;
-			global::Plugin.InputKit.Resource.Id.icon_group = global::SimpleTodo.Droid.Resource.Id.icon_group;
-			global::Plugin.InputKit.Resource.Id.ifRoom = global::SimpleTodo.Droid.Resource.Id.ifRoom;
-			global::Plugin.InputKit.Resource.Id.image = global::SimpleTodo.Droid.Resource.Id.image;
-			global::Plugin.InputKit.Resource.Id.info = global::SimpleTodo.Droid.Resource.Id.info;
-			global::Plugin.InputKit.Resource.Id.item_touch_helper_previous_elevation = global::SimpleTodo.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Plugin.InputKit.Resource.Id.largeLabel = global::SimpleTodo.Droid.Resource.Id.largeLabel;
-			global::Plugin.InputKit.Resource.Id.left = global::SimpleTodo.Droid.Resource.Id.left;
-			global::Plugin.InputKit.Resource.Id.line1 = global::SimpleTodo.Droid.Resource.Id.line1;
-			global::Plugin.InputKit.Resource.Id.line3 = global::SimpleTodo.Droid.Resource.Id.line3;
-			global::Plugin.InputKit.Resource.Id.listMode = global::SimpleTodo.Droid.Resource.Id.listMode;
-			global::Plugin.InputKit.Resource.Id.list_item = global::SimpleTodo.Droid.Resource.Id.list_item;
-			global::Plugin.InputKit.Resource.Id.masked = global::SimpleTodo.Droid.Resource.Id.masked;
-			global::Plugin.InputKit.Resource.Id.media_actions = global::SimpleTodo.Droid.Resource.Id.media_actions;
-			global::Plugin.InputKit.Resource.Id.middle = global::SimpleTodo.Droid.Resource.Id.middle;
-			global::Plugin.InputKit.Resource.Id.mini = global::SimpleTodo.Droid.Resource.Id.mini;
-			global::Plugin.InputKit.Resource.Id.mr_art = global::SimpleTodo.Droid.Resource.Id.mr_art;
-			global::Plugin.InputKit.Resource.Id.mr_chooser_list = global::SimpleTodo.Droid.Resource.Id.mr_chooser_list;
-			global::Plugin.InputKit.Resource.Id.mr_chooser_route_desc = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Plugin.InputKit.Resource.Id.mr_chooser_route_icon = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Plugin.InputKit.Resource.Id.mr_chooser_route_name = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_name;
-			global::Plugin.InputKit.Resource.Id.mr_chooser_title = global::SimpleTodo.Droid.Resource.Id.mr_chooser_title;
-			global::Plugin.InputKit.Resource.Id.mr_close = global::SimpleTodo.Droid.Resource.Id.mr_close;
-			global::Plugin.InputKit.Resource.Id.mr_control_divider = global::SimpleTodo.Droid.Resource.Id.mr_control_divider;
-			global::Plugin.InputKit.Resource.Id.mr_control_playback_ctrl = global::SimpleTodo.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Plugin.InputKit.Resource.Id.mr_control_subtitle = global::SimpleTodo.Droid.Resource.Id.mr_control_subtitle;
-			global::Plugin.InputKit.Resource.Id.mr_control_title = global::SimpleTodo.Droid.Resource.Id.mr_control_title;
-			global::Plugin.InputKit.Resource.Id.mr_control_title_container = global::SimpleTodo.Droid.Resource.Id.mr_control_title_container;
-			global::Plugin.InputKit.Resource.Id.mr_custom_control = global::SimpleTodo.Droid.Resource.Id.mr_custom_control;
-			global::Plugin.InputKit.Resource.Id.mr_default_control = global::SimpleTodo.Droid.Resource.Id.mr_default_control;
-			global::Plugin.InputKit.Resource.Id.mr_dialog_area = global::SimpleTodo.Droid.Resource.Id.mr_dialog_area;
-			global::Plugin.InputKit.Resource.Id.mr_expandable_area = global::SimpleTodo.Droid.Resource.Id.mr_expandable_area;
-			global::Plugin.InputKit.Resource.Id.mr_group_expand_collapse = global::SimpleTodo.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Plugin.InputKit.Resource.Id.mr_media_main_control = global::SimpleTodo.Droid.Resource.Id.mr_media_main_control;
-			global::Plugin.InputKit.Resource.Id.mr_name = global::SimpleTodo.Droid.Resource.Id.mr_name;
-			global::Plugin.InputKit.Resource.Id.mr_playback_control = global::SimpleTodo.Droid.Resource.Id.mr_playback_control;
-			global::Plugin.InputKit.Resource.Id.mr_title_bar = global::SimpleTodo.Droid.Resource.Id.mr_title_bar;
-			global::Plugin.InputKit.Resource.Id.mr_volume_control = global::SimpleTodo.Droid.Resource.Id.mr_volume_control;
-			global::Plugin.InputKit.Resource.Id.mr_volume_group_list = global::SimpleTodo.Droid.Resource.Id.mr_volume_group_list;
-			global::Plugin.InputKit.Resource.Id.mr_volume_item_icon = global::SimpleTodo.Droid.Resource.Id.mr_volume_item_icon;
-			global::Plugin.InputKit.Resource.Id.mr_volume_slider = global::SimpleTodo.Droid.Resource.Id.mr_volume_slider;
-			global::Plugin.InputKit.Resource.Id.multiply = global::SimpleTodo.Droid.Resource.Id.multiply;
-			global::Plugin.InputKit.Resource.Id.navigation_header_container = global::SimpleTodo.Droid.Resource.Id.navigation_header_container;
-			global::Plugin.InputKit.Resource.Id.never = global::SimpleTodo.Droid.Resource.Id.never;
-			global::Plugin.InputKit.Resource.Id.none = global::SimpleTodo.Droid.Resource.Id.none;
-			global::Plugin.InputKit.Resource.Id.normal = global::SimpleTodo.Droid.Resource.Id.normal;
-			global::Plugin.InputKit.Resource.Id.notification_background = global::SimpleTodo.Droid.Resource.Id.notification_background;
-			global::Plugin.InputKit.Resource.Id.notification_main_column = global::SimpleTodo.Droid.Resource.Id.notification_main_column;
-			global::Plugin.InputKit.Resource.Id.notification_main_column_container = global::SimpleTodo.Droid.Resource.Id.notification_main_column_container;
-			global::Plugin.InputKit.Resource.Id.parallax = global::SimpleTodo.Droid.Resource.Id.parallax;
-			global::Plugin.InputKit.Resource.Id.parentPanel = global::SimpleTodo.Droid.Resource.Id.parentPanel;
-			global::Plugin.InputKit.Resource.Id.pin = global::SimpleTodo.Droid.Resource.Id.pin;
-			global::Plugin.InputKit.Resource.Id.progress_circular = global::SimpleTodo.Droid.Resource.Id.progress_circular;
-			global::Plugin.InputKit.Resource.Id.progress_horizontal = global::SimpleTodo.Droid.Resource.Id.progress_horizontal;
-			global::Plugin.InputKit.Resource.Id.radio = global::SimpleTodo.Droid.Resource.Id.radio;
-			global::Plugin.InputKit.Resource.Id.right = global::SimpleTodo.Droid.Resource.Id.right;
-			global::Plugin.InputKit.Resource.Id.right_icon = global::SimpleTodo.Droid.Resource.Id.right_icon;
-			global::Plugin.InputKit.Resource.Id.right_side = global::SimpleTodo.Droid.Resource.Id.right_side;
-			global::Plugin.InputKit.Resource.Id.screen = global::SimpleTodo.Droid.Resource.Id.screen;
-			global::Plugin.InputKit.Resource.Id.scroll = global::SimpleTodo.Droid.Resource.Id.scroll;
-			global::Plugin.InputKit.Resource.Id.scrollIndicatorDown = global::SimpleTodo.Droid.Resource.Id.scrollIndicatorDown;
-			global::Plugin.InputKit.Resource.Id.scrollIndicatorUp = global::SimpleTodo.Droid.Resource.Id.scrollIndicatorUp;
-			global::Plugin.InputKit.Resource.Id.scrollView = global::SimpleTodo.Droid.Resource.Id.scrollView;
-			global::Plugin.InputKit.Resource.Id.scrollable = global::SimpleTodo.Droid.Resource.Id.scrollable;
-			global::Plugin.InputKit.Resource.Id.search_badge = global::SimpleTodo.Droid.Resource.Id.search_badge;
-			global::Plugin.InputKit.Resource.Id.search_bar = global::SimpleTodo.Droid.Resource.Id.search_bar;
-			global::Plugin.InputKit.Resource.Id.search_button = global::SimpleTodo.Droid.Resource.Id.search_button;
-			global::Plugin.InputKit.Resource.Id.search_close_btn = global::SimpleTodo.Droid.Resource.Id.search_close_btn;
-			global::Plugin.InputKit.Resource.Id.search_edit_frame = global::SimpleTodo.Droid.Resource.Id.search_edit_frame;
-			global::Plugin.InputKit.Resource.Id.search_go_btn = global::SimpleTodo.Droid.Resource.Id.search_go_btn;
-			global::Plugin.InputKit.Resource.Id.search_mag_icon = global::SimpleTodo.Droid.Resource.Id.search_mag_icon;
-			global::Plugin.InputKit.Resource.Id.search_plate = global::SimpleTodo.Droid.Resource.Id.search_plate;
-			global::Plugin.InputKit.Resource.Id.search_src_text = global::SimpleTodo.Droid.Resource.Id.search_src_text;
-			global::Plugin.InputKit.Resource.Id.search_voice_btn = global::SimpleTodo.Droid.Resource.Id.search_voice_btn;
-			global::Plugin.InputKit.Resource.Id.select_dialog_listview = global::SimpleTodo.Droid.Resource.Id.select_dialog_listview;
-			global::Plugin.InputKit.Resource.Id.shortcut = global::SimpleTodo.Droid.Resource.Id.shortcut;
-			global::Plugin.InputKit.Resource.Id.showCustom = global::SimpleTodo.Droid.Resource.Id.showCustom;
-			global::Plugin.InputKit.Resource.Id.showHome = global::SimpleTodo.Droid.Resource.Id.showHome;
-			global::Plugin.InputKit.Resource.Id.showTitle = global::SimpleTodo.Droid.Resource.Id.showTitle;
-			global::Plugin.InputKit.Resource.Id.smallLabel = global::SimpleTodo.Droid.Resource.Id.smallLabel;
-			global::Plugin.InputKit.Resource.Id.snackbar_action = global::SimpleTodo.Droid.Resource.Id.snackbar_action;
-			global::Plugin.InputKit.Resource.Id.snackbar_text = global::SimpleTodo.Droid.Resource.Id.snackbar_text;
-			global::Plugin.InputKit.Resource.Id.snap = global::SimpleTodo.Droid.Resource.Id.snap;
-			global::Plugin.InputKit.Resource.Id.spacer = global::SimpleTodo.Droid.Resource.Id.spacer;
-			global::Plugin.InputKit.Resource.Id.split_action_bar = global::SimpleTodo.Droid.Resource.Id.split_action_bar;
-			global::Plugin.InputKit.Resource.Id.src_atop = global::SimpleTodo.Droid.Resource.Id.src_atop;
-			global::Plugin.InputKit.Resource.Id.src_in = global::SimpleTodo.Droid.Resource.Id.src_in;
-			global::Plugin.InputKit.Resource.Id.src_over = global::SimpleTodo.Droid.Resource.Id.src_over;
-			global::Plugin.InputKit.Resource.Id.start = global::SimpleTodo.Droid.Resource.Id.start;
-			global::Plugin.InputKit.Resource.Id.status_bar_latest_event_content = global::SimpleTodo.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Plugin.InputKit.Resource.Id.submenuarrow = global::SimpleTodo.Droid.Resource.Id.submenuarrow;
-			global::Plugin.InputKit.Resource.Id.submit_area = global::SimpleTodo.Droid.Resource.Id.submit_area;
-			global::Plugin.InputKit.Resource.Id.tabMode = global::SimpleTodo.Droid.Resource.Id.tabMode;
-			global::Plugin.InputKit.Resource.Id.text = global::SimpleTodo.Droid.Resource.Id.text;
-			global::Plugin.InputKit.Resource.Id.text2 = global::SimpleTodo.Droid.Resource.Id.text2;
-			global::Plugin.InputKit.Resource.Id.textSpacerNoButtons = global::SimpleTodo.Droid.Resource.Id.textSpacerNoButtons;
-			global::Plugin.InputKit.Resource.Id.textSpacerNoTitle = global::SimpleTodo.Droid.Resource.Id.textSpacerNoTitle;
-			global::Plugin.InputKit.Resource.Id.text_input_password_toggle = global::SimpleTodo.Droid.Resource.Id.text_input_password_toggle;
-			global::Plugin.InputKit.Resource.Id.textinput_counter = global::SimpleTodo.Droid.Resource.Id.textinput_counter;
-			global::Plugin.InputKit.Resource.Id.textinput_error = global::SimpleTodo.Droid.Resource.Id.textinput_error;
-			global::Plugin.InputKit.Resource.Id.time = global::SimpleTodo.Droid.Resource.Id.time;
-			global::Plugin.InputKit.Resource.Id.title = global::SimpleTodo.Droid.Resource.Id.title;
-			global::Plugin.InputKit.Resource.Id.titleDividerNoCustom = global::SimpleTodo.Droid.Resource.Id.titleDividerNoCustom;
-			global::Plugin.InputKit.Resource.Id.title_template = global::SimpleTodo.Droid.Resource.Id.title_template;
-			global::Plugin.InputKit.Resource.Id.top = global::SimpleTodo.Droid.Resource.Id.top;
-			global::Plugin.InputKit.Resource.Id.topPanel = global::SimpleTodo.Droid.Resource.Id.topPanel;
-			global::Plugin.InputKit.Resource.Id.touch_outside = global::SimpleTodo.Droid.Resource.Id.touch_outside;
-			global::Plugin.InputKit.Resource.Id.transition_current_scene = global::SimpleTodo.Droid.Resource.Id.transition_current_scene;
-			global::Plugin.InputKit.Resource.Id.transition_scene_layoutid_cache = global::SimpleTodo.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Plugin.InputKit.Resource.Id.up = global::SimpleTodo.Droid.Resource.Id.up;
-			global::Plugin.InputKit.Resource.Id.useLogo = global::SimpleTodo.Droid.Resource.Id.useLogo;
-			global::Plugin.InputKit.Resource.Id.view_offset_helper = global::SimpleTodo.Droid.Resource.Id.view_offset_helper;
-			global::Plugin.InputKit.Resource.Id.visible = global::SimpleTodo.Droid.Resource.Id.visible;
-			global::Plugin.InputKit.Resource.Id.volume_item_container = global::SimpleTodo.Droid.Resource.Id.volume_item_container;
-			global::Plugin.InputKit.Resource.Id.withText = global::SimpleTodo.Droid.Resource.Id.withText;
-			global::Plugin.InputKit.Resource.Id.wrap_content = global::SimpleTodo.Droid.Resource.Id.wrap_content;
-			global::Plugin.InputKit.Resource.Integer.abc_config_activityDefaultDur = global::SimpleTodo.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Plugin.InputKit.Resource.Integer.abc_config_activityShortDur = global::SimpleTodo.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Plugin.InputKit.Resource.Integer.app_bar_elevation_anim_duration = global::SimpleTodo.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Plugin.InputKit.Resource.Integer.bottom_sheet_slide_duration = global::SimpleTodo.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Plugin.InputKit.Resource.Integer.cancel_button_image_alpha = global::SimpleTodo.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Plugin.InputKit.Resource.Integer.design_snackbar_text_max_lines = global::SimpleTodo.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Plugin.InputKit.Resource.Integer.hide_password_duration = global::SimpleTodo.Droid.Resource.Integer.hide_password_duration;
-			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Plugin.InputKit.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Plugin.InputKit.Resource.Integer.show_password_duration = global::SimpleTodo.Droid.Resource.Integer.show_password_duration;
-			global::Plugin.InputKit.Resource.Integer.status_bar_notification_info_maxnum = global::SimpleTodo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Plugin.InputKit.Resource.Interpolator.mr_fast_out_slow_in = global::SimpleTodo.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Plugin.InputKit.Resource.Interpolator.mr_linear_out_slow_in = global::SimpleTodo.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Plugin.InputKit.Resource.Layout.abc_action_bar_title_item = global::SimpleTodo.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Plugin.InputKit.Resource.Layout.abc_action_bar_up_container = global::SimpleTodo.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Plugin.InputKit.Resource.Layout.abc_action_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_action_menu_layout = global::SimpleTodo.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_action_mode_bar = global::SimpleTodo.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Plugin.InputKit.Resource.Layout.abc_action_mode_close_item_material = global::SimpleTodo.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view = global::SimpleTodo.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view_list_item = global::SimpleTodo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_button_bar_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_title_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Plugin.InputKit.Resource.Layout.abc_dialog_title_material = global::SimpleTodo.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Plugin.InputKit.Resource.Layout.abc_expanded_menu_layout = global::SimpleTodo.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_checkbox = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_icon = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_radio = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_header_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Plugin.InputKit.Resource.Layout.abc_screen_content_include = global::SimpleTodo.Droid.Resource.Layout.abc_screen_content_include;
-			global::Plugin.InputKit.Resource.Layout.abc_screen_simple = global::SimpleTodo.Droid.Resource.Layout.abc_screen_simple;
-			global::Plugin.InputKit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SimpleTodo.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Plugin.InputKit.Resource.Layout.abc_screen_toolbar = global::SimpleTodo.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Plugin.InputKit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SimpleTodo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Plugin.InputKit.Resource.Layout.abc_search_view = global::SimpleTodo.Droid.Resource.Layout.abc_search_view;
-			global::Plugin.InputKit.Resource.Layout.abc_select_dialog_material = global::SimpleTodo.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Plugin.InputKit.Resource.Layout.design_bottom_navigation_item = global::SimpleTodo.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Plugin.InputKit.Resource.Layout.design_bottom_sheet_dialog = global::SimpleTodo.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar = global::SimpleTodo.Droid.Resource.Layout.design_layout_snackbar;
-			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar_include = global::SimpleTodo.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Plugin.InputKit.Resource.Layout.design_layout_tab_icon = global::SimpleTodo.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Plugin.InputKit.Resource.Layout.design_layout_tab_text = global::SimpleTodo.Droid.Resource.Layout.design_layout_tab_text;
-			global::Plugin.InputKit.Resource.Layout.design_menu_item_action_area = global::SimpleTodo.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_item = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_item_header = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_header;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_item_separator = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_item_subheader = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_menu = global::SimpleTodo.Droid.Resource.Layout.design_navigation_menu;
-			global::Plugin.InputKit.Resource.Layout.design_navigation_menu_item = global::SimpleTodo.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Plugin.InputKit.Resource.Layout.design_text_input_password_icon = global::SimpleTodo.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Plugin.InputKit.Resource.Layout.mr_chooser_dialog = global::SimpleTodo.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Plugin.InputKit.Resource.Layout.mr_chooser_list_item = global::SimpleTodo.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Plugin.InputKit.Resource.Layout.mr_controller_material_dialog_b = global::SimpleTodo.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Plugin.InputKit.Resource.Layout.mr_controller_volume_item = global::SimpleTodo.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Plugin.InputKit.Resource.Layout.mr_playback_control = global::SimpleTodo.Droid.Resource.Layout.mr_playback_control;
-			global::Plugin.InputKit.Resource.Layout.mr_volume_control = global::SimpleTodo.Droid.Resource.Layout.mr_volume_control;
-			global::Plugin.InputKit.Resource.Layout.notification_action = global::SimpleTodo.Droid.Resource.Layout.notification_action;
-			global::Plugin.InputKit.Resource.Layout.notification_action_tombstone = global::SimpleTodo.Droid.Resource.Layout.notification_action_tombstone;
-			global::Plugin.InputKit.Resource.Layout.notification_media_action = global::SimpleTodo.Droid.Resource.Layout.notification_media_action;
-			global::Plugin.InputKit.Resource.Layout.notification_media_cancel_action = global::SimpleTodo.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Plugin.InputKit.Resource.Layout.notification_template_big_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media;
-			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Plugin.InputKit.Resource.Layout.notification_template_custom_big = global::SimpleTodo.Droid.Resource.Layout.notification_template_custom_big;
-			global::Plugin.InputKit.Resource.Layout.notification_template_icon_group = global::SimpleTodo.Droid.Resource.Layout.notification_template_icon_group;
-			global::Plugin.InputKit.Resource.Layout.notification_template_lines_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_lines_media;
-			global::Plugin.InputKit.Resource.Layout.notification_template_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_media;
-			global::Plugin.InputKit.Resource.Layout.notification_template_media_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_media_custom;
-			global::Plugin.InputKit.Resource.Layout.notification_template_part_chronometer = global::SimpleTodo.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Plugin.InputKit.Resource.Layout.notification_template_part_time = global::SimpleTodo.Droid.Resource.Layout.notification_template_part_time;
-			global::Plugin.InputKit.Resource.Layout.select_dialog_item_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_item_material;
-			global::Plugin.InputKit.Resource.Layout.select_dialog_multichoice_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Plugin.InputKit.Resource.Layout.select_dialog_singlechoice_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Plugin.InputKit.Resource.Layout.support_simple_spinner_dropdown_item = global::SimpleTodo.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Plugin.InputKit.Resource.String.abc_action_bar_home_description = global::SimpleTodo.Droid.Resource.String.abc_action_bar_home_description;
-			global::Plugin.InputKit.Resource.String.abc_action_bar_up_description = global::SimpleTodo.Droid.Resource.String.abc_action_bar_up_description;
-			global::Plugin.InputKit.Resource.String.abc_action_menu_overflow_description = global::SimpleTodo.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Plugin.InputKit.Resource.String.abc_action_mode_done = global::SimpleTodo.Droid.Resource.String.abc_action_mode_done;
-			global::Plugin.InputKit.Resource.String.abc_activity_chooser_view_see_all = global::SimpleTodo.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Plugin.InputKit.Resource.String.abc_activitychooserview_choose_application = global::SimpleTodo.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Plugin.InputKit.Resource.String.abc_capital_off = global::SimpleTodo.Droid.Resource.String.abc_capital_off;
-			global::Plugin.InputKit.Resource.String.abc_capital_on = global::SimpleTodo.Droid.Resource.String.abc_capital_on;
-			global::Plugin.InputKit.Resource.String.abc_font_family_body_1_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_body_2_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_button_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_button_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_caption_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_caption_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_display_1_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_display_2_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_display_3_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_display_4_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_headline_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_headline_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_menu_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_menu_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_subhead_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Plugin.InputKit.Resource.String.abc_font_family_title_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_title_material;
-			global::Plugin.InputKit.Resource.String.abc_search_hint = global::SimpleTodo.Droid.Resource.String.abc_search_hint;
-			global::Plugin.InputKit.Resource.String.abc_searchview_description_clear = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_clear;
-			global::Plugin.InputKit.Resource.String.abc_searchview_description_query = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_query;
-			global::Plugin.InputKit.Resource.String.abc_searchview_description_search = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_search;
-			global::Plugin.InputKit.Resource.String.abc_searchview_description_submit = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_submit;
-			global::Plugin.InputKit.Resource.String.abc_searchview_description_voice = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_voice;
-			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with = global::SimpleTodo.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with_application = global::SimpleTodo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Plugin.InputKit.Resource.String.abc_toolbar_collapse_description = global::SimpleTodo.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Plugin.InputKit.Resource.String.appbar_scrolling_view_behavior = global::SimpleTodo.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Plugin.InputKit.Resource.String.bottom_sheet_behavior = global::SimpleTodo.Droid.Resource.String.bottom_sheet_behavior;
-			global::Plugin.InputKit.Resource.String.character_counter_pattern = global::SimpleTodo.Droid.Resource.String.character_counter_pattern;
-			global::Plugin.InputKit.Resource.String.mr_button_content_description = global::SimpleTodo.Droid.Resource.String.mr_button_content_description;
-			global::Plugin.InputKit.Resource.String.mr_cast_button_connected = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connected;
-			global::Plugin.InputKit.Resource.String.mr_cast_button_connecting = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connecting;
-			global::Plugin.InputKit.Resource.String.mr_cast_button_disconnected = global::SimpleTodo.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Plugin.InputKit.Resource.String.mr_chooser_searching = global::SimpleTodo.Droid.Resource.String.mr_chooser_searching;
-			global::Plugin.InputKit.Resource.String.mr_chooser_title = global::SimpleTodo.Droid.Resource.String.mr_chooser_title;
-			global::Plugin.InputKit.Resource.String.mr_controller_album_art = global::SimpleTodo.Droid.Resource.String.mr_controller_album_art;
-			global::Plugin.InputKit.Resource.String.mr_controller_casting_screen = global::SimpleTodo.Droid.Resource.String.mr_controller_casting_screen;
-			global::Plugin.InputKit.Resource.String.mr_controller_close_description = global::SimpleTodo.Droid.Resource.String.mr_controller_close_description;
-			global::Plugin.InputKit.Resource.String.mr_controller_collapse_group = global::SimpleTodo.Droid.Resource.String.mr_controller_collapse_group;
-			global::Plugin.InputKit.Resource.String.mr_controller_disconnect = global::SimpleTodo.Droid.Resource.String.mr_controller_disconnect;
-			global::Plugin.InputKit.Resource.String.mr_controller_expand_group = global::SimpleTodo.Droid.Resource.String.mr_controller_expand_group;
-			global::Plugin.InputKit.Resource.String.mr_controller_no_info_available = global::SimpleTodo.Droid.Resource.String.mr_controller_no_info_available;
-			global::Plugin.InputKit.Resource.String.mr_controller_no_media_selected = global::SimpleTodo.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Plugin.InputKit.Resource.String.mr_controller_pause = global::SimpleTodo.Droid.Resource.String.mr_controller_pause;
-			global::Plugin.InputKit.Resource.String.mr_controller_play = global::SimpleTodo.Droid.Resource.String.mr_controller_play;
-			global::Plugin.InputKit.Resource.String.mr_controller_stop = global::SimpleTodo.Droid.Resource.String.mr_controller_stop;
-			global::Plugin.InputKit.Resource.String.mr_controller_stop_casting = global::SimpleTodo.Droid.Resource.String.mr_controller_stop_casting;
-			global::Plugin.InputKit.Resource.String.mr_controller_volume_slider = global::SimpleTodo.Droid.Resource.String.mr_controller_volume_slider;
-			global::Plugin.InputKit.Resource.String.mr_system_route_name = global::SimpleTodo.Droid.Resource.String.mr_system_route_name;
-			global::Plugin.InputKit.Resource.String.mr_user_route_category_name = global::SimpleTodo.Droid.Resource.String.mr_user_route_category_name;
-			global::Plugin.InputKit.Resource.String.password_toggle_content_description = global::SimpleTodo.Droid.Resource.String.password_toggle_content_description;
-			global::Plugin.InputKit.Resource.String.path_password_eye = global::SimpleTodo.Droid.Resource.String.path_password_eye;
-			global::Plugin.InputKit.Resource.String.path_password_eye_mask_strike_through = global::SimpleTodo.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Plugin.InputKit.Resource.String.path_password_eye_mask_visible = global::SimpleTodo.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Plugin.InputKit.Resource.String.path_password_strike_through = global::SimpleTodo.Droid.Resource.String.path_password_strike_through;
-			global::Plugin.InputKit.Resource.String.search_menu_title = global::SimpleTodo.Droid.Resource.String.search_menu_title;
-			global::Plugin.InputKit.Resource.String.status_bar_notification_info_overflow = global::SimpleTodo.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat = global::SimpleTodo.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_DropDownUp = global::SimpleTodo.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Plugin.InputKit.Resource.Style.Animation_Design_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SimpleTodo.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Plugin.InputKit.Resource.Style.Base_CardView = global::SimpleTodo.Droid.Resource.Style.Base_CardView;
-			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.InputKit.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_AppBarLayout = global::SimpleTodo.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_TabLayout = global::SimpleTodo.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Plugin.InputKit.Resource.Style.CardView = global::SimpleTodo.Droid.Resource.Style.CardView;
-			global::Plugin.InputKit.Resource.Style.CardView_Dark = global::SimpleTodo.Droid.Resource.Style.CardView_Dark;
-			global::Plugin.InputKit.Resource.Style.CardView_Light = global::SimpleTodo.Droid.Resource.Style.CardView_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_V11_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_V11_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_V14_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_V14_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body1 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body2 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Caption = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display1 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display2 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display3 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display4 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Headline = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Menu = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Error = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Hint = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Tab = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_MediaRouter_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_CompactMenu = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_Design = global::SimpleTodo.Droid.Resource.Style.Theme_Design;
-			global::Plugin.InputKit.Resource.Style.Theme_Design_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Plugin.InputKit.Resource.Style.Theme_Design_Light = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light;
-			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_Design_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter;
-			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_Light = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Plugin.InputKit.Resource.Style.Theme_MediaRouter_LightControlPanel = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MediaRouter_Light = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Small = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ImageButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_SearchView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListMenuView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_Menu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_AppBarLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomNavigationView = global::SimpleTodo.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomSheet_Modal = global::SimpleTodo.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_CollapsingToolbar = global::SimpleTodo.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_CoordinatorLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_FloatingActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_NavigationView = global::SimpleTodo.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_Snackbar = global::SimpleTodo.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_TabLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Plugin.InputKit.Resource.Style.Widget_Design_TextInputLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Plugin.InputKit.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::SimpleTodo.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Plugin.InputKit.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::SimpleTodo.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar = global::SimpleTodo.Droid.Resource.Styleable.ActionBar;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_background = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_background;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundSplit = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundStacked = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEnd = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetLeft = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetRight = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStart = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_customNavigationLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_displayOptions = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_divider = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_divider;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_elevation = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_height = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_height;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_hideOnContentScroll = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_icon = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_icon;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_itemPadding = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_logo = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_logo;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_navigationMode = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarPadding = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_title = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_title;
-			global::Plugin.InputKit.Resource.Styleable.ActionBar_titleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBarLayout;
-			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Plugin.InputKit.Resource.Styleable.ActionMenuView = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuView;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode = global::SimpleTodo.Droid.Resource.Styleable.ActionMode;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_background = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_background;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_backgroundSplit = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_closeItemLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_height = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_height;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_subtitleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActionMode_titleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView;
-			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_android_layout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_showTitle = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Plugin.InputKit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_background = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_elevation = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_expanded = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_android_src = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_srcCompat = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tint = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tintMode = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMark = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textAllCaps = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSize = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorAccent = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimary = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_controlBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerVertical = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextColor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_switchStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBar = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_elevation = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemIconTint = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemTextColor = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_menu = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout = global::SimpleTodo.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout_allowStacking = global::SimpleTodo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Plugin.InputKit.Resource.Styleable.CardView = global::SimpleTodo.Droid.Resource.Styleable.CardView;
-			global::Plugin.InputKit.Resource.Styleable.CardView_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Plugin.InputKit.Resource.Styleable.CardView_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardBackgroundColor = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardCornerRadius = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardElevation = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardMaxElevation = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Plugin.InputKit.Resource.Styleable.CardView_cardUseCompatPadding = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Plugin.InputKit.Resource.Styleable.CardView_contentPadding = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingBottom = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingLeft = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingRight = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingTop = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_title = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem;
-			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_alpha = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_alpha = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_color = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Plugin.InputKit.Resource.Styleable.CompoundButton = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton;
-			global::Plugin.InputKit.Resource.Styleable.CompoundButton_android_button = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTint = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTintMode = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_keylines = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Plugin.InputKit.Resource.Styleable.DesignTheme = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme;
-			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetStyle = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Plugin.InputKit.Resource.Styleable.DesignTheme_textColorError = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_barLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_color = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_spinBars = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_thickness = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTint = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_borderWidth = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_elevation = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabSize = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_rippleColor = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_divider = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_showDividers = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow;
-			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton;
-			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Plugin.InputKit.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_enabled = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_id = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_menuCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_orderInCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_visible = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem = global::SimpleTodo.Droid.Resource.Styleable.MenuItem;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionLayout = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionProviderClass = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionViewClass = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checkable = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checked = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_enabled = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_icon = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_id = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_menuCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_numericShortcut = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_onClick = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_orderInCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_title = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_titleCondensed = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_visible = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Plugin.InputKit.Resource.Styleable.MenuItem_showAsAction = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Plugin.InputKit.Resource.Styleable.MenuView = global::SimpleTodo.Droid.Resource.Styleable.MenuView;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_headerBackground = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_horizontalDivider = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_verticalDivider = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_preserveIconSpacing = global::SimpleTodo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Plugin.InputKit.Resource.Styleable.MenuView_subMenuArrow = global::SimpleTodo.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView = global::SimpleTodo.Droid.Resource.Styleable.NavigationView;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_background = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_elevation = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_headerLayout = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconTint = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextColor = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Plugin.InputKit.Resource.Styleable.NavigationView_menu = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_menu;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindow = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupBackground = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindow_overlapAnchor = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState = global::SimpleTodo.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SimpleTodo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Plugin.InputKit.Resource.Styleable.RecycleListView = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView;
-			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_orientation = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_layoutManager = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_reverseLayout = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_spanCount = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Plugin.InputKit.Resource.Styleable.RecyclerView_stackFromEnd = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout = global::SimpleTodo.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SimpleTodo.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SimpleTodo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Plugin.InputKit.Resource.Styleable.SearchView = global::SimpleTodo.Droid.Resource.Styleable.SearchView;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_android_focusable = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_android_imeOptions = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_android_inputType = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_closeIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_commitIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_defaultQueryHint = global::SimpleTodo.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_goIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_iconifiedByDefault = global::SimpleTodo.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_layout = global::SimpleTodo.Droid.Resource.Styleable.SearchView_layout;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_queryBackground = global::SimpleTodo.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_queryHint = global::SimpleTodo.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_searchHintIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_searchIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_submitBackground = global::SimpleTodo.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_suggestionRowLayout = global::SimpleTodo.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Plugin.InputKit.Resource.Styleable.SearchView_voiceIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout;
-			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_elevation = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Plugin.InputKit.Resource.Styleable.Spinner = global::SimpleTodo.Droid.Resource.Styleable.Spinner;
-			global::Plugin.InputKit.Resource.Styleable.Spinner_android_dropDownWidth = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Plugin.InputKit.Resource.Styleable.Spinner_android_entries = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Plugin.InputKit.Resource.Styleable.Spinner_android_popupBackground = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Plugin.InputKit.Resource.Styleable.Spinner_android_prompt = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Plugin.InputKit.Resource.Styleable.Spinner_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOff = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOn = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_thumb = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_showText = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_splitTrack = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchMinWidth = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchPadding = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTint = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTintMode = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_track = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTint = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTintMode = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Plugin.InputKit.Resource.Styleable.TabItem = global::SimpleTodo.Droid.Resource.Styleable.TabItem;
-			global::Plugin.InputKit.Resource.Styleable.TabItem_android_icon = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Plugin.InputKit.Resource.Styleable.TabItem_android_layout = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Plugin.InputKit.Resource.Styleable.TabItem_android_text = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_text;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout = global::SimpleTodo.Droid.Resource.Styleable.TabLayout;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabBackground = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabContentStart = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabGravity = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMaxWidth = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMinWidth = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMode = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPadding = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingBottom = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingEnd = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingStart = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingTop = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowColor = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDx = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDy = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowRadius = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColor = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorHint = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textSize = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textStyle = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_typeface = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textAllCaps = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_hint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_textColorHint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterMaxLength = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar = global::SimpleTodo.Droid.Resource.Styleable.Toolbar;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_gravity = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_buttonGravity = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseContentDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseIcon = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEnd = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetLeft = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetRight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStart = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_logo = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_logo;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_logoDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_maxButtonHeight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationContentDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationIcon = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitle = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextColor = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_title = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_title;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargin = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginBottom = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginEnd = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginStart = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginTop = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargins = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextColor = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Plugin.InputKit.Resource.Styleable.View = global::SimpleTodo.Droid.Resource.Styleable.View;
-			global::Plugin.InputKit.Resource.Styleable.View_android_focusable = global::SimpleTodo.Droid.Resource.Styleable.View_android_focusable;
-			global::Plugin.InputKit.Resource.Styleable.View_android_theme = global::SimpleTodo.Droid.Resource.Styleable.View_android_theme;
-			global::Plugin.InputKit.Resource.Styleable.View_paddingEnd = global::SimpleTodo.Droid.Resource.Styleable.View_paddingEnd;
-			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::SimpleTodo.Droid.Resource.Styleable.View_paddingStart;
-			global::Plugin.InputKit.Resource.Styleable.View_theme = global::SimpleTodo.Droid.Resource.Styleable.View_theme;
-			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_android_background = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat;
-			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_id = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_layout = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Reactive.Bindings.Resource.String.ApplicationName = global::SimpleTodo.Droid.Resource.String.ApplicationName;
 			global::Reactive.Bindings.Resource.String.Hello = global::SimpleTodo.Droid.Resource.String.Hello;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_fade_in = global::SimpleTodo.Droid.Resource.Animation.abc_fade_in;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_fade_out = global::SimpleTodo.Droid.Resource.Animation.abc_fade_out;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_popup_enter = global::SimpleTodo.Droid.Resource.Animation.abc_popup_enter;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_popup_exit = global::SimpleTodo.Droid.Resource.Animation.abc_popup_exit;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_slide_in_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_slide_in_top = global::SimpleTodo.Droid.Resource.Animation.abc_slide_in_top;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_slide_out_bottom = global::SimpleTodo.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::AiForms.Renderers.Droid.Resource.Animation.abc_slide_out_top = global::SimpleTodo.Droid.Resource.Animation.abc_slide_out_top;
-			global::AiForms.Renderers.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::SimpleTodo.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::AiForms.Renderers.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::SimpleTodo.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::AiForms.Renderers.Droid.Resource.Animation.design_snackbar_in = global::SimpleTodo.Droid.Resource.Animation.design_snackbar_in;
-			global::AiForms.Renderers.Droid.Resource.Animation.design_snackbar_out = global::SimpleTodo.Droid.Resource.Animation.design_snackbar_out;
-			global::AiForms.Renderers.Droid.Resource.Animator.design_appbar_state_list_animator = global::SimpleTodo.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarDivider = global::SimpleTodo.Droid.Resource.Attribute.actionBarDivider;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarItemBackground = global::SimpleTodo.Droid.Resource.Attribute.actionBarItemBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarPopupTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarSize = global::SimpleTodo.Droid.Resource.Attribute.actionBarSize;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarSplitStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarTabBarStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarTabStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarTabTextStyle = global::SimpleTodo.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionBarWidgetTheme = global::SimpleTodo.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionDropDownStyle = global::SimpleTodo.Droid.Resource.Attribute.actionDropDownStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionLayout = global::SimpleTodo.Droid.Resource.Attribute.actionLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionMenuTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionMenuTextColor = global::SimpleTodo.Droid.Resource.Attribute.actionMenuTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeBackground = global::SimpleTodo.Droid.Resource.Attribute.actionModeBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeCloseDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeCopyDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeCutDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeFindDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModePasteDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModePopupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeShareDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeSplitBackground = global::SimpleTodo.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeStyle = global::SimpleTodo.Droid.Resource.Attribute.actionModeStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::SimpleTodo.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionOverflowButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionOverflowMenuStyle = global::SimpleTodo.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionProviderClass = global::SimpleTodo.Droid.Resource.Attribute.actionProviderClass;
-			global::AiForms.Renderers.Droid.Resource.Attribute.actionViewClass = global::SimpleTodo.Droid.Resource.Attribute.actionViewClass;
-			global::AiForms.Renderers.Droid.Resource.Attribute.activityChooserViewStyle = global::SimpleTodo.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::SimpleTodo.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.alertDialogCenterButtons = global::SimpleTodo.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::AiForms.Renderers.Droid.Resource.Attribute.alertDialogStyle = global::SimpleTodo.Droid.Resource.Attribute.alertDialogStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.alertDialogTheme = global::SimpleTodo.Droid.Resource.Attribute.alertDialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.allowStacking = global::SimpleTodo.Droid.Resource.Attribute.allowStacking;
-			global::AiForms.Renderers.Droid.Resource.Attribute.alpha = global::SimpleTodo.Droid.Resource.Attribute.alpha;
-			global::AiForms.Renderers.Droid.Resource.Attribute.arrowHeadLength = global::SimpleTodo.Droid.Resource.Attribute.arrowHeadLength;
-			global::AiForms.Renderers.Droid.Resource.Attribute.arrowShaftLength = global::SimpleTodo.Droid.Resource.Attribute.arrowShaftLength;
-			global::AiForms.Renderers.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::SimpleTodo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.background = global::SimpleTodo.Droid.Resource.Attribute.background;
-			global::AiForms.Renderers.Droid.Resource.Attribute.backgroundSplit = global::SimpleTodo.Droid.Resource.Attribute.backgroundSplit;
-			global::AiForms.Renderers.Droid.Resource.Attribute.backgroundStacked = global::SimpleTodo.Droid.Resource.Attribute.backgroundStacked;
-			global::AiForms.Renderers.Droid.Resource.Attribute.backgroundTint = global::SimpleTodo.Droid.Resource.Attribute.backgroundTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.backgroundTintMode = global::SimpleTodo.Droid.Resource.Attribute.backgroundTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.barLength = global::SimpleTodo.Droid.Resource.Attribute.barLength;
-			global::AiForms.Renderers.Droid.Resource.Attribute.behavior_autoHide = global::SimpleTodo.Droid.Resource.Attribute.behavior_autoHide;
-			global::AiForms.Renderers.Droid.Resource.Attribute.behavior_hideable = global::SimpleTodo.Droid.Resource.Attribute.behavior_hideable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.behavior_overlapTop = global::SimpleTodo.Droid.Resource.Attribute.behavior_overlapTop;
-			global::AiForms.Renderers.Droid.Resource.Attribute.behavior_peekHeight = global::SimpleTodo.Droid.Resource.Attribute.behavior_peekHeight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.behavior_skipCollapsed = global::SimpleTodo.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::AiForms.Renderers.Droid.Resource.Attribute.borderWidth = global::SimpleTodo.Droid.Resource.Attribute.borderWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.borderlessButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.bottomSheetDialogTheme = global::SimpleTodo.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.bottomSheetStyle = global::SimpleTodo.Droid.Resource.Attribute.bottomSheetStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonBarButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonBarStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonGravity = global::SimpleTodo.Droid.Resource.Attribute.buttonGravity;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonPanelSideLayout = global::SimpleTodo.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonStyle = global::SimpleTodo.Droid.Resource.Attribute.buttonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonStyleSmall = global::SimpleTodo.Droid.Resource.Attribute.buttonStyleSmall;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonTint = global::SimpleTodo.Droid.Resource.Attribute.buttonTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.buttonTintMode = global::SimpleTodo.Droid.Resource.Attribute.buttonTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardBackgroundColor = global::SimpleTodo.Droid.Resource.Attribute.cardBackgroundColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardCornerRadius = global::SimpleTodo.Droid.Resource.Attribute.cardCornerRadius;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardElevation = global::SimpleTodo.Droid.Resource.Attribute.cardElevation;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardMaxElevation = global::SimpleTodo.Droid.Resource.Attribute.cardMaxElevation;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardPreventCornerOverlap = global::SimpleTodo.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::AiForms.Renderers.Droid.Resource.Attribute.cardUseCompatPadding = global::SimpleTodo.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.checkboxStyle = global::SimpleTodo.Droid.Resource.Attribute.checkboxStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.checkedTextViewStyle = global::SimpleTodo.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.closeIcon = global::SimpleTodo.Droid.Resource.Attribute.closeIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.closeItemLayout = global::SimpleTodo.Droid.Resource.Attribute.closeItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.collapseContentDescription = global::SimpleTodo.Droid.Resource.Attribute.collapseContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Attribute.collapseIcon = global::SimpleTodo.Droid.Resource.Attribute.collapseIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.collapsedTitleGravity = global::SimpleTodo.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::AiForms.Renderers.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.color = global::SimpleTodo.Droid.Resource.Attribute.color;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorAccent = global::SimpleTodo.Droid.Resource.Attribute.colorAccent;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorBackgroundFloating = global::SimpleTodo.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorButtonNormal = global::SimpleTodo.Droid.Resource.Attribute.colorButtonNormal;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorControlActivated = global::SimpleTodo.Droid.Resource.Attribute.colorControlActivated;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorControlHighlight = global::SimpleTodo.Droid.Resource.Attribute.colorControlHighlight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorControlNormal = global::SimpleTodo.Droid.Resource.Attribute.colorControlNormal;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorPrimary = global::SimpleTodo.Droid.Resource.Attribute.colorPrimary;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorPrimaryDark = global::SimpleTodo.Droid.Resource.Attribute.colorPrimaryDark;
-			global::AiForms.Renderers.Droid.Resource.Attribute.colorSwitchThumbNormal = global::SimpleTodo.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::AiForms.Renderers.Droid.Resource.Attribute.commitIcon = global::SimpleTodo.Droid.Resource.Attribute.commitIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetEnd = global::SimpleTodo.Droid.Resource.Attribute.contentInsetEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetLeft = global::SimpleTodo.Droid.Resource.Attribute.contentInsetLeft;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetRight = global::SimpleTodo.Droid.Resource.Attribute.contentInsetRight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetStart = global::SimpleTodo.Droid.Resource.Attribute.contentInsetStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentPadding = global::SimpleTodo.Droid.Resource.Attribute.contentPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentPaddingBottom = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingBottom;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentPaddingLeft = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingLeft;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentPaddingRight = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingRight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentPaddingTop = global::SimpleTodo.Droid.Resource.Attribute.contentPaddingTop;
-			global::AiForms.Renderers.Droid.Resource.Attribute.contentScrim = global::SimpleTodo.Droid.Resource.Attribute.contentScrim;
-			global::AiForms.Renderers.Droid.Resource.Attribute.controlBackground = global::SimpleTodo.Droid.Resource.Attribute.controlBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.counterEnabled = global::SimpleTodo.Droid.Resource.Attribute.counterEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.counterMaxLength = global::SimpleTodo.Droid.Resource.Attribute.counterMaxLength;
-			global::AiForms.Renderers.Droid.Resource.Attribute.counterOverflowTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.counterTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.counterTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.customNavigationLayout = global::SimpleTodo.Droid.Resource.Attribute.customNavigationLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.defaultQueryHint = global::SimpleTodo.Droid.Resource.Attribute.defaultQueryHint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dialogPreferredPadding = global::SimpleTodo.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dialogTheme = global::SimpleTodo.Droid.Resource.Attribute.dialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.displayOptions = global::SimpleTodo.Droid.Resource.Attribute.displayOptions;
-			global::AiForms.Renderers.Droid.Resource.Attribute.divider = global::SimpleTodo.Droid.Resource.Attribute.divider;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dividerHorizontal = global::SimpleTodo.Droid.Resource.Attribute.dividerHorizontal;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dividerPadding = global::SimpleTodo.Droid.Resource.Attribute.dividerPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dividerVertical = global::SimpleTodo.Droid.Resource.Attribute.dividerVertical;
-			global::AiForms.Renderers.Droid.Resource.Attribute.drawableSize = global::SimpleTodo.Droid.Resource.Attribute.drawableSize;
-			global::AiForms.Renderers.Droid.Resource.Attribute.drawerArrowStyle = global::SimpleTodo.Droid.Resource.Attribute.drawerArrowStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dropDownListViewStyle = global::SimpleTodo.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::SimpleTodo.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.editTextBackground = global::SimpleTodo.Droid.Resource.Attribute.editTextBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.editTextColor = global::SimpleTodo.Droid.Resource.Attribute.editTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.editTextStyle = global::SimpleTodo.Droid.Resource.Attribute.editTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.elevation = global::SimpleTodo.Droid.Resource.Attribute.elevation;
-			global::AiForms.Renderers.Droid.Resource.Attribute.errorEnabled = global::SimpleTodo.Droid.Resource.Attribute.errorEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.errorTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.errorTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SimpleTodo.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expanded = global::SimpleTodo.Droid.Resource.Attribute.expanded;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleGravity = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleGravity;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleMargin = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMargin;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleMarginBottom = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleMarginEnd = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleMarginStart = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleMarginTop = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::AiForms.Renderers.Droid.Resource.Attribute.expandedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::SimpleTodo.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.fabSize = global::SimpleTodo.Droid.Resource.Attribute.fabSize;
-			global::AiForms.Renderers.Droid.Resource.Attribute.foregroundInsidePadding = global::SimpleTodo.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.gapBetweenBars = global::SimpleTodo.Droid.Resource.Attribute.gapBetweenBars;
-			global::AiForms.Renderers.Droid.Resource.Attribute.goIcon = global::SimpleTodo.Droid.Resource.Attribute.goIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.headerLayout = global::SimpleTodo.Droid.Resource.Attribute.headerLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.height = global::SimpleTodo.Droid.Resource.Attribute.height;
-			global::AiForms.Renderers.Droid.Resource.Attribute.hideOnContentScroll = global::SimpleTodo.Droid.Resource.Attribute.hideOnContentScroll;
-			global::AiForms.Renderers.Droid.Resource.Attribute.hintAnimationEnabled = global::SimpleTodo.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.hintEnabled = global::SimpleTodo.Droid.Resource.Attribute.hintEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.hintTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.hintTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::AiForms.Renderers.Droid.Resource.Attribute.homeLayout = global::SimpleTodo.Droid.Resource.Attribute.homeLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.icon = global::SimpleTodo.Droid.Resource.Attribute.icon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.iconifiedByDefault = global::SimpleTodo.Droid.Resource.Attribute.iconifiedByDefault;
-			global::AiForms.Renderers.Droid.Resource.Attribute.imageButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.imageButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.indeterminateProgressStyle = global::SimpleTodo.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.initialActivityCount = global::SimpleTodo.Droid.Resource.Attribute.initialActivityCount;
-			global::AiForms.Renderers.Droid.Resource.Attribute.insetForeground = global::SimpleTodo.Droid.Resource.Attribute.insetForeground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.isLightTheme = global::SimpleTodo.Droid.Resource.Attribute.isLightTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.itemBackground = global::SimpleTodo.Droid.Resource.Attribute.itemBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.itemIconTint = global::SimpleTodo.Droid.Resource.Attribute.itemIconTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.itemPadding = global::SimpleTodo.Droid.Resource.Attribute.itemPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.itemTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.itemTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.itemTextColor = global::SimpleTodo.Droid.Resource.Attribute.itemTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.keylines = global::SimpleTodo.Droid.Resource.Attribute.keylines;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout = global::SimpleTodo.Droid.Resource.Attribute.layout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layoutManager = global::SimpleTodo.Droid.Resource.Attribute.layoutManager;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_anchor = global::SimpleTodo.Droid.Resource.Attribute.layout_anchor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_anchorGravity = global::SimpleTodo.Droid.Resource.Attribute.layout_anchorGravity;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_behavior = global::SimpleTodo.Droid.Resource.Attribute.layout_behavior;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_collapseMode = global::SimpleTodo.Droid.Resource.Attribute.layout_collapseMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::SimpleTodo.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::SimpleTodo.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_insetEdge = global::SimpleTodo.Droid.Resource.Attribute.layout_insetEdge;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_keyline = global::SimpleTodo.Droid.Resource.Attribute.layout_keyline;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_scrollFlags = global::SimpleTodo.Droid.Resource.Attribute.layout_scrollFlags;
-			global::AiForms.Renderers.Droid.Resource.Attribute.layout_scrollInterpolator = global::SimpleTodo.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::SimpleTodo.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listDividerAlertDialog = global::SimpleTodo.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listItemLayout = global::SimpleTodo.Droid.Resource.Attribute.listItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listLayout = global::SimpleTodo.Droid.Resource.Attribute.listLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listMenuViewStyle = global::SimpleTodo.Droid.Resource.Attribute.listMenuViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPopupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPreferredItemHeight = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::AiForms.Renderers.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::SimpleTodo.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.logo = global::SimpleTodo.Droid.Resource.Attribute.logo;
-			global::AiForms.Renderers.Droid.Resource.Attribute.logoDescription = global::SimpleTodo.Droid.Resource.Attribute.logoDescription;
-			global::AiForms.Renderers.Droid.Resource.Attribute.maxActionInlineWidth = global::SimpleTodo.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.maxButtonHeight = global::SimpleTodo.Droid.Resource.Attribute.maxButtonHeight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.measureWithLargestChild = global::SimpleTodo.Droid.Resource.Attribute.measureWithLargestChild;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteStopDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteTheme = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::SimpleTodo.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.menu = global::SimpleTodo.Droid.Resource.Attribute.menu;
-			global::AiForms.Renderers.Droid.Resource.Attribute.multiChoiceItemLayout = global::SimpleTodo.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.navigationContentDescription = global::SimpleTodo.Droid.Resource.Attribute.navigationContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Attribute.navigationIcon = global::SimpleTodo.Droid.Resource.Attribute.navigationIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.navigationMode = global::SimpleTodo.Droid.Resource.Attribute.navigationMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.overlapAnchor = global::SimpleTodo.Droid.Resource.Attribute.overlapAnchor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.paddingBottomNoButtons = global::SimpleTodo.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::AiForms.Renderers.Droid.Resource.Attribute.paddingEnd = global::SimpleTodo.Droid.Resource.Attribute.paddingEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.paddingStart = global::SimpleTodo.Droid.Resource.Attribute.paddingStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.paddingTopNoTitle = global::SimpleTodo.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.panelBackground = global::SimpleTodo.Droid.Resource.Attribute.panelBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.panelMenuListTheme = global::SimpleTodo.Droid.Resource.Attribute.panelMenuListTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.panelMenuListWidth = global::SimpleTodo.Droid.Resource.Attribute.panelMenuListWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.passwordToggleContentDescription = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Attribute.passwordToggleDrawable = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::AiForms.Renderers.Droid.Resource.Attribute.passwordToggleEnabled = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.passwordToggleTint = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.passwordToggleTintMode = global::SimpleTodo.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.popupMenuStyle = global::SimpleTodo.Droid.Resource.Attribute.popupMenuStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.popupTheme = global::SimpleTodo.Droid.Resource.Attribute.popupTheme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.popupWindowStyle = global::SimpleTodo.Droid.Resource.Attribute.popupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.preserveIconSpacing = global::SimpleTodo.Droid.Resource.Attribute.preserveIconSpacing;
-			global::AiForms.Renderers.Droid.Resource.Attribute.pressedTranslationZ = global::SimpleTodo.Droid.Resource.Attribute.pressedTranslationZ;
-			global::AiForms.Renderers.Droid.Resource.Attribute.progressBarPadding = global::SimpleTodo.Droid.Resource.Attribute.progressBarPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.progressBarStyle = global::SimpleTodo.Droid.Resource.Attribute.progressBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.queryBackground = global::SimpleTodo.Droid.Resource.Attribute.queryBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.queryHint = global::SimpleTodo.Droid.Resource.Attribute.queryHint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.radioButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.radioButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.ratingBarStyle = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.ratingBarStyleIndicator = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::AiForms.Renderers.Droid.Resource.Attribute.ratingBarStyleSmall = global::SimpleTodo.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::AiForms.Renderers.Droid.Resource.Attribute.reverseLayout = global::SimpleTodo.Droid.Resource.Attribute.reverseLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.rippleColor = global::SimpleTodo.Droid.Resource.Attribute.rippleColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.scrimAnimationDuration = global::SimpleTodo.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::AiForms.Renderers.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::SimpleTodo.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::AiForms.Renderers.Droid.Resource.Attribute.searchHintIcon = global::SimpleTodo.Droid.Resource.Attribute.searchHintIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.searchIcon = global::SimpleTodo.Droid.Resource.Attribute.searchIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.searchViewStyle = global::SimpleTodo.Droid.Resource.Attribute.searchViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.seekBarStyle = global::SimpleTodo.Droid.Resource.Attribute.seekBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.selectableItemBackground = global::SimpleTodo.Droid.Resource.Attribute.selectableItemBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::SimpleTodo.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::AiForms.Renderers.Droid.Resource.Attribute.showAsAction = global::SimpleTodo.Droid.Resource.Attribute.showAsAction;
-			global::AiForms.Renderers.Droid.Resource.Attribute.showDividers = global::SimpleTodo.Droid.Resource.Attribute.showDividers;
-			global::AiForms.Renderers.Droid.Resource.Attribute.showText = global::SimpleTodo.Droid.Resource.Attribute.showText;
-			global::AiForms.Renderers.Droid.Resource.Attribute.showTitle = global::SimpleTodo.Droid.Resource.Attribute.showTitle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.singleChoiceItemLayout = global::SimpleTodo.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.spanCount = global::SimpleTodo.Droid.Resource.Attribute.spanCount;
-			global::AiForms.Renderers.Droid.Resource.Attribute.spinBars = global::SimpleTodo.Droid.Resource.Attribute.spinBars;
-			global::AiForms.Renderers.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::SimpleTodo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.spinnerStyle = global::SimpleTodo.Droid.Resource.Attribute.spinnerStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.splitTrack = global::SimpleTodo.Droid.Resource.Attribute.splitTrack;
-			global::AiForms.Renderers.Droid.Resource.Attribute.srcCompat = global::SimpleTodo.Droid.Resource.Attribute.srcCompat;
-			global::AiForms.Renderers.Droid.Resource.Attribute.stackFromEnd = global::SimpleTodo.Droid.Resource.Attribute.stackFromEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.state_above_anchor = global::SimpleTodo.Droid.Resource.Attribute.state_above_anchor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.state_collapsed = global::SimpleTodo.Droid.Resource.Attribute.state_collapsed;
-			global::AiForms.Renderers.Droid.Resource.Attribute.state_collapsible = global::SimpleTodo.Droid.Resource.Attribute.state_collapsible;
-			global::AiForms.Renderers.Droid.Resource.Attribute.statusBarBackground = global::SimpleTodo.Droid.Resource.Attribute.statusBarBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.statusBarScrim = global::SimpleTodo.Droid.Resource.Attribute.statusBarScrim;
-			global::AiForms.Renderers.Droid.Resource.Attribute.subMenuArrow = global::SimpleTodo.Droid.Resource.Attribute.subMenuArrow;
-			global::AiForms.Renderers.Droid.Resource.Attribute.submitBackground = global::SimpleTodo.Droid.Resource.Attribute.submitBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.subtitle = global::SimpleTodo.Droid.Resource.Attribute.subtitle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.subtitleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.subtitleTextColor = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.subtitleTextStyle = global::SimpleTodo.Droid.Resource.Attribute.subtitleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.suggestionRowLayout = global::SimpleTodo.Droid.Resource.Attribute.suggestionRowLayout;
-			global::AiForms.Renderers.Droid.Resource.Attribute.switchMinWidth = global::SimpleTodo.Droid.Resource.Attribute.switchMinWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.switchPadding = global::SimpleTodo.Droid.Resource.Attribute.switchPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.switchStyle = global::SimpleTodo.Droid.Resource.Attribute.switchStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.switchTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.switchTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabBackground = global::SimpleTodo.Droid.Resource.Attribute.tabBackground;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabContentStart = global::SimpleTodo.Droid.Resource.Attribute.tabContentStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabGravity = global::SimpleTodo.Droid.Resource.Attribute.tabGravity;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabIndicatorColor = global::SimpleTodo.Droid.Resource.Attribute.tabIndicatorColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabIndicatorHeight = global::SimpleTodo.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabMaxWidth = global::SimpleTodo.Droid.Resource.Attribute.tabMaxWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabMinWidth = global::SimpleTodo.Droid.Resource.Attribute.tabMinWidth;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabMode = global::SimpleTodo.Droid.Resource.Attribute.tabMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabPadding = global::SimpleTodo.Droid.Resource.Attribute.tabPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabPaddingBottom = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingBottom;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabPaddingEnd = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabPaddingStart = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabPaddingTop = global::SimpleTodo.Droid.Resource.Attribute.tabPaddingTop;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabSelectedTextColor = global::SimpleTodo.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.tabTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tabTextColor = global::SimpleTodo.Droid.Resource.Attribute.tabTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAllCaps = global::SimpleTodo.Droid.Resource.Attribute.textAllCaps;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceListItem = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItem;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceListItemSmall = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::SimpleTodo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::SimpleTodo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textColorAlertDialogListItem = global::SimpleTodo.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textColorError = global::SimpleTodo.Droid.Resource.Attribute.textColorError;
-			global::AiForms.Renderers.Droid.Resource.Attribute.textColorSearchUrl = global::SimpleTodo.Droid.Resource.Attribute.textColorSearchUrl;
-			global::AiForms.Renderers.Droid.Resource.Attribute.theme = global::SimpleTodo.Droid.Resource.Attribute.theme;
-			global::AiForms.Renderers.Droid.Resource.Attribute.thickness = global::SimpleTodo.Droid.Resource.Attribute.thickness;
-			global::AiForms.Renderers.Droid.Resource.Attribute.thumbTextPadding = global::SimpleTodo.Droid.Resource.Attribute.thumbTextPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.thumbTint = global::SimpleTodo.Droid.Resource.Attribute.thumbTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.thumbTintMode = global::SimpleTodo.Droid.Resource.Attribute.thumbTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tickMark = global::SimpleTodo.Droid.Resource.Attribute.tickMark;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tickMarkTint = global::SimpleTodo.Droid.Resource.Attribute.tickMarkTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tickMarkTintMode = global::SimpleTodo.Droid.Resource.Attribute.tickMarkTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tint = global::SimpleTodo.Droid.Resource.Attribute.tint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.tintMode = global::SimpleTodo.Droid.Resource.Attribute.tintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.title = global::SimpleTodo.Droid.Resource.Attribute.title;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleEnabled = global::SimpleTodo.Droid.Resource.Attribute.titleEnabled;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMargin = global::SimpleTodo.Droid.Resource.Attribute.titleMargin;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMarginBottom = global::SimpleTodo.Droid.Resource.Attribute.titleMarginBottom;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMarginEnd = global::SimpleTodo.Droid.Resource.Attribute.titleMarginEnd;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMarginStart = global::SimpleTodo.Droid.Resource.Attribute.titleMarginStart;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMarginTop = global::SimpleTodo.Droid.Resource.Attribute.titleMarginTop;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleMargins = global::SimpleTodo.Droid.Resource.Attribute.titleMargins;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleTextAppearance = global::SimpleTodo.Droid.Resource.Attribute.titleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleTextColor = global::SimpleTodo.Droid.Resource.Attribute.titleTextColor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.titleTextStyle = global::SimpleTodo.Droid.Resource.Attribute.titleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.toolbarId = global::SimpleTodo.Droid.Resource.Attribute.toolbarId;
-			global::AiForms.Renderers.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::SimpleTodo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.toolbarStyle = global::SimpleTodo.Droid.Resource.Attribute.toolbarStyle;
-			global::AiForms.Renderers.Droid.Resource.Attribute.track = global::SimpleTodo.Droid.Resource.Attribute.track;
-			global::AiForms.Renderers.Droid.Resource.Attribute.trackTint = global::SimpleTodo.Droid.Resource.Attribute.trackTint;
-			global::AiForms.Renderers.Droid.Resource.Attribute.trackTintMode = global::SimpleTodo.Droid.Resource.Attribute.trackTintMode;
-			global::AiForms.Renderers.Droid.Resource.Attribute.useCompatPadding = global::SimpleTodo.Droid.Resource.Attribute.useCompatPadding;
-			global::AiForms.Renderers.Droid.Resource.Attribute.voiceIcon = global::SimpleTodo.Droid.Resource.Attribute.voiceIcon;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowActionBar = global::SimpleTodo.Droid.Resource.Attribute.windowActionBar;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowActionBarOverlay = global::SimpleTodo.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowActionModeOverlay = global::SimpleTodo.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowFixedHeightMajor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowFixedHeightMinor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowFixedWidthMajor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowFixedWidthMinor = global::SimpleTodo.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowMinWidthMajor = global::SimpleTodo.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowMinWidthMinor = global::SimpleTodo.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::AiForms.Renderers.Droid.Resource.Attribute.windowNoTitle = global::SimpleTodo.Droid.Resource.Attribute.windowNoTitle;
-			global::AiForms.Renderers.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::SimpleTodo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::AiForms.Renderers.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::SimpleTodo.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::AiForms.Renderers.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SimpleTodo.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::AiForms.Renderers.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::SimpleTodo.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::AiForms.Renderers.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::SimpleTodo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::SimpleTodo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::SimpleTodo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_btn_colored_text_material = global::SimpleTodo.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_color_highlight_material = global::SimpleTodo.Droid.Resource.Color.abc_color_highlight_material;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_hint_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_hint_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_input_method_navigation_guard = global::SimpleTodo.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_primary_text_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_primary_text_material_light = global::SimpleTodo.Droid.Resource.Color.abc_primary_text_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_search_url_text = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_search_url_text_normal = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_normal;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_search_url_text_pressed = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_search_url_text_selected = global::SimpleTodo.Droid.Resource.Color.abc_search_url_text_selected;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_secondary_text_material_dark = global::SimpleTodo.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_secondary_text_material_light = global::SimpleTodo.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_btn_checkable = global::SimpleTodo.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_default = global::SimpleTodo.Droid.Resource.Color.abc_tint_default;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_edittext = global::SimpleTodo.Droid.Resource.Color.abc_tint_edittext;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_seek_thumb = global::SimpleTodo.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_spinner = global::SimpleTodo.Droid.Resource.Color.abc_tint_spinner;
-			global::AiForms.Renderers.Droid.Resource.Color.abc_tint_switch_track = global::SimpleTodo.Droid.Resource.Color.abc_tint_switch_track;
-			global::AiForms.Renderers.Droid.Resource.Color.accent_material_dark = global::SimpleTodo.Droid.Resource.Color.accent_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.accent_material_light = global::SimpleTodo.Droid.Resource.Color.accent_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.background_floating_material_dark = global::SimpleTodo.Droid.Resource.Color.background_floating_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.background_floating_material_light = global::SimpleTodo.Droid.Resource.Color.background_floating_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.background_material_dark = global::SimpleTodo.Droid.Resource.Color.background_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.background_material_light = global::SimpleTodo.Droid.Resource.Color.background_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_inverse_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.bright_foreground_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.bright_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.bright_foreground_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.button_material_dark = global::SimpleTodo.Droid.Resource.Color.button_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.button_material_light = global::SimpleTodo.Droid.Resource.Color.button_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.cardview_dark_background = global::SimpleTodo.Droid.Resource.Color.cardview_dark_background;
-			global::AiForms.Renderers.Droid.Resource.Color.cardview_light_background = global::SimpleTodo.Droid.Resource.Color.cardview_light_background;
-			global::AiForms.Renderers.Droid.Resource.Color.cardview_shadow_end_color = global::SimpleTodo.Droid.Resource.Color.cardview_shadow_end_color;
-			global::AiForms.Renderers.Droid.Resource.Color.cardview_shadow_start_color = global::SimpleTodo.Droid.Resource.Color.cardview_shadow_start_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::SimpleTodo.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_error = global::SimpleTodo.Droid.Resource.Color.design_error;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_shadow_end_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_shadow_mid_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_shadow_start_color = global::SimpleTodo.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::SimpleTodo.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_snackbar_background_color = global::SimpleTodo.Droid.Resource.Color.design_snackbar_background_color;
-			global::AiForms.Renderers.Droid.Resource.Color.design_tint_password_toggle = global::SimpleTodo.Droid.Resource.Color.design_tint_password_toggle;
-			global::AiForms.Renderers.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.dim_foreground_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.dim_foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.dim_foreground_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.dim_foreground_material_light = global::SimpleTodo.Droid.Resource.Color.dim_foreground_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.foreground_material_dark = global::SimpleTodo.Droid.Resource.Color.foreground_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.foreground_material_light = global::SimpleTodo.Droid.Resource.Color.foreground_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.highlighted_text_material_dark = global::SimpleTodo.Droid.Resource.Color.highlighted_text_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.highlighted_text_material_light = global::SimpleTodo.Droid.Resource.Color.highlighted_text_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.material_blue_grey_800 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_800;
-			global::AiForms.Renderers.Droid.Resource.Color.material_blue_grey_900 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_900;
-			global::AiForms.Renderers.Droid.Resource.Color.material_blue_grey_950 = global::SimpleTodo.Droid.Resource.Color.material_blue_grey_950;
-			global::AiForms.Renderers.Droid.Resource.Color.material_deep_teal_200 = global::SimpleTodo.Droid.Resource.Color.material_deep_teal_200;
-			global::AiForms.Renderers.Droid.Resource.Color.material_deep_teal_500 = global::SimpleTodo.Droid.Resource.Color.material_deep_teal_500;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_100 = global::SimpleTodo.Droid.Resource.Color.material_grey_100;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_300 = global::SimpleTodo.Droid.Resource.Color.material_grey_300;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_50 = global::SimpleTodo.Droid.Resource.Color.material_grey_50;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_600 = global::SimpleTodo.Droid.Resource.Color.material_grey_600;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_800 = global::SimpleTodo.Droid.Resource.Color.material_grey_800;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_850 = global::SimpleTodo.Droid.Resource.Color.material_grey_850;
-			global::AiForms.Renderers.Droid.Resource.Color.material_grey_900 = global::SimpleTodo.Droid.Resource.Color.material_grey_900;
-			global::AiForms.Renderers.Droid.Resource.Color.notification_action_color_filter = global::SimpleTodo.Droid.Resource.Color.notification_action_color_filter;
-			global::AiForms.Renderers.Droid.Resource.Color.notification_icon_bg_color = global::SimpleTodo.Droid.Resource.Color.notification_icon_bg_color;
-			global::AiForms.Renderers.Droid.Resource.Color.notification_material_background_media_default_color = global::SimpleTodo.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_dark_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_dark_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_dark_material_light = global::SimpleTodo.Droid.Resource.Color.primary_dark_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_material_light = global::SimpleTodo.Droid.Resource.Color.primary_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_text_default_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_text_default_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_text_default_material_light = global::SimpleTodo.Droid.Resource.Color.primary_text_default_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_text_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.primary_text_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.ripple_material_dark = global::SimpleTodo.Droid.Resource.Color.ripple_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.ripple_material_light = global::SimpleTodo.Droid.Resource.Color.ripple_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.secondary_text_default_material_dark = global::SimpleTodo.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.secondary_text_default_material_light = global::SimpleTodo.Droid.Resource.Color.secondary_text_default_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.secondary_text_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.secondary_text_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_disabled_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_material_light;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_normal_material_dark = global::SimpleTodo.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Color.switch_thumb_normal_material_light = global::SimpleTodo.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_button_min_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_button_min_width_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SimpleTodo.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SimpleTodo.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::SimpleTodo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SimpleTodo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::SimpleTodo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_control_corner_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_corner_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_control_inset_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_inset_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_control_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_control_padding_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_min_width_major = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_padding_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::SimpleTodo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SimpleTodo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::SimpleTodo.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_floating_window_z = global::SimpleTodo.Droid.Resource.Dimension.abc_floating_window_z;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SimpleTodo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_panel_menu_list_width = global::SimpleTodo.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_progress_bar_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_search_view_preferred_height = global::SimpleTodo.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_search_view_preferred_width = global::SimpleTodo.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SimpleTodo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::SimpleTodo.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_switch_padding = global::SimpleTodo.Droid.Resource.Dimension.abc_switch_padding;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_body_1_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_body_2_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_button_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_caption_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_display_1_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_display_2_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_display_3_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_display_4_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_headline_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_large_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_medium_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_menu_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_small_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_subhead_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_title_material = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::AiForms.Renderers.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::SimpleTodo.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::AiForms.Renderers.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::SimpleTodo.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::AiForms.Renderers.Droid.Resource.Dimension.cardview_default_elevation = global::SimpleTodo.Droid.Resource.Dimension.cardview_default_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.cardview_default_radius = global::SimpleTodo.Droid.Resource.Dimension.cardview_default_radius;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_appbar_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_appbar_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_height = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_margin = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SimpleTodo.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_border_width = global::SimpleTodo.Droid.Resource.Dimension.design_fab_border_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_fab_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_image_size = global::SimpleTodo.Droid.Resource.Dimension.design_fab_image_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_size_mini = global::SimpleTodo.Droid.Resource.Dimension.design_fab_size_mini;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_size_normal = global::SimpleTodo.Droid.Resource.Dimension.design_fab_size_normal;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::SimpleTodo.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_icon_padding = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_icon_size = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_padding_bottom = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::SimpleTodo.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_elevation = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_snackbar_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_tab_max_width = global::SimpleTodo.Droid.Resource.Dimension.design_tab_max_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::SimpleTodo.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_tab_text_size = global::SimpleTodo.Droid.Resource.Dimension.design_tab_text_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.design_tab_text_size_2line = global::SimpleTodo.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::AiForms.Renderers.Droid.Resource.Dimension.disabled_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Dimension.disabled_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.highlight_alpha_material_colored = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::AiForms.Renderers.Droid.Resource.Dimension.highlight_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Dimension.highlight_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.hint_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Dimension.hint_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::SimpleTodo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::AiForms.Renderers.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::SimpleTodo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::AiForms.Renderers.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::AiForms.Renderers.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::AiForms.Renderers.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SimpleTodo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::SimpleTodo.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::SimpleTodo.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::AiForms.Renderers.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::SimpleTodo.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_action_icon_size = global::SimpleTodo.Droid.Resource.Dimension.notification_action_icon_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_action_text_size = global::SimpleTodo.Droid.Resource.Dimension.notification_action_text_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_big_circle_margin = global::SimpleTodo.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_content_margin_start = global::SimpleTodo.Droid.Resource.Dimension.notification_content_margin_start;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_large_icon_height = global::SimpleTodo.Droid.Resource.Dimension.notification_large_icon_height;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_large_icon_width = global::SimpleTodo.Droid.Resource.Dimension.notification_large_icon_width;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_main_column_padding_top = global::SimpleTodo.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_media_narrow_margin = global::SimpleTodo.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_right_icon_size = global::SimpleTodo.Droid.Resource.Dimension.notification_right_icon_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_right_side_padding_top = global::SimpleTodo.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_small_icon_background_padding = global::SimpleTodo.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::SimpleTodo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_subtext_size = global::SimpleTodo.Droid.Resource.Dimension.notification_subtext_size;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_top_pad = global::SimpleTodo.Droid.Resource.Dimension.notification_top_pad;
-			global::AiForms.Renderers.Droid.Resource.Dimension.notification_top_pad_large_text = global::SimpleTodo.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_borderless_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_check_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_colored_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_radio_material = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SimpleTodo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_cab_background_top_material = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_control_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_control_background_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_dialog_material_background = global::SimpleTodo.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_edit_text_material = global::SimpleTodo.Droid.Resource.Drawable.abc_edit_text_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_ab_back_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_clear_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_item_background_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_item_background_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_focused_holo = global::SimpleTodo.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_longpressed_holo = global::SimpleTodo.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_list_selector_holo_light = global::SimpleTodo.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SimpleTodo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::SimpleTodo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ratingbar_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_ratingbar_small_material = global::SimpleTodo.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_seekbar_track_material = global::SimpleTodo.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::SimpleTodo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_switch_thumb_material = global::SimpleTodo.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_tab_indicator_material = global::SimpleTodo.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_cursor_material = global::SimpleTodo.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::SimpleTodo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_textfield_search_material = global::SimpleTodo.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::AiForms.Renderers.Droid.Resource.Drawable.abc_vector_test = global::SimpleTodo.Droid.Resource.Drawable.abc_vector_test;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_hide_password = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_hide_password_1 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_1;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_hide_password_2 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_2;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_hide_password_3 = global::SimpleTodo.Droid.Resource.Drawable.avd_hide_password_3;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_show_password = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_show_password_1 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_1;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_show_password_2 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_2;
-			global::AiForms.Renderers.Droid.Resource.Drawable.avd_show_password_3 = global::SimpleTodo.Droid.Resource.Drawable.avd_show_password_3;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::SimpleTodo.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_fab_background = global::SimpleTodo.Droid.Resource.Drawable.design_fab_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_ic_visibility = global::SimpleTodo.Droid.Resource.Drawable.design_ic_visibility;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_ic_visibility_off = global::SimpleTodo.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_password_eye = global::SimpleTodo.Droid.Resource.Drawable.design_password_eye;
-			global::AiForms.Renderers.Droid.Resource.Drawable.design_snackbar_background = global::SimpleTodo.Droid.Resource.Drawable.design_snackbar_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_audiotrack_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_audiotrack_light = global::SimpleTodo.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_dialog_close_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_dialog_close_light = global::SimpleTodo.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_00 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_01 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_02 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_03 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_04 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_05 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_06 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_07 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_08 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_09 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_10 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_11 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_12 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_13 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_14 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_collapse_15 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_00 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_00;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_01 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_01;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_02 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_02;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_03 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_03;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_04 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_04;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_05 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_05;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_06 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_06;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_07 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_07;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_08 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_08;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_09 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_09;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_10 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_10;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_11 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_11;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_12 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_12;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_13 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_13;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_14 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_14;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_group_expand_15 = global::SimpleTodo.Droid.Resource.Drawable.ic_group_expand_15;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_pause_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_pause_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_pause_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_play_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_play_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_play_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_play_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_stop_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_media_stop_light = global::SimpleTodo.Droid.Resource.Drawable.ic_media_stop_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_mr_button_grey = global::SimpleTodo.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.ic_vol_type_tv_light = global::SimpleTodo.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_connected_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_connected_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connected_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_connecting_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_connecting_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_button_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_button_light = global::SimpleTodo.Droid.Resource.Drawable.mr_button_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_dialog_close_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_dialog_close_light = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_dialog_material_background_light = global::SimpleTodo.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_group_collapse = global::SimpleTodo.Droid.Resource.Drawable.mr_group_collapse;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_group_expand = global::SimpleTodo.Droid.Resource.Drawable.mr_group_expand;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_pause_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_pause_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_pause_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_play_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_play_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_play_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_play_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_stop_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_media_stop_light = global::SimpleTodo.Droid.Resource.Drawable.mr_media_stop_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::SimpleTodo.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::AiForms.Renderers.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::SimpleTodo.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::AiForms.Renderers.Droid.Resource.Drawable.navigation_empty_icon = global::SimpleTodo.Droid.Resource.Drawable.navigation_empty_icon;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_action_background = global::SimpleTodo.Droid.Resource.Drawable.notification_action_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_bg;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg_low = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg_low_normal = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg_low_pressed = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg_normal = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_normal;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_bg_normal_pressed = global::SimpleTodo.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_icon_background = global::SimpleTodo.Droid.Resource.Drawable.notification_icon_background;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_template_icon_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_template_icon_low_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notification_tile_bg = global::SimpleTodo.Droid.Resource.Drawable.notification_tile_bg;
-			global::AiForms.Renderers.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::SimpleTodo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::AiForms.Renderers.Droid.Resource.Id.CellAccessoryView = global::SimpleTodo.Droid.Resource.Id.CellAccessoryView;
-			global::AiForms.Renderers.Droid.Resource.Id.CellBody = global::SimpleTodo.Droid.Resource.Id.CellBody;
-			global::AiForms.Renderers.Droid.Resource.Id.CellContentStack = global::SimpleTodo.Droid.Resource.Id.CellContentStack;
-			global::AiForms.Renderers.Droid.Resource.Id.CellDescription = global::SimpleTodo.Droid.Resource.Id.CellDescription;
-			global::AiForms.Renderers.Droid.Resource.Id.CellHintText = global::SimpleTodo.Droid.Resource.Id.CellHintText;
-			global::AiForms.Renderers.Droid.Resource.Id.CellIcon = global::SimpleTodo.Droid.Resource.Id.CellIcon;
-			global::AiForms.Renderers.Droid.Resource.Id.CellTitle = global::SimpleTodo.Droid.Resource.Id.CellTitle;
-			global::AiForms.Renderers.Droid.Resource.Id.ContentCellBody = global::SimpleTodo.Droid.Resource.Id.ContentCellBody;
-			global::AiForms.Renderers.Droid.Resource.Id.ContentCellBorder = global::SimpleTodo.Droid.Resource.Id.ContentCellBorder;
-			global::AiForms.Renderers.Droid.Resource.Id.FooterCellText = global::SimpleTodo.Droid.Resource.Id.FooterCellText;
-			global::AiForms.Renderers.Droid.Resource.Id.HeaderCellBorder = global::SimpleTodo.Droid.Resource.Id.HeaderCellBorder;
-			global::AiForms.Renderers.Droid.Resource.Id.HeaderCellText = global::SimpleTodo.Droid.Resource.Id.HeaderCellText;
-			global::AiForms.Renderers.Droid.Resource.Id.action0 = global::SimpleTodo.Droid.Resource.Id.action0;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar = global::SimpleTodo.Droid.Resource.Id.action_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_activity_content = global::SimpleTodo.Droid.Resource.Id.action_bar_activity_content;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_container = global::SimpleTodo.Droid.Resource.Id.action_bar_container;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_root = global::SimpleTodo.Droid.Resource.Id.action_bar_root;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_spinner = global::SimpleTodo.Droid.Resource.Id.action_bar_spinner;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_subtitle = global::SimpleTodo.Droid.Resource.Id.action_bar_subtitle;
-			global::AiForms.Renderers.Droid.Resource.Id.action_bar_title = global::SimpleTodo.Droid.Resource.Id.action_bar_title;
-			global::AiForms.Renderers.Droid.Resource.Id.action_container = global::SimpleTodo.Droid.Resource.Id.action_container;
-			global::AiForms.Renderers.Droid.Resource.Id.action_context_bar = global::SimpleTodo.Droid.Resource.Id.action_context_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.action_divider = global::SimpleTodo.Droid.Resource.Id.action_divider;
-			global::AiForms.Renderers.Droid.Resource.Id.action_image = global::SimpleTodo.Droid.Resource.Id.action_image;
-			global::AiForms.Renderers.Droid.Resource.Id.action_menu_divider = global::SimpleTodo.Droid.Resource.Id.action_menu_divider;
-			global::AiForms.Renderers.Droid.Resource.Id.action_menu_presenter = global::SimpleTodo.Droid.Resource.Id.action_menu_presenter;
-			global::AiForms.Renderers.Droid.Resource.Id.action_mode_bar = global::SimpleTodo.Droid.Resource.Id.action_mode_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.action_mode_bar_stub = global::SimpleTodo.Droid.Resource.Id.action_mode_bar_stub;
-			global::AiForms.Renderers.Droid.Resource.Id.action_mode_close_button = global::SimpleTodo.Droid.Resource.Id.action_mode_close_button;
-			global::AiForms.Renderers.Droid.Resource.Id.action_text = global::SimpleTodo.Droid.Resource.Id.action_text;
-			global::AiForms.Renderers.Droid.Resource.Id.actions = global::SimpleTodo.Droid.Resource.Id.actions;
-			global::AiForms.Renderers.Droid.Resource.Id.activity_chooser_view_content = global::SimpleTodo.Droid.Resource.Id.activity_chooser_view_content;
-			global::AiForms.Renderers.Droid.Resource.Id.add = global::SimpleTodo.Droid.Resource.Id.add;
-			global::AiForms.Renderers.Droid.Resource.Id.alertTitle = global::SimpleTodo.Droid.Resource.Id.alertTitle;
-			global::AiForms.Renderers.Droid.Resource.Id.all = global::SimpleTodo.Droid.Resource.Id.all;
-			global::AiForms.Renderers.Droid.Resource.Id.always = global::SimpleTodo.Droid.Resource.Id.always;
-			global::AiForms.Renderers.Droid.Resource.Id.auto = global::SimpleTodo.Droid.Resource.Id.auto;
-			global::AiForms.Renderers.Droid.Resource.Id.beginning = global::SimpleTodo.Droid.Resource.Id.beginning;
-			global::AiForms.Renderers.Droid.Resource.Id.bottom = global::SimpleTodo.Droid.Resource.Id.bottom;
-			global::AiForms.Renderers.Droid.Resource.Id.buttonPanel = global::SimpleTodo.Droid.Resource.Id.buttonPanel;
-			global::AiForms.Renderers.Droid.Resource.Id.cancel_action = global::SimpleTodo.Droid.Resource.Id.cancel_action;
-			global::AiForms.Renderers.Droid.Resource.Id.center = global::SimpleTodo.Droid.Resource.Id.center;
-			global::AiForms.Renderers.Droid.Resource.Id.center_horizontal = global::SimpleTodo.Droid.Resource.Id.center_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Id.center_vertical = global::SimpleTodo.Droid.Resource.Id.center_vertical;
-			global::AiForms.Renderers.Droid.Resource.Id.checkbox = global::SimpleTodo.Droid.Resource.Id.checkbox;
-			global::AiForms.Renderers.Droid.Resource.Id.chronometer = global::SimpleTodo.Droid.Resource.Id.chronometer;
-			global::AiForms.Renderers.Droid.Resource.Id.clip_horizontal = global::SimpleTodo.Droid.Resource.Id.clip_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Id.clip_vertical = global::SimpleTodo.Droid.Resource.Id.clip_vertical;
-			global::AiForms.Renderers.Droid.Resource.Id.collapseActionView = global::SimpleTodo.Droid.Resource.Id.collapseActionView;
-			global::AiForms.Renderers.Droid.Resource.Id.container = global::SimpleTodo.Droid.Resource.Id.container;
-			global::AiForms.Renderers.Droid.Resource.Id.contentPanel = global::SimpleTodo.Droid.Resource.Id.contentPanel;
-			global::AiForms.Renderers.Droid.Resource.Id.coordinator = global::SimpleTodo.Droid.Resource.Id.coordinator;
-			global::AiForms.Renderers.Droid.Resource.Id.custom = global::SimpleTodo.Droid.Resource.Id.custom;
-			global::AiForms.Renderers.Droid.Resource.Id.customPanel = global::SimpleTodo.Droid.Resource.Id.customPanel;
-			global::AiForms.Renderers.Droid.Resource.Id.decor_content_parent = global::SimpleTodo.Droid.Resource.Id.decor_content_parent;
-			global::AiForms.Renderers.Droid.Resource.Id.default_activity_button = global::SimpleTodo.Droid.Resource.Id.default_activity_button;
-			global::AiForms.Renderers.Droid.Resource.Id.design_bottom_sheet = global::SimpleTodo.Droid.Resource.Id.design_bottom_sheet;
-			global::AiForms.Renderers.Droid.Resource.Id.design_menu_item_action_area = global::SimpleTodo.Droid.Resource.Id.design_menu_item_action_area;
-			global::AiForms.Renderers.Droid.Resource.Id.design_menu_item_action_area_stub = global::SimpleTodo.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::AiForms.Renderers.Droid.Resource.Id.design_menu_item_text = global::SimpleTodo.Droid.Resource.Id.design_menu_item_text;
-			global::AiForms.Renderers.Droid.Resource.Id.design_navigation_view = global::SimpleTodo.Droid.Resource.Id.design_navigation_view;
-			global::AiForms.Renderers.Droid.Resource.Id.disableHome = global::SimpleTodo.Droid.Resource.Id.disableHome;
-			global::AiForms.Renderers.Droid.Resource.Id.edit_query = global::SimpleTodo.Droid.Resource.Id.edit_query;
-			global::AiForms.Renderers.Droid.Resource.Id.end = global::SimpleTodo.Droid.Resource.Id.end;
-			global::AiForms.Renderers.Droid.Resource.Id.end_padder = global::SimpleTodo.Droid.Resource.Id.end_padder;
-			global::AiForms.Renderers.Droid.Resource.Id.enterAlways = global::SimpleTodo.Droid.Resource.Id.enterAlways;
-			global::AiForms.Renderers.Droid.Resource.Id.enterAlwaysCollapsed = global::SimpleTodo.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::AiForms.Renderers.Droid.Resource.Id.exitUntilCollapsed = global::SimpleTodo.Droid.Resource.Id.exitUntilCollapsed;
-			global::AiForms.Renderers.Droid.Resource.Id.expand_activities_button = global::SimpleTodo.Droid.Resource.Id.expand_activities_button;
-			global::AiForms.Renderers.Droid.Resource.Id.expanded_menu = global::SimpleTodo.Droid.Resource.Id.expanded_menu;
-			global::AiForms.Renderers.Droid.Resource.Id.fill = global::SimpleTodo.Droid.Resource.Id.fill;
-			global::AiForms.Renderers.Droid.Resource.Id.fill_horizontal = global::SimpleTodo.Droid.Resource.Id.fill_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Id.fill_vertical = global::SimpleTodo.Droid.Resource.Id.fill_vertical;
-			global::AiForms.Renderers.Droid.Resource.Id.@fixed = global::SimpleTodo.Droid.Resource.Id.@fixed;
-			global::AiForms.Renderers.Droid.Resource.Id.home = global::SimpleTodo.Droid.Resource.Id.home;
-			global::AiForms.Renderers.Droid.Resource.Id.homeAsUp = global::SimpleTodo.Droid.Resource.Id.homeAsUp;
-			global::AiForms.Renderers.Droid.Resource.Id.icon = global::SimpleTodo.Droid.Resource.Id.icon;
-			global::AiForms.Renderers.Droid.Resource.Id.icon_group = global::SimpleTodo.Droid.Resource.Id.icon_group;
-			global::AiForms.Renderers.Droid.Resource.Id.ifRoom = global::SimpleTodo.Droid.Resource.Id.ifRoom;
-			global::AiForms.Renderers.Droid.Resource.Id.image = global::SimpleTodo.Droid.Resource.Id.image;
-			global::AiForms.Renderers.Droid.Resource.Id.info = global::SimpleTodo.Droid.Resource.Id.info;
-			global::AiForms.Renderers.Droid.Resource.Id.item_touch_helper_previous_elevation = global::SimpleTodo.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::AiForms.Renderers.Droid.Resource.Id.largeLabel = global::SimpleTodo.Droid.Resource.Id.largeLabel;
-			global::AiForms.Renderers.Droid.Resource.Id.left = global::SimpleTodo.Droid.Resource.Id.left;
-			global::AiForms.Renderers.Droid.Resource.Id.line1 = global::SimpleTodo.Droid.Resource.Id.line1;
-			global::AiForms.Renderers.Droid.Resource.Id.line3 = global::SimpleTodo.Droid.Resource.Id.line3;
-			global::AiForms.Renderers.Droid.Resource.Id.listMode = global::SimpleTodo.Droid.Resource.Id.listMode;
-			global::AiForms.Renderers.Droid.Resource.Id.list_item = global::SimpleTodo.Droid.Resource.Id.list_item;
-			global::AiForms.Renderers.Droid.Resource.Id.masked = global::SimpleTodo.Droid.Resource.Id.masked;
-			global::AiForms.Renderers.Droid.Resource.Id.media_actions = global::SimpleTodo.Droid.Resource.Id.media_actions;
-			global::AiForms.Renderers.Droid.Resource.Id.middle = global::SimpleTodo.Droid.Resource.Id.middle;
-			global::AiForms.Renderers.Droid.Resource.Id.mini = global::SimpleTodo.Droid.Resource.Id.mini;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_art = global::SimpleTodo.Droid.Resource.Id.mr_art;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_chooser_list = global::SimpleTodo.Droid.Resource.Id.mr_chooser_list;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_chooser_route_desc = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_desc;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_chooser_route_icon = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_icon;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_chooser_route_name = global::SimpleTodo.Droid.Resource.Id.mr_chooser_route_name;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_chooser_title = global::SimpleTodo.Droid.Resource.Id.mr_chooser_title;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_close = global::SimpleTodo.Droid.Resource.Id.mr_close;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_control_divider = global::SimpleTodo.Droid.Resource.Id.mr_control_divider;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_control_playback_ctrl = global::SimpleTodo.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_control_subtitle = global::SimpleTodo.Droid.Resource.Id.mr_control_subtitle;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_control_title = global::SimpleTodo.Droid.Resource.Id.mr_control_title;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_control_title_container = global::SimpleTodo.Droid.Resource.Id.mr_control_title_container;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_custom_control = global::SimpleTodo.Droid.Resource.Id.mr_custom_control;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_default_control = global::SimpleTodo.Droid.Resource.Id.mr_default_control;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_dialog_area = global::SimpleTodo.Droid.Resource.Id.mr_dialog_area;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_expandable_area = global::SimpleTodo.Droid.Resource.Id.mr_expandable_area;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_group_expand_collapse = global::SimpleTodo.Droid.Resource.Id.mr_group_expand_collapse;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_media_main_control = global::SimpleTodo.Droid.Resource.Id.mr_media_main_control;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_name = global::SimpleTodo.Droid.Resource.Id.mr_name;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_playback_control = global::SimpleTodo.Droid.Resource.Id.mr_playback_control;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_title_bar = global::SimpleTodo.Droid.Resource.Id.mr_title_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_volume_control = global::SimpleTodo.Droid.Resource.Id.mr_volume_control;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_volume_group_list = global::SimpleTodo.Droid.Resource.Id.mr_volume_group_list;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_volume_item_icon = global::SimpleTodo.Droid.Resource.Id.mr_volume_item_icon;
-			global::AiForms.Renderers.Droid.Resource.Id.mr_volume_slider = global::SimpleTodo.Droid.Resource.Id.mr_volume_slider;
-			global::AiForms.Renderers.Droid.Resource.Id.multiply = global::SimpleTodo.Droid.Resource.Id.multiply;
-			global::AiForms.Renderers.Droid.Resource.Id.navigation_header_container = global::SimpleTodo.Droid.Resource.Id.navigation_header_container;
-			global::AiForms.Renderers.Droid.Resource.Id.never = global::SimpleTodo.Droid.Resource.Id.never;
-			global::AiForms.Renderers.Droid.Resource.Id.none = global::SimpleTodo.Droid.Resource.Id.none;
-			global::AiForms.Renderers.Droid.Resource.Id.normal = global::SimpleTodo.Droid.Resource.Id.normal;
-			global::AiForms.Renderers.Droid.Resource.Id.notification_background = global::SimpleTodo.Droid.Resource.Id.notification_background;
-			global::AiForms.Renderers.Droid.Resource.Id.notification_main_column = global::SimpleTodo.Droid.Resource.Id.notification_main_column;
-			global::AiForms.Renderers.Droid.Resource.Id.notification_main_column_container = global::SimpleTodo.Droid.Resource.Id.notification_main_column_container;
-			global::AiForms.Renderers.Droid.Resource.Id.parallax = global::SimpleTodo.Droid.Resource.Id.parallax;
-			global::AiForms.Renderers.Droid.Resource.Id.parentPanel = global::SimpleTodo.Droid.Resource.Id.parentPanel;
-			global::AiForms.Renderers.Droid.Resource.Id.pin = global::SimpleTodo.Droid.Resource.Id.pin;
-			global::AiForms.Renderers.Droid.Resource.Id.progress_circular = global::SimpleTodo.Droid.Resource.Id.progress_circular;
-			global::AiForms.Renderers.Droid.Resource.Id.progress_horizontal = global::SimpleTodo.Droid.Resource.Id.progress_horizontal;
-			global::AiForms.Renderers.Droid.Resource.Id.radio = global::SimpleTodo.Droid.Resource.Id.radio;
-			global::AiForms.Renderers.Droid.Resource.Id.right = global::SimpleTodo.Droid.Resource.Id.right;
-			global::AiForms.Renderers.Droid.Resource.Id.right_icon = global::SimpleTodo.Droid.Resource.Id.right_icon;
-			global::AiForms.Renderers.Droid.Resource.Id.right_side = global::SimpleTodo.Droid.Resource.Id.right_side;
-			global::AiForms.Renderers.Droid.Resource.Id.screen = global::SimpleTodo.Droid.Resource.Id.screen;
-			global::AiForms.Renderers.Droid.Resource.Id.scroll = global::SimpleTodo.Droid.Resource.Id.scroll;
-			global::AiForms.Renderers.Droid.Resource.Id.scrollIndicatorDown = global::SimpleTodo.Droid.Resource.Id.scrollIndicatorDown;
-			global::AiForms.Renderers.Droid.Resource.Id.scrollIndicatorUp = global::SimpleTodo.Droid.Resource.Id.scrollIndicatorUp;
-			global::AiForms.Renderers.Droid.Resource.Id.scrollView = global::SimpleTodo.Droid.Resource.Id.scrollView;
-			global::AiForms.Renderers.Droid.Resource.Id.scrollable = global::SimpleTodo.Droid.Resource.Id.scrollable;
-			global::AiForms.Renderers.Droid.Resource.Id.search_badge = global::SimpleTodo.Droid.Resource.Id.search_badge;
-			global::AiForms.Renderers.Droid.Resource.Id.search_bar = global::SimpleTodo.Droid.Resource.Id.search_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.search_button = global::SimpleTodo.Droid.Resource.Id.search_button;
-			global::AiForms.Renderers.Droid.Resource.Id.search_close_btn = global::SimpleTodo.Droid.Resource.Id.search_close_btn;
-			global::AiForms.Renderers.Droid.Resource.Id.search_edit_frame = global::SimpleTodo.Droid.Resource.Id.search_edit_frame;
-			global::AiForms.Renderers.Droid.Resource.Id.search_go_btn = global::SimpleTodo.Droid.Resource.Id.search_go_btn;
-			global::AiForms.Renderers.Droid.Resource.Id.search_mag_icon = global::SimpleTodo.Droid.Resource.Id.search_mag_icon;
-			global::AiForms.Renderers.Droid.Resource.Id.search_plate = global::SimpleTodo.Droid.Resource.Id.search_plate;
-			global::AiForms.Renderers.Droid.Resource.Id.search_src_text = global::SimpleTodo.Droid.Resource.Id.search_src_text;
-			global::AiForms.Renderers.Droid.Resource.Id.search_voice_btn = global::SimpleTodo.Droid.Resource.Id.search_voice_btn;
-			global::AiForms.Renderers.Droid.Resource.Id.select_dialog_listview = global::SimpleTodo.Droid.Resource.Id.select_dialog_listview;
-			global::AiForms.Renderers.Droid.Resource.Id.shortcut = global::SimpleTodo.Droid.Resource.Id.shortcut;
-			global::AiForms.Renderers.Droid.Resource.Id.showCustom = global::SimpleTodo.Droid.Resource.Id.showCustom;
-			global::AiForms.Renderers.Droid.Resource.Id.showHome = global::SimpleTodo.Droid.Resource.Id.showHome;
-			global::AiForms.Renderers.Droid.Resource.Id.showTitle = global::SimpleTodo.Droid.Resource.Id.showTitle;
-			global::AiForms.Renderers.Droid.Resource.Id.smallLabel = global::SimpleTodo.Droid.Resource.Id.smallLabel;
-			global::AiForms.Renderers.Droid.Resource.Id.snackbar_action = global::SimpleTodo.Droid.Resource.Id.snackbar_action;
-			global::AiForms.Renderers.Droid.Resource.Id.snackbar_text = global::SimpleTodo.Droid.Resource.Id.snackbar_text;
-			global::AiForms.Renderers.Droid.Resource.Id.snap = global::SimpleTodo.Droid.Resource.Id.snap;
-			global::AiForms.Renderers.Droid.Resource.Id.spacer = global::SimpleTodo.Droid.Resource.Id.spacer;
-			global::AiForms.Renderers.Droid.Resource.Id.split_action_bar = global::SimpleTodo.Droid.Resource.Id.split_action_bar;
-			global::AiForms.Renderers.Droid.Resource.Id.src_atop = global::SimpleTodo.Droid.Resource.Id.src_atop;
-			global::AiForms.Renderers.Droid.Resource.Id.src_in = global::SimpleTodo.Droid.Resource.Id.src_in;
-			global::AiForms.Renderers.Droid.Resource.Id.src_over = global::SimpleTodo.Droid.Resource.Id.src_over;
-			global::AiForms.Renderers.Droid.Resource.Id.start = global::SimpleTodo.Droid.Resource.Id.start;
-			global::AiForms.Renderers.Droid.Resource.Id.status_bar_latest_event_content = global::SimpleTodo.Droid.Resource.Id.status_bar_latest_event_content;
-			global::AiForms.Renderers.Droid.Resource.Id.submenuarrow = global::SimpleTodo.Droid.Resource.Id.submenuarrow;
-			global::AiForms.Renderers.Droid.Resource.Id.submit_area = global::SimpleTodo.Droid.Resource.Id.submit_area;
-			global::AiForms.Renderers.Droid.Resource.Id.tabMode = global::SimpleTodo.Droid.Resource.Id.tabMode;
-			global::AiForms.Renderers.Droid.Resource.Id.text = global::SimpleTodo.Droid.Resource.Id.text;
-			global::AiForms.Renderers.Droid.Resource.Id.text2 = global::SimpleTodo.Droid.Resource.Id.text2;
-			global::AiForms.Renderers.Droid.Resource.Id.textSpacerNoButtons = global::SimpleTodo.Droid.Resource.Id.textSpacerNoButtons;
-			global::AiForms.Renderers.Droid.Resource.Id.textSpacerNoTitle = global::SimpleTodo.Droid.Resource.Id.textSpacerNoTitle;
-			global::AiForms.Renderers.Droid.Resource.Id.text_input_password_toggle = global::SimpleTodo.Droid.Resource.Id.text_input_password_toggle;
-			global::AiForms.Renderers.Droid.Resource.Id.textinput_counter = global::SimpleTodo.Droid.Resource.Id.textinput_counter;
-			global::AiForms.Renderers.Droid.Resource.Id.textinput_error = global::SimpleTodo.Droid.Resource.Id.textinput_error;
-			global::AiForms.Renderers.Droid.Resource.Id.time = global::SimpleTodo.Droid.Resource.Id.time;
-			global::AiForms.Renderers.Droid.Resource.Id.title = global::SimpleTodo.Droid.Resource.Id.title;
-			global::AiForms.Renderers.Droid.Resource.Id.titleDividerNoCustom = global::SimpleTodo.Droid.Resource.Id.titleDividerNoCustom;
-			global::AiForms.Renderers.Droid.Resource.Id.title_template = global::SimpleTodo.Droid.Resource.Id.title_template;
-			global::AiForms.Renderers.Droid.Resource.Id.top = global::SimpleTodo.Droid.Resource.Id.top;
-			global::AiForms.Renderers.Droid.Resource.Id.topPanel = global::SimpleTodo.Droid.Resource.Id.topPanel;
-			global::AiForms.Renderers.Droid.Resource.Id.touch_outside = global::SimpleTodo.Droid.Resource.Id.touch_outside;
-			global::AiForms.Renderers.Droid.Resource.Id.transition_current_scene = global::SimpleTodo.Droid.Resource.Id.transition_current_scene;
-			global::AiForms.Renderers.Droid.Resource.Id.transition_scene_layoutid_cache = global::SimpleTodo.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::AiForms.Renderers.Droid.Resource.Id.up = global::SimpleTodo.Droid.Resource.Id.up;
-			global::AiForms.Renderers.Droid.Resource.Id.useLogo = global::SimpleTodo.Droid.Resource.Id.useLogo;
-			global::AiForms.Renderers.Droid.Resource.Id.view_offset_helper = global::SimpleTodo.Droid.Resource.Id.view_offset_helper;
-			global::AiForms.Renderers.Droid.Resource.Id.visible = global::SimpleTodo.Droid.Resource.Id.visible;
-			global::AiForms.Renderers.Droid.Resource.Id.volume_item_container = global::SimpleTodo.Droid.Resource.Id.volume_item_container;
-			global::AiForms.Renderers.Droid.Resource.Id.withText = global::SimpleTodo.Droid.Resource.Id.withText;
-			global::AiForms.Renderers.Droid.Resource.Id.wrap_content = global::SimpleTodo.Droid.Resource.Id.wrap_content;
-			global::AiForms.Renderers.Droid.Resource.Integer.abc_config_activityDefaultDur = global::SimpleTodo.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::AiForms.Renderers.Droid.Resource.Integer.abc_config_activityShortDur = global::SimpleTodo.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::AiForms.Renderers.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::SimpleTodo.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::AiForms.Renderers.Droid.Resource.Integer.bottom_sheet_slide_duration = global::SimpleTodo.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::AiForms.Renderers.Droid.Resource.Integer.cancel_button_image_alpha = global::SimpleTodo.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::AiForms.Renderers.Droid.Resource.Integer.design_snackbar_text_max_lines = global::SimpleTodo.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::AiForms.Renderers.Droid.Resource.Integer.hide_password_duration = global::SimpleTodo.Droid.Resource.Integer.hide_password_duration;
-			global::AiForms.Renderers.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::AiForms.Renderers.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::AiForms.Renderers.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::SimpleTodo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::AiForms.Renderers.Droid.Resource.Integer.show_password_duration = global::SimpleTodo.Droid.Resource.Integer.show_password_duration;
-			global::AiForms.Renderers.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::SimpleTodo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::AiForms.Renderers.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::SimpleTodo.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::AiForms.Renderers.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::SimpleTodo.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_bar_title_item = global::SimpleTodo.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_bar_up_container = global::SimpleTodo.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_menu_layout = global::SimpleTodo.Droid.Resource.Layout.abc_action_menu_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_mode_bar = global::SimpleTodo.Droid.Resource.Layout.abc_action_mode_bar;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_action_mode_close_item_material = global::SimpleTodo.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_activity_chooser_view = global::SimpleTodo.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::SimpleTodo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_alert_dialog_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_alert_dialog_title_material = global::SimpleTodo.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_dialog_title_material = global::SimpleTodo.Droid.Resource.Layout.abc_dialog_title_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_expanded_menu_layout = global::SimpleTodo.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_list_menu_item_icon = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_list_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_list_menu_item_radio = global::SimpleTodo.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_popup_menu_item_layout = global::SimpleTodo.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_screen_content_include = global::SimpleTodo.Droid.Resource.Layout.abc_screen_content_include;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_screen_simple = global::SimpleTodo.Droid.Resource.Layout.abc_screen_simple;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SimpleTodo.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_screen_toolbar = global::SimpleTodo.Droid.Resource.Layout.abc_screen_toolbar;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SimpleTodo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_search_view = global::SimpleTodo.Droid.Resource.Layout.abc_search_view;
-			global::AiForms.Renderers.Droid.Resource.Layout.abc_select_dialog_material = global::SimpleTodo.Droid.Resource.Layout.abc_select_dialog_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.CellBaseView = global::SimpleTodo.Droid.Resource.Layout.CellBaseView;
-			global::AiForms.Renderers.Droid.Resource.Layout.ContentCell = global::SimpleTodo.Droid.Resource.Layout.ContentCell;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_bottom_navigation_item = global::SimpleTodo.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_bottom_sheet_dialog = global::SimpleTodo.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_layout_snackbar = global::SimpleTodo.Droid.Resource.Layout.design_layout_snackbar;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_layout_snackbar_include = global::SimpleTodo.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_layout_tab_icon = global::SimpleTodo.Droid.Resource.Layout.design_layout_tab_icon;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_layout_tab_text = global::SimpleTodo.Droid.Resource.Layout.design_layout_tab_text;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_menu_item_action_area = global::SimpleTodo.Droid.Resource.Layout.design_menu_item_action_area;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_item = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_item_header = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_header;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_item_separator = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_separator;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_item_subheader = global::SimpleTodo.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_menu = global::SimpleTodo.Droid.Resource.Layout.design_navigation_menu;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_navigation_menu_item = global::SimpleTodo.Droid.Resource.Layout.design_navigation_menu_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.design_text_input_password_icon = global::SimpleTodo.Droid.Resource.Layout.design_text_input_password_icon;
-			global::AiForms.Renderers.Droid.Resource.Layout.FooterCell = global::SimpleTodo.Droid.Resource.Layout.FooterCell;
-			global::AiForms.Renderers.Droid.Resource.Layout.HeaderCell = global::SimpleTodo.Droid.Resource.Layout.HeaderCell;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_chooser_dialog = global::SimpleTodo.Droid.Resource.Layout.mr_chooser_dialog;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_chooser_list_item = global::SimpleTodo.Droid.Resource.Layout.mr_chooser_list_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_controller_material_dialog_b = global::SimpleTodo.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_controller_volume_item = global::SimpleTodo.Droid.Resource.Layout.mr_controller_volume_item;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_playback_control = global::SimpleTodo.Droid.Resource.Layout.mr_playback_control;
-			global::AiForms.Renderers.Droid.Resource.Layout.mr_volume_control = global::SimpleTodo.Droid.Resource.Layout.mr_volume_control;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_action = global::SimpleTodo.Droid.Resource.Layout.notification_action;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_action_tombstone = global::SimpleTodo.Droid.Resource.Layout.notification_action_tombstone;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_media_action = global::SimpleTodo.Droid.Resource.Layout.notification_media_action;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_media_cancel_action = global::SimpleTodo.Droid.Resource.Layout.notification_media_cancel_action;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_big_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_big_media_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_big_media_narrow = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_custom_big = global::SimpleTodo.Droid.Resource.Layout.notification_template_custom_big;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_icon_group = global::SimpleTodo.Droid.Resource.Layout.notification_template_icon_group;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_lines_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_lines_media;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_media = global::SimpleTodo.Droid.Resource.Layout.notification_template_media;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_media_custom = global::SimpleTodo.Droid.Resource.Layout.notification_template_media_custom;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_part_chronometer = global::SimpleTodo.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::AiForms.Renderers.Droid.Resource.Layout.notification_template_part_time = global::SimpleTodo.Droid.Resource.Layout.notification_template_part_time;
-			global::AiForms.Renderers.Droid.Resource.Layout.select_dialog_item_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_item_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.select_dialog_multichoice_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.select_dialog_singlechoice_material = global::SimpleTodo.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::AiForms.Renderers.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::SimpleTodo.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::AiForms.Renderers.Droid.Resource.String.abc_action_bar_home_description = global::SimpleTodo.Droid.Resource.String.abc_action_bar_home_description;
-			global::AiForms.Renderers.Droid.Resource.String.abc_action_bar_up_description = global::SimpleTodo.Droid.Resource.String.abc_action_bar_up_description;
-			global::AiForms.Renderers.Droid.Resource.String.abc_action_menu_overflow_description = global::SimpleTodo.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::AiForms.Renderers.Droid.Resource.String.abc_action_mode_done = global::SimpleTodo.Droid.Resource.String.abc_action_mode_done;
-			global::AiForms.Renderers.Droid.Resource.String.abc_activity_chooser_view_see_all = global::SimpleTodo.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::AiForms.Renderers.Droid.Resource.String.abc_activitychooserview_choose_application = global::SimpleTodo.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::AiForms.Renderers.Droid.Resource.String.abc_capital_off = global::SimpleTodo.Droid.Resource.String.abc_capital_off;
-			global::AiForms.Renderers.Droid.Resource.String.abc_capital_on = global::SimpleTodo.Droid.Resource.String.abc_capital_on;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_body_1_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_body_1_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_body_2_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_body_2_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_button_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_button_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_caption_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_caption_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_display_1_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_1_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_display_2_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_2_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_display_3_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_3_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_display_4_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_display_4_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_headline_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_headline_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_menu_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_menu_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_subhead_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_subhead_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_font_family_title_material = global::SimpleTodo.Droid.Resource.String.abc_font_family_title_material;
-			global::AiForms.Renderers.Droid.Resource.String.abc_search_hint = global::SimpleTodo.Droid.Resource.String.abc_search_hint;
-			global::AiForms.Renderers.Droid.Resource.String.abc_searchview_description_clear = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_clear;
-			global::AiForms.Renderers.Droid.Resource.String.abc_searchview_description_query = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_query;
-			global::AiForms.Renderers.Droid.Resource.String.abc_searchview_description_search = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_search;
-			global::AiForms.Renderers.Droid.Resource.String.abc_searchview_description_submit = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_submit;
-			global::AiForms.Renderers.Droid.Resource.String.abc_searchview_description_voice = global::SimpleTodo.Droid.Resource.String.abc_searchview_description_voice;
-			global::AiForms.Renderers.Droid.Resource.String.abc_shareactionprovider_share_with = global::SimpleTodo.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::AiForms.Renderers.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::SimpleTodo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::AiForms.Renderers.Droid.Resource.String.abc_toolbar_collapse_description = global::SimpleTodo.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::AiForms.Renderers.Droid.Resource.String.appbar_scrolling_view_behavior = global::SimpleTodo.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::AiForms.Renderers.Droid.Resource.String.bottom_sheet_behavior = global::SimpleTodo.Droid.Resource.String.bottom_sheet_behavior;
-			global::AiForms.Renderers.Droid.Resource.String.character_counter_pattern = global::SimpleTodo.Droid.Resource.String.character_counter_pattern;
-			global::AiForms.Renderers.Droid.Resource.String.library_name = global::SimpleTodo.Droid.Resource.String.library_name;
-			global::AiForms.Renderers.Droid.Resource.String.mr_button_content_description = global::SimpleTodo.Droid.Resource.String.mr_button_content_description;
-			global::AiForms.Renderers.Droid.Resource.String.mr_cast_button_connected = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connected;
-			global::AiForms.Renderers.Droid.Resource.String.mr_cast_button_connecting = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connecting;
-			global::AiForms.Renderers.Droid.Resource.String.mr_cast_button_disconnected = global::SimpleTodo.Droid.Resource.String.mr_cast_button_disconnected;
-			global::AiForms.Renderers.Droid.Resource.String.mr_chooser_searching = global::SimpleTodo.Droid.Resource.String.mr_chooser_searching;
-			global::AiForms.Renderers.Droid.Resource.String.mr_chooser_title = global::SimpleTodo.Droid.Resource.String.mr_chooser_title;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_album_art = global::SimpleTodo.Droid.Resource.String.mr_controller_album_art;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_casting_screen = global::SimpleTodo.Droid.Resource.String.mr_controller_casting_screen;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_close_description = global::SimpleTodo.Droid.Resource.String.mr_controller_close_description;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_collapse_group = global::SimpleTodo.Droid.Resource.String.mr_controller_collapse_group;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_disconnect = global::SimpleTodo.Droid.Resource.String.mr_controller_disconnect;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_expand_group = global::SimpleTodo.Droid.Resource.String.mr_controller_expand_group;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_no_info_available = global::SimpleTodo.Droid.Resource.String.mr_controller_no_info_available;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_no_media_selected = global::SimpleTodo.Droid.Resource.String.mr_controller_no_media_selected;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_pause = global::SimpleTodo.Droid.Resource.String.mr_controller_pause;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_play = global::SimpleTodo.Droid.Resource.String.mr_controller_play;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_stop = global::SimpleTodo.Droid.Resource.String.mr_controller_stop;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_stop_casting = global::SimpleTodo.Droid.Resource.String.mr_controller_stop_casting;
-			global::AiForms.Renderers.Droid.Resource.String.mr_controller_volume_slider = global::SimpleTodo.Droid.Resource.String.mr_controller_volume_slider;
-			global::AiForms.Renderers.Droid.Resource.String.mr_system_route_name = global::SimpleTodo.Droid.Resource.String.mr_system_route_name;
-			global::AiForms.Renderers.Droid.Resource.String.mr_user_route_category_name = global::SimpleTodo.Droid.Resource.String.mr_user_route_category_name;
-			global::AiForms.Renderers.Droid.Resource.String.password_toggle_content_description = global::SimpleTodo.Droid.Resource.String.password_toggle_content_description;
-			global::AiForms.Renderers.Droid.Resource.String.path_password_eye = global::SimpleTodo.Droid.Resource.String.path_password_eye;
-			global::AiForms.Renderers.Droid.Resource.String.path_password_eye_mask_strike_through = global::SimpleTodo.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::AiForms.Renderers.Droid.Resource.String.path_password_eye_mask_visible = global::SimpleTodo.Droid.Resource.String.path_password_eye_mask_visible;
-			global::AiForms.Renderers.Droid.Resource.String.path_password_strike_through = global::SimpleTodo.Droid.Resource.String.path_password_strike_through;
-			global::AiForms.Renderers.Droid.Resource.String.search_menu_title = global::SimpleTodo.Droid.Resource.String.search_menu_title;
-			global::AiForms.Renderers.Droid.Resource.String.status_bar_notification_info_overflow = global::SimpleTodo.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.AlertDialog_AppCompat = global::SimpleTodo.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Animation_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::SimpleTodo.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::AiForms.Renderers.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SimpleTodo.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_CardView = global::SimpleTodo.Droid.Resource.Style.Base_CardView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimpleTodo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SimpleTodo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::SimpleTodo.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::SimpleTodo.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.CardView = global::SimpleTodo.Droid.Resource.Style.CardView;
-			global::AiForms.Renderers.Droid.Resource.Style.CardView_Dark = global::SimpleTodo.Droid.Resource.Style.CardView_Dark;
-			global::AiForms.Renderers.Droid.Resource.Style.CardView_Light = global::SimpleTodo.Droid.Resource.Style.CardView_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V11_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V14_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V21_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V25_AppCompat = global::SimpleTodo.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SimpleTodo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::AiForms.Renderers.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Counter = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Error = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Hint = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Design_Tab = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::AiForms.Renderers.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SimpleTodo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design = global::SimpleTodo.Droid.Resource.Style.Theme_Design;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design_Light = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_Design_NoActionBar = global::SimpleTodo.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_MediaRouter = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_MediaRouter_Light = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::AiForms.Renderers.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::SimpleTodo.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::AiForms.Renderers.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::SimpleTodo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_EditText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ListView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_SearchView = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Spinner = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SimpleTodo.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_AppBarLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::SimpleTodo.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::SimpleTodo.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::SimpleTodo.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::SimpleTodo.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_NavigationView = global::SimpleTodo.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_Snackbar = global::SimpleTodo.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_TabLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_Design_TextInputLayout = global::SimpleTodo.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::SimpleTodo.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::AiForms.Renderers.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::SimpleTodo.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar = global::SimpleTodo.Droid.Resource.Styleable.ActionBar;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_background = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_background;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_displayOptions = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_divider = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_divider;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_elevation = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_height = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_height;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_homeLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_icon = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_icon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_itemPadding = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_logo = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_logo;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_navigationMode = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_subtitle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_title = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_title;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBarLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionBarLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMenuItemView = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuItemView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMenuView = global::SimpleTodo.Droid.Resource.Styleable.ActionMenuView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode = global::SimpleTodo.Droid.Resource.Styleable.ActionMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_background = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_background;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_height = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_height;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::SimpleTodo.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActivityChooserView = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SimpleTodo.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_android_layout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_listLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_showTitle = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SimpleTodo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_android_background = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_elevation = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_expanded = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayoutStates = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SimpleTodo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatImageView = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatImageView_android_src = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatImageView_tint = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::SimpleTodo.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatSeekBar = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SimpleTodo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextView = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SimpleTodo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView_elevation = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomNavigationView_menu = global::SimpleTodo.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SimpleTodo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ButtonBarLayout = global::SimpleTodo.Droid.Resource.Styleable.ButtonBarLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::SimpleTodo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView = global::SimpleTodo.Droid.Resource.Styleable.CardView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardCornerRadius = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardElevation = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardElevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardMaxElevation = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::SimpleTodo.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_contentPadding = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_contentPaddingRight = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CardView_contentPaddingTop = global::SimpleTodo.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SimpleTodo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ColorStateListItem = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ColorStateListItem_alpha = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ColorStateListItem_android_color = global::SimpleTodo.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CompoundButton = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CompoundButton_android_button = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CompoundButton_buttonTint = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::SimpleTodo.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::AiForms.Renderers.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SimpleTodo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DesignTheme = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DesignTheme_textColorError = global::SimpleTodo.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_color = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::AiForms.Renderers.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::SimpleTodo.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_elevation = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SimpleTodo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ForegroundLinearLayout = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SimpleTodo.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SimpleTodo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ListPopupWindow = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SimpleTodo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MediaRouteButton = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::SimpleTodo.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_enabled = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_id = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuGroup_android_visible = global::SimpleTodo.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem = global::SimpleTodo.Droid.Resource.Styleable.MenuItem;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_actionLayout = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_actionViewClass = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_checkable = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_checked = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_enabled = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_icon = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_id = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_id;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_onClick = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_title = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_title;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_android_visible = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuItem_showAsAction = global::SimpleTodo.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView = global::SimpleTodo.Droid.Resource.Styleable.MenuView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_headerBackground = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::SimpleTodo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::AiForms.Renderers.Droid.Resource.Styleable.MenuView_subMenuArrow = global::SimpleTodo.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView = global::SimpleTodo.Droid.Resource.Styleable.NavigationView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_android_background = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_background;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_elevation = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_headerLayout = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_itemBackground = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_itemIconTint = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_itemTextColor = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.NavigationView_menu = global::SimpleTodo.Droid.Resource.Styleable.NavigationView_menu;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindow = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::SimpleTodo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindowBackgroundState = global::SimpleTodo.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::AiForms.Renderers.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SimpleTodo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecycleListView = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SimpleTodo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_android_orientation = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_layoutManager = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_spanCount = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::AiForms.Renderers.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::SimpleTodo.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::SimpleTodo.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SimpleTodo.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::SimpleTodo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SimpleTodo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView = global::SimpleTodo.Droid.Resource.Styleable.SearchView;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_android_focusable = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_android_imeOptions = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_android_inputType = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_closeIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_commitIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::SimpleTodo.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_goIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_goIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::SimpleTodo.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_layout = global::SimpleTodo.Droid.Resource.Styleable.SearchView_layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_queryBackground = global::SimpleTodo.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_queryHint = global::SimpleTodo.Droid.Resource.Styleable.SearchView_queryHint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_searchHintIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_searchIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_submitBackground = global::SimpleTodo.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::SimpleTodo.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SearchView_voiceIcon = global::SimpleTodo.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SnackbarLayout = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SnackbarLayout_elevation = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SimpleTodo.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner = global::SimpleTodo.Droid.Resource.Styleable.Spinner;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner_android_entries = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_entries;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner_android_popupBackground = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner_android_prompt = global::SimpleTodo.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Spinner_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_showText = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_track = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_track;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_trackTint = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::SimpleTodo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabItem = global::SimpleTodo.Droid.Resource.Styleable.TabItem;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabItem_android_icon = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_icon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabItem_android_layout = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_layout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabItem_android_text = global::SimpleTodo.Droid.Resource.Styleable.TabItem_android_text;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout = global::SimpleTodo.Droid.Resource.Styleable.TabLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabBackground = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabContentStart = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabGravity = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabMode = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabPadding = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TabLayout_tabTextColor = global::SimpleTodo.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_textColor = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_textSize = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_android_typeface = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::SimpleTodo.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_android_hint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SimpleTodo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar = global::SimpleTodo.Droid.Resource.Styleable.Toolbar;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_android_gravity = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_android_minHeight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_buttonGravity = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_collapseIcon = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_logo = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_logo;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_logoDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_navigationIcon = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_popupTheme = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_subtitle = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_title = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_title;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMargin = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleMargins = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::AiForms.Renderers.Droid.Resource.Styleable.Toolbar_titleTextColor = global::SimpleTodo.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View = global::SimpleTodo.Droid.Resource.Styleable.View;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View_android_focusable = global::SimpleTodo.Droid.Resource.Styleable.View_android_focusable;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View_android_theme = global::SimpleTodo.Droid.Resource.Styleable.View_android_theme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View_paddingEnd = global::SimpleTodo.Droid.Resource.Styleable.View_paddingEnd;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View_paddingStart = global::SimpleTodo.Droid.Resource.Styleable.View_paddingStart;
-			global::AiForms.Renderers.Droid.Resource.Styleable.View_theme = global::SimpleTodo.Droid.Resource.Styleable.View_theme;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewBackgroundHelper = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SimpleTodo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_id = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::AiForms.Renderers.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::SimpleTodo.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SimpleTodo.Droid.Resource.Attribute.actionBarSize;
 			global::XFGloss.Droid.Resource.Animation.abc_fade_in = global::SimpleTodo.Droid.Resource.Animation.abc_fade_in;
 			global::XFGloss.Droid.Resource.Animation.abc_fade_out = global::SimpleTodo.Droid.Resource.Animation.abc_fade_out;
@@ -5406,7 +1202,6 @@ namespace SimpleTodo.Droid
 			global::XFGloss.Droid.Resource.String.appbar_scrolling_view_behavior = global::SimpleTodo.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::XFGloss.Droid.Resource.String.bottom_sheet_behavior = global::SimpleTodo.Droid.Resource.String.bottom_sheet_behavior;
 			global::XFGloss.Droid.Resource.String.character_counter_pattern = global::SimpleTodo.Droid.Resource.String.character_counter_pattern;
-			global::XFGloss.Droid.Resource.String.library_name = global::SimpleTodo.Droid.Resource.String.library_name;
 			global::XFGloss.Droid.Resource.String.mr_button_content_description = global::SimpleTodo.Droid.Resource.String.mr_button_content_description;
 			global::XFGloss.Droid.Resource.String.mr_cast_button_connected = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connected;
 			global::XFGloss.Droid.Resource.String.mr_cast_button_connecting = global::SimpleTodo.Droid.Resource.String.mr_cast_button_connecting;
@@ -8642,685 +4437,682 @@ namespace SimpleTodo.Droid
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int arrow_down = 2130837587;
-			
-			// aapt resource value: 0x7f020054
-			public const int avd_hide_password = 2130837588;
-			
-			// aapt resource value: 0x7f020130
-			public const int avd_hide_password_1 = 2130837808;
-			
-			// aapt resource value: 0x7f020131
-			public const int avd_hide_password_2 = 2130837809;
-			
-			// aapt resource value: 0x7f020132
-			public const int avd_hide_password_3 = 2130837810;
-			
-			// aapt resource value: 0x7f020055
-			public const int avd_show_password = 2130837589;
-			
-			// aapt resource value: 0x7f020133
-			public const int avd_show_password_1 = 2130837811;
-			
-			// aapt resource value: 0x7f020134
-			public const int avd_show_password_2 = 2130837812;
-			
-			// aapt resource value: 0x7f020135
-			public const int avd_show_password_3 = 2130837813;
-			
-			// aapt resource value: 0x7f020056
-			public const int design_bottom_navigation_item_background = 2130837590;
-			
-			// aapt resource value: 0x7f020057
-			public const int design_fab_background = 2130837591;
-			
-			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility = 2130837592;
-			
-			// aapt resource value: 0x7f020059
-			public const int design_ic_visibility_off = 2130837593;
-			
-			// aapt resource value: 0x7f02005a
-			public const int design_password_eye = 2130837594;
-			
-			// aapt resource value: 0x7f02005b
-			public const int design_snackbar_background = 2130837595;
-			
-			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_dark = 2130837596;
-			
-			// aapt resource value: 0x7f02005d
-			public const int ic_audiotrack_light = 2130837597;
-			
-			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
-			
-			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
-			
-			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
-			
-			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
-			
-			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
-			
-			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
-			
-			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
-			
-			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
-			
-			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
-			
-			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
-			
-			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
-			
-			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
-			
-			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
-			
-			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
-			
-			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
-			
-			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
-			
-			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
-			
-			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
-			
-			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
-			
-			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
-			
-			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
-			
-			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
-			
-			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
-			
-			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
-			
-			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
-			
-			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
-			
-			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
-			
-			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
-			
-			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
-			
-			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
-			
-			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
-			
-			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
-			
-			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
-			
-			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
-			
-			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
-			
-			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
-			
-			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
-			
-			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
-			
-			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
-			
-			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
-			
-			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
-			
-			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
-			
-			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
-			
-			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
-			
-			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
-			
-			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
-			
-			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
-			
-			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
-			
-			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
-			
-			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
-			
-			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
-			
-			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
-			
-			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
-			
-			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
-			
-			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
-			
-			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
-			
-			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
-			
-			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
-			
-			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
-			
-			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
-			
-			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
-			
-			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
-			
-			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
-			
-			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
-			
-			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
-			
-			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
-			
-			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
-			
-			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
-			
-			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
-			
-			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
-			
-			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
-			
-			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
-			
-			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
-			
-			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
-			
-			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
-			
-			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
-			
-			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
-			
-			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
-			
-			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
-			
-			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
-			
-			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
-			
-			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
-			
-			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
-			
-			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_dark = 2130837684;
-			
-			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_23_light = 2130837685;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_dark = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_24_light = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_dark = 2130837688;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_25_light = 2130837689;
-			
-			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_dark = 2130837690;
-			
-			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_26_light = 2130837691;
-			
-			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_dark = 2130837692;
-			
-			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_27_light = 2130837693;
-			
-			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_dark = 2130837694;
-			
-			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_28_light = 2130837695;
-			
-			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_dark = 2130837696;
-			
-			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_29_light = 2130837697;
-			
-			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_dark = 2130837698;
-			
-			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_30_light = 2130837699;
-			
-			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_dark = 2130837700;
-			
-			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_00_light = 2130837701;
-			
-			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_dark = 2130837702;
-			
-			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_01_light = 2130837703;
-			
-			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_dark = 2130837704;
-			
-			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_02_light = 2130837705;
-			
-			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_dark = 2130837706;
-			
-			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_03_light = 2130837707;
-			
-			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_dark = 2130837708;
-			
-			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_04_light = 2130837709;
-			
-			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_dark = 2130837710;
-			
-			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_05_light = 2130837711;
-			
-			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_dark = 2130837712;
-			
-			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_06_light = 2130837713;
-			
-			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_dark = 2130837714;
-			
-			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_07_light = 2130837715;
-			
-			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_dark = 2130837716;
-			
-			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_08_light = 2130837717;
-			
-			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_dark = 2130837718;
-			
-			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_09_light = 2130837719;
-			
-			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_dark = 2130837720;
-			
-			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_10_light = 2130837721;
-			
-			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_dark = 2130837722;
-			
-			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_11_light = 2130837723;
-			
-			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_dark = 2130837724;
-			
-			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_12_light = 2130837725;
-			
-			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_dark = 2130837726;
-			
-			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_13_light = 2130837727;
-			
-			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_dark = 2130837728;
-			
-			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_14_light = 2130837729;
-			
-			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_dark = 2130837730;
-			
-			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_15_light = 2130837731;
-			
-			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_dark = 2130837732;
-			
-			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_16_light = 2130837733;
-			
-			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_dark = 2130837734;
-			
-			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_17_light = 2130837735;
-			
-			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_dark = 2130837736;
-			
-			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_18_light = 2130837737;
-			
-			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_dark = 2130837738;
-			
-			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_19_light = 2130837739;
-			
-			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_dark = 2130837740;
-			
-			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_20_light = 2130837741;
-			
-			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_dark = 2130837742;
-			
-			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_21_light = 2130837743;
-			
-			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_dark = 2130837744;
-			
-			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_22_light = 2130837745;
-			
-			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_dark = 2130837746;
-			
-			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_23_light = 2130837747;
-			
-			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_dark = 2130837748;
-			
-			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_24_light = 2130837749;
-			
-			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_dark = 2130837750;
-			
-			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_25_light = 2130837751;
-			
-			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_dark = 2130837752;
-			
-			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_26_light = 2130837753;
-			
-			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_dark = 2130837754;
-			
-			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_27_light = 2130837755;
-			
-			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_dark = 2130837756;
-			
-			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_28_light = 2130837757;
-			
-			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_dark = 2130837758;
-			
-			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_29_light = 2130837759;
-			
-			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_dark = 2130837760;
-			
-			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_30_light = 2130837761;
-			
-			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_dark = 2130837762;
-			
-			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disabled_light = 2130837763;
-			
-			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_dark = 2130837764;
-			
-			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_disconnected_light = 2130837765;
-			
-			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_grey = 2130837766;
-			
-			// aapt resource value: 0x7f020107
-			public const int ic_vol_type_speaker_dark = 2130837767;
-			
-			// aapt resource value: 0x7f020108
-			public const int ic_vol_type_speaker_group_dark = 2130837768;
-			
-			// aapt resource value: 0x7f020109
-			public const int ic_vol_type_speaker_group_light = 2130837769;
-			
-			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_speaker_light = 2130837770;
-			
-			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_tv_dark = 2130837771;
-			
-			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_tv_light = 2130837772;
-			
-			// aapt resource value: 0x7f02010d
-			public const int mr_button_connected_dark = 2130837773;
-			
-			// aapt resource value: 0x7f02010e
-			public const int mr_button_connected_light = 2130837774;
-			
-			// aapt resource value: 0x7f02010f
-			public const int mr_button_connecting_dark = 2130837775;
-			
-			// aapt resource value: 0x7f020110
-			public const int mr_button_connecting_light = 2130837776;
-			
-			// aapt resource value: 0x7f020111
-			public const int mr_button_dark = 2130837777;
-			
-			// aapt resource value: 0x7f020112
-			public const int mr_button_light = 2130837778;
-			
-			// aapt resource value: 0x7f020113
-			public const int mr_dialog_close_dark = 2130837779;
-			
-			// aapt resource value: 0x7f020114
-			public const int mr_dialog_close_light = 2130837780;
-			
-			// aapt resource value: 0x7f020115
-			public const int mr_dialog_material_background_dark = 2130837781;
-			
-			// aapt resource value: 0x7f020116
-			public const int mr_dialog_material_background_light = 2130837782;
-			
-			// aapt resource value: 0x7f020117
-			public const int mr_group_collapse = 2130837783;
-			
-			// aapt resource value: 0x7f020118
-			public const int mr_group_expand = 2130837784;
-			
-			// aapt resource value: 0x7f020119
-			public const int mr_media_pause_dark = 2130837785;
-			
-			// aapt resource value: 0x7f02011a
-			public const int mr_media_pause_light = 2130837786;
-			
-			// aapt resource value: 0x7f02011b
-			public const int mr_media_play_dark = 2130837787;
-			
-			// aapt resource value: 0x7f02011c
-			public const int mr_media_play_light = 2130837788;
-			
-			// aapt resource value: 0x7f02011d
-			public const int mr_media_stop_dark = 2130837789;
-			
-			// aapt resource value: 0x7f02011e
-			public const int mr_media_stop_light = 2130837790;
-			
-			// aapt resource value: 0x7f02011f
-			public const int mr_vol_type_audiotrack_dark = 2130837791;
-			
-			// aapt resource value: 0x7f020120
-			public const int mr_vol_type_audiotrack_light = 2130837792;
-			
-			// aapt resource value: 0x7f020121
-			public const int navigation_empty_icon = 2130837793;
-			
-			// aapt resource value: 0x7f020122
-			public const int notification_action_background = 2130837794;
-			
-			// aapt resource value: 0x7f020123
-			public const int notification_bg = 2130837795;
-			
-			// aapt resource value: 0x7f020124
-			public const int notification_bg_low = 2130837796;
-			
-			// aapt resource value: 0x7f020125
-			public const int notification_bg_low_normal = 2130837797;
-			
-			// aapt resource value: 0x7f020126
-			public const int notification_bg_low_pressed = 2130837798;
-			
-			// aapt resource value: 0x7f020127
-			public const int notification_bg_normal = 2130837799;
-			
-			// aapt resource value: 0x7f020128
-			public const int notification_bg_normal_pressed = 2130837800;
-			
-			// aapt resource value: 0x7f020129
-			public const int notification_icon_background = 2130837801;
-			
-			// aapt resource value: 0x7f02012e
-			public const int notification_template_icon_bg = 2130837806;
+			public const int avd_hide_password = 2130837587;
 			
 			// aapt resource value: 0x7f02012f
-			public const int notification_template_icon_low_bg = 2130837807;
+			public const int avd_hide_password_1 = 2130837807;
 			
-			// aapt resource value: 0x7f02012a
-			public const int notification_tile_bg = 2130837802;
+			// aapt resource value: 0x7f020130
+			public const int avd_hide_password_2 = 2130837808;
 			
-			// aapt resource value: 0x7f02012b
-			public const int notify_panel_notification_icon_bg = 2130837803;
+			// aapt resource value: 0x7f020131
+			public const int avd_hide_password_3 = 2130837809;
 			
-			// aapt resource value: 0x7f02012c
-			public const int tooltip_frame_dark = 2130837804;
+			// aapt resource value: 0x7f020054
+			public const int avd_show_password = 2130837588;
+			
+			// aapt resource value: 0x7f020132
+			public const int avd_show_password_1 = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int avd_show_password_2 = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int avd_show_password_3 = 2130837812;
+			
+			// aapt resource value: 0x7f020055
+			public const int design_bottom_navigation_item_background = 2130837589;
+			
+			// aapt resource value: 0x7f020056
+			public const int design_fab_background = 2130837590;
+			
+			// aapt resource value: 0x7f020057
+			public const int design_ic_visibility = 2130837591;
+			
+			// aapt resource value: 0x7f020058
+			public const int design_ic_visibility_off = 2130837592;
+			
+			// aapt resource value: 0x7f020059
+			public const int design_password_eye = 2130837593;
+			
+			// aapt resource value: 0x7f02005a
+			public const int design_snackbar_background = 2130837594;
+			
+			// aapt resource value: 0x7f02005b
+			public const int ic_audiotrack_dark = 2130837595;
+			
+			// aapt resource value: 0x7f02005c
+			public const int ic_audiotrack_light = 2130837596;
+			
+			// aapt resource value: 0x7f02005d
+			public const int ic_dialog_close_dark = 2130837597;
+			
+			// aapt resource value: 0x7f02005e
+			public const int ic_dialog_close_light = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int ic_group_collapse_00 = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int ic_group_collapse_01 = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int ic_group_collapse_02 = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int ic_group_collapse_03 = 2130837602;
+			
+			// aapt resource value: 0x7f020063
+			public const int ic_group_collapse_04 = 2130837603;
+			
+			// aapt resource value: 0x7f020064
+			public const int ic_group_collapse_05 = 2130837604;
+			
+			// aapt resource value: 0x7f020065
+			public const int ic_group_collapse_06 = 2130837605;
+			
+			// aapt resource value: 0x7f020066
+			public const int ic_group_collapse_07 = 2130837606;
+			
+			// aapt resource value: 0x7f020067
+			public const int ic_group_collapse_08 = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int ic_group_collapse_09 = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int ic_group_collapse_10 = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int ic_group_collapse_11 = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int ic_group_collapse_12 = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public const int ic_group_collapse_13 = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int ic_group_collapse_14 = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int ic_group_collapse_15 = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int ic_group_expand_00 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int ic_group_expand_01 = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int ic_group_expand_02 = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int ic_group_expand_03 = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int ic_group_expand_04 = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int ic_group_expand_05 = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int ic_group_expand_06 = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int ic_group_expand_07 = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int ic_group_expand_08 = 2130837623;
+			
+			// aapt resource value: 0x7f020078
+			public const int ic_group_expand_09 = 2130837624;
+			
+			// aapt resource value: 0x7f020079
+			public const int ic_group_expand_10 = 2130837625;
+			
+			// aapt resource value: 0x7f02007a
+			public const int ic_group_expand_11 = 2130837626;
+			
+			// aapt resource value: 0x7f02007b
+			public const int ic_group_expand_12 = 2130837627;
+			
+			// aapt resource value: 0x7f02007c
+			public const int ic_group_expand_13 = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int ic_group_expand_14 = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int ic_group_expand_15 = 2130837630;
+			
+			// aapt resource value: 0x7f02007f
+			public const int ic_media_pause_dark = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int ic_media_pause_light = 2130837632;
+			
+			// aapt resource value: 0x7f020081
+			public const int ic_media_play_dark = 2130837633;
+			
+			// aapt resource value: 0x7f020082
+			public const int ic_media_play_light = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int ic_media_stop_dark = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int ic_media_stop_light = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int ic_mr_button_connected_00_dark = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int ic_mr_button_connected_00_light = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int ic_mr_button_connected_01_dark = 2130837639;
+			
+			// aapt resource value: 0x7f020088
+			public const int ic_mr_button_connected_01_light = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int ic_mr_button_connected_02_dark = 2130837641;
+			
+			// aapt resource value: 0x7f02008a
+			public const int ic_mr_button_connected_02_light = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int ic_mr_button_connected_03_dark = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int ic_mr_button_connected_03_light = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int ic_mr_button_connected_04_dark = 2130837645;
+			
+			// aapt resource value: 0x7f02008e
+			public const int ic_mr_button_connected_04_light = 2130837646;
+			
+			// aapt resource value: 0x7f02008f
+			public const int ic_mr_button_connected_05_dark = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int ic_mr_button_connected_05_light = 2130837648;
+			
+			// aapt resource value: 0x7f020091
+			public const int ic_mr_button_connected_06_dark = 2130837649;
+			
+			// aapt resource value: 0x7f020092
+			public const int ic_mr_button_connected_06_light = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int ic_mr_button_connected_07_dark = 2130837651;
+			
+			// aapt resource value: 0x7f020094
+			public const int ic_mr_button_connected_07_light = 2130837652;
+			
+			// aapt resource value: 0x7f020095
+			public const int ic_mr_button_connected_08_dark = 2130837653;
+			
+			// aapt resource value: 0x7f020096
+			public const int ic_mr_button_connected_08_light = 2130837654;
+			
+			// aapt resource value: 0x7f020097
+			public const int ic_mr_button_connected_09_dark = 2130837655;
+			
+			// aapt resource value: 0x7f020098
+			public const int ic_mr_button_connected_09_light = 2130837656;
+			
+			// aapt resource value: 0x7f020099
+			public const int ic_mr_button_connected_10_dark = 2130837657;
+			
+			// aapt resource value: 0x7f02009a
+			public const int ic_mr_button_connected_10_light = 2130837658;
+			
+			// aapt resource value: 0x7f02009b
+			public const int ic_mr_button_connected_11_dark = 2130837659;
+			
+			// aapt resource value: 0x7f02009c
+			public const int ic_mr_button_connected_11_light = 2130837660;
+			
+			// aapt resource value: 0x7f02009d
+			public const int ic_mr_button_connected_12_dark = 2130837661;
+			
+			// aapt resource value: 0x7f02009e
+			public const int ic_mr_button_connected_12_light = 2130837662;
+			
+			// aapt resource value: 0x7f02009f
+			public const int ic_mr_button_connected_13_dark = 2130837663;
+			
+			// aapt resource value: 0x7f0200a0
+			public const int ic_mr_button_connected_13_light = 2130837664;
+			
+			// aapt resource value: 0x7f0200a1
+			public const int ic_mr_button_connected_14_dark = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int ic_mr_button_connected_14_light = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int ic_mr_button_connected_15_dark = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int ic_mr_button_connected_15_light = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int ic_mr_button_connected_16_dark = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int ic_mr_button_connected_16_light = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int ic_mr_button_connected_17_dark = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ic_mr_button_connected_17_light = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int ic_mr_button_connected_18_dark = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int ic_mr_button_connected_18_light = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int ic_mr_button_connected_19_dark = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int ic_mr_button_connected_19_light = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int ic_mr_button_connected_20_dark = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int ic_mr_button_connected_20_light = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int ic_mr_button_connected_21_dark = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int ic_mr_button_connected_21_light = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int ic_mr_button_connected_22_dark = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int ic_mr_button_connected_22_light = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int ic_mr_button_connected_23_dark = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int ic_mr_button_connected_23_light = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int ic_mr_button_connected_24_dark = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int ic_mr_button_connected_24_light = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int ic_mr_button_connected_25_dark = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int ic_mr_button_connected_25_light = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int ic_mr_button_connected_26_dark = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int ic_mr_button_connected_26_light = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int ic_mr_button_connected_27_dark = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int ic_mr_button_connected_27_light = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int ic_mr_button_connected_28_dark = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int ic_mr_button_connected_28_light = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int ic_mr_button_connected_29_dark = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int ic_mr_button_connected_29_light = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int ic_mr_button_connected_30_dark = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int ic_mr_button_connected_30_light = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int ic_mr_button_connecting_00_dark = 2130837699;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int ic_mr_button_connecting_00_light = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int ic_mr_button_connecting_01_dark = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int ic_mr_button_connecting_01_light = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int ic_mr_button_connecting_02_dark = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int ic_mr_button_connecting_02_light = 2130837704;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int ic_mr_button_connecting_03_dark = 2130837705;
+			
+			// aapt resource value: 0x7f0200ca
+			public const int ic_mr_button_connecting_03_light = 2130837706;
+			
+			// aapt resource value: 0x7f0200cb
+			public const int ic_mr_button_connecting_04_dark = 2130837707;
+			
+			// aapt resource value: 0x7f0200cc
+			public const int ic_mr_button_connecting_04_light = 2130837708;
+			
+			// aapt resource value: 0x7f0200cd
+			public const int ic_mr_button_connecting_05_dark = 2130837709;
+			
+			// aapt resource value: 0x7f0200ce
+			public const int ic_mr_button_connecting_05_light = 2130837710;
+			
+			// aapt resource value: 0x7f0200cf
+			public const int ic_mr_button_connecting_06_dark = 2130837711;
+			
+			// aapt resource value: 0x7f0200d0
+			public const int ic_mr_button_connecting_06_light = 2130837712;
+			
+			// aapt resource value: 0x7f0200d1
+			public const int ic_mr_button_connecting_07_dark = 2130837713;
+			
+			// aapt resource value: 0x7f0200d2
+			public const int ic_mr_button_connecting_07_light = 2130837714;
+			
+			// aapt resource value: 0x7f0200d3
+			public const int ic_mr_button_connecting_08_dark = 2130837715;
+			
+			// aapt resource value: 0x7f0200d4
+			public const int ic_mr_button_connecting_08_light = 2130837716;
+			
+			// aapt resource value: 0x7f0200d5
+			public const int ic_mr_button_connecting_09_dark = 2130837717;
+			
+			// aapt resource value: 0x7f0200d6
+			public const int ic_mr_button_connecting_09_light = 2130837718;
+			
+			// aapt resource value: 0x7f0200d7
+			public const int ic_mr_button_connecting_10_dark = 2130837719;
+			
+			// aapt resource value: 0x7f0200d8
+			public const int ic_mr_button_connecting_10_light = 2130837720;
+			
+			// aapt resource value: 0x7f0200d9
+			public const int ic_mr_button_connecting_11_dark = 2130837721;
+			
+			// aapt resource value: 0x7f0200da
+			public const int ic_mr_button_connecting_11_light = 2130837722;
+			
+			// aapt resource value: 0x7f0200db
+			public const int ic_mr_button_connecting_12_dark = 2130837723;
+			
+			// aapt resource value: 0x7f0200dc
+			public const int ic_mr_button_connecting_12_light = 2130837724;
+			
+			// aapt resource value: 0x7f0200dd
+			public const int ic_mr_button_connecting_13_dark = 2130837725;
+			
+			// aapt resource value: 0x7f0200de
+			public const int ic_mr_button_connecting_13_light = 2130837726;
+			
+			// aapt resource value: 0x7f0200df
+			public const int ic_mr_button_connecting_14_dark = 2130837727;
+			
+			// aapt resource value: 0x7f0200e0
+			public const int ic_mr_button_connecting_14_light = 2130837728;
+			
+			// aapt resource value: 0x7f0200e1
+			public const int ic_mr_button_connecting_15_dark = 2130837729;
+			
+			// aapt resource value: 0x7f0200e2
+			public const int ic_mr_button_connecting_15_light = 2130837730;
+			
+			// aapt resource value: 0x7f0200e3
+			public const int ic_mr_button_connecting_16_dark = 2130837731;
+			
+			// aapt resource value: 0x7f0200e4
+			public const int ic_mr_button_connecting_16_light = 2130837732;
+			
+			// aapt resource value: 0x7f0200e5
+			public const int ic_mr_button_connecting_17_dark = 2130837733;
+			
+			// aapt resource value: 0x7f0200e6
+			public const int ic_mr_button_connecting_17_light = 2130837734;
+			
+			// aapt resource value: 0x7f0200e7
+			public const int ic_mr_button_connecting_18_dark = 2130837735;
+			
+			// aapt resource value: 0x7f0200e8
+			public const int ic_mr_button_connecting_18_light = 2130837736;
+			
+			// aapt resource value: 0x7f0200e9
+			public const int ic_mr_button_connecting_19_dark = 2130837737;
+			
+			// aapt resource value: 0x7f0200ea
+			public const int ic_mr_button_connecting_19_light = 2130837738;
+			
+			// aapt resource value: 0x7f0200eb
+			public const int ic_mr_button_connecting_20_dark = 2130837739;
+			
+			// aapt resource value: 0x7f0200ec
+			public const int ic_mr_button_connecting_20_light = 2130837740;
+			
+			// aapt resource value: 0x7f0200ed
+			public const int ic_mr_button_connecting_21_dark = 2130837741;
+			
+			// aapt resource value: 0x7f0200ee
+			public const int ic_mr_button_connecting_21_light = 2130837742;
+			
+			// aapt resource value: 0x7f0200ef
+			public const int ic_mr_button_connecting_22_dark = 2130837743;
+			
+			// aapt resource value: 0x7f0200f0
+			public const int ic_mr_button_connecting_22_light = 2130837744;
+			
+			// aapt resource value: 0x7f0200f1
+			public const int ic_mr_button_connecting_23_dark = 2130837745;
+			
+			// aapt resource value: 0x7f0200f2
+			public const int ic_mr_button_connecting_23_light = 2130837746;
+			
+			// aapt resource value: 0x7f0200f3
+			public const int ic_mr_button_connecting_24_dark = 2130837747;
+			
+			// aapt resource value: 0x7f0200f4
+			public const int ic_mr_button_connecting_24_light = 2130837748;
+			
+			// aapt resource value: 0x7f0200f5
+			public const int ic_mr_button_connecting_25_dark = 2130837749;
+			
+			// aapt resource value: 0x7f0200f6
+			public const int ic_mr_button_connecting_25_light = 2130837750;
+			
+			// aapt resource value: 0x7f0200f7
+			public const int ic_mr_button_connecting_26_dark = 2130837751;
+			
+			// aapt resource value: 0x7f0200f8
+			public const int ic_mr_button_connecting_26_light = 2130837752;
+			
+			// aapt resource value: 0x7f0200f9
+			public const int ic_mr_button_connecting_27_dark = 2130837753;
+			
+			// aapt resource value: 0x7f0200fa
+			public const int ic_mr_button_connecting_27_light = 2130837754;
+			
+			// aapt resource value: 0x7f0200fb
+			public const int ic_mr_button_connecting_28_dark = 2130837755;
+			
+			// aapt resource value: 0x7f0200fc
+			public const int ic_mr_button_connecting_28_light = 2130837756;
+			
+			// aapt resource value: 0x7f0200fd
+			public const int ic_mr_button_connecting_29_dark = 2130837757;
+			
+			// aapt resource value: 0x7f0200fe
+			public const int ic_mr_button_connecting_29_light = 2130837758;
+			
+			// aapt resource value: 0x7f0200ff
+			public const int ic_mr_button_connecting_30_dark = 2130837759;
+			
+			// aapt resource value: 0x7f020100
+			public const int ic_mr_button_connecting_30_light = 2130837760;
+			
+			// aapt resource value: 0x7f020101
+			public const int ic_mr_button_disabled_dark = 2130837761;
+			
+			// aapt resource value: 0x7f020102
+			public const int ic_mr_button_disabled_light = 2130837762;
+			
+			// aapt resource value: 0x7f020103
+			public const int ic_mr_button_disconnected_dark = 2130837763;
+			
+			// aapt resource value: 0x7f020104
+			public const int ic_mr_button_disconnected_light = 2130837764;
+			
+			// aapt resource value: 0x7f020105
+			public const int ic_mr_button_grey = 2130837765;
+			
+			// aapt resource value: 0x7f020106
+			public const int ic_vol_type_speaker_dark = 2130837766;
+			
+			// aapt resource value: 0x7f020107
+			public const int ic_vol_type_speaker_group_dark = 2130837767;
+			
+			// aapt resource value: 0x7f020108
+			public const int ic_vol_type_speaker_group_light = 2130837768;
+			
+			// aapt resource value: 0x7f020109
+			public const int ic_vol_type_speaker_light = 2130837769;
+			
+			// aapt resource value: 0x7f02010a
+			public const int ic_vol_type_tv_dark = 2130837770;
+			
+			// aapt resource value: 0x7f02010b
+			public const int ic_vol_type_tv_light = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int mr_button_connected_dark = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int mr_button_connected_light = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int mr_button_connecting_dark = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int mr_button_connecting_light = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int mr_button_dark = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int mr_button_light = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int mr_dialog_close_dark = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int mr_dialog_close_light = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int mr_dialog_material_background_dark = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int mr_dialog_material_background_light = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int mr_group_collapse = 2130837782;
+			
+			// aapt resource value: 0x7f020117
+			public const int mr_group_expand = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int mr_media_pause_dark = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int mr_media_pause_light = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int mr_media_play_dark = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int mr_media_play_light = 2130837787;
+			
+			// aapt resource value: 0x7f02011c
+			public const int mr_media_stop_dark = 2130837788;
+			
+			// aapt resource value: 0x7f02011d
+			public const int mr_media_stop_light = 2130837789;
+			
+			// aapt resource value: 0x7f02011e
+			public const int mr_vol_type_audiotrack_dark = 2130837790;
+			
+			// aapt resource value: 0x7f02011f
+			public const int mr_vol_type_audiotrack_light = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int navigation_empty_icon = 2130837792;
+			
+			// aapt resource value: 0x7f020121
+			public const int notification_action_background = 2130837793;
+			
+			// aapt resource value: 0x7f020122
+			public const int notification_bg = 2130837794;
+			
+			// aapt resource value: 0x7f020123
+			public const int notification_bg_low = 2130837795;
+			
+			// aapt resource value: 0x7f020124
+			public const int notification_bg_low_normal = 2130837796;
+			
+			// aapt resource value: 0x7f020125
+			public const int notification_bg_low_pressed = 2130837797;
+			
+			// aapt resource value: 0x7f020126
+			public const int notification_bg_normal = 2130837798;
+			
+			// aapt resource value: 0x7f020127
+			public const int notification_bg_normal_pressed = 2130837799;
+			
+			// aapt resource value: 0x7f020128
+			public const int notification_icon_background = 2130837800;
 			
 			// aapt resource value: 0x7f02012d
-			public const int tooltip_frame_light = 2130837805;
+			public const int notification_template_icon_bg = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int notification_template_icon_low_bg = 2130837806;
+			
+			// aapt resource value: 0x7f020129
+			public const int notification_tile_bg = 2130837801;
+			
+			// aapt resource value: 0x7f02012a
+			public const int notify_panel_notification_icon_bg = 2130837802;
+			
+			// aapt resource value: 0x7f02012b
+			public const int tooltip_frame_dark = 2130837803;
+			
+			// aapt resource value: 0x7f02012c
+			public const int tooltip_frame_light = 2130837804;
 			
 			static Drawable()
 			{
@@ -9341,44 +5133,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090033
 			public const int CTRL = 2131296307;
 			
-			// aapt resource value: 0x7f09008d
-			public const int CellAccessoryView = 2131296397;
-			
-			// aapt resource value: 0x7f09008c
-			public const int CellBody = 2131296396;
-			
-			// aapt resource value: 0x7f09008e
-			public const int CellContentStack = 2131296398;
-			
-			// aapt resource value: 0x7f090090
-			public const int CellDescription = 2131296400;
-			
-			// aapt resource value: 0x7f090091
-			public const int CellHintText = 2131296401;
-			
-			// aapt resource value: 0x7f09008b
-			public const int CellIcon = 2131296395;
-			
-			// aapt resource value: 0x7f09008f
-			public const int CellTitle = 2131296399;
-			
-			// aapt resource value: 0x7f090092
-			public const int ContentCellBody = 2131296402;
-			
-			// aapt resource value: 0x7f090093
-			public const int ContentCellBorder = 2131296403;
-			
 			// aapt resource value: 0x7f090034
 			public const int FUNCTION = 2131296308;
-			
-			// aapt resource value: 0x7f0900a2
-			public const int FooterCellText = 2131296418;
-			
-			// aapt resource value: 0x7f0900a4
-			public const int HeaderCellBorder = 2131296420;
-			
-			// aapt resource value: 0x7f0900a3
-			public const int HeaderCellText = 2131296419;
 			
 			// aapt resource value: 0x7f090035
 			public const int META = 2131296309;
@@ -9389,8 +5145,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090037
 			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int action0 = 2131296450;
+			// aapt resource value: 0x7f0900b6
+			public const int action0 = 2131296438;
 			
 			// aapt resource value: 0x7f09007c
 			public const int action_bar = 2131296380;
@@ -9413,17 +5169,17 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09005a
 			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int action_container = 2131296447;
+			// aapt resource value: 0x7f0900b3
+			public const int action_container = 2131296435;
 			
 			// aapt resource value: 0x7f09007d
 			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int action_divider = 2131296454;
+			// aapt resource value: 0x7f0900ba
+			public const int action_divider = 2131296442;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int action_image = 2131296448;
+			// aapt resource value: 0x7f0900b4
+			public const int action_image = 2131296436;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -9440,11 +5196,11 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int action_text = 2131296449;
+			// aapt resource value: 0x7f0900b5
+			public const int action_text = 2131296437;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int actions = 2131296463;
+			// aapt resource value: 0x7f0900c3
+			public const int actions = 2131296451;
 			
 			// aapt resource value: 0x7f09005d
 			public const int activity_chooser_view_content = 2131296349;
@@ -9479,8 +5235,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090063
 			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int cancel_action = 2131296451;
+			// aapt resource value: 0x7f0900b7
+			public const int cancel_action = 2131296439;
 			
 			// aapt resource value: 0x7f090045
 			public const int center = 2131296325;
@@ -9494,8 +5250,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090073
 			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int chronometer = 2131296459;
+			// aapt resource value: 0x7f0900bf
+			public const int chronometer = 2131296447;
 			
 			// aapt resource value: 0x7f09004e
 			public const int clip_horizontal = 2131296334;
@@ -9506,14 +5262,14 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090039
 			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f090096
-			public const int container = 2131296406;
+			// aapt resource value: 0x7f09008d
+			public const int container = 2131296397;
 			
 			// aapt resource value: 0x7f090066
 			public const int contentPanel = 2131296358;
 			
-			// aapt resource value: 0x7f090097
-			public const int coordinator = 2131296407;
+			// aapt resource value: 0x7f09008e
+			public const int coordinator = 2131296398;
 			
 			// aapt resource value: 0x7f09006d
 			public const int custom = 2131296365;
@@ -9527,20 +5283,20 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090060
 			public const int default_activity_button = 2131296352;
 			
-			// aapt resource value: 0x7f090099
-			public const int design_bottom_sheet = 2131296409;
+			// aapt resource value: 0x7f090090
+			public const int design_bottom_sheet = 2131296400;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int design_menu_item_action_area = 2131296416;
+			// aapt resource value: 0x7f090097
+			public const int design_menu_item_action_area = 2131296407;
 			
-			// aapt resource value: 0x7f09009f
-			public const int design_menu_item_action_area_stub = 2131296415;
+			// aapt resource value: 0x7f090096
+			public const int design_menu_item_action_area_stub = 2131296406;
 			
-			// aapt resource value: 0x7f09009e
-			public const int design_menu_item_text = 2131296414;
+			// aapt resource value: 0x7f090095
+			public const int design_menu_item_text = 2131296405;
 			
-			// aapt resource value: 0x7f09009d
-			public const int design_navigation_view = 2131296413;
+			// aapt resource value: 0x7f090094
+			public const int design_navigation_view = 2131296404;
 			
 			// aapt resource value: 0x7f090020
 			public const int disableHome = 2131296288;
@@ -9551,8 +5307,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090030
 			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int end_padder = 2131296465;
+			// aapt resource value: 0x7f0900c5
+			public const int end_padder = 2131296453;
 			
 			// aapt resource value: 0x7f09003f
 			public const int enterAlways = 2131296319;
@@ -9596,8 +5352,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090062
 			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int icon_group = 2131296464;
+			// aapt resource value: 0x7f0900c4
+			public const int icon_group = 2131296452;
 			
 			// aapt resource value: 0x7f09003a
 			public const int ifRoom = 2131296314;
@@ -9605,8 +5361,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09005f
 			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int info = 2131296460;
+			// aapt resource value: 0x7f0900c0
+			public const int info = 2131296448;
 			
 			// aapt resource value: 0x7f090059
 			public const int italic = 2131296345;
@@ -9614,8 +5370,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f090095
-			public const int largeLabel = 2131296405;
+			// aapt resource value: 0x7f09008c
+			public const int largeLabel = 2131296396;
 			
 			// aapt resource value: 0x7f090049
 			public const int left = 2131296329;
@@ -9632,14 +5388,14 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int masked = 2131296470;
+			// aapt resource value: 0x7f0900ca
+			public const int masked = 2131296458;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int media_actions = 2131296453;
+			// aapt resource value: 0x7f0900b9
+			public const int media_actions = 2131296441;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int message = 2131296468;
+			// aapt resource value: 0x7f0900c8
+			public const int message = 2131296456;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -9647,86 +5403,86 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090053
 			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_art = 2131296433;
+			// aapt resource value: 0x7f0900a5
+			public const int mr_art = 2131296421;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int mr_chooser_list = 2131296422;
+			// aapt resource value: 0x7f09009a
+			public const int mr_chooser_list = 2131296410;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int mr_chooser_route_desc = 2131296425;
+			// aapt resource value: 0x7f09009d
+			public const int mr_chooser_route_desc = 2131296413;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int mr_chooser_route_icon = 2131296423;
+			// aapt resource value: 0x7f09009b
+			public const int mr_chooser_route_icon = 2131296411;
+			
+			// aapt resource value: 0x7f09009c
+			public const int mr_chooser_route_name = 2131296412;
+			
+			// aapt resource value: 0x7f090099
+			public const int mr_chooser_title = 2131296409;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int mr_close = 2131296418;
 			
 			// aapt resource value: 0x7f0900a8
-			public const int mr_chooser_route_name = 2131296424;
-			
-			// aapt resource value: 0x7f0900a5
-			public const int mr_chooser_title = 2131296421;
+			public const int mr_control_divider = 2131296424;
 			
 			// aapt resource value: 0x7f0900ae
-			public const int mr_close = 2131296430;
+			public const int mr_control_playback_ctrl = 2131296430;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int mr_control_divider = 2131296436;
-			
-			// aapt resource value: 0x7f0900ba
-			public const int mr_control_playback_ctrl = 2131296442;
-			
-			// aapt resource value: 0x7f0900bd
-			public const int mr_control_subtitle = 2131296445;
-			
-			// aapt resource value: 0x7f0900bc
-			public const int mr_control_title = 2131296444;
-			
-			// aapt resource value: 0x7f0900bb
-			public const int mr_control_title_container = 2131296443;
-			
-			// aapt resource value: 0x7f0900af
-			public const int mr_custom_control = 2131296431;
+			// aapt resource value: 0x7f0900b1
+			public const int mr_control_subtitle = 2131296433;
 			
 			// aapt resource value: 0x7f0900b0
-			public const int mr_default_control = 2131296432;
+			public const int mr_control_title = 2131296432;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int mr_dialog_area = 2131296427;
+			// aapt resource value: 0x7f0900af
+			public const int mr_control_title_container = 2131296431;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int mr_expandable_area = 2131296426;
+			// aapt resource value: 0x7f0900a3
+			public const int mr_custom_control = 2131296419;
 			
-			// aapt resource value: 0x7f0900be
-			public const int mr_group_expand_collapse = 2131296446;
+			// aapt resource value: 0x7f0900a4
+			public const int mr_default_control = 2131296420;
+			
+			// aapt resource value: 0x7f09009f
+			public const int mr_dialog_area = 2131296415;
+			
+			// aapt resource value: 0x7f09009e
+			public const int mr_expandable_area = 2131296414;
 			
 			// aapt resource value: 0x7f0900b2
-			public const int mr_media_main_control = 2131296434;
+			public const int mr_group_expand_collapse = 2131296434;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int mr_name = 2131296429;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_media_main_control = 2131296422;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int mr_playback_control = 2131296435;
+			// aapt resource value: 0x7f0900a1
+			public const int mr_name = 2131296417;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int mr_playback_control = 2131296423;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int mr_title_bar = 2131296416;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int mr_volume_control = 2131296425;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int mr_volume_group_list = 2131296426;
 			
 			// aapt resource value: 0x7f0900ac
-			public const int mr_title_bar = 2131296428;
+			public const int mr_volume_item_icon = 2131296428;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int mr_volume_control = 2131296437;
-			
-			// aapt resource value: 0x7f0900b6
-			public const int mr_volume_group_list = 2131296438;
-			
-			// aapt resource value: 0x7f0900b8
-			public const int mr_volume_item_icon = 2131296440;
-			
-			// aapt resource value: 0x7f0900b9
-			public const int mr_volume_slider = 2131296441;
+			// aapt resource value: 0x7f0900ad
+			public const int mr_volume_slider = 2131296429;
 			
 			// aapt resource value: 0x7f090028
 			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f09009c
-			public const int navigation_header_container = 2131296412;
+			// aapt resource value: 0x7f090093
+			public const int navigation_header_container = 2131296403;
 			
 			// aapt resource value: 0x7f09003b
 			public const int never = 2131296315;
@@ -9737,14 +5493,14 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09001e
 			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int notification_background = 2131296462;
+			// aapt resource value: 0x7f0900c2
+			public const int notification_background = 2131296450;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int notification_main_column = 2131296456;
+			// aapt resource value: 0x7f0900bc
+			public const int notification_main_column = 2131296444;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int notification_main_column_container = 2131296455;
+			// aapt resource value: 0x7f0900bb
+			public const int notification_main_column_container = 2131296443;
 			
 			// aapt resource value: 0x7f09004c
 			public const int parallax = 2131296332;
@@ -9770,11 +5526,11 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09004a
 			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int right_icon = 2131296461;
+			// aapt resource value: 0x7f0900c1
+			public const int right_icon = 2131296449;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int right_side = 2131296457;
+			// aapt resource value: 0x7f0900bd
+			public const int right_side = 2131296445;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -9848,17 +5604,17 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090025
 			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int sliding_tabs = 2131296466;
+			// aapt resource value: 0x7f0900c6
+			public const int sliding_tabs = 2131296454;
 			
-			// aapt resource value: 0x7f090094
-			public const int smallLabel = 2131296404;
+			// aapt resource value: 0x7f09008b
+			public const int smallLabel = 2131296395;
 			
-			// aapt resource value: 0x7f09009b
-			public const int snackbar_action = 2131296411;
+			// aapt resource value: 0x7f090092
+			public const int snackbar_action = 2131296402;
 			
-			// aapt resource value: 0x7f09009a
-			public const int snackbar_text = 2131296410;
+			// aapt resource value: 0x7f090091
+			public const int snackbar_text = 2131296401;
 			
 			// aapt resource value: 0x7f090043
 			public const int snap = 2131296323;
@@ -9881,8 +5637,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09004b
 			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int status_bar_latest_event_content = 2131296452;
+			// aapt resource value: 0x7f0900b8
+			public const int status_bar_latest_event_content = 2131296440;
 			
 			// aapt resource value: 0x7f090076
 			public const int submenuarrow = 2131296374;
@@ -9908,8 +5664,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int text_input_password_toggle = 2131296417;
+			// aapt resource value: 0x7f090098
+			public const int text_input_password_toggle = 2131296408;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -9917,8 +5673,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int time = 2131296458;
+			// aapt resource value: 0x7f0900be
+			public const int time = 2131296446;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -9929,8 +5685,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09006f
 			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int toolbar = 2131296467;
+			// aapt resource value: 0x7f0900c7
+			public const int toolbar = 2131296455;
 			
 			// aapt resource value: 0x7f09003e
 			public const int top = 2131296318;
@@ -9938,8 +5694,8 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f09006e
 			public const int topPanel = 2131296366;
 			
-			// aapt resource value: 0x7f090098
-			public const int touch_outside = 2131296408;
+			// aapt resource value: 0x7f09008f
+			public const int touch_outside = 2131296399;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -9968,11 +5724,11 @@ namespace SimpleTodo.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int visible = 2131296469;
+			// aapt resource value: 0x7f0900c9
+			public const int visible = 2131296457;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int volume_item_container = 2131296439;
+			// aapt resource value: 0x7f0900ab
+			public const int volume_item_container = 2131296427;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
@@ -10143,142 +5899,130 @@ namespace SimpleTodo.Droid
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int CellBaseView = 2130968602;
+			public const int design_bottom_navigation_item = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int ContentCell = 2130968603;
+			public const int design_bottom_sheet_dialog = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_navigation_item = 2130968604;
+			public const int design_layout_snackbar = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_bottom_sheet_dialog = 2130968605;
+			public const int design_layout_snackbar_include = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar = 2130968606;
+			public const int design_layout_tab_icon = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_snackbar_include = 2130968607;
+			public const int design_layout_tab_text = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_icon = 2130968608;
+			public const int design_menu_item_action_area = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_layout_tab_text = 2130968609;
+			public const int design_navigation_item = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_menu_item_action_area = 2130968610;
+			public const int design_navigation_item_header = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item = 2130968611;
+			public const int design_navigation_item_separator = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_header = 2130968612;
+			public const int design_navigation_item_subheader = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_separator = 2130968613;
+			public const int design_navigation_menu = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_item_subheader = 2130968614;
+			public const int design_navigation_menu_item = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu = 2130968615;
+			public const int design_text_input_password_icon = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_navigation_menu_item = 2130968616;
+			public const int mr_chooser_dialog = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int design_text_input_password_icon = 2130968617;
+			public const int mr_chooser_list_item = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int FooterCell = 2130968618;
+			public const int mr_controller_material_dialog_b = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int HeaderCell = 2130968619;
+			public const int mr_controller_volume_item = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_chooser_dialog = 2130968620;
+			public const int mr_playback_control = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_chooser_list_item = 2130968621;
+			public const int mr_volume_control = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int mr_controller_material_dialog_b = 2130968622;
+			public const int notification_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int mr_controller_volume_item = 2130968623;
+			public const int notification_action_tombstone = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int mr_playback_control = 2130968624;
+			public const int notification_media_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int mr_volume_control = 2130968625;
+			public const int notification_media_cancel_action = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_action = 2130968626;
+			public const int notification_template_big_media = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_action_tombstone = 2130968627;
+			public const int notification_template_big_media_custom = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_media_action = 2130968628;
+			public const int notification_template_big_media_narrow = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_media_cancel_action = 2130968629;
+			public const int notification_template_big_media_narrow_custom = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_big_media = 2130968630;
+			public const int notification_template_custom_big = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_big_media_custom = 2130968631;
+			public const int notification_template_icon_group = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_big_media_narrow = 2130968632;
+			public const int notification_template_lines_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_big_media_narrow_custom = 2130968633;
+			public const int notification_template_media = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_custom_big = 2130968634;
+			public const int notification_template_media_custom = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_icon_group = 2130968635;
+			public const int notification_template_part_chronometer = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_lines_media = 2130968636;
+			public const int notification_template_part_time = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_media = 2130968637;
+			public const int select_dialog_item_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_template_media_custom = 2130968638;
+			public const int select_dialog_multichoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_template_part_chronometer = 2130968639;
+			public const int select_dialog_singlechoice_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_template_part_time = 2130968640;
+			public const int support_simple_spinner_dropdown_item = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int select_dialog_item_material = 2130968641;
+			public const int Tabbar = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int select_dialog_multichoice_material = 2130968642;
+			public const int Toolbar = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int select_dialog_singlechoice_material = 2130968643;
-			
-			// aapt resource value: 0x7f040044
-			public const int support_simple_spinner_dropdown_item = 2130968644;
-			
-			// aapt resource value: 0x7f040045
-			public const int Tabbar = 2130968645;
-			
-			// aapt resource value: 0x7f040046
-			public const int Toolbar = 2130968646;
-			
-			// aapt resource value: 0x7f040047
-			public const int tooltip = 2130968647;
+			public const int tooltip = 2130968643;
 			
 			static Layout()
 			{
@@ -10315,11 +6059,11 @@ namespace SimpleTodo.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0a003e
-			public const int ApplicationName = 2131361854;
-			
 			// aapt resource value: 0x7f0a003d
-			public const int Hello = 2131361853;
+			public const int ApplicationName = 2131361853;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int Hello = 2131361852;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
@@ -10416,9 +6160,6 @@ namespace SimpleTodo.Droid
 			
 			// aapt resource value: 0x7f0a0035
 			public const int character_counter_pattern = 2131361845;
-			
-			// aapt resource value: 0x7f0a003c
-			public const int library_name = 2131361852;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
