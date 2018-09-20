@@ -68,6 +68,8 @@ namespace SimpleTodo
 
             var request = Application.Current.RequestRouter();
             requester = request.GetRequester<TodoItem>(RqSourceEnum.TabSetting);
+
+            model.InitModel();
         }
     }
 }

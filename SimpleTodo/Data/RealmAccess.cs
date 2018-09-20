@@ -13,8 +13,11 @@ namespace SimpleTodo.Realm
 {
     public class RealmAccess : IDataAccess
     {
-        private Realms.Realm realm;
+        private RealmConfigurationBase commonConfig;
         private Transaction transaction;
+        private Dictionary<int, Realms.Realm> connectionPool = new Dictionary<int, Realms.Realm>();
+        private int primaryThreadId;
+        private Realms.Realm primaryRealm;
 
         private string dbFile;
 
@@ -38,38 +41,65 @@ namespace SimpleTodo.Realm
 
         public void CloseConnection()
         {
-            realm.Dispose();
-            realm = null;
+            foreach (var realm in connectionPool.Values)
+            {
+                primaryRealm.Dispose();
+            }
+            connectionPool.Clear();
         }
 
         private void InitializeRealm()
         {
+            const int CurrentSchemaVertion = 0; //これを間違うと死ぬ！
+
             var folder = FileSystem.Current.LocalStorage;
             dbFile = Path.Combine(folder.Path, "item.realm");
+            commonConfig = MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString());
             OpenConnection();
         }
 
         public void OpenConnection()
         {
-            const int CurrentSchemaVertion = 0; //これを間違うと死ぬ！
-
             if (!File.Exists(dbFile))
             {
                 CopyEmbeddedDb(dbFile);
             }
+            else
+            {
+                CloseConnection();
+            }
 
-            //var realmTask = Realm.GetInstanceAsync(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
-            //realm = realmTask.Result;
-            realm = Realms.Realm.GetInstance(MakeRealmConfiguration(CurrentSchemaVertion, this.GetType().Assembly.GetName().Version.ToString()));
+            primaryThreadId = System.Threading.Thread.CurrentThread.ManagedThreadId; //UIスレッドだと仮定する
+            primaryRealm = Realms.Realm.GetInstance(commonConfig);
+            connectionPool.Add(primaryThreadId, primaryRealm);
 
             SelectCommonMaster();
+        }
+
+        public void OpenParallelConnection(int threadId)
+        {
+            if (connectionPool.TryGetValue(threadId, out _))
+            {
+                return;
+            }
+            var realm = Realms.Realm.GetInstance(commonConfig);
+            connectionPool.Add(threadId, realm);
+        }
+
+        public void DisposeConnection(int threadId)
+        {
+            if (connectionPool.TryGetValue(threadId, out var realm))
+            {
+                realm.Dispose();
+                connectionPool.Remove(threadId);
+            }
         }
         #endregion
 
         #region Get/Set Value
         public string GetSystemVersion()
         {
-            return realm.All<SystemVersion>().First().Version;
+            return primaryRealm.All<SystemVersion>().First().Version;
         }
 
         public string GetMenuBarIconFile(MenuBarIcon menu)
@@ -94,43 +124,43 @@ namespace SimpleTodo.Realm
         }
 
         public bool GetDefaultUseTristate() => systemSettings.DefaultUseTristate;
-        public async stt.Task SetDefaultUseTristateAsync(bool value) => await realm.WriteAsync((realmAsync) => systemSettings.DefaultUseTristate = value);
+        public async stt.Task SetDefaultUseTristateAsync(bool value) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.DefaultUseTristate = value);
 
         public TaskOrderPattern GetDefaultTaskOrder() => systemSettings.DefaultTaskOrder.EnumValue<TaskOrderPattern>();
-        public async stt.Task SetDefaultTaskOrderAsync(TaskOrderPattern order) => await realm.WriteAsync((realmAsync) => systemSettings.DefaultTaskOrder = order.EnumName());
+        public async stt.Task SetDefaultTaskOrderAsync(TaskOrderPattern order) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.DefaultTaskOrder = order.EnumName());
 
         public bool IsBigIcon() => systemSettings.UseBigIcon;
-        public async stt.Task UseBigIconAsync(bool usage) => await realm.WriteAsync((realmAsync) => systemSettings.UseBigIcon = usage);
+        public async stt.Task UseBigIconAsync(bool usage) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.UseBigIcon = usage);
 
         public bool IsBeginFromTabList() => systemSettings.BeginFromTabList;
-        public async stt.Task BeginFromTabListAsync(bool begin) => await realm.WriteAsync((realmAsync) => systemSettings.BeginFromTabList = begin);
+        public async stt.Task BeginFromTabListAsync(bool begin) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.BeginFromTabList = begin);
 
         public MenuBarPosition GetMenuBarPosition() => systemSettings.HorizontalMenuBarPosition.EnumValue<MenuBarPosition>();
-        public async stt.Task SetMenuBarPositionAsync(MenuBarPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.HorizontalMenuBarPosition = position.EnumName());
+        public async stt.Task SetMenuBarPositionAsync(MenuBarPosition position) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.HorizontalMenuBarPosition = position.EnumName());
 
         public TabPosition GetNewTabPosition() => systemSettings.NewTabPosition.EnumValue<TabPosition>();
-        public async stt.Task SetNewTabPositionAsync(TabPosition position) => await realm.WriteAsync((realmAsync) => systemSettings.NewTabPosition = position.EnumName());
+        public async stt.Task SetNewTabPositionAsync(TabPosition position) => await primaryRealm.WriteAsync((realmAsync) => systemSettings.NewTabPosition = position.EnumName());
 
         public ViewingPage GetLastPage() => lastPage.LastViewing.EnumValue<ViewingPage>();
-        public async stt.Task SetLastPageAsync(ViewingPage viewing) => await realm.WriteAsync((realmAsync) => lastPage.LastViewing = viewing.EnumName());
+        public async stt.Task SetLastPageAsync(ViewingPage viewing) => await primaryRealm.WriteAsync((realmAsync) => lastPage.LastViewing = viewing.EnumName());
 
         public int GetLastTabIndex() => lastPage.LastFocus;
-        public async stt.Task SetLastTabIndexAsync(int focus) => await realm.WriteAsync((realmAsync) => lastPage.LastFocus = focus);
+        public async stt.Task SetLastTabIndexAsync(int focus) => await primaryRealm.WriteAsync((realmAsync) => lastPage.LastFocus = focus);
 
         public int GetOriginTabIndex() => lastPage.Origin;
-        public async stt.Task SetOriginTabIndexAsync(int origin) => await realm.WriteAsync((realmAsync) => lastPage.Origin = origin);
+        public async stt.Task SetOriginTabIndexAsync(int origin) => await primaryRealm.WriteAsync((realmAsync) => lastPage.Origin = origin);
 
         public IReadOnlyList<TaskOrderList> GetTaskOrderList()
-            => realm.All<TaskOrderDisplayName>().OrderBy(o => (int)o.TaskOrder.EnumValue<TaskOrderPattern>()).Select(o => Mapper.Map<TaskOrderList>(o)).ToList();
+            => taskOrderDisplayNames.OrderBy(o => (int)o.TaskOrder.EnumValue<TaskOrderPattern>()).Select(o => Mapper.Map<TaskOrderList>(o)).ToList();
 
         public int GetNewTodoId()
         {
             //これは非同期にできない
 
             int newId = 0;
-            using (var transaction = realm.BeginWrite())
+            using (var transaction = primaryRealm.BeginWrite())
             {
-                var next = realm.All<TodoIdMaster>().FirstOrDefault();
+                var next = primaryRealm.All<TodoIdMaster>().FirstOrDefault();
                 if (next != null)
                 {
                     newId = next.NextTodoId;
@@ -138,7 +168,7 @@ namespace SimpleTodo.Realm
                 }
                 else
                 {
-                    realm.Add(new TodoIdMaster { NextTodoId = newId + 1 });
+                    primaryRealm.Add(new TodoIdMaster { NextTodoId = newId + 1 });
                 }
                 transaction.Commit();
             }
@@ -150,9 +180,9 @@ namespace SimpleTodo.Realm
             //これは非同期にできない
 
             int newId = 0;
-            using (var transaction = realm.BeginWrite())
+            using (var transaction = primaryRealm.BeginWrite())
             {
-                var next = realm.All<TaskIdMaster>().Where(m => m.TodoId == todoId).FirstOrDefault();
+                var next = primaryRealm.All<TaskIdMaster>().Where(m => m.TodoId == todoId).FirstOrDefault();
                 if (next != null)
                 {
                     newId = next.NextTaskId;
@@ -160,7 +190,7 @@ namespace SimpleTodo.Realm
                 }
                 else
                 {
-                    realm.Add(new TaskIdMaster { TodoId = todoId, NextTaskId = newId + 1 });
+                    primaryRealm.Add(new TaskIdMaster { TodoId = todoId, NextTaskId = newId + 1 });
                 }
                 transaction.Commit();
             }
@@ -169,196 +199,145 @@ namespace SimpleTodo.Realm
         #endregion
 
         #region Transaction
-        public void BeginTransaction() => transaction = realm.BeginWrite();
+        public void BeginTransaction() => transaction = primaryRealm.BeginWrite();
         public void Rollback() { transaction?.Rollback(); transaction = null; }
         public void Commit() { transaction?.Commit(); transaction = null; }
         #endregion
 
         #region Todo Task
-        public stt.Task<TodoItem> AddTodoAsync(TodoItem todoItem)
+        public async stt.Task<TodoItem> AddTodoAsync(TodoItem todoItem)
         {
-            return stt.Task.Run(async () =>
-            {
-                var todo = Mapper.Map<Todo>(todoItem);
-                await realm.WriteAsync((realmAsync) => realmAsync.Add(todo));
-                return todoItem;
-            });
+            var todo = Mapper.Map<Todo>(todoItem);
+            await primaryRealm.WriteAsync((realmAsync) => realmAsync.Add(todo));
+            return todoItem;
         }
 
-        public stt.Task<TodoTask> AddTaskAsync(int todoId, TodoTask todoTask)
+        public async stt.Task<TodoTask> AddTaskAsync(int todoId, TodoTask todoTask)
         {
-            return stt.Task.Run(async () =>
-            {
-                var task = Mapper.Map<Task>(todoTask);
-                task.TodoId = todoId;
-                await realm.WriteAsync((realmAsync) => realmAsync.Add(task));
-                return todoTask;
-            });
+            var task = Mapper.Map<Task>(todoTask);
+            task.TodoId = todoId;
+            await primaryRealm.WriteAsync((realmAsync) => realmAsync.Add(task));
+            return todoTask;
         }
 
-        public stt.Task ChangeVisibilityAsync(int todoId, bool visibile)
+        public async stt.Task ChangeVisibilityAsync(int todoId, bool visibile)
         {
-            return stt.Task.Run(async () =>
-            {
-                var todo = realm.All<Todo>().Where(t => t.TodoId == todoId).First();
-                await realm.WriteAsync((realmAsync) => todo.IsActive = visibile);
-            });
+            var todo = primaryRealm.All<Todo>().Where(t => t.TodoId == todoId).First();
+            await primaryRealm.WriteAsync((realmAsync) => todo.IsActive = visibile);
         }
 
-        public stt.Task RenameTodoAsync(int todoId, string newName)
+        public async stt.Task RenameTodoAsync(int todoId, string newName)
         {
-            return stt.Task.Run(async () =>
-            {
-                var todo = realm.All<Todo>().Where(t => t.TodoId == todoId).First();
-                await realm.WriteAsync((realmAsync) => todo.Name = newName);
-            });
+            var todo = primaryRealm.All<Todo>().Where(t => t.TodoId == todoId).First();
+            await primaryRealm.WriteAsync((realmAsync) => todo.Name = newName);
         }
 
-        public stt.Task RenameTaskAsync(int todoId, int taskId, string newName)
+        public async stt.Task RenameTaskAsync(int todoId, int taskId, string newName)
         {
-            return stt.Task.Run(async () =>
-            {
-                var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                await realm.WriteAsync((realmAsync) => task.Name = newName);
-            });
+            var task = primaryRealm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
+            await primaryRealm.WriteAsync((realmAsync) => task.Name = newName);
         }
 
-        public stt.Task ReorderTodoAsync(IEnumerable<TodoItem> todoItems)
+        public async stt.Task ReorderTodoAsync(IEnumerable<TodoItem> todoItems)
         {
-            return stt.Task.Run(async () =>
+            var allTodo = primaryRealm.All<Todo>();
+            int index = 0;
+            await primaryRealm.WriteAsync((realmAsync) =>
             {
-                var allTodo = realm.All<Todo>();
-                int index = 0;
-                await realm.WriteAsync((realmAsync) =>
+                foreach (var todoItem in todoItems)
                 {
-                    foreach (var todoItem in todoItems)
-                    {
-                        var todo = allTodo.Where(t => t.TodoId == todoItem.TodoId.Value).First();
-                        todo.DisplayOrder = index;
-                        index++;
-                    }
-                });
+                    var todo = allTodo.Where(t => t.TodoId == todoItem.TodoId.Value).First();
+                    todo.DisplayOrder = index;
+                    index++;
+                }
             });
         }
 
-        public stt.Task ReorderTaskAsync(int todoId, IEnumerable<TodoTask> todoTasks)
+        public async stt.Task ReorderTaskAsync(int todoId, IEnumerable<TodoTask> todoTasks)
         {
-            return stt.Task.Run(async () =>
+            var allTask = primaryRealm.All<Task>().Where(t => t.TodoId == todoId);
+            int index = 0;
+            await primaryRealm.WriteAsync((realmAsync) =>
             {
-                var allTask = realm.All<Task>().Where(t => t.TodoId == todoId);
-                int index = 0;
-                await realm.WriteAsync((realmAsync) =>
+                foreach (var todoTask in todoTasks)
                 {
-                    foreach (var todoTask in todoTasks)
-                    {
-                        var task = allTask.Where(t => t.TaskId == todoTask.TaskId.Value).First();
-                        task.DisplayOrder = index;
-                        index++;
-                    }
-                });
+                    var task = allTask.Where(t => t.TaskId == todoTask.TaskId.Value).First();
+                    task.DisplayOrder = index;
+                    index++;
+                }
             });
         }
 
-        public stt.Task ToggleTaskStatusAsync(int todoId, int taskId, TaskStatus status)
+        public async stt.Task ToggleTaskStatusAsync(int todoId, int taskId, TaskStatus status)
         {
-            return stt.Task.Run(async () =>
-            {
-                var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                await realm.WriteAsync((realmAsync) => task.Status = status.EnumName());
-            });
+            var task = primaryRealm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
+            await primaryRealm.WriteAsync((realmAsync) => task.Status = status.EnumName());
         }
 
-        public stt.Task UpdateTodoAsync(TodoItem todoItem)
+        public async stt.Task UpdateTodoAsync(TodoItem todoItem)
         {
-            return stt.Task.Run(async () =>
-            {
-                var todo = realm.All<Todo>().Where(t => t.TodoId == todoItem.TodoId.Value).First();
-                await realm.WriteAsync((realmAsync) => Mapper.Map(todoItem, todo));
-            });
+            var todo = primaryRealm.All<Todo>().Where(t => t.TodoId == todoItem.TodoId.Value).First();
+            await primaryRealm.WriteAsync((realmAsync) => Mapper.Map(todoItem, todo));
         }
 
-        public stt.Task UpdateTaskAsync(int todoId, TodoTask todoTask)
+        public async stt.Task UpdateTaskAsync(int todoId, TodoTask todoTask)
         {
-            return stt.Task.Run(async () =>
-            {
-                var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == todoTask.TaskId.Value).First();
-                await realm.WriteAsync((realmAsync) => Mapper.Map(todoTask, task));
-            });
+            var task = primaryRealm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == todoTask.TaskId.Value).First();
+            await primaryRealm.WriteAsync((realmAsync) => Mapper.Map(todoTask, task));
         }
 
-        public stt.Task DeleteTodoAsync(int todoId)
+        public async stt.Task DeleteTodoAsync(int todoId)
         {
-            return stt.Task.Run(async () =>
-            {
-                var todo = realm.All<Todo>().Where(t => t.TodoId == todoId).First();
-                await realm.WriteAsync((realmAsync) => realmAsync.Remove(todo));
-            });
+            var todo = primaryRealm.All<Todo>().Where(t => t.TodoId == todoId).First();
+            await primaryRealm.WriteAsync((realmAsync) => realmAsync.Remove(todo));
         }
 
-        public stt.Task DeleteTaskAsync(int todoId, int taskId)
+        public async stt.Task DeleteTaskAsync(int todoId, int taskId)
         {
-            return stt.Task.Run(async () =>
-            {
-                var task = realm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                await realm.WriteAsync((realmAsync) => realmAsync.Remove(task));
-            });
+            var task = primaryRealm.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
+            await primaryRealm.WriteAsync((realmAsync) => realmAsync.Remove(task));
         }
         #endregion
 
         #region Query
-        public stt.Task<IReadOnlyList<IconSetting>> GetIconPatternAllAsync()
+        public IReadOnlyList<IconSetting> GetIconPatternAll()
         {
-            return stt.Task.Run(() =>
-            {
-                return Mapper.Map<IRealmCollection<IconPatternMaster>, IReadOnlyList<IconSetting>>(iconPatternMaster);
-            });
+            return Mapper.Map<IReadOnlyList<IconPatternMaster>, IReadOnlyList<IconSetting>>(iconPatternMaster);
         }
 
-        public stt.Task<IReadOnlyList<ColorSetting>> GetColorPatternAllAsync()
+        public IReadOnlyList<ColorSetting> GetColorPatternAll()
         {
-            return stt.Task.Run(() =>
-            {
-                return Mapper.Map<IRealmCollection<ColorPatternMaster>, IReadOnlyList<ColorSetting>>(colorPatternMaster);
-            });
+            return Mapper.Map<IReadOnlyList<ColorPatternMaster>, IReadOnlyList<ColorSetting>>(colorPatternMaster);
         }
 
         public IReadOnlyList<TaskOrderList> GetTaskOrderDisplayName()
         {
-            var taskOrderList = Mapper.Map<IRealmCollection<TaskOrderDisplayName>, IReadOnlyList<TaskOrderList>>(taskOrderDisplayNames);
+            var taskOrderList = Mapper.Map<IReadOnlyList<TaskOrderDisplayName>, IReadOnlyList<TaskOrderList>>(taskOrderDisplayNames);
             return taskOrderList;
         }
 
-        public stt.Task<IconSetting> GetDefaultIconPatternAsync()
+        public IconSetting GetDefaultIconPattern()
         {
-            return stt.Task.Run(() =>
-            {
-                var defaultPattern = iconPatternMaster.Where(p => p.IconId == systemSettings.DefaultIconPattern).Select(p => p).First();
-                return Mapper.Map<IconSetting>(defaultPattern);
-            });
+            var defaultPattern = iconPatternMaster.Where(p => p.IconId == systemSettings.DefaultIconPattern).Select(p => p).First();
+            return Mapper.Map<IconSetting>(defaultPattern);
         }
 
-        public stt.Task<ColorSetting> GetDefaultColorPatternAsync()
+        public ColorSetting GetDefaultColorPattern()
         {
-            return stt.Task.Run(() =>
-            {
-                var defaultPattern = colorPatternMaster.Where(p => p.ColorId == systemSettings.DefaultColorPattern).Select(p => p).First();
-                return Mapper.Map<ColorSetting>(defaultPattern);
-            });
+            var defaultPattern = colorPatternMaster.Where(p => p.ColorId == systemSettings.DefaultColorPattern).Select(p => p).First();
+            return Mapper.Map<ColorSetting>(defaultPattern);
         }
 
-        public stt.Task<TodoItem> GetDefaultTabSettingAsync(int newTodoId, string newName)
+        public TodoItem GetDefaultTabSetting(int newTodoId, string newName)
         {
-            return stt.Task.Run(() =>
-            {
-                var defaultTodo = new TodoItem(newTodoId, newName);
-                defaultTodo.IsActive.Value = true;
-                defaultTodo.UseTristate.Value = systemSettings.DefaultUseTristate;
-                defaultTodo.TaskOrder.Value = systemSettings.DefaultTaskOrder.EnumValue<TaskOrderPattern>();
-                defaultTodo.IconPattern = GetDefaultIconPatternAsync().Result;
-                defaultTodo.ColorPattern = GetDefaultColorPatternAsync().Result;
+            var defaultTodo = new TodoItem(newTodoId, newName);
+            defaultTodo.IsActive.Value = true;
+            defaultTodo.UseTristate.Value = systemSettings.DefaultUseTristate;
+            defaultTodo.TaskOrder.Value = systemSettings.DefaultTaskOrder.EnumValue<TaskOrderPattern>();
+            defaultTodo.IconPattern = GetDefaultIconPattern();
+            defaultTodo.ColorPattern = GetDefaultColorPattern();
 
-                return defaultTodo;
-            });
+            return defaultTodo;
         }
 
         #region SelectTodo Supporter
@@ -377,13 +356,15 @@ namespace SimpleTodo.Realm
 
         public stt.Task<IEnumerable<TodoItem>> SelectTodoAllAsync()
         {
+            var allTodo = primaryRealm.All<Todo>().ToList(); //DB内でJoinは実行できないので
+            var todoQuery = allTodo
+                             .Join(this.iconPatternMaster, todo => todo.IconPatternId, icon => icon.IconId, (todo, icon) => JoinIconMaster(todo, new IconSetting { CheckedIcon = icon.CheckedIcon, CanceledIcon = icon.CanceledIcon }))
+                             .Join(this.colorPatternMaster, todo => todo.ColorPatternId, color => color.ColorId, (todo, color) => JoinColorMaster(todo, Mapper.Map<ColorPatternMaster, ColorSetting>(color)))
+                             .OrderBy(todo => todo.DisplayOrder);
+            var todoList = todoQuery.ToList();
+
             return stt.Task.Run(() =>
             {
-                var todoQuery = realm.All<Todo>().OrderBy(todo => todo.DisplayOrder)
-                                     .Join(this.iconPatternMaster, todo => todo.IconPatternId, icon => icon.IconId, (todo, icon) => JoinIconMaster(todo, new IconSetting { CheckedIcon = icon.CheckedIcon, CanceledIcon = icon.CanceledIcon }))
-                                     .Join(this.colorPatternMaster, todo => todo.ColorPatternId, color => color.ColorId, (todo, color) => JoinColorMaster(todo, Mapper.Map<ColorPatternMaster, ColorSetting>(color)))
-                                     .Select(result => result);
-                var todoList = todoQuery.ToList();
                 var todoAll = Mapper.Map<List<Todo>, IEnumerable<TodoItem>>(todoList);
                 return todoAll;
             });
@@ -391,10 +372,11 @@ namespace SimpleTodo.Realm
 
         public stt.Task<IEnumerable<TodoTask>> SelectTaskAllAsync(int todoId)
         {
+            var taskQuery = primaryRealm.All<Task>().Where(task => task.TodoId == todoId).OrderBy(task => task.DisplayOrder);
+            var taskList = taskQuery.ToList();
+
             return stt.Task.Run(() =>
             {
-                var taskQuery = realm.All<Task>().Where(task => task.TodoId == todoId).OrderBy(task => task.DisplayOrder);
-                var taskList = taskQuery.ToList();
                 var taskAll = Mapper.Map<List<Task>, IEnumerable<TodoTask>>(taskList);
                 return taskAll;
             });
@@ -438,12 +420,12 @@ namespace SimpleTodo.Realm
 
         private void SelectCommonMaster()
         {
-            systemSettings = realm.All<SystemSettings>().First();
-            lastPage = realm.All<LastPage>().First();
-            menuIconMaster = realm.All<MenuIconMaster>().First();
-            iconPatternMaster = realm.All<IconPatternMaster>().AsRealmCollection();
-            colorPatternMaster = realm.All<ColorPatternMaster>().AsRealmCollection();
-            taskOrderDisplayNames = realm.All<TaskOrderDisplayName>().AsRealmCollection();
+            systemSettings = primaryRealm.All<SystemSettings>().First();
+            lastPage = primaryRealm.All<LastPage>().First();
+            menuIconMaster = primaryRealm.All<MenuIconMaster>().First();
+            iconPatternMaster = primaryRealm.All<IconPatternMaster>().AsRealmCollection();
+            colorPatternMaster = primaryRealm.All<ColorPatternMaster>().AsRealmCollection();
+            taskOrderDisplayNames = primaryRealm.All<TaskOrderDisplayName>().AsRealmCollection();
         }
         #endregion
 

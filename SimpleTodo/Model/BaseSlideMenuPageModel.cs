@@ -58,15 +58,19 @@ namespace SimpleTodo
             var defaultOrder = OrderPatternCandidates.Value.Where(p => p.TaskOrder == realm.GetDefaultTaskOrder()).Select(p => p).FirstOrDefault();
             UseTristate = new ReactiveProperty<bool>(realm.GetDefaultUseTristate());
             OrderPattrn = new ReactiveProperty<TaskOrderList>(defaultOrder);
-            ColorPattern = new ReactiveProperty<ColorSetting>(realm.GetDefaultColorPatternAsync().Result);
-            IconPattern = new ReactiveProperty<IconSetting>(realm.GetDefaultIconPatternAsync().Result);
+            ColorPattern = new ReactiveProperty<ColorSetting>(realm.GetDefaultColorPattern());
+            IconPattern = new ReactiveProperty<IconSetting>(realm.GetDefaultIconPattern());
 
             SuitAll.Value = false;
 
-            IconPatternCandidates.Value = realm.GetIconPatternAllAsync().Result;
-            ColorPatternCandidates.Value = realm.GetColorPatternAllAsync().Result;
+            IconPatternCandidates.Value = realm.GetIconPatternAll();
+            ColorPatternCandidates.Value = realm.GetColorPatternAll();
+        }
 
-            UseBigIcon.Subscribe(async s => await ToggleUseBigIcon(s));
+        public override void InitModel()
+        {
+            base.InitModel();
+            UseBigIcon.Subscribe(s => ToggleUseBigIcon(s));
         }
 
         private void OnTabSettingTransit(SettingTab setting)
@@ -84,10 +88,10 @@ namespace SimpleTodo
             MenuMode.Value = SlideMenuMode.TabSetting;
         }
 
-        public async stt.Task ToggleUseBigIcon(bool useBigSize)
+        public void ToggleUseBigIcon(bool useBigSize)
         {
             menuBarIconSizeChangedSource.Send(useBigSize);
-            await realm.UseBigIconAsync(useBigSize);
+            dataAccess.UseBigIconAsync(useBigSize);
         }
 
         public void TransitCurrentTabSetting(TodoItem setting)

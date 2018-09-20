@@ -36,10 +36,10 @@ namespace SimpleTodo
             Application.Current.Properties.Add(AppExtention.DatabaseOptionKey, AppExtention.DatabaseOption.Realm);
             Application.Current.Properties.Add(nameof(IDataAccess), dataAccess);
 
-            var initialColor = dataAccess.GetDefaultColorPatternAsync().Result;
-            InitColorResource(initialColor).Wait();
+            var initialColor = dataAccess.GetDefaultColorPattern();
+            InitColorResource(initialColor);
 
-            centralViewChangeTarget = new CentralViewChangeObserver(async (todo) => await SetColorResourceAsync(todo.ColorPattern));
+            centralViewChangeTarget = new CentralViewChangeObserver((todo) => SetColorResource(todo.ColorPattern));
             reaction.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
 
             InitializeComponent();
@@ -55,27 +55,24 @@ namespace SimpleTodo
             //起動画面とかいる？
         }
 
-        private async stt.Task InitColorResource(ColorSetting setting)
+        private void InitColorResource(ColorSetting setting)
         {
-            await SetColorResource((r, n, c) => r.Add(n, c), setting);
+            SetColorResource((r, n, c) => r.Add(n, c), setting);
         }
 
-        private async stt.Task SetColorResourceAsync(ColorSetting setting)
+        private void SetColorResource(ColorSetting setting)
         {
-            await SetColorResource((r, n, c) => r[n] = c, setting);
+            SetColorResource((r, n, c) => r[n] = c, setting);
         }
 
-        private stt.Task SetColorResource(Action<ResourceDictionary, string, Xamarin.Forms.Color> action, ColorSetting setting)
+        private void SetColorResource(Action<ResourceDictionary, string, Xamarin.Forms.Color> action, ColorSetting setting)
         {
-            return stt.Task.Run(() =>
-            {
-                var properties = typeof(ColorSetting).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+				var properties = typeof(ColorSetting).GetProperties(BindingFlags.Public | BindingFlags.Instance).Where(p => p.PropertyType == typeof(System.Drawing.Color));
                 foreach (var property in properties)
                 {
-                    var color = (Xamarin.Forms.Color)property.GetValue(setting);
+                    Xamarin.Forms.Color color = (System.Drawing.Color)property.GetValue(setting);
                     action(Resources, property.Name, color);
                 }
-            });
         }
 
         protected override void OnSleep()

@@ -39,7 +39,7 @@ namespace SimpleTodo
                 return;
             }
 
-            var newTodo = new ObservableCollection<TodoTask>(await realm.SelectTaskAllAsync(todoId));
+            var newTodo = new ObservableCollection<TodoTask>(await dataAccess.SelectTaskAllAsync(todoId));
             tabs.Add(todoId, newTodo);
             Todo = newTodo;
         }
@@ -66,7 +66,7 @@ namespace SimpleTodo
                     break;
             }
 
-            await realm.ToggleTaskStatusAsync(Setting.TodoId.Value, taskId, task.Status.Value);
+            await dataAccess.ToggleTaskStatusAsync(Setting.TodoId.Value, taskId, task.Status.Value);
         }
 
         public bool SelectOperationTask(int taskId)
@@ -83,17 +83,17 @@ namespace SimpleTodo
 
         public async stt.Task AddTask(string taskName)
         {
-            var newTask = new TodoTask(realm.GetNewTaskId(Setting.TodoId.Value), taskName, TaskStatus.Unchecked, 0);
+            var newTask = new TodoTask(dataAccess.GetNewTaskId(Setting.TodoId.Value), taskName, TaskStatus.Unchecked, 0);
             Todo.Insert(0, newTask);
-            await realm.AddTaskAsync(Setting.TodoId.Value, newTask);
-            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            await dataAccess.AddTaskAsync(Setting.TodoId.Value, newTask);
+            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
         public async stt.Task EditTask(int taskId, string taskName)
         {
             var task = Todo.Select(taskId);
             task.Name.Value = taskName;
-            await realm.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
+            await dataAccess.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
         }
 
         public async stt.Task OnTaskUp()
@@ -111,7 +111,7 @@ namespace SimpleTodo
                 Todo.Move(index, index - 1);
             }
 
-            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
         public async stt.Task OnTaskDown()
@@ -129,7 +129,7 @@ namespace SimpleTodo
                 Todo.Move(index, index + 1);
             }
 
-            await realm.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
     }
 

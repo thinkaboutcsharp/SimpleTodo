@@ -7,7 +7,7 @@ namespace SimpleTodo
     {
         public OriginTabPageModel(IDataAccess realm) : base(realm)
         {
-            ColorSetting.Value = realm.GetDefaultColorPatternAsync().Result;
+            ColorSetting.Value = realm.GetDefaultColorPattern();
         }
     }
 }

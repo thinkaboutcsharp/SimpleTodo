@@ -52,11 +52,7 @@ namespace SimpleTodo
             }
             #endregion
 
-            InitializeComponent();
-
-            InitTabView();
-
-            tabNewTarget = new TodoTabNewObserver(async p => await OnTabNew(p));
+            tabNewTarget = new TodoTabNewObserver(p => OnTabNew(p));
             tabJumpingTarget = new TabJumpingObserver(t => OnTabJump(t));
             tabChangeSource = new CentralViewChangeObservable();
             tabUpDownTarget = new TabUpDownObserver(async p => await OnTabUpDown(p));
@@ -75,6 +71,10 @@ namespace SimpleTodo
 
             var request = Application.Current.RequestRouter();
             request.AddRequestable(RqSourceEnum.TabSetting, new TabSettingRequestable(this));
+
+            InitializeComponent();
+
+            InitTabView();
         }
 
         private async void OnTabChanged(object sender, EventArgs args)
@@ -88,9 +88,9 @@ namespace SimpleTodo
             ChangeTab(CurrentPage);
         }
 
-        private async stt.Task OnTabNew(string newName)
+        private async void OnTabNew(string newName)
         {
-            var newTab = await MakeNewTab(newName);
+            var newTab = MakeNewTab(newName);
 
             //表示内容設定
             await this.templateView.SetCurrentTodo(newTab.Setting);
@@ -98,21 +98,18 @@ namespace SimpleTodo
             ChangeTab(Children[0]);
         }
 
-        private stt.Task OnTabNewOnList(string newName)
+        private void OnTabNewOnList(string newName)
         {
-            return stt.Task.Run(async () =>
-            {
-                await MakeNewTab(newName);
-            });
+            MakeNewTab(newName);
         }
 
-        private async stt.Task<EmptyPage> MakeNewTab(string newName)
+        private EmptyPage MakeNewTab(string newName)
         {
             //タブIDを発行する
             var todoId = model.GetNewId();
 
             //タブの規定値を取得
-            var setting = await model.GetTabSetting(todoId);
+            var setting = model.GetTabSetting(todoId);
             setting.Name.Value = newName;
 
             //場所を作る
@@ -204,7 +201,7 @@ namespace SimpleTodo
             public TodoItem Request(object param)
             {
                 var todoId = (int)param;
-                var setting = parent.model.GetTabSetting(todoId).Result;
+                var setting = parent.model.GetTabSetting(todoId);
                 return setting;
             }
         }

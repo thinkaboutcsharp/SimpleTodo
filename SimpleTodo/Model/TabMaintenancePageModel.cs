@@ -32,7 +32,7 @@ namespace SimpleTodo
         {
             selectingTodoId = CommonSettings.UndefinedId;
 
-            var colorPattern = realm.GetDefaultColorPatternAsync().Result;
+            var colorPattern = realm.GetDefaultColorPattern();
             NormalBackgroundColor.Value = colorPattern.TabListViewCellColor;
             SelectingBackgroundColor.Value = colorPattern.TabListViewCellSelectedColor;
 
@@ -41,7 +41,7 @@ namespace SimpleTodo
 
         public string GetMenuBarIcon(MenuBarIcon barIcon)
         {
-            return realm.GetMenuBarIconFile(barIcon);
+            return dataAccess.GetMenuBarIconFile(barIcon);
         }
 
         public bool SelectOperationTodo(int todoId)
@@ -55,16 +55,16 @@ namespace SimpleTodo
 
         public async stt.Task AddTodoTab(string name)
         {
-            var newTodo = new TodoItem(realm.GetNewTodoId(), name, 0, true);
-            newTodo.IconPattern = await realm.GetDefaultIconPatternAsync();
-            newTodo.ColorPattern = await realm.GetDefaultColorPatternAsync();
+            var newTodo = new TodoItem(dataAccess.GetNewTodoId(), name, 0, true);
+            newTodo.IconPattern = dataAccess.GetDefaultIconPattern();
+            newTodo.ColorPattern = dataAccess.GetDefaultColorPattern();
             newTodo.IconPatternId = newTodo.IconPattern.IconId;
             newTodo.ColorPatternId = newTodo.ColorPattern.ColorId;
 
             TodoList.Insert(0, newTodo);
 
-            await realm.AddTodoAsync(newTodo);
-            await realm.ReorderTodoAsync(TodoList);
+            await dataAccess.AddTodoAsync(newTodo);
+            await dataAccess.ReorderTodoAsync(TodoList);
         }
 
         public async stt.Task EditTodo(int todoId, string name)
@@ -73,7 +73,7 @@ namespace SimpleTodo
             if (current == null) return;
             current.Name.Value = name;
 
-            await realm.RenameTodoAsync(todoId, name);
+            await dataAccess.RenameTodoAsync(todoId, name);
         }
 
         public void ClearSelection()
@@ -88,7 +88,7 @@ namespace SimpleTodo
             todo.IsActive.Value = !todo.IsActive.Value;
             changeVisibilitySource.Send((todo.TodoId.Value, todo.IsActive.Value));
 
-            await realm.ChangeVisibilityAsync(todoId, todo.IsActive.Value);
+            await dataAccess.ChangeVisibilityAsync(todoId, todo.IsActive.Value);
         }
 
         public async stt.Task OnTodoUp()
@@ -106,7 +106,7 @@ namespace SimpleTodo
                 TodoList.Move(index, index - 1);
                 tabUpDownSource.Send((UpDown.Up, todo.TodoId.Value));
 
-                await realm.ReorderTodoAsync(TodoList);
+                await dataAccess.ReorderTodoAsync(TodoList);
             }
         }
 
@@ -125,7 +125,7 @@ namespace SimpleTodo
                 TodoList.Move(index, index + 1);
                 tabUpDownSource.Send((UpDown.Down, todo.TodoId.Value));
 
-                await realm.ReorderTodoAsync(TodoList);
+                await dataAccess.ReorderTodoAsync(TodoList);
             }
         }
     }

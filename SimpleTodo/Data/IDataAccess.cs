@@ -12,6 +12,8 @@ namespace SimpleTodo
     {
         void OpenConnection();
         void CloseConnection();
+        void OpenParallelConnection(int threadId);
+        void DisposeConnection(int threadId);
 
         string GetSystemVersion();
         string GetMenuBarIconFile(MenuBarIcon menu);
@@ -58,12 +60,12 @@ namespace SimpleTodo
         stt.Task DeleteTodoAsync(int todoId);
         stt.Task DeleteTaskAsync(int todoId, int taskId);
 
-        stt.Task<IReadOnlyList<IconSetting>> GetIconPatternAllAsync();
-        stt.Task<IReadOnlyList<ColorSetting>> GetColorPatternAllAsync();
+        IReadOnlyList<IconSetting> GetIconPatternAll();
+        IReadOnlyList<ColorSetting> GetColorPatternAll();
         IReadOnlyList<TaskOrderList> GetTaskOrderDisplayName();
-        stt.Task<IconSetting> GetDefaultIconPatternAsync();
-        stt.Task<ColorSetting> GetDefaultColorPatternAsync();
-        stt.Task<TodoItem> GetDefaultTabSettingAsync(int newTodoId, string newName);
+        IconSetting GetDefaultIconPattern();
+        ColorSetting GetDefaultColorPattern();
+        TodoItem GetDefaultTabSetting(int newTodoId, string newName);
     }
 
     #region enum

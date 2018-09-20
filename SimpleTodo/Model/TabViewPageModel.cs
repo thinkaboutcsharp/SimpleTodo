@@ -24,15 +24,15 @@ namespace SimpleTodo
 
         public int GetNewId()
         {
-            return realm.GetNewTodoId();
+            return dataAccess.GetNewTodoId();
         }
 
         public TabPosition GetNewTabPosition()
         {
-            return realm.GetNewTabPosition();
+            return dataAccess.GetNewTabPosition();
         }
 
-        public async stt.Task<TodoItem> GetTabSetting(int todoId)
+        public TodoItem GetTabSetting(int todoId)
         {
             if (tabs.ContainsKey(todoId))
             {
@@ -40,12 +40,12 @@ namespace SimpleTodo
             }
             else if (todoId == CommonSettings.UndefinedId)
             {
-                var defaultTab = realm.GetDefaultTabSettingAsync(todoId, string.Empty).Result;
+                var defaultTab = dataAccess.GetDefaultTabSetting(todoId, string.Empty);
                 return defaultTab;
             }
             else
             {
-                var defaultTab = await realm.GetDefaultTabSettingAsync(todoId, string.Empty);
+                var defaultTab = dataAccess.GetDefaultTabSetting(todoId, string.Empty);
                 tabs.Add(todoId, defaultTab);
                 return defaultTab;
             }
@@ -53,7 +53,7 @@ namespace SimpleTodo
 
         public TodoItem GetDefaultTabSetting()
         {
-            return realm.GetDefaultTabSettingAsync(CommonSettings.UndefinedId, string.Empty).Result;
+            return dataAccess.GetDefaultTabSetting(CommonSettings.UndefinedId, string.Empty);
         }
 
         public void MoveTab(UpDown direction, int todoId)
