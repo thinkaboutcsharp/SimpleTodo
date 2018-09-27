@@ -67,7 +67,7 @@ namespace SimpleTodo
             router.AddReactiveSource(RxSourceEnum.MenuBarIconSizeChange, model.MenuBarIconSizeChangedSource);
 
             var request = Application.Current.RequestRouter();
-            requester = request.GetRequester<TodoItem>(RqSourceEnum.TabSetting);
+            requester = request.CreateRequester<TodoItem>(RqSourceEnum.TabSetting);
 
             model.InitModel();
         }

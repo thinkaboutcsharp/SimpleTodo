@@ -46,8 +46,8 @@ namespace SimpleTodo
             ShownSwitchCount = 0;
 
             MenuNewTabCommand = new Command(() => OnMenuNewTabTapped());
-            MenuTabUpCommand = new Command(async () => await model.OnTodoUp());
-            MenuTabDownCommand = new Command(async () => await model.OnTodoDown());
+            MenuTabUpCommand = new Command(() => model.OnTodoUp());
+            MenuTabDownCommand = new Command(() => model.OnTodoDown());
             MenuVisibleSwitchOnOffCommand = new Command(() => OnMenuVisibleSwitchOnOff());
             MenuTabSettingCommand = new Command(() => OnMenuTabSetting());
 
@@ -59,7 +59,7 @@ namespace SimpleTodo
 
             SetMenuBar();
 
-            VisibleChangedCommand = new Command<int>(async Id => await model.ChangeVisibilityAsync(Id));
+            VisibleChangedCommand = new Command<int>(Id => model.ChangeVisibilityAsync(Id));
 
             this.Appearing += (_s, _e) => SetMenuBar();
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
@@ -160,7 +160,7 @@ namespace SimpleTodo
             lay_Main.Opacity = DirectEditView.BackgroundOpacity;
         }
 
-        private async void OnFixed(object sender, FixedEventArgs args)
+        private void OnFixed(object sender, FixedEventArgs args)
         {
             if (dev_NameEditor.HasName)
             {
@@ -170,13 +170,13 @@ namespace SimpleTodo
                 {
                     case DirectEditMode.New:
                         name = dev_NameEditor.Name.Value;
-                        await model.AddTodoTab(name);
+                        model.AddTodoTab(name);
                         tabNewOnListSource.Send(name);
                         break;
                     case DirectEditMode.Update:
                         todoId = editingItem.TodoId.Value;
                         name = dev_NameEditor.Name.Value;
-                        await model.EditTodo(todoId, name);
+                        model.EditTodo(todoId, name);
                         titleChangeSource.Send((todoId, name));
                         break;
                 }

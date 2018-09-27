@@ -49,7 +49,7 @@ namespace SimpleTodo
             tabs.Remove(todoId);
         }
 
-        public async stt.Task ToggleTaskStatus(int taskId)
+        public void ToggleTaskStatus(int taskId)
         {
             var task = Todo.Select(taskId);
 
@@ -66,7 +66,7 @@ namespace SimpleTodo
                     break;
             }
 
-            await dataAccess.ToggleTaskStatusAsync(Setting.TodoId.Value, taskId, task.Status.Value);
+            dataAccess.ToggleTaskStatusAsync(Setting.TodoId.Value, taskId, task.Status.Value);
         }
 
         public bool SelectOperationTask(int taskId)
@@ -81,22 +81,22 @@ namespace SimpleTodo
             clearSelectionSource.Send(Setting.ColorPattern.PageBasicBackgroundColor);
         }
 
-        public async stt.Task AddTask(string taskName)
+        public void AddTask(string taskName)
         {
             var newTask = new TodoTask(dataAccess.GetNewTaskId(Setting.TodoId.Value), taskName, TaskStatus.Unchecked, 0);
             Todo.Insert(0, newTask);
-            await dataAccess.AddTaskAsync(Setting.TodoId.Value, newTask);
-            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            dataAccess.AddTaskAsync(Setting.TodoId.Value, newTask);
+            dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
-        public async stt.Task EditTask(int taskId, string taskName)
+        public void EditTask(int taskId, string taskName)
         {
             var task = Todo.Select(taskId);
             task.Name.Value = taskName;
-            await dataAccess.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
+            dataAccess.RenameTaskAsync(Setting.TodoId.Value, taskId, taskName);
         }
 
-        public async stt.Task OnTaskUp()
+        public void OnTaskUp()
         {
             if (selectionTaskId == CommonSettings.UndefinedId)
             {
@@ -111,10 +111,10 @@ namespace SimpleTodo
                 Todo.Move(index, index - 1);
             }
 
-            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
 
-        public async stt.Task OnTaskDown()
+        public void OnTaskDown()
         {
             if (selectionTaskId == CommonSettings.UndefinedId)
             {
@@ -129,7 +129,7 @@ namespace SimpleTodo
                 Todo.Move(index, index + 1);
             }
 
-            await dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
+            dataAccess.ReorderTaskAsync(Setting.TodoId.Value, Todo);
         }
     }
 

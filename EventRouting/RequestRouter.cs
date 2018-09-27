@@ -13,6 +13,7 @@ namespace EventRouting
     {
         IEnumerable<TRq> Request(object param = null);
         TRq RequestSingle(object param = null);
+        TResult RequestAggregate<TResult>(Func<IEnumerable<TRq>, TResult> func, object param = null);
     }
 
     public class RequestRouter
@@ -41,12 +42,12 @@ namespace EventRouting
             repeater.Add(requestable);
         }
 
-        public IRequester<TRq> GetRequester<TRq>(Enum sourceId)
+        public IRequester<TRq> CreateRequester<TRq>(Enum sourceId)
         {
-            return GetRequester<TRq>(sourceId.ParseInt());
+            return CreateRequester<TRq>(sourceId.ParseInt());
         }
 
-        public IRequester<TRq> GetRequester<TRq>(int sourceId)
+        public IRequester<TRq> CreateRequester<TRq>(int sourceId)
         {
             var requester = new RequesterImpl<TRq>(GetParticularRepeater<TRq>(sourceId));
             return requester;
@@ -67,7 +68,7 @@ namespace EventRouting
             return GetAssignAction(sourceId, param, (IEnumerable<TRq> results) => results.FirstOrDefault(), assignAction);
         }
 
-        public Action GetAssignAction<TRq>(int sourceId, object param, Func<IEnumerable<TRq>, TRq> aggregateFunc, Action<TRq> assignAction)
+        public Action GetAssignAction<TRq, TResult>(int sourceId, object param, Func<IEnumerable<TRq>, TResult> aggregateFunc, Action<TResult> assignAction)
         {
             return () =>
             {
@@ -114,6 +115,13 @@ namespace EventRouting
             public IEnumerable<TRq> Request(object param = null) => repeater.Request<TRq>(param);
 
             public TRq RequestSingle(object param = null) => repeater.RequestSingle<TRq>(param);
+
+            public TResult RequestAggregate<TResult>(Func<IEnumerable<TRq>, TResult> func, object param = null)
+            {
+                var requested = repeater.Request<TRq>(param);
+                var result = func(requested);
+                return result;
+            }
         }
 
         private class Repeater

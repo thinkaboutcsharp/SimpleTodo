@@ -66,8 +66,8 @@ namespace SimpleTodo
 
             MenuTabListCommand = new Command(() => OnMenuTabListTapped());
             MenuNewTaskCommand = new Command(() => OnMenuNewTaskTapped());
-            MenuTaskUpCommand = new Command(async () => await model.OnTaskUp());
-            MenuTaskDownCommand = new Command(async () => await model.OnTaskDown());
+            MenuTaskUpCommand = new Command(() => model.OnTaskUp());
+            MenuTaskDownCommand = new Command(() => model.OnTaskDown());
             MenuTabSettingCommand = new Command(() => OnMenuTabSettingTapped());
 
             menuTabList = new MenuBarItem { ImagePath = "icon_113430_256.png", TappedCommand = MenuTabListCommand };
@@ -170,7 +170,7 @@ namespace SimpleTodo
             lay_Main.Opacity = DirectEditView.BackgroundOpacity;
         }
 
-        private async void OnFixed(object sender, FixedEventArgs args)
+        private void OnFixed(object sender, FixedEventArgs args)
         {
             if (dev_TaskNameEditor.HasName)
             {
@@ -181,10 +181,10 @@ namespace SimpleTodo
                 switch (args.EditMode)
                 {
                     case DirectEditMode.New:
-                        await model.AddTask(dev_TaskNameEditor.Name.Value);
+                        model.AddTask(dev_TaskNameEditor.Name.Value);
                         break;
                     case DirectEditMode.Update:
-                        await model.EditTask(editingTask.TaskId.Value, dev_TaskNameEditor.Name.Value);
+                        model.EditTask(editingTask.TaskId.Value, dev_TaskNameEditor.Name.Value);
                         break;
                 }
             }
@@ -202,12 +202,12 @@ namespace SimpleTodo
             model.SelectOperationTask(currentCell.ItemId);
         }
 
-        private async void OnTapped(object sender, TappedEventArgs args)
+        private void OnTapped(object sender, TappedEventArgs args)
         {
             if (!model.SelectOperationTask(CommonSettings.UndefinedId))
             {
                 var currentCell = (TodoListViewCell)sender;
-                await model.ToggleTaskStatus(currentCell.ItemId);
+                model.ToggleTaskStatus(currentCell.ItemId);
             }
         }
 

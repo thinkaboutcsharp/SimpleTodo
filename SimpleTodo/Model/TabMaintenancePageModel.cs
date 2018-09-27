@@ -53,7 +53,7 @@ namespace SimpleTodo
 
         public int GetSelectingId() => selectingTodoId;
 
-        public async stt.Task AddTodoTab(string name)
+        public void AddTodoTab(string name)
         {
             var newTodo = new TodoItem(dataAccess.GetNewTodoId(), name, 0, true);
             newTodo.IconPattern = dataAccess.GetDefaultIconPattern();
@@ -63,17 +63,17 @@ namespace SimpleTodo
 
             TodoList.Insert(0, newTodo);
 
-            await dataAccess.AddTodoAsync(newTodo);
-            await dataAccess.ReorderTodoAsync(TodoList);
+            dataAccess.AddTodoAsync(newTodo);
+            dataAccess.ReorderTodoAsync(TodoList);
         }
 
-        public async stt.Task EditTodo(int todoId, string name)
+        public void EditTodo(int todoId, string name)
         {
             var current = TodoList.Select(todoId);
             if (current == null) return;
             current.Name.Value = name;
 
-            await dataAccess.RenameTodoAsync(todoId, name);
+            dataAccess.RenameTodoAsync(todoId, name);
         }
 
         public void ClearSelection()
@@ -82,16 +82,16 @@ namespace SimpleTodo
             clearSelectionSource.Send(NormalBackgroundColor.Value);
         }
 
-        public async stt.Task ChangeVisibilityAsync(int todoId)
+        public void ChangeVisibilityAsync(int todoId)
         {
             var todo = TodoList.Select(todoId);
             todo.IsActive.Value = !todo.IsActive.Value;
             changeVisibilitySource.Send((todo.TodoId.Value, todo.IsActive.Value));
 
-            await dataAccess.ChangeVisibilityAsync(todoId, todo.IsActive.Value);
+            dataAccess.ChangeVisibilityAsync(todoId, todo.IsActive.Value);
         }
 
-        public async stt.Task OnTodoUp()
+        public void OnTodoUp()
         {
             if (selectingTodoId == CommonSettings.UndefinedId)
             {
@@ -106,11 +106,11 @@ namespace SimpleTodo
                 TodoList.Move(index, index - 1);
                 tabUpDownSource.Send((UpDown.Up, todo.TodoId.Value));
 
-                await dataAccess.ReorderTodoAsync(TodoList);
+                dataAccess.ReorderTodoAsync(TodoList);
             }
         }
 
-        public async stt.Task OnTodoDown()
+        public void OnTodoDown()
         {
             if (selectingTodoId == CommonSettings.UndefinedId)
             {
@@ -125,7 +125,7 @@ namespace SimpleTodo
                 TodoList.Move(index, index + 1);
                 tabUpDownSource.Send((UpDown.Down, todo.TodoId.Value));
 
-                await dataAccess.ReorderTodoAsync(TodoList);
+                dataAccess.ReorderTodoAsync(TodoList);
             }
         }
     }

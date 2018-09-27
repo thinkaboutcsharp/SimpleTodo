@@ -12,30 +12,28 @@ namespace SimpleTodo
     {
         void OpenConnection();
         void CloseConnection();
-        void OpenParallelConnection(int threadId);
-        void DisposeConnection(int threadId);
 
         string GetSystemVersion();
         string GetMenuBarIconFile(MenuBarIcon menu);
         bool GetDefaultUseTristate();
-        stt.Task SetDefaultUseTristateAsync(bool value);
+        void SetDefaultUseTristateAsync(bool value);
         TaskOrderPattern GetDefaultTaskOrder();
-        stt.Task SetDefaultTaskOrderAsync(TaskOrderPattern order);
+        void SetDefaultTaskOrderAsync(TaskOrderPattern order);
         bool IsBigIcon();
-        stt.Task UseBigIconAsync(bool usage);
+        void UseBigIconAsync(bool usage);
         bool IsBeginFromTabList();
-        stt.Task BeginFromTabListAsync(bool begin);
+        void BeginFromTabListAsync(bool begin);
 
         MenuBarPosition GetMenuBarPosition();
-        stt.Task SetMenuBarPositionAsync(MenuBarPosition position);
+        void SetMenuBarPositionAsync(MenuBarPosition position);
         TabPosition GetNewTabPosition();
-        stt.Task SetNewTabPositionAsync(TabPosition position);
+        void SetNewTabPositionAsync(TabPosition position);
         ViewingPage GetLastPage();
-        stt.Task SetLastPageAsync(ViewingPage viewing);
+        void SetLastPageAsync(ViewingPage viewing);
         int GetLastTabIndex();
-        stt.Task SetLastTabIndexAsync(int focus);
+        void SetLastTabIndexAsync(int focus);
         int GetOriginTabIndex();
-        stt.Task SetOriginTabIndexAsync(int origin);
+        void SetOriginTabIndexAsync(int origin);
 
         IReadOnlyList<TaskOrderList> GetTaskOrderList();
         int GetNewTodoId();
@@ -43,22 +41,18 @@ namespace SimpleTodo
         stt.Task<IEnumerable<TodoItem>> SelectTodoAllAsync();
         stt.Task<IEnumerable<TodoTask>> SelectTaskAllAsync(int todoId);
 
-        void BeginTransaction();
-        void Rollback();
-        void Commit();
-
-        stt.Task<TodoItem> AddTodoAsync(TodoItem todoItem);
-        stt.Task<TodoTask> AddTaskAsync(int todoId, TodoTask todoTask);
-        stt.Task ChangeVisibilityAsync(int todoId, bool visibile);
-        stt.Task RenameTodoAsync(int todoId, string newName);
-        stt.Task RenameTaskAsync(int todoId, int taskId, string newName);
-        stt.Task ReorderTodoAsync(IEnumerable<TodoItem> todoItems);
-        stt.Task ReorderTaskAsync(int todoId, IEnumerable<TodoTask> todoTasks);
-        stt.Task ToggleTaskStatusAsync(int todoId, int taskId, TaskStatus status);
-        stt.Task UpdateTodoAsync(TodoItem todoItem);
-        stt.Task UpdateTaskAsync(int todoId, TodoTask todoTask);
-        stt.Task DeleteTodoAsync(int todoId);
-        stt.Task DeleteTaskAsync(int todoId, int taskId);
+        TodoItem AddTodoAsync(TodoItem todoItem);
+        TodoTask AddTaskAsync(int todoId, TodoTask todoTask);
+        void ChangeVisibilityAsync(int todoId, bool visibile);
+        void RenameTodoAsync(int todoId, string newName);
+        void RenameTaskAsync(int todoId, int taskId, string newName);
+        void ReorderTodoAsync(IEnumerable<TodoItem> todoItems);
+        void ReorderTaskAsync(int todoId, IEnumerable<TodoTask> todoTasks);
+        void ToggleTaskStatusAsync(int todoId, int taskId, TaskStatus status);
+        void UpdateTodoAsync(TodoItem todoItem);
+        void UpdateTaskAsync(int todoId, TodoTask todoTask);
+        void DeleteTodoAsync(int todoId);
+        void DeleteTaskAsync(int todoId, int taskId);
 
         IReadOnlyList<IconSetting> GetIconPatternAll();
         IReadOnlyList<ColorSetting> GetColorPatternAll();

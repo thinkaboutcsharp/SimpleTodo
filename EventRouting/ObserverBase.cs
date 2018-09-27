@@ -2,11 +2,11 @@
 
 namespace EventRouting
 {
-    public class ObserverBase<TRx> : IObserver<TRx>
+    public abstract class ObserverBase<TRx> : IObserver<TRx>
     {
         protected Action<TRx> handler;
 
-        public ObserverBase(Action<TRx> action)
+        protected ObserverBase(Action<TRx> action)
         {
             handler = action;
         }
