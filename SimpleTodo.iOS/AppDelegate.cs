@@ -27,6 +27,7 @@ namespace SimpleTodo.iOS
 
             //AiForms.Renderers.iOS.SettingsViewInit.Init();
             //KeyboardOverlap.Forms.Plugin.iOSUnified.KeyboardOverlapRenderer.Init();
+            StyledCells.iOS.StyledCellsInit.Init();
 
             return base.FinishedLaunching(app, options);
         }

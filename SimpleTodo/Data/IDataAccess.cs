@@ -206,7 +206,7 @@ namespace SimpleTodo
     {
         public int ColorId { get; set; }
         public Color PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
-        public Color ViewBasicTextColor { get; set; }         //Label,Button,Entry,etc...
+        public Color ViewBasicTextColor { get; set; }         //Label,Entry,etc...
         public Color NavigationBarBackgroundColor { get; set; }
         public Color NavigationBarTextColor { get; set; }
         public Color MenuBarBackgroundColor { get; set; }
@@ -228,11 +228,22 @@ namespace SimpleTodo
         public Color SlideMenuBackgroundColor { get; set; }
         public Color SlideMenuCellBackgroundColor { get; set; }
         public Color SlideMenuCellTextColor { get; set; }
+        public Color SlideMenuCellDescriptionColor { get; set; }
         public Color SlideMenuPickerBackgroundColor { get; set; }
         public Color SlideMenuPickerTextColor { get; set; }
         public Color SwitchOnColor { get; set; }             //Switch,SwitchCell
         public Color SwitchTintColor { get; set; }
         public Color SwitchThumbColor { get; set; }
+        public Color PickerTintColor { get; set; }
+        public Color PickerBackgroundColor { get; set; }
+        public Color EditBoxBackgroundColor { get; set; }  //Entry,Editor
+        public Color ButtonTextColor { get; set; }
+        public Color ButtonBackgroundColor { get; set; }
+        /* 将来機能 */
+        public Color PickerPageTitleColor { get; set; }
+        public Color PickerPageHeaderBackgroundColor { get; set; }
+        public Color PickerPageBackgroundColor { get; set; }
+        public Color PickerPageTextColor { get; set; }
     }
 
     public class TaskOrderList

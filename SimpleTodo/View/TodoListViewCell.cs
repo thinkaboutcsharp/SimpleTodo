@@ -2,11 +2,12 @@
 using Reactive.Bindings;
 
 using Xamarin.Forms;
-using mr = MR.Gestures;
+
+using StyledCells.Gesture;
 
 namespace SimpleTodo
 {
-    public class TodoListViewCell : mr.ViewCell
+    public class TodoListViewCell : StyledGestureViewCell
     {
         public static BindableProperty ItemIdProperty = BindableProperty.Create(nameof(ItemIdProperty), typeof(int), typeof(TodoListViewCell), default(int), BindingMode.OneWay);
         public int ItemId

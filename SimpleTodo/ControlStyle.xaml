@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.ControlStyle" xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss" xmlns:sc="clr-namespace:StyledCells;assembly=StyledCells" xmlns:scg="clr-namespace:StyledCells.Gesture;assembly=StyledCells" xmlns:cool="clr-namespace:CoolControl;assembly=CoolPicker">
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarTextColor" Value="{DynamicResource NavigationBarTextColor}"/>
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationBarBackgroundColor}"/>
+    </Style>
+    <Style TargetType="TabbedPage">
+        <Setter Property="BarTextColor" Value="{DynamicResource TabBarTextColor}"/>
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource TabBarBackgroundColor}"/>
+    </Style>
+    <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageBasicBackgroundColor}"/>
+    </Style>
+    <Style TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageBasicBackgroundColor}"/>
+    </Style>
+    <Style TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageBasicBackgroundColor}"/>
+        <Setter Property="Padding" Value="20, 20, 20, 20"/>
+        <Setter Property="HasShadow" Value="true"/>
+        <Setter Property="CornerRadius" Value="6"/>
+    </Style>
+    <Style TargetType="TableView">
+        <Setter Property="HasUnevenRows" Value="true"/>
+        <!--<Setter Property="Intent" Value="Setting"/>-->
+    </Style>
+    <Style TargetType="ListView">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageBasicBackgroundColor}"/>
+    </Style>
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource ViewBasicTextColor}"/>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="TextColor" Value="{DynamicResource ButtonTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource ButtonBackgroundColor}"/>
+    </Style>
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="{DynamicResource ViewBasicTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource EditBoxBackgroundColor}"/>
+    </Style>
+    <Style TargetType="Switch">
+        <Setter Property="xfg:SwitchGloss.OnTintColor" Value="{DynamicResource SwitchOnColor}"/>
+        <Setter Property="xfg:SwitchGloss.ThumbTintColor" Value="{DynamicResource SwitchThumbColor}"/>
+        <Setter Property="xfg:SwitchGloss.TintColor" Value="{DynamicResource SwitchTintColor}"/>
+    </Style>
+    <Style TargetType="cool:CoolPicker">
+        <Setter Property="TextColor" Value="{DynamicResource ViewBasicTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource PickerBackgroundColor}"/>
+        <Setter Property="WidthRequest" Value="100"/>
+    </Style>
+    <Style TargetType="sc:StyledTextCell">
+        <Setter Property="TextColor" Value="{DynamicResource ViewBasicTextColor}"/>
+        <Setter Property="xfg:SwitchGloss.TintColor" Value="{DynamicResource PickerTintColor}"/>
+    </Style>
+    <Style TargetType="sc:StyledSwitchCell">
+        <Setter Property="TextColor" Value="{DynamicResource ViewBasicTextColor}"/>
+        <Setter Property="xfg:SwitchGloss.OnTintColor" Value="{DynamicResource SwitchOnColor}"/>
+        <Setter Property="xfg:SwitchGloss.ThumbTintColor" Value="{DynamicResource SwitchThumbColor}"/>
+        <Setter Property="xfg:SwitchGloss.TintColor" Value="{DynamicResource SwitchTintColor}"/>
+    </Style>
+</ResourceDictionary>

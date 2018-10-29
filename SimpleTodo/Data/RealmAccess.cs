@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
-using System.Collections.Concurrent;
 using System.Linq;
 using System.IO;
 using stt = System.Threading.Tasks;
@@ -11,7 +10,7 @@ using Realms;
 using AutoMapper;
 using RealmDb = Realms.Realm;
 
-using EventRouting;
+using Anywhere;
 
 namespace SimpleTodo.Realm
 {
@@ -626,7 +625,7 @@ namespace SimpleTodo.Realm
         public int ColorId { get; set; }
         public int ColorSelectorDrawing { get; set; } //将来的機能拡張用
         public int PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
-        public int ViewBasicTextColor { get; set; }         //Label,Button,Entry,etc...
+        public int ViewBasicTextColor { get; set; }         //Label,Entry,etc...
         public int NavigationBarBackgroundColor { get; set; }
         public int NavigationBarTextColor { get; set; }
         public int MenuBarBackgroundColor { get; set; }
@@ -648,11 +647,22 @@ namespace SimpleTodo.Realm
         public int SlideMenuBackgroundColor { get; set; }
         public int SlideMenuCellBackgroundColor { get; set; }
         public int SlideMenuCellTextColor { get; set; }
+        public int SlideMenuCellDescriptionColor { get; set; }
         public int SlideMenuPickerBackgroundColor { get; set; }
         public int SlideMenuPickerTextColor { get; set; }
         public int SwitchOnColor { get; set; }             //Switch,SwitchCell
         public int SwitchTintColor { get; set; }
         public int SwitchThumbColor { get; set; }
+        public int PickerTintColor { get; set; }
+        public int PickerBackgroundColor { get; set; }
+        public int EditBoxBackgroundColor { get; set; }  //Entry,Editor
+        public int ButtonTextColor { get; set; }
+        public int ButtonBackgroundColor { get; set; }
+        /* 将来機能 */
+        public int PickerPageTitleColor { get; set; }
+        public int PickerPageHeaderBackgroundColor { get; set; }
+        public int PickerPageBackgroundColor { get; set; }
+        public int PickerPageTextColor { get; set; }
     }
 
     public class TaskOrderDisplayName : RealmObject

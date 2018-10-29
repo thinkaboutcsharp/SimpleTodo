@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Realm" Version="3.2.0" />
+    <PackageReference Include="Realm" Version="3.2.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimpleTodo\SimpleTodo.csproj" />

@@ -14,29 +14,31 @@
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.2.0.839982" />
-    <PackageReference Include="Realm" Version="3.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
+    <PackageReference Include="Realm" Version="3.2.1" />
     <PackageReference Include="ReactiveProperty" Version="5.2.0" />
     <PackageReference Include="Ansuria.XFGloss" Version="1.1.3" />
     <PackageReference Include="Behaviors.Forms" Version="1.4.0" />
     <PackageReference Include="AutoMapper" Version="7.0.1" />
     <PackageReference Include="MR.Gestures" Version="2.0.0" />
     <PackageReference Include="PCLStorage" Version="1.0.2" />
+    <PackageReference Include="Tac.StyledCells" Version="0.1.0.15" />
+    <PackageReference Include="Tac.Anywhere" Version="0.1.0.1" />
+    <PackageReference Include="Tac.CoolPicker" Version="0.1.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Data\SQLiteAccess.cs" />
+    <Compile Remove="View\ObservableBase.cs" />
+    <Compile Remove="StyledControl\Internal\IStyledCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Data\master.realm" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\SQLiteAccess.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EventRouting\EventRouting.csproj" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Data\master.realm" />
