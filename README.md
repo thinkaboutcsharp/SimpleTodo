@@ -2,6 +2,21 @@
 
 __now in progress__
 
+#### Depends on
+- Xamarin.Forms(>=3.3.0)
+- Realm(3.2.1)
+- PCLStorage(>=1.0.2)
+- ReactiveProperty(5.2.0) Limitation of Android
+- AutoMapper(>=7.0.1)
+- Ansuria.XFGloss(1.1.3)
+- MR.Gestures(>=2.0.0)
+- Behavior.Forms(>=1.4.0)
+- Tac.Anywhere(>=0.1.0)
+- Tac.CoolPicker(>=0.1.0)
+- Tac.StyledCells(>=0.1.0)
+
+---
+
 シンプルであることを突き詰めたToDoアプリです。  
 This is a todo app amazingly simple.
 
