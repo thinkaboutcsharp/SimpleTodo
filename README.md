@@ -1,5 +1,7 @@
 # SimpleTodo - Simply Wonderful
 
+__now in progress__
+
 シンプルであることを突き詰めたToDoアプリです。  
 This is a todo app amazingly simple.
 
