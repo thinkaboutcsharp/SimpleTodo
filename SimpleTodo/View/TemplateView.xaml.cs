@@ -16,11 +16,8 @@ namespace SimpleTodo
 
         private TemplateViewModel model = new TemplateViewModel(Application.Current.DataAccess());
 
-        private PageRotationOvserver pageRotationTarget;
-        private TabListTransitObservable tabListTransitSource;
-        private TabViewAppearingObserver tabViewAppearingTarget;
-        private DirectTabSettingObservable directTabSettingSource;
-        private TabRemoveObserver tabRemoveTarget;
+        private IReactiveSource<object> tabListTransitSource;
+        private IReactiveSource<int> directTabSettingSource;
 
         private ICommand MenuTabListCommand;
         private ICommand MenuNewTaskCommand;
@@ -78,18 +75,13 @@ namespace SimpleTodo
 
             SetMenuBar();
 
-            pageRotationTarget = new PageRotationOvserver(d => OnRotation(d));
-            tabListTransitSource = new TabListTransitObservable();
-            tabViewAppearingTarget = new TabViewAppearingObserver(_ => SetMenuBar());
-            directTabSettingSource = new DirectTabSettingObservable();
-            tabRemoveTarget = new TabRemoveObserver(async t => await RemoveTodo(t));
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.PageRotation, pageRotationTarget);
-            router.AddReactiveSource(RxSourceEnum.TabListTransit, tabListTransitSource);
-            router.AddReactiveTarget(RxSourceEnum.TabListClose, tabViewAppearingTarget);
-            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection, model.ClearSelectionObservable);
-            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu, directTabSettingSource);
+            tabListTransitSource = router.AddReactiveSource<object>(RxSourceEnum.TabListTransit);
+            model.ClearSelectionObservable = router.AddReactiveSource<System.Drawing.Color>(RxSourceEnum.ClearListViewSelection);
+            directTabSettingSource = router.AddReactiveSource<int>(RxSourceEnum.DirectTabSettingMenu);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation, (PageDirectionEnum d) => OnRotation(d));
+            router.AddReactiveTarget(RxSourceEnum.TabListClose, (object _) => SetMenuBar());
+            router.AddReactiveTarget(RxSourceEnum.TabRemove, async (int t) => await RemoveTodo(t));
 
             //上からリクエストがあればリストを取得するため、最初は何もしない
         }

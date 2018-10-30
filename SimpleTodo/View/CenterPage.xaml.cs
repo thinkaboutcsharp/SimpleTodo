@@ -11,21 +11,15 @@ namespace SimpleTodo
     {
         private CenterPageModel model = new CenterPageModel(Application.Current.DataAccess());
 
-        private TabListTransitObserver tabListTransitTarget;
-        private TabJumpingObserver tabJumpingTarget;
-
         public CenterPage(Page childPage) : base(childPage)
         {
             InitializeComponent();
 
             BindingContext = model;
 
-            tabListTransitTarget = new TabListTransitObserver(async _ => await PushAsync(new TabMaintenancePage()));
-            tabJumpingTarget = new TabJumpingObserver(async _ => await PopAsync());
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.TabListTransit, tabListTransitTarget);
-            router.AddReactiveTarget(RxSourceEnum.TabJumping, tabJumpingTarget);
+            router.AddReactiveTarget(RxSourceEnum.TabListTransit, async (object _) => await PushAsync(new TabMaintenancePage()));
+            router.AddReactiveTarget(RxSourceEnum.TabJumping, async (int _) => await PopAsync());
         }
     }
 }

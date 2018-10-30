@@ -12,10 +12,6 @@ namespace SimpleTodo
     {
         private BaseSlideMenuPageModel model = new BaseSlideMenuPageModel(Application.Current.DataAccess());
 
-        private DirectTabSettingObserver directTabSettingTarget;
-        private SlideMenuInitializeObserver slideMenuInitializeTarget;
-        private CentralViewChangeObserver centralViewChangeTarget;
-
         private IRequester<TodoItem> requester;
 
         public BaseSlideMenuPage()
@@ -41,30 +37,26 @@ namespace SimpleTodo
                 }
             });
 
-            directTabSettingTarget = new DirectTabSettingObserver(target =>
-            {
-                if (target == CommonSettings.UndefinedId)
-                {
-                    var setting = requester.RequestSingle(CommonSettings.UndefinedId);
-                    model.TransitAllTabSetting(setting);
-                }
-                else
-                {
-                    var setting = requester.RequestSingle(target);
-                    model.TransitCurrentTabSetting(setting);
-                }
-            });
-            slideMenuInitializeTarget = new SlideMenuInitializeObserver(_ =>
-            {
-                model.TabSettingReturnCommand.Execute();
-            });
-            centralViewChangeTarget = new CentralViewChangeObserver(async todo => await model.OnCentralViewChange(todo));
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
-            router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize, slideMenuInitializeTarget);
-            router.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
-            router.AddReactiveSource(RxSourceEnum.MenuBarIconSizeChange, model.MenuBarIconSizeChangedSource);
+            router.AddReactiveTarget(
+                RxSourceEnum.DirectTabSettingMenu,
+                (int target) =>
+                {
+                    if (target == CommonSettings.UndefinedId)
+                    {
+                        var setting = requester.RequestSingle(CommonSettings.UndefinedId);
+                        model.TransitAllTabSetting(setting);
+                    }
+                    else
+                    {
+                        var setting = requester.RequestSingle(target);
+                        model.TransitCurrentTabSetting(setting);
+                    }
+                }
+            );
+            router.AddReactiveTarget(RxSourceEnum.SlideMenuInitialize, (object _) => model.TabSettingReturnCommand.Execute());
+            router.AddReactiveTarget(RxSourceEnum.CentralViewChange, async (TodoItem todo) => await model.OnCentralViewChange(todo));
+            model.MenuBarIconSizeChangedSource = router.AddReactiveSource<bool>(RxSourceEnum.MenuBarIconSizeChange);
 
             var request = Application.Current.RequestRouter();
             requester = request.CreateRequester<TodoItem>(RqSourceEnum.TabSetting);

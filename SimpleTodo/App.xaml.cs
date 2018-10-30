@@ -13,8 +13,6 @@ namespace SimpleTodo
 {
     public partial class App : Application
     {
-        private CentralViewChangeObserver centralViewChangeTarget;
-
         public App()
         {
             Resources = new ResourceDictionary();
@@ -39,8 +37,7 @@ namespace SimpleTodo
             var initialColor = dataAccess.GetDefaultColorPattern();
             InitColorResource(initialColor);
 
-            centralViewChangeTarget = new CentralViewChangeObserver((todo) => SetColorResource(todo.ColorPattern));
-            reaction.AddReactiveTarget(RxSourceEnum.CentralViewChange, centralViewChangeTarget);
+            reaction.AddReactiveTarget(RxSourceEnum.CentralViewChange, (TodoItem todo) => SetColorResource(todo.ColorPattern));
 
             InitializeComponent();
 

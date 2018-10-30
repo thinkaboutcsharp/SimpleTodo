@@ -6,6 +6,7 @@ using mr = MR.Gestures;
 using Reactive.Bindings;
 
 using Xamarin.Forms;
+using Anywhere;
 
 namespace SimpleTodo
 {
@@ -27,13 +28,13 @@ namespace SimpleTodo
 
         public ICommand VisibleChangedCommand { get; set; }
 
-        private TabMaintenanceDisppearingObservable tabMaintenanceDisappearingSource = new TabMaintenanceDisppearingObservable();
-        private TabJumpingObservable tabJumpingSource = new TabJumpingObservable();
-        private VisibleSwitchOnOffObservable visibleSwitchOnOffSource = new VisibleSwitchOnOffObservable();
-        private TabNewOnListObservable tabNewOnListSource = new TabNewOnListObservable();
-        private TabTitleChangeObservable titleChangeSource = new TabTitleChangeObservable();
-        private TabRemoveObservable tabRemoveSource = new TabRemoveObservable();
-        private DirectTabSettingObservable directTabSettingSource = new DirectTabSettingObservable();
+        private IReactiveSource<object> tabMaintenanceDisappearingSource;
+        private IReactiveSource<int> tabJumpingSource;
+        private IReactiveSource<bool> visibleSwitchOnOffSource;
+        private IReactiveSource<string> tabNewOnListSource;
+        private IReactiveSource<(int, string)> titleChangeSource;
+        private IReactiveSource<int> tabRemoveSource;
+        private IReactiveSource<int> directTabSettingSource;
 
         private TodoItem editingItem; //編集対象のアイテムを記憶する（セルが拾えないから）
 
@@ -65,16 +66,16 @@ namespace SimpleTodo
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.ClearListViewSelection, model.ClearSelectionSource);
-            router.AddReactiveSource(RxSourceEnum.TabListClose, tabMaintenanceDisappearingSource);
-            router.AddReactiveSource(RxSourceEnum.TabJumping, tabJumpingSource);
-            router.AddReactiveSource(RxSourceEnum.TodoTabVisibleChange, model.ChangeVisibilitySource);
-            router.AddReactiveSource(RxSourceEnum.VisibleSwitchOnOff, visibleSwitchOnOffSource);
-            router.AddReactiveSource(RxSourceEnum.TabUpDown, model.TabUpDownSource);
-            router.AddReactiveSource(RxSourceEnum.TodoTabNewOnList, tabNewOnListSource);
-            router.AddReactiveSource(RxSourceEnum.TabTitleChange, titleChangeSource);
-            router.AddReactiveSource(RxSourceEnum.TabRemove, tabRemoveSource);
-            router.AddReactiveSource(RxSourceEnum.DirectTabSettingMenu, directTabSettingSource);
+            model.ClearSelectionSource = router.AddReactiveSource<System.Drawing.Color>(RxSourceEnum.ClearListViewSelection);
+            tabMaintenanceDisappearingSource = router.AddReactiveSource<object>(RxSourceEnum.TabListClose);
+            tabJumpingSource = router.AddReactiveSource<int>(RxSourceEnum.TabJumping);
+            model.ChangeVisibilitySource = router.AddReactiveSource<(int, bool)>(RxSourceEnum.TodoTabVisibleChange);
+            visibleSwitchOnOffSource = router.AddReactiveSource<bool>(RxSourceEnum.VisibleSwitchOnOff);
+            model.TabUpDownSource = router.AddReactiveSource<(UpDown, int)>(RxSourceEnum.TabUpDown);
+            tabNewOnListSource = router.AddReactiveSource<string>(RxSourceEnum.TodoTabNewOnList);
+            titleChangeSource = router.AddReactiveSource<(int, string)>(RxSourceEnum.TabTitleChange);
+            tabRemoveSource = router.AddReactiveSource<int>(RxSourceEnum.TabRemove);
+            directTabSettingSource = router.AddReactiveSource<int>(RxSourceEnum.DirectTabSettingMenu);
 
             BindingContext = this;
             lvw_TabMaintenance.ItemsSource = model.TodoList;

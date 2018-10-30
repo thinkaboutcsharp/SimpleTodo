@@ -69,9 +69,6 @@ namespace SimpleTodo
         private const int BigIconSize = 30;
         private const int StandardIconSize = 25;
 
-        private PageRotationOvserver pageRotationTarget;
-        private MenuBarIconSizeChangedOvserver iconSizeChangedOvserver;
-
         private MenuBarViewModel model = new MenuBarViewModel(Application.Current.DataAccess());
 
         public MenuBarView()
@@ -90,11 +87,9 @@ namespace SimpleTodo
             boxEnd.HorizontalOptions = LayoutOptions.EndAndExpand;
             layout.Children.Add(boxEnd);
 
-            pageRotationTarget = new PageRotationOvserver(d => OnRotation(d));
-            iconSizeChangedOvserver = new MenuBarIconSizeChangedOvserver(b => OnMenuBarIconSizeChanged(b));
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.PageRotation, pageRotationTarget);
-            router.AddReactiveTarget(RxSourceEnum.MenuBarIconSizeChange, iconSizeChangedOvserver);
+            router.AddReactiveTarget(RxSourceEnum.PageRotation, (PageDirectionEnum d) => OnRotation(d));
+            router.AddReactiveTarget(RxSourceEnum.MenuBarIconSizeChange, (bool b) => OnMenuBarIconSizeChanged(b));
         }
 
         private static void OnMenuBarItemChanged(BindableObject bindable, object oldValue, object newValue, MenuBarItems property)

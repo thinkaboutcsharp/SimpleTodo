@@ -6,6 +6,7 @@ using Reactive.Bindings;
 using System.Collections.ObjectModel;
 using System.Drawing;
 using stt = System.Threading.Tasks;
+using Anywhere;
 
 namespace SimpleTodo
 {
@@ -16,7 +17,7 @@ namespace SimpleTodo
         public Color NormalBackgroundColor { get => Setting.ColorPattern.TodoViewCellColor; }
         public Color SelectingBackgroundColor { get => Setting.ColorPattern.TodoViewCellSelectedColor; }
 
-        public IObservable<Color> ClearSelectionObservable { get => clearSelectionSource; }
+        public IReactiveSource<Color> ClearSelectionObservable { set => clearSelectionSource = value; }
 
         public event EventHandler NoTaskSelected;
         public TodoItem Setting { get; set; }
@@ -25,7 +26,7 @@ namespace SimpleTodo
 
         private int selectionTaskId;
 
-        private ClearSelectionObservable clearSelectionSource = new ClearSelectionObservable();
+        private IReactiveSource<Color> clearSelectionSource;
 
         public TemplateViewModel(IDataAccess realm) : base(realm) { }
 

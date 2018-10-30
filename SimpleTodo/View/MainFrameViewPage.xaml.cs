@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
+using Anywhere;
 
 namespace SimpleTodo
 {
     public partial class MainFrameViewPage : MasterDetailPage
     {
-        private DirectTabSettingObserver directTabSettingTarget;
-        private SlideMenuInitializeObservable slideMenuInitializeSource;
+        private IReactiveSource<object> slideMenuInitializeSource;
 
         public MainFrameViewPage()
         {
@@ -16,12 +15,9 @@ namespace SimpleTodo
 
             IsPresentedChanged += (_s, _e) => { if (!IsPresented) slideMenuInitializeSource.Send(null); };
 
-            directTabSettingTarget = new DirectTabSettingObserver(_ => IsPresented = true);
-            slideMenuInitializeSource = new SlideMenuInitializeObservable();
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu, directTabSettingTarget);
-            router.AddReactiveSource(RxSourceEnum.SlideMenuInitialize, slideMenuInitializeSource);
+            router.AddReactiveTarget(RxSourceEnum.DirectTabSettingMenu, (int _) => IsPresented = true);
+            slideMenuInitializeSource = router.AddReactiveSource<object>(RxSourceEnum.SlideMenuInitialize);
         }
     }
 }

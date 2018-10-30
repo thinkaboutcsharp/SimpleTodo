@@ -13,12 +13,12 @@ namespace SimpleTodo
         private double lastHeight;
         private double lastWidth;
 
-        private PageRotetionObservable source = new PageRotetionObservable();
+        private IReactiveSource<PageDirectionEnum> source;
 
         public EmptyPage()
         {
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.PageRotation, source);
+            source = router.AddReactiveSource<PageDirectionEnum>(RxSourceEnum.PageRotation);
         }
 
         protected override void OnSizeAllocated(double width, double height)

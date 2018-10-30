@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Input;
 using Reactive.Bindings;
 using stt = System.Threading.Tasks;
+using Anywhere;
 
 namespace SimpleTodo
 {
@@ -38,8 +39,8 @@ namespace SimpleTodo
         public ReactiveProperty<SettingTab> CurrentTabSetting { get; } = new ReactiveProperty<SettingTab>(SettingTab.Current);
         #endregion
 
-        private MenuBarIconSizeChangedObservable menuBarIconSizeChangedSource = new MenuBarIconSizeChangedObservable();
-        public IObservable<bool> MenuBarIconSizeChangedSource { get => menuBarIconSizeChangedSource; }
+        private IReactiveSource<bool> menuBarIconSizeChangedSource;
+        public IReactiveSource<bool> MenuBarIconSizeChangedSource { set => menuBarIconSizeChangedSource = value; }
 
         private TodoItem CurrentTodo { get; set; }
         private TodoItem SavedTodo { get; set; }

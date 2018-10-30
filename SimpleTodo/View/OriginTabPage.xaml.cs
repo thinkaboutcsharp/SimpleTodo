@@ -9,14 +9,14 @@ namespace SimpleTodo
 {
     public partial class OriginTabPage : ContentPage
     {
-        TodoTabNewObservable source = new TodoTabNewObservable();
+        IReactiveSource<string> source;
 
         public OriginTabPage()
         {
             InitializeComponent();
 
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveSource(RxSourceEnum.TodoTabNew, source);
+            source = router.AddReactiveSource<string>(RxSourceEnum.TodoTabNew);
 
             txt_TabName.Focus();
         }

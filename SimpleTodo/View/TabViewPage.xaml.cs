@@ -10,13 +10,7 @@ namespace SimpleTodo
 {
     public partial class TabViewPage : TabbedPage
     {
-        private TodoTabNewObserver tabNewTarget;
-        private TabJumpingObserver tabJumpingTarget;
-        private CentralViewChangeObservable tabChangeSource;
-        private TabUpDownObserver tabUpDownTarget;
-        private ChangeVisibilityObserver changeVisibilityTarget;
-        private TabTitleChangeObserver tabTitleChangeTarget;
-        private TabRemoveObserver tabRemoveTarget;
+        private IReactiveSource<TodoItem> tabChangeSource;
 
         private TemplateView templateView = new TemplateView();
 
@@ -52,22 +46,14 @@ namespace SimpleTodo
             }
             #endregion
 
-            tabNewTarget = new TodoTabNewObserver(p => OnTabNew(p));
-            tabJumpingTarget = new TabJumpingObserver(t => OnTabJump(t));
-            tabChangeSource = new CentralViewChangeObservable();
-            tabUpDownTarget = new TabUpDownObserver(async p => await OnTabUpDown(p));
-            changeVisibilityTarget = new ChangeVisibilityObserver(async p => await OnChangeVisibility(p));
-            tabTitleChangeTarget = new TabTitleChangeObserver(async p => await OnTabTitleChange(p));
-            tabRemoveTarget = new TabRemoveObserver(async t => await OnTabRemove(t));
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.TodoTabNew, tabNewTarget);
-            router.AddReactiveTarget(RxSourceEnum.TabJumping, tabJumpingTarget);
-            router.AddReactiveSource(RxSourceEnum.CentralViewChange, tabChangeSource);
-            router.AddReactiveTarget(RxSourceEnum.TabUpDown, tabUpDownTarget);
-            router.AddReactiveTarget(RxSourceEnum.TodoTabVisibleChange, changeVisibilityTarget);
-            router.AddReactiveTarget(RxSourceEnum.TabTitleChange, tabTitleChangeTarget);
-            router.AddReactiveTarget(RxSourceEnum.TabRemove, tabRemoveTarget);
+            tabChangeSource = router.AddReactiveSource<TodoItem>(RxSourceEnum.CentralViewChange);
+            router.AddReactiveTarget(RxSourceEnum.TodoTabNew, (string t) => OnTabNew(t));
+            router.AddReactiveTarget(RxSourceEnum.TabJumping, (int t) => OnTabJump(t));
+            router.AddReactiveTarget(RxSourceEnum.TabUpDown, async ((UpDown, int) m) => await OnTabUpDown(m));
+            router.AddReactiveTarget(RxSourceEnum.TodoTabVisibleChange, async ((int, bool) v) => await OnChangeVisibility(v));
+            router.AddReactiveTarget(RxSourceEnum.TabTitleChange, async ((int, string) t) => await OnTabTitleChange(t));
+            router.AddReactiveTarget(RxSourceEnum.TabRemove, async (int t) => await OnTabRemove(t));
 
             var request = Application.Current.RequestRouter();
             request.AddRequestable(RqSourceEnum.TabSetting, new TabSettingRequestable(this));

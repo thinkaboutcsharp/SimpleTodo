@@ -20,18 +20,9 @@ namespace SimpleTodo
 
         public TodoListViewCell()
         {
-            var clearSelectionTarget = new ClearSelectionOvserver(bc =>
-            {
-                View.BackgroundColor = bc;
-            });
-            var visibleSwitchOnOffTarget = new VisibleSwitchOnOffObserver(v =>
-            {
-                IsSelected.Value = v;
-            });
-
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection, clearSelectionTarget);
-            router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff, visibleSwitchOnOffTarget);
+            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection, (Color bc) => View.BackgroundColor = bc);
+            router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff, (bool v) => IsSelected.Value = v);
         }
     }
 }

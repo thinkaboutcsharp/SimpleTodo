@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using stt = System.Threading.Tasks;
 using Reactive.Bindings;
+using Anywhere;
 
 namespace SimpleTodo
 {
@@ -16,17 +17,17 @@ namespace SimpleTodo
         public ReactiveProperty<Color> NormalBackgroundColor { get; }
         public ReactiveProperty<Color> SelectingBackgroundColor { get; }
 
-        public IObservable<Color> ClearSelectionSource { get => clearSelectionSource; }
-        public IObservable<(int, bool)> ChangeVisibilitySource { get => changeVisibilitySource; }
-        public IObservable<(UpDown, int)> TabUpDownSource { get => tabUpDownSource; }
+        public IReactiveSource<Color> ClearSelectionSource { set => clearSelectionSource = value; }
+        public IReactiveSource<(int, bool)> ChangeVisibilitySource { set => changeVisibilitySource = value; }
+        public IReactiveSource<(UpDown, int)> TabUpDownSource { set => tabUpDownSource = value; }
 
         public ObservableCollection<TodoItem> TodoList { get; private set; }
 
         private int selectingTodoId;
 
-        private ClearSelectionObservable clearSelectionSource = new ClearSelectionObservable();
-        private ChangeVisibilityObservable changeVisibilitySource = new ChangeVisibilityObservable();
-        private TabUpDownObservable tabUpDownSource = new TabUpDownObservable();
+        private IReactiveSource<Color> clearSelectionSource;
+        private IReactiveSource<(int, bool)> changeVisibilitySource;
+        private IReactiveSource<(UpDown, int)> tabUpDownSource;
 
         public TabMaintenancePageModel(IDataAccess realm) : base(realm)
         {
