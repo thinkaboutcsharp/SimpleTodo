@@ -13,6 +13,8 @@ namespace SimpleTodo
 {
     public partial class App : Application
     {
+        IReactiveSource<Suspend> suspendSource;
+
         public App()
         {
             Resources = new ResourceDictionary();
@@ -38,6 +40,7 @@ namespace SimpleTodo
             InitColorResource(initialColor);
 
             reaction.AddReactiveTarget(RxSourceEnum.CentralViewChange, (TodoItem todo) => SetColorResource(todo.ColorPattern));
+            suspendSource = reaction.AddReactiveSource<Suspend>(RxSourceEnum.SuspendApp);
 
             InitializeComponent();
 
@@ -74,11 +77,13 @@ namespace SimpleTodo
 
         protected override void OnSleep()
         {
+            suspendSource.Send(Suspend.Sleep);
             Application.Current.DataAccess().CloseConnection();
         }
 
         protected override void OnResume()
         {
+            suspendSource.Send(Suspend.Resume);
             Application.Current.DataAccess().OpenConnection();
         }
     }

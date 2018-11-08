@@ -12,12 +12,18 @@ namespace SimpleTodo
 {
     public class TemplateViewModel : ModelBase
     {
+        class SuspendTarget : ObserverBase<Suspend>
+        {
+            internal SuspendTarget(TemplateViewModel parent) : base((s) => {
+                if (s == Suspend.Sleep) parent.ClearTodo();
+            })
+            {}
+        }
+
         public ObservableCollection<TodoTask> Todo { get; private set; }
 
-        public Color NormalBackgroundColor { get => Setting.ColorPattern.TodoViewCellColor; }
-        public Color SelectingBackgroundColor { get => Setting.ColorPattern.TodoViewCellSelectedColor; }
-
-        public IReactiveSource<Color> ClearSelectionObservable { set => clearSelectionSource = value; }
+        public IReactiveSource<ListType> ClearSelectionObservable { set => clearSelectionSource = value; }
+        public IObserver<Suspend> SuspendObserver { get; }
 
         public event EventHandler NoTaskSelected;
         public TodoItem Setting { get; set; }
@@ -26,9 +32,12 @@ namespace SimpleTodo
 
         private int selectionTaskId;
 
-        private IReactiveSource<Color> clearSelectionSource;
+        private IReactiveSource<ListType> clearSelectionSource;
 
-        public TemplateViewModel(IDataAccess realm) : base(realm) { }
+        public TemplateViewModel(IDataAccess realm) : base(realm)
+        {
+            SuspendObserver = new SuspendTarget(this);
+        }
 
         public async stt.Task LoadTodo(int todoId)
         {
@@ -48,6 +57,11 @@ namespace SimpleTodo
         public void RemoveTodo(int todoId)
         {
             tabs.Remove(todoId);
+        }
+
+        void ClearTodo()
+        {
+            tabs.Clear();
         }
 
         public void ToggleTaskStatus(int taskId)
@@ -79,7 +93,7 @@ namespace SimpleTodo
 
         public void ClearSelection()
         {
-            clearSelectionSource.Send(Setting.ColorPattern.PageBasicBackgroundColor);
+            clearSelectionSource.Send(ListType.Todo);
         }
 
         public void AddTask(string taskName)

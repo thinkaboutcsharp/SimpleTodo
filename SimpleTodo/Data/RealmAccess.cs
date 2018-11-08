@@ -196,6 +196,7 @@ namespace SimpleTodo.Realm
             {
                 var task = Mapper.Map<Task>(todoTask);
                 task.TodoId = todoId;
+                task.UpdatePrimaryKey();
                 db.Add(task);
             });
             return todoTask;
@@ -206,7 +207,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Todo n) =>
             {
                 var todo = db.All<Todo>().Where(t => t.TodoId == todoId).First();
-                db.Write(() => todo.IsActive = visibile);
+                todo.IsActive = visibile;
             });
         }
 
@@ -215,7 +216,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Todo n) =>
             {
                 var todo = db.All<Todo>().Where(t => t.TodoId == todoId).First();
-                db.Write(() => todo.Name = newName);
+                todo.Name = newName;
             });
         }
 
@@ -224,7 +225,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Task n) =>
             {
                 var task = db.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                db.Write(() => task.Name = newName);
+                task.Name = newName;
             });
         }
 
@@ -234,15 +235,12 @@ namespace SimpleTodo.Realm
             {
                 var allTodo = db.All<Todo>();
                 int index = 0;
-                db.Write(() =>
+                foreach (var todoItem in todoItems)
                 {
-                    foreach (var todoItem in todoItems)
-                    {
-                        var todo = allTodo.Where(t => t.TodoId == todoItem.TodoId.Value).First();
-                        todo.DisplayOrder = index;
-                        index++;
-                    }
-                });
+                    var todo = allTodo.Where(t => t.TodoId == todoItem.TodoId.Value).First();
+                    todo.DisplayOrder = index;
+                    index++;
+                }
             });
         }
 
@@ -252,15 +250,12 @@ namespace SimpleTodo.Realm
             {
                 var allTask = db.All<Task>().Where(t => t.TodoId == todoId);
                 int index = 0;
-                db.Write(() =>
+                foreach (var todoTask in todoTasks)
                 {
-                    foreach (var todoTask in todoTasks)
-                    {
-                        var task = allTask.Where(t => t.TaskId == todoTask.TaskId.Value).First();
-                        task.DisplayOrder = index;
-                        index++;
-                    }
-                });
+                    var task = allTask.Where(t => t.TaskId == todoTask.TaskId.Value).First();
+                    task.DisplayOrder = index;
+                    index++;
+                }
             });
         }
 
@@ -269,7 +264,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Todo n) =>
             {
                 var task = db.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                db.Write(() => task.Status = status.EnumName());
+                task.Status = status.EnumName();
             });
         }
 
@@ -278,7 +273,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Todo n) =>
             {
                 var todo = db.All<Todo>().Where(t => t.TodoId == todoItem.TodoId.Value).First();
-                db.Write(() => Mapper.Map(todoItem, todo));
+                Mapper.Map(todoItem, todo);
             });
         }
 
@@ -287,7 +282,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Task n) =>
             {
                 var task = db.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == todoTask.TaskId.Value).First();
-                db.Write(() => Mapper.Map(todoTask, task));
+                Mapper.Map(todoTask, task);
             });
         }
 
@@ -296,7 +291,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Todo n) =>
             {
                 var todo = db.All<Todo>().Where(t => t.TodoId == todoId).First();
-                db.Write(() => db.Remove(todo));
+                db.Remove(todo);
             });
         }
 
@@ -305,7 +300,7 @@ namespace SimpleTodo.Realm
             SettleAsyncTransaction((RealmDb db, Task n) =>
             {
                 var task = db.All<Task>().Where(t => t.TodoId == todoId && t.TaskId == taskId).First();
-                db.Write(() => db.Remove(task));
+                db.Remove(task);
             });
         }
         #endregion
@@ -482,10 +477,10 @@ namespace SimpleTodo.Realm
         private void SettleAsyncTransaction<T>(Action<RealmDb, T> transaction) where T : RealmObject => SettleAsyncTransaction(NullRef<T>(), transaction);
         private void SettleAsyncTransaction<T>(T unsafeRealmObject, Action<RealmDb, T> transaction) where T : RealmObject
         {
-            var threadSafeRealmObject = ThreadSafeReference.Create(unsafeRealmObject);
+            var threadSafeRealmObject = unsafeRealmObject != null ? ThreadSafeReference.Create(unsafeRealmObject) : null;
             asyncSequencer.Enqueue(asyncRealm =>
             {
-                var asyncObj = Resolve(asyncRealm, threadSafeRealmObject);
+                var asyncObj = threadSafeRealmObject != null ? Resolve(asyncRealm, threadSafeRealmObject) : null;
                 asyncRealm.Write(() => transaction(asyncRealm, asyncObj));
             });
         }
@@ -493,10 +488,10 @@ namespace SimpleTodo.Realm
         private void SettleAsyncTransaction<T>(Action<RealmDb, IQueryable<T>> transaction) where T : RealmObject => SettleAsyncTransaction(NullRefQ<T>(), transaction);
         private void SettleAsyncTransaction<T>(IQueryable<T> unsafeRealmObject, Action<RealmDb, IQueryable<T>> transaction) where T : RealmObject
         {
-            var threadSafeRealmObject = ThreadSafeReference.Create(unsafeRealmObject);
+            var threadSafeRealmObject = unsafeRealmObject != null ? ThreadSafeReference.Create(unsafeRealmObject) : null;
             asyncSequencer.Enqueue(asyncRealm =>
             {
-                var asyncObj = Resolve(asyncRealm, threadSafeRealmObject);
+                var asyncObj = threadSafeRealmObject != null ? Resolve(asyncRealm, threadSafeRealmObject) : null;
                 asyncRealm.Write(() => transaction(asyncRealm, asyncObj));
             });
         }
@@ -504,10 +499,10 @@ namespace SimpleTodo.Realm
         private void SettleAsyncTransaction<T>(Action<RealmDb, IList<T>> transaction) where T : RealmObject => SettleAsyncTransaction(NullRefL<T>(), transaction);
         private void SettleAsyncTransaction<T>(IList<T> unsafeRealmObject, Action<RealmDb, IList<T>> transaction) where T : RealmObject
         {
-            var threadSafeRealmObject = ThreadSafeReference.Create(unsafeRealmObject);
+            var threadSafeRealmObject = unsafeRealmObject != null ? ThreadSafeReference.Create(unsafeRealmObject) : null;
             asyncSequencer.Enqueue(asyncRealm =>
             {
-                var asyncObj = Resolve(asyncRealm, threadSafeRealmObject);
+                var asyncObj = threadSafeRealmObject != null ? Resolve(asyncRealm, threadSafeRealmObject) : null;
                 asyncRealm.Write(() => transaction(asyncRealm, asyncObj));
             });
         }
@@ -626,6 +621,7 @@ namespace SimpleTodo.Realm
         public int ColorSelectorDrawing { get; set; } //将来的機能拡張用
         public int PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
         public int ViewBasicTextColor { get; set; }         //Label,Entry,etc...
+        public int ViewBasicPlaceholderColor { get; set; }  //Entry,Picker
         public int NavigationBarBackgroundColor { get; set; }
         public int NavigationBarTextColor { get; set; }
         public int MenuBarBackgroundColor { get; set; }
@@ -655,6 +651,7 @@ namespace SimpleTodo.Realm
         public int SwitchThumbColor { get; set; }
         public int PickerTintColor { get; set; }
         public int PickerBackgroundColor { get; set; }
+        public int PickerPlaceholderColor { get; set; }
         public int EditBoxBackgroundColor { get; set; }  //Entry,Editor
         public int ButtonTextColor { get; set; }
         public int ButtonBackgroundColor { get; set; }
@@ -701,6 +698,13 @@ namespace SimpleTodo.Realm
         public string Name { get; set; }
         public string Status { get; set; }
         public int DisplayOrder { get; set; }
+
+        public void UpdatePrimaryKey()
+        {
+            long longTodoId = TodoId;
+            longTodoId <<= 32;
+            TodoTaskId = longTodoId + (long)TaskId;
+        }
     }
     #endregion
 }

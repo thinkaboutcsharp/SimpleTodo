@@ -37,10 +37,6 @@ namespace SimpleTodo
                     Children.Insert(model.SpecialTabIndex, specialPage);
                 }
 
-                //タブバー設定
-                BarBackgroundColor = Color.Aquamarine;
-                BarTextColor = Color.WhiteSmoke;
-
                 //初期表示タブ
                 CurrentPage = Children[model.LastTabIndex];
             }

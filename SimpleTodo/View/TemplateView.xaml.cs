@@ -77,8 +77,9 @@ namespace SimpleTodo
 
             var router = Application.Current.ReactionRouter();
             tabListTransitSource = router.AddReactiveSource<object>(RxSourceEnum.TabListTransit);
-            model.ClearSelectionObservable = router.AddReactiveSource<System.Drawing.Color>(RxSourceEnum.ClearListViewSelection);
+            model.ClearSelectionObservable = router.AddReactiveSource<ListType>(RxSourceEnum.ClearListViewSelection);
             directTabSettingSource = router.AddReactiveSource<int>(RxSourceEnum.DirectTabSettingMenu);
+            router.AddReactiveTarget(RxSourceEnum.SuspendApp, model.SuspendObserver);
             router.AddReactiveTarget(RxSourceEnum.PageRotation, (PageDirectionEnum d) => OnRotation(d));
             router.AddReactiveTarget(RxSourceEnum.TabListClose, (object _) => SetMenuBar());
             router.AddReactiveTarget(RxSourceEnum.TabRemove, async (int t) => await RemoveTodo(t));
@@ -190,7 +191,9 @@ namespace SimpleTodo
             //LongPressedは離すまで起きない
 
             var currentCell = (TodoListViewCell)sender;
-            currentCell.View.BackgroundColor = model.SelectingBackgroundColor;
+            currentCell.View.BackgroundColor = Application.Current.ColorSetting("TodoViewCellSelectedColor");
+            var label = (currentCell.View as StackLayout).Children[1] as Label;
+            label.TextColor = Application.Current.ColorSetting("TodoViewTextSelectedColor");
             model.SelectOperationTask(currentCell.ItemId);
         }
 

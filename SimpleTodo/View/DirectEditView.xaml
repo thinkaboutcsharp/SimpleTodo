@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentView x:Name="cvw_Edit" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SimpleTodo.DirectEditView" xmlns:local="clr-namespace:SimpleTodo">
     <StackLayout Orientation="Vertical">
-        <Frame x:Name="frm_Editor" Padding="20, 20, 20, 20" HasShadow="true" CornerRadius="6" HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame x:Name="frm_Editor" HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout Orientation="Vertical">
                 <Label x:Name="lbl_Label" Text="{Binding Title.Value}" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">

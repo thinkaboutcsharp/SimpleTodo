@@ -27,5 +27,8 @@ namespace SimpleTodo
 
         public static IDataAccess DataAccess(this Application application)
             => (IDataAccess)application.Properties[nameof(IDataAccess)];
+
+        public static Color ColorSetting(this Application application, string colorName)
+            => (Color)application.Resources[colorName];
     }
 }

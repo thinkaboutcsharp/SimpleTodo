@@ -17,7 +17,7 @@ namespace SimpleTodo
         public ReactiveProperty<Color> NormalBackgroundColor { get; }
         public ReactiveProperty<Color> SelectingBackgroundColor { get; }
 
-        public IReactiveSource<Color> ClearSelectionSource { set => clearSelectionSource = value; }
+        public IReactiveSource<ListType> ClearSelectionSource { set => clearSelectionSource = value; }
         public IReactiveSource<(int, bool)> ChangeVisibilitySource { set => changeVisibilitySource = value; }
         public IReactiveSource<(UpDown, int)> TabUpDownSource { set => tabUpDownSource = value; }
 
@@ -25,7 +25,7 @@ namespace SimpleTodo
 
         private int selectingTodoId;
 
-        private IReactiveSource<Color> clearSelectionSource;
+        private IReactiveSource<ListType> clearSelectionSource;
         private IReactiveSource<(int, bool)> changeVisibilitySource;
         private IReactiveSource<(UpDown, int)> tabUpDownSource;
 
@@ -34,8 +34,8 @@ namespace SimpleTodo
             selectingTodoId = CommonSettings.UndefinedId;
 
             var colorPattern = realm.GetDefaultColorPattern();
-            NormalBackgroundColor.Value = colorPattern.TabListViewCellColor;
-            SelectingBackgroundColor.Value = colorPattern.TabListViewCellSelectedColor;
+            NormalBackgroundColor = new ReactiveProperty<Color>(colorPattern.TabListViewCellColor);
+            SelectingBackgroundColor = new ReactiveProperty<Color>(colorPattern.TabListViewCellSelectedColor);
 
             TodoList = new ObservableCollection<TodoItem>(realm.SelectTodoAllAsync().Result);
         }
@@ -80,7 +80,7 @@ namespace SimpleTodo
         public void ClearSelection()
         {
             selectingTodoId = CommonSettings.UndefinedId;
-            clearSelectionSource.Send(NormalBackgroundColor.Value);
+            clearSelectionSource.Send(ListType.Task);
         }
 
         public void ChangeVisibilityAsync(int todoId)

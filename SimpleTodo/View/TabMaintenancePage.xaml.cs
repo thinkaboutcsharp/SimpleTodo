@@ -66,7 +66,7 @@ namespace SimpleTodo
             this.Disappearing += (_s, _e) => tabMaintenanceDisappearingSource.Send(null);
 
             var router = Application.Current.ReactionRouter();
-            model.ClearSelectionSource = router.AddReactiveSource<System.Drawing.Color>(RxSourceEnum.ClearListViewSelection);
+            model.ClearSelectionSource = router.AddReactiveSource<ListType>(RxSourceEnum.ClearListViewSelection);
             tabMaintenanceDisappearingSource = router.AddReactiveSource<object>(RxSourceEnum.TabListClose);
             tabJumpingSource = router.AddReactiveSource<int>(RxSourceEnum.TabJumping);
             model.ChangeVisibilitySource = router.AddReactiveSource<(int, bool)>(RxSourceEnum.TodoTabVisibleChange);

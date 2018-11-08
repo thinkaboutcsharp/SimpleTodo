@@ -30,6 +30,8 @@ namespace SimpleTodo
 
         ClearListViewSelection,
         VisibleSwitchOnOff,
+
+        SuspendApp,
     }
 
     public enum UpDown
@@ -42,5 +44,17 @@ namespace SimpleTodo
     {
         All,
         Current,
+    }
+
+    public enum ListType
+    {
+        Task,
+        Todo,
+    }
+
+    public enum Suspend
+    {
+        Sleep,
+        Resume,
     }
 }

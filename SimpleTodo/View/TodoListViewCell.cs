@@ -21,7 +21,20 @@ namespace SimpleTodo
         public TodoListViewCell()
         {
             var router = Application.Current.ReactionRouter();
-            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection, (Color bc) => View.BackgroundColor = bc);
+            router.AddReactiveTarget(RxSourceEnum.ClearListViewSelection, (ListType t) =>
+            {
+                switch (t)
+                {
+                    case ListType.Task:
+                        View.BackgroundColor = Application.Current.ColorSetting("TabListViewCellColor");
+                        ((View as StackLayout).Children[1] as Label).TextColor = Application.Current.ColorSetting("TabListViewTextColor");
+                        break;
+                    case ListType.Todo:
+                        View.BackgroundColor = Application.Current.ColorSetting("TodoViewCellColor");
+                        ((View as StackLayout).Children[1] as Label).TextColor = Application.Current.ColorSetting("TodoViewTextColor");
+                        break;
+                }
+            });
             router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff, (bool v) => IsSelected.Value = v);
         }
     }

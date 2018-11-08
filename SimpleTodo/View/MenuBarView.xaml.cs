@@ -75,8 +75,9 @@ namespace SimpleTodo
         {
             InitializeComponent();
 
+            layout.HeightRequest = model.NeedBigIcon ? BigIconSize : StandardIconSize;
+
             //全く美しくないが、確実に配置するためには今のところこれが一番いい
-            var layout = (StackLayout)Content;
             for (int i = 0; i < 5; i++)
             {
                 var box = MakePlaceholder();
@@ -99,8 +100,6 @@ namespace SimpleTodo
 
         private void DrawMenuBar(MenuBarItems property)
         {
-            var layout = (StackLayout)Content;
-
             switch (property)
             {
                 case MenuBarItems.Item1:
@@ -137,7 +136,7 @@ namespace SimpleTodo
                 Source = ImageSource.FromResource(this.GetType().Namespace + ".Image." + menu.ImagePath, this.GetType().Assembly),
                 HeightRequest = model.NeedBigIcon ? BigIconSize : StandardIconSize,
                 WidthRequest = model.NeedBigIcon ? BigIconSize : StandardIconSize,
-                BackgroundColor = Color.BlueViolet
+                BackgroundColor = Color.Gray
             };
             var gesture = new TapGestureRecognizer
             {
@@ -150,6 +149,7 @@ namespace SimpleTodo
         private void OnMenuBarIconSizeChanged(bool needBigIcon)
         {
             model.NeedBigIcon = needBigIcon;
+            layout.HeightRequest = model.NeedBigIcon ? BigIconSize : StandardIconSize;
             DrawMenuBarIcons();
         }
 
@@ -178,14 +178,12 @@ namespace SimpleTodo
 
         private void RotateToVertical()
         {
-            var layout = (StackLayout)Content;
             layout.Orientation = StackOrientation.Horizontal;
             layout.HeightRequest = model.NeedBigIcon ? 40 : 35;
         }
 
         private void RotateToHorizontal()
         {
-            var layout = (StackLayout)Content;
             layout.Orientation = StackOrientation.Vertical;
             layout.WidthRequest = model.NeedBigIcon ? 40 : 35;
         }

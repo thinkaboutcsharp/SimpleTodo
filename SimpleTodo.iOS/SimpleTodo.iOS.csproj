@@ -148,7 +148,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
     <PackageReference Include="Realm">
       <Version>3.2.1</Version>
     </PackageReference>

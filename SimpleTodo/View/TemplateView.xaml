@@ -11,22 +11,19 @@
                 <ColumnDefinition Width="0"/>
             </Grid.ColumnDefinitions>
             <!-- MenuBarViewを0,0に設定 -->
-            <ListView x:Name="lvw_TodoList" Grid.Row="0" Grid.Column="1" BackgroundColor="{Binding ColorSetting.TodoViewBackgroundColor}" SeparatorColor="{Binding ColorSetting.TodoViewSeparatorColor}" HorizontalOptions="FillAndExpand">
+            <ListView x:Name="lvw_TodoList" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Style="TodoView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <local:TodoListViewCell LongPressing="OnLongTapping" Tapped="OnTapped" Down="OnDown" ItemId="{Binding TaskId.Value}" xfg:CellGloss.BackgroundColor="{Binding ColorSetting.TodoViewCellColor}">
-                            <StackLayout Margin="5, 1, 5, 1" Orientation="Horizontal" BackgroundColor="Maroon">
-                                <BoxView BackgroundColor="{Binding ColorSetting.TodoViewCheckAreaBackgroundColor}" HorizontalOptions="Start" WidthRequest="30">
+                        <local:TodoListViewCell LongPressing="OnLongTapping" Tapped="OnTapped" Down="OnDown" ItemId="{Binding TaskId.Value}">
+                            <StackLayout Margin="5, 1, 5, 1" Orientation="Horizontal" BackgroundColor="{DynamicResource TodoViewCellColor}">
+                                <BoxView BackgroundColor="{DynamicResource TodoViewCheckAreaBackgroundColor}" HorizontalOptions="Start" WidthRequest="30">
                                     <BoxView.Triggers>
                                         <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="true">
-                                            <Setter Property="BackgroundColor" Value="Blue" />
-                                        </DataTrigger>
-                                        <DataTrigger TargetType="BoxView" Binding="{Binding Checked.Value}" Value="false">
-                                            <Setter Property="BackgroundColor" Value="Silver" />
+                                            <!-- ここでアイコンを変えるか？ -->
                                         </DataTrigger>
                                     </BoxView.Triggers>
                                 </BoxView>
-                                <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" TextColor="{Binding ColorSetting.TodoViewTextColor}"/>
+                                <Label Text="{Binding Task.Value}" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" TextColor="{DynamicResource TodoViewTextColor}"/>
                             </StackLayout>
                             <ViewCell.ContextActions>
                                 <MenuItem Text="変更" Clicked="OnEditName" CommandParameter="{Binding .}" IsDestructive="false" />

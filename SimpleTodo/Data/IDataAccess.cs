@@ -207,6 +207,7 @@ namespace SimpleTodo
         public int ColorId { get; set; }
         public Color PageBasicBackgroundColor { get; set; }   //ContentPage,ContentView
         public Color ViewBasicTextColor { get; set; }         //Label,Entry,etc...
+        public Color ViewBasicPlaceholderColor { get; set; }  //Entry,Picker
         public Color NavigationBarBackgroundColor { get; set; }
         public Color NavigationBarTextColor { get; set; }
         public Color MenuBarBackgroundColor { get; set; }
@@ -236,6 +237,7 @@ namespace SimpleTodo
         public Color SwitchThumbColor { get; set; }
         public Color PickerTintColor { get; set; }
         public Color PickerBackgroundColor { get; set; }
+        public Color PickerPlaceholderColor { get; set; }
         public Color EditBoxBackgroundColor { get; set; }  //Entry,Editor
         public Color ButtonTextColor { get; set; }
         public Color ButtonBackgroundColor { get; set; }
