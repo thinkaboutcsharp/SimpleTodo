@@ -26,16 +26,20 @@ namespace SimpleTodo
                 switch (t)
                 {
                     case ListType.Task:
-                        View.BackgroundColor = Application.Current.ColorSetting("TabListViewCellColor");
-                        ((View as StackLayout).Children[1] as Label).TextColor = Application.Current.ColorSetting("TabListViewTextColor");
+                        UpdateColors("TabListViewCellColor", "TabListViewTextColor");
                         break;
                     case ListType.Todo:
-                        View.BackgroundColor = Application.Current.ColorSetting("TodoViewCellColor");
-                        ((View as StackLayout).Children[1] as Label).TextColor = Application.Current.ColorSetting("TodoViewTextColor");
+                        UpdateColors("TodoViewCellColor", "TodoViewTextColor");
                         break;
                 }
             });
             router.AddReactiveTarget(RxSourceEnum.VisibleSwitchOnOff, (bool v) => IsSelected.Value = v);
+        }
+
+        void UpdateColors(string cellColor, string textColor)
+        {
+            View.BackgroundColor = Application.Current.ColorSetting(cellColor);
+            ((View as StackLayout).Children[1] as Label).TextColor = Application.Current.ColorSetting(textColor);
         }
     }
 }

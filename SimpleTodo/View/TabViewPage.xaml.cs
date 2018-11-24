@@ -112,6 +112,10 @@ namespace SimpleTodo
             var newTab = new EmptyPage { Setting = setting };
             Children.Insert(insertIndex, newTab);
 
+            //登録
+            setting.DisplayOrder.Value = insertIndex;
+            model.AddTab(setting);
+
             return newTab;
         }
 

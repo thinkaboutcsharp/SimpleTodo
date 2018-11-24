@@ -15,11 +15,9 @@ namespace SimpleTodo
         public int SpecialTabIndex { get; private set; }
         public int LastTabIndex { get; set; }
 
-        public TabViewPageModel(IDataAccess realm) : base(realm)
+        public TabViewPageModel(IDataAccess dataAccess) : base(dataAccess)
         {
-            //既存のタブリストをDBから取得する
-            //表示順序に注意
-            Tabs = new ObservableCollection<TodoItem>(realm.SelectTodoAllAsync().Result);
+            Tabs = new ObservableCollection<TodoItem>(dataAccess.SelectTodoAllAsync().Result);
         }
 
         public int GetNewId()
@@ -49,6 +47,14 @@ namespace SimpleTodo
                 tabs.Add(todoId, defaultTab);
                 return defaultTab;
             }
+        }
+
+        public void AddTab(TodoItem todo)
+        {
+            dataAccess.AddTodoAsync(todo);
+
+            Tabs.Insert(todo.DisplayOrder.Value, todo);
+            dataAccess.ReorderTodoAsync(Tabs);
         }
 
         public TodoItem GetDefaultTabSetting()
@@ -82,6 +88,7 @@ namespace SimpleTodo
             var tab = Tabs.Where(t => t.TodoId.Value == todoId).First();
             var index = Tabs.IndexOf(tab);
             Tabs.Remove(tab);
+            dataAccess.ReorderTodoAsync(Tabs);
             return index;
         }
 
