@@ -1,2 +1,0 @@
-﻿IconId,CheckedIcon,CanceledIcon
-0     ,check.png  ,cancel.png
